@@ -255,4 +255,6 @@
     <!-- Density category -->
     <string name="density_category">Density options</string>
 
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Volume key sounds</string>
 </resources>
