@@ -70,6 +70,12 @@
             android:summary="@string/oem_unlock_enable_summary"
             settings:useAdditionalSummary="true" />
 
+        <com.havoc.settings.preferences.SystemSettingSwitchPreference
+            android:key="edge_service_for_gestures"
+            android:title="@string/edge_gesture_service_title"
+            android:summary="@string/edge_gesture_service_summary"
+            android:defaultValue="true" />
+
         <Preference
             android:key="running_apps"
             android:title="@string/runningservices_settings_title"

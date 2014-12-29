@@ -460,4 +460,8 @@
     <string name="havoc_type">Build type</string>
     <string name="havoc_device">Device</string>
     <string name="havoc_version">Version</string>
+
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Block gesture touch events</string>
+    <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
 </resources>
