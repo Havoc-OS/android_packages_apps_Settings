@@ -40,4 +40,9 @@
 	
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>	
+
+    <!-- Menu label for reset the battery stats --> 
+    <string name="menu_stats_reset">Reset stats</string> 
+    <!-- Reset stats confirmation dialog's message --> 
+    <string name="reset_stats_msg">Battery history stats are going to be reset</string> 
 </resources>
