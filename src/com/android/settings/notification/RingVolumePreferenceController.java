@@ -29,6 +29,7 @@ import android.os.Handler;
 import android.os.Looper;
 import android.os.Message;
 import android.os.Vibrator;
+import android.provider.Settings;
 import android.util.Log;
 
 import com.android.internal.annotations.VisibleForTesting;
@@ -110,7 +111,7 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
         updatePreferenceIcon();
     }
 
-    public boolean wasRingerModeVibrate() {
+    protected boolean wasRingerModeVibrate() {
         return mVibrator != null && mRingerMode == AudioManager.RINGER_MODE_SILENT
             && mAudioManager.getLastAudibleStreamVolume(AudioManager.STREAM_RING) == 0;
     }
@@ -126,7 +127,7 @@ public class RingVolumePreferenceController extends VolumeSeekBarPreferenceContr
         updatePreferenceIcon();
     }
 
-    public void updatePreferenceIcon() {
+    protected void updatePreferenceIcon() {
         if (mPreference != null) {
             mPreference.showIcon(mSuppressor != null
                 ? com.android.internal.R.drawable.ic_audio_ring_notif_mute

@@ -18,6 +18,7 @@ package com.android.settings.notification;
 
 import android.content.Context;
 import android.content.Intent;
+import android.media.AudioManager;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
@@ -25,8 +26,12 @@ import android.os.Message;
 import android.os.UserHandle;
 import android.preference.SeekBarVolumizer;
 import android.provider.SearchIndexableResource;
+import android.provider.Settings;
 import android.support.v7.preference.Preference;
+import android.support.v7.preference.Preference.OnPreferenceChangeListener;
+import android.support.v7.preference.TwoStatePreference;
 import android.text.TextUtils;
+import android.util.Log;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.R;
@@ -46,6 +51,7 @@ public class SoundSettings extends DashboardFragment {
 
     //private static final String KEY_CELL_BROADCAST_SETTINGS = "cell_broadcast_settings";
     private static final String SELECTED_PREFERENCE_KEY = "selected_preference";
+    private static final String KEY_VOLUME_LINK_NOTIFICATION = "volume_link_notification";
     private static final int REQUEST_CODE = 200;
 
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
@@ -56,6 +62,9 @@ public class SoundSettings extends DashboardFragment {
     private final H mHandler = new H();
 
     private RingtonePreference mRequestPreference;
+    private TwoStatePreference mVolumeLinkNotification;
+    private static NotificationVolumePreferenceController sNotificationVolumeController;
+    private static RingVolumePreferenceController sRingVolumePreferenceController;
 
     @Override
     public void onAttach(Context context) {
@@ -77,6 +86,13 @@ public class SoundSettings extends DashboardFragment {
                 mRequestPreference = (RingtonePreference) findPreference(selectedPreference);
             }
         }
+        if (Utils.isVoiceCapable(getContext())) {
+            mVolumeLinkNotification = (TwoStatePreference) findPreference(KEY_VOLUME_LINK_NOTIFICATION);
+            initVolumeLinkNotification();
+            updateVolumeLinkNotification();
+        } else {
+            removePreference(KEY_VOLUME_LINK_NOTIFICATION);
+        }
     }
 
     @Override
@@ -89,6 +105,11 @@ public class SoundSettings extends DashboardFragment {
         super.onPause();
         mVolumeCallback.stopSample();
         mIncreasingRingVolumeCallback.stopSample();
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
     }
 
     @Override
@@ -166,6 +187,10 @@ public class SoundSettings extends DashboardFragment {
                 mCurrent.stopSample();
             }
         }
+        @Override
+        public void onMuted(int stream, boolean muted, boolean zenMuted) {
+            // noop
+        }
     }
 
     final class IncreasingRingVolumePreferenceCallback implements
@@ -222,9 +247,10 @@ public class SoundSettings extends DashboardFragment {
         // === Volumes ===
         controllers.add(new AlarmVolumePreferenceController(context, callback, lifecycle));
         controllers.add(new MediaVolumePreferenceController(context, callback, lifecycle));
-        controllers.add(
-                new NotificationVolumePreferenceController(context, callback, lifecycle));
-        controllers.add(new RingVolumePreferenceController(context, callback, lifecycle));
+        sNotificationVolumeController = new NotificationVolumePreferenceController(context, callback, lifecycle);
+        controllers.add(sNotificationVolumeController);
+        sRingVolumePreferenceController = new RingVolumePreferenceController(context, callback, lifecycle);
+        controllers.add(sRingVolumePreferenceController);
         controllers.add(new IncreasingRingPreferenceController(context));
         controllers.add(new IncreasingRingVolumePreferenceController(
                     context, incCallback, lifecycle));
@@ -249,6 +275,47 @@ public class SoundSettings extends DashboardFragment {
         controllers.add(new EmergencyTonePreferenceController(context, fragment, lifecycle));
 
         return controllers;
+    }
+
+    private void initVolumeLinkNotification() {
+        if (mVolumeLinkNotification != null) {
+            mVolumeLinkNotification.setOnPreferenceChangeListener(new OnPreferenceChangeListener() {
+                @Override
+                public boolean onPreferenceChange(Preference preference, Object newValue) {
+                    final boolean val = (Boolean)newValue;
+                    if (val) {
+                        // set to same volume as ringer by default if link is enabled
+                        // otherwise notification volume will only change after next
+                        // change of ringer volume
+                        AudioManager audioManager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
+                        final int ringerVolume = audioManager.getStreamVolume(AudioManager.STREAM_RING);
+                        audioManager.setStreamVolume(AudioManager.STREAM_NOTIFICATION, ringerVolume, 0);
+                    }
+                    Settings.System.putInt(getContentResolver(),
+                            Settings.System.VOLUME_LINK_NOTIFICATION, val ? 1 : 0);
+
+                    if (val) {
+                        getPreferenceScreen().removePreference(sNotificationVolumeController.getPreference());
+                    } else {
+                        getPreferenceScreen().addPreference(sNotificationVolumeController.getPreference());
+                    }
+                    return true;
+                }
+            });
+        }
+    }
+
+    private void updateVolumeLinkNotification() {
+        if (mVolumeLinkNotification != null) {
+            final boolean linkEnabled = Settings.System.getInt(getContentResolver(),
+                    Settings.System.VOLUME_LINK_NOTIFICATION, 1) == 1;
+            mVolumeLinkNotification.setChecked(linkEnabled);
+            if (linkEnabled) {
+                getPreferenceScreen().removePreference(sNotificationVolumeController.getPreference());
+            } else {
+                getPreferenceScreen().addPreference(sNotificationVolumeController.getPreference());
+            }
+        }
     }
 
     // === Indexing ===

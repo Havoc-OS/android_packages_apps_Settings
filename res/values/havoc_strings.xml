@@ -292,4 +292,6 @@
     <!-- Search --> 
     <string name="menu_search">Search apps</string> 
     <string name="menu_search_hint">Search apps\u2026</string> 
+	
+    <string name="link_volume_option_title">Link ring and notification volume</string>
 </resources>
