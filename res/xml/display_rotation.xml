@@ -22,6 +22,11 @@
         android:key="accelerometer"
         android:title="@string/accelerometer_title" />
 
+    <com.havoc.settings.preferences.SystemSettingSwitchPreference
+        android:key="lockscreen_rotation"
+        android:title="@string/lockscreen_rotation_title"
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="display_rotation_category"
         android:title="@string/display_rotation_category_title" />

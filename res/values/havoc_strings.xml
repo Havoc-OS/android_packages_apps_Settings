@@ -167,4 +167,6 @@
     <string name="adb_notify">Debugging notify</string>
     <string name="adb_notify_summary">Display a notification when USB or network debugging is enabled</string>
 
+    <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">Rotate LockScreen</string>
 </resources>
