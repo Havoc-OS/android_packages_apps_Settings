@@ -148,6 +148,7 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
+import com.android.settings.GesturesSettings;
 
 import com.havoc.config.center.ConfigCenter;
 
@@ -288,7 +289,8 @@ public class SettingsGateway {
             MobileNetworkListFragment.class.getName(),
             GlobalActionsPanelSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
-            ConfigCenter.class.getName()
+            ConfigCenter.class.getName(),
+            GesturesSettings.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
