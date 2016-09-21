@@ -116,6 +116,10 @@
         android:fragment="com.android.settings.display.ScreenZoomSettings"
         settings:searchable="false"/>
 
+    <com.android.settings.display.DensityPreference
+        android:key="density"
+        android:title="@string/developer_smallest_width" />
+
     <ListPreference
         android:key="refresh_rate_setting"
         android:title="@string/refresh_rate_title"
