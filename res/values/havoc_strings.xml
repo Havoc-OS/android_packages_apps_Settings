@@ -319,4 +319,8 @@
     <string name="global_actions_advanced_reboot_title">Advanced reboot</string>
     <string name="global_actions_advanced_reboot_summary">Show options to reboot into recovery and bootloader</string>
 
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
+    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+
 </resources>
