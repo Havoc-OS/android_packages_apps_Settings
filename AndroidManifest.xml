@@ -3599,6 +3599,10 @@
             </intent-filter>
         </receiver>
 
+        <!-- Gesture Anywhere -->
+        <activity android:name="com.havoc.settings.gestureanywhere.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.havoc.settings.gestureanywhere.GestureAnywhereCreateGestureActivity" />
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
