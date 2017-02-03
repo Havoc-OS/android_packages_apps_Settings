@@ -229,4 +229,8 @@
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">Vibrate</string>
     <string name="lockscreen_vibrate_enabled_head">Vibrate when unlocking</string>
+
+    <!-- Running services -->
+    <string name="background_processes_settings_title">Background processes</string>
+
 </resources>
