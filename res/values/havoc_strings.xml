@@ -309,4 +309,8 @@
     <string name="less_boring_heads_up_title">Priority only</string>
     <string name="less_boring_heads_up_summary">Show heads up only for calls, messages and alarms</string>
 
+    <!-- Pocket mode -->
+    <string name="proximity_wake_title">Prevent accidental wake-up</string>
+    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
+
 </resources>
