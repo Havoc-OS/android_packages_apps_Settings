@@ -150,6 +150,14 @@
         android:summary="@string/summary_placeholder"
         settings:allowDividerAbove="true"/>
 
+    <!-- ROM tags information -->
+    <Preference
+        android:key="romtags"
+        android:order="98"
+        android:title="@string/rom_tags_title"
+        android:summary="@string/summary_placeholder"
+        android:selectable="false"/>
+
     <!-- SELinux status information -->
     <Preference
         android:key="selinux_status"
