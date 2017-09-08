@@ -181,4 +181,7 @@ public class Settings extends SettingsActivity {
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 
+    // Config Center
+    public static class ConfigCenterActivity extends SettingsActivity { /* empty */ }
+
 }
