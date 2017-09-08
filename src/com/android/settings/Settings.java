@@ -243,6 +243,9 @@ public class Settings extends SettingsActivity {
     // LiveDisplay
     public static class LiveDisplaySettingsActivity extends SettingsActivity { /* empty */ }
 
+    // Config Center
+    public static class ConfigCenterActivity extends SettingsActivity { /* empty */ }
+
     // Custom additions
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }

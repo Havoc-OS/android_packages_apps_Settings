@@ -1,0 +1,2 @@
+# Config Center
+-keep class com.havoc.config.center.**

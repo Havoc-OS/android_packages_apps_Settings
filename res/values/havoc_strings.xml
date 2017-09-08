@@ -19,6 +19,10 @@
     <!-- Havoc OS -->
     <string name="havoc_title" translatable="false">Havoc-OS</string>
 
+    <!-- Config Center -->
+    <string name="config_center_title">Configuration Center</string>
+    <string name="config_center_dashboard_summary">Explore additional settings for your device</string>
+
     <!-- About phone screen, Havoc version -->
     <string name="havoc_version">Havoc version</string>
     <string name="havoc_version_default">Unknown</string>
