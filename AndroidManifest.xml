@@ -3377,6 +3377,8 @@
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/havoc_settings_summary"/>
         </activity>
+        <!-- Hide Apps from Recents (HAFR) -->
+        <activity android:name="com.havoc.settings.hideappfromrecents.HAFRAppListActivity" />
 
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
