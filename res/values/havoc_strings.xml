@@ -108,4 +108,7 @@
     <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
 
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">Charging vibration</string>
+
 </resources>
