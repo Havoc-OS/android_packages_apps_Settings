@@ -27,4 +27,8 @@
     <!-- OTA -->
     <string name="havocupdate_settings_title">Updates</string>
     <string name="havocupdate_settings_summary">Check for Havoc-OS updates</string>
+	
+    <string name="twilight_mode_location_dialog">Location disabled</string>
+    <string name="twilight_mode_location_disabled">Location access is disabled</string>
+    <string name="twilight_mode_location_enable">Enable</string>	
 </resources>
