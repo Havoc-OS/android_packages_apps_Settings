@@ -133,6 +133,10 @@ import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.havoc.settings.HavocSettings;
+import com.havoc.settings.fragments.Navigation;
+import com.havoc.settings.fragments.navbar.Fling;
+import com.havoc.settings.fragments.navbar.Pulse;
+import com.havoc.settings.fragments.navbar.Smartbar;
 
 public class SettingsGateway {
 
@@ -256,6 +260,10 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             HavocSettings.class.getName(),
+            NavBar.class.getName(),
+            Fling.class.getName(),
+            Pulse.class.getName(),
+            Smartbar.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -295,5 +303,9 @@ public class SettingsGateway {
             Settings.DeviceInfoSettingsActivity.class.getName(),
             Settings.EnterprisePrivacySettingsActivity.class.getName(),
             Settings.HavocSettingsActivity.class.getName(),
+            Settings.NavigationSettingsActivity.class.getName(),
+            Settings.FlingSettingsActivity.class.getName(),
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.SmartbarSettingsActivity.class.getName(),
     };
 }
