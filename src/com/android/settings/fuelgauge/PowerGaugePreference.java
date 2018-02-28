@@ -61,11 +61,11 @@ public class PowerGaugePreference extends TintablePreference {
     private PowerGaugePreference(Context context, AttributeSet attrs, Drawable icon,
             CharSequence contentDescription, BatteryEntry info) {
         super(context, attrs);
-        setIcon(icon != null ? icon : new ColorDrawable(0));
+        setIcon(icon);
         setWidgetLayoutResource(R.layout.preference_widget_summary);
         mInfo = info;
         mContentDescription = contentDescription;
-        mIconSize = context.getResources().getDimensionPixelSize(R.dimen.app_icon_size);
+        mIconSize = icon == null ? 0 : context.getResources().getDimensionPixelSize(R.dimen.app_icon_size);
         mShowAnomalyIcon = false;
     }
 
