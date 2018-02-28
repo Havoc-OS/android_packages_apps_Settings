@@ -68,6 +68,7 @@ public class LegalSettings extends SettingsPreferenceFragment implements Indexab
 
     @Override
     public boolean onPreferenceTreeClick(Preference preference) {
+/*
         if (preference.getKey().equals(KEY_LINEAGE_LICENSE)) {
             String userLineageLicenseUrl = SystemProperties.get(PROPERTY_LINEAGELICENSE_URL);
             final Intent intent = new Intent(Intent.ACTION_VIEW);
@@ -79,6 +80,7 @@ public class LegalSettings extends SettingsPreferenceFragment implements Indexab
                 Log.e(LOG_TAG, "Unable to start activity " + intent.toString());
             }
         }
+*/
         return super.onPreferenceTreeClick(preference);
     }
 
