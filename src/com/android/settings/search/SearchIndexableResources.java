@@ -129,7 +129,7 @@ public final class SearchIndexableResources {
 
     static {
         addIndex(WifiSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_wireless);
-        addIndex(NetworkDashboardFragment.class, NO_DATA_RES_ID, R.drawable.ic_settings_wireless);
+        addIndex(NetworkDashboardFragment.class, NO_DATA_RES_ID, R.drawable.ic_settings_wifi);
         addIndex(ConfigureWifiSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_wireless);
         addIndex(SavedAccessPointsWifiSettings.class, NO_DATA_RES_ID,
                 R.drawable.ic_settings_wireless);
@@ -188,7 +188,7 @@ public final class SearchIndexableResources {
         addIndex(AccessibilitySettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_accessibility);
         addIndex(PrintSettingsFragment.class, NO_DATA_RES_ID, R.drawable.ic_settings_print);
         addIndex(DevelopmentSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_development);
-        addIndex(DeviceInfoSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_about);
+        addIndex(DeviceInfoSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_info);
         addIndex(Status.class, NO_DATA_RES_ID, 0 /* icon */);
         addIndex(LegalSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_about);
         addIndex(ZenModeVisualInterruptionSettings.class,
