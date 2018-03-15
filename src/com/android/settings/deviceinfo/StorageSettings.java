@@ -90,6 +90,16 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
         };
     }
 
+    static final int COLOR_PUBLIC = Color.parseColor("#ff9e9e9e");
+
+    static final int[] COLOR_PRIVATE = new int[] {
+            Color.parseColor("#ff26a69a"),
+            Color.parseColor("#ffab47bc"),
+            Color.parseColor("#fff2a600"),
+            Color.parseColor("#ffec407a"),
+            Color.parseColor("#ffc0ca33"),
+    };
+
     private StorageManager mStorageManager;
 
     private PreferenceCategory mInternalCategory;
@@ -113,6 +123,9 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
         super.onCreate(icicle);
 
         final Context context = getActivity();
+
+        int accentColor = Utils.getColorAttr(context, android.R.attr.colorAccent);
+        COLOR_PRIVATE[0] = accentColor;
 
         mStorageManager = context.getSystemService(StorageManager.class);
         mStorageManager.registerListener(mStorageListener);
@@ -263,6 +276,9 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
 
     @Override
     public boolean onPreferenceTreeClick(Preference pref) {
+        if (pref == null) {
+            return false;
+        }
         final String key = pref.getKey();
         if (pref instanceof StorageVolumePreference) {
             // Picked a normal volume
