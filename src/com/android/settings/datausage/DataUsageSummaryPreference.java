@@ -238,13 +238,13 @@ public class DataUsageSummaryPreference extends Preference {
                         TextUtils.expandTemplate(getContext().getText(R.string.data_remaining),
                                 DataUsageUtils.formatDataUsage(getContext(), dataRemaining)));
                 usageRemainingField.setTextColor(
-                        Utils.getColorAttr(getContext(), android.R.attr.colorAccent));
+                        Utils.getColorAttrDefaultColor(getContext(), android.R.attr.colorAccent));
             } else {
                 usageRemainingField.setText(
                         TextUtils.expandTemplate(getContext().getText(R.string.data_overusage),
                                 DataUsageUtils.formatDataUsage(getContext(), -dataRemaining)));
                 usageRemainingField.setTextColor(
-                        Utils.getColorAttr(getContext(), android.R.attr.colorError));
+                        Utils.getColorAttrDefaultColor(getContext(), android.R.attr.colorError));
             }
             layout.setChildren(usageNumberField, usageRemainingField);
         } else {
@@ -327,7 +327,7 @@ public class DataUsageSummaryPreference extends Preference {
 
     private void setCarrierInfoTextStyle(
             TextView carrierInfo, @AttrRes int colorId, Typeface typeface) {
-        carrierInfo.setTextColor(Utils.getColorAttr(getContext(), colorId));
+        carrierInfo.setTextColor(Utils.getColorAttrDefaultColor(getContext(), colorId));
         carrierInfo.setTypeface(typeface);
     }
 }

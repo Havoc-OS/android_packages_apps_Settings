@@ -37,7 +37,7 @@ public class StorageSummaryPreference extends Preference {
         setLayoutResource(R.layout.storage_summary);
         setEnabled(false);
 
-        mSecondaryColor = Utils.getColorAttr(context, android.R.attr.textColorSecondary);
+        mSecondaryColor = Utils.getColorAttrDefaultColor(context, android.R.attr.textColorSecondary);
     }
 
     public void setPercent(long usedBytes, long totalBytes) {

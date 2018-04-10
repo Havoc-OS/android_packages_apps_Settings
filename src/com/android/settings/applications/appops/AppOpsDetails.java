@@ -212,7 +212,7 @@ public class AppOpsDetails extends SettingsPreferenceFragment {
                 if (icon == null) {
                     Log.e(TAG, "Failed to retrieve icon for permission: " + perm);
                 } else {
-                    icon.setTint(Utils.getColorAttr(getActivity(),
+                    icon.setTint(Utils.getColorAttrDefaultColor(getActivity(),
                             android.R.attr.colorControlNormal));
                 }
 
