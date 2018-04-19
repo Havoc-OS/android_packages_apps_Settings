@@ -288,4 +288,8 @@
     <!-- Connected AP Signal Preference --> 
     <string name="connected_signal_pref_title">Signal strength: %1$s</string> 
     <string name="connected_signal_pref_summary">Tap for more info</string>
+	
+    <!-- Search --> 
+    <string name="menu_search">Search apps</string> 
+    <string name="menu_search_hint">Search apps\u2026</string> 
 </resources>
