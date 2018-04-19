@@ -422,6 +422,17 @@
                 android:value="com.android.settings.gestures.AssistGestureSettings" />
         </activity>
 
+        <service
+            android:exported="false"
+            android:enabled="true"
+            android:name="com.havoc.settings.service.EventService" />
+        <receiver android:name="com.havoc.settings.service.BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
         <!-- Keep compatibility with old shortcuts. -->
         <activity-alias android:name=".bluetooth.BluetoothSettings"
                 android:label="@string/bluetooth_settings_title"
