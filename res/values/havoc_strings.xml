@@ -292,9 +292,13 @@
     <string name="zedge">Zedge</string> 
  
 	<string name="alert_on_charged_level_title">Optimal charge level alert</string>
-    <string name="alert_on_charged_level_summary">Notify and play sound/vibrate on optimal charge level if screen is off.</string>
+    <string name="alert_on_charged_level_summary">Notify and play sound/vibrate on optimal charge level if screen is off</string>
     <string name="alert_on_charged_level_dis">Disabled</string>
     <string name="alert_on_charged_level_80">"80%"</string>
     <string name="alert_on_charged_level_90">"90%"</string>
     <string name="alert_on_charged_level_99">"99%"</string>
+	
+    <!-- Connected AP Signal Preference --> 
+    <string name="connected_signal_pref_title">Signal strength: %1$s</string> 
+    <string name="connected_signal_pref_summary">Tap for more info</string>
 </resources>

@@ -20,6 +20,11 @@
         android:title="@string/wifi_settings"
         settings:keywords="@string/keywords_wifi">
 
+    <com.android.settings.applications.LayoutPreference
+            android:key="connected_header"
+            android:selectable="false"
+            android:layout="@layout/wifi_settings_header"/>
+
     <PreferenceCategory android:key="connected_access_point" />
 
     <PreferenceCategory android:key="access_points"/>
