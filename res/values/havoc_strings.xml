@@ -16,6 +16,10 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Havoc Settings -->
+    <string name="havoc_settings_title">Havoc Settings</string>
+    <string name="havoc_settings_summary">Wreak some havoc...</string>
+
     <!-- About phone screen, Havoc-OS version -->
     <string name="havoc_version_title">Havoc-OS Version</string>
     <string name="havoc_version_default">Unknown</string>

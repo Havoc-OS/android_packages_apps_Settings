@@ -3319,5 +3319,18 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+        <activity android:name=".Settings$HavocSettingsActivity"
+                  android:label="@string/havoc_settings_title"
+                  android:icon="@drawable/ic_settings_havoc">
+            <intent-filter android:priority="10">
+                <action android:name="com.android.settings.action.SETTINGS"/>
+            </intent-filter>
+            <meta-data android:name="com.android.settings.category"
+                       android:value="com.android.settings.category.ia.homepage"/>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                       android:value="com.havoc.settings.HavocSettings"/>
+            <meta-data android:name="com.android.settings.summary"
+                       android:resource="@string/havoc_settings_summary"/>
+        </activity>
     </application>
 </manifest>
