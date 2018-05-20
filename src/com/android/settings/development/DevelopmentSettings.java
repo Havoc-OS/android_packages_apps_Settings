@@ -770,8 +770,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
             // to debug settings being enabled, so the user knows there is
             // stuff enabled and can turn it all off if they want.
             mSettingsEnabler.enableDevelopmentSettings();
-            mSwitchBar.setChecked(lastEnabledState);
-            setPrefsEnabledState(lastEnabledState);
+            mSwitchBar.setChecked(true);
+            setPrefsEnabledState(true);
         }
         mSwitchBar.show();
 
@@ -3011,7 +3011,8 @@ public class DevelopmentSettings extends RestrictedSettingsFragment
                     return context.getSharedPreferences(DevelopmentSettings.PREF_FILE,
                             Context.MODE_PRIVATE).getBoolean(
                             DevelopmentSettings.PREF_SHOW,
-                            android.os.Build.TYPE.equals("eng"));
+                            android.os.Build.TYPE.equals("eng") || android.os.Build.TYPE.equals("userdebug")
+                            || android.os.Build.TYPE.equals("user"));
                 }
 
                 @Override

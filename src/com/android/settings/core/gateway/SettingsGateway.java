@@ -261,7 +261,7 @@ public class SettingsGateway {
             BluetoothDeviceDetailsFragment.class.getName(),
             DataUsageList.class.getName(),
             HavocSettings.class.getName(),
-            NavBar.class.getName(),
+            Navigation.class.getName(),
             Fling.class.getName(),
             Pulse.class.getName(),
             Smartbar.class.getName(),

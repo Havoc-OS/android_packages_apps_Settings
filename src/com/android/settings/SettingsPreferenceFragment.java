@@ -55,7 +55,7 @@ import com.android.settingslib.CustomEditTextPreference;
 import com.android.settingslib.HelpUtils;
 import com.android.settingslib.widget.FooterPreferenceMixin;
 
-import com.crdroid.settings.preferences.CustomDialogPref;
+import com.havoc.settings.preferences.CustomDialogPref;
 
 import java.util.UUID;
 
