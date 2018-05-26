@@ -24,18 +24,20 @@ import android.util.MathUtils;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
-import com.android.settings.R;
 import com.android.settings.Utils;
+import com.android.settings.R;
 
 public class StorageSummaryPreference extends Preference {
     private int mPercent = -1;
+    private int mSecondaryColor;
 
     public StorageSummaryPreference(Context context) {
         super(context);
 
         setLayoutResource(R.layout.storage_summary);
         setEnabled(false);
+
+        mSecondaryColor = Utils.getColorAttr(context, android.R.attr.textColorSecondary);
     }
 
     public void setPercent(long usedBytes, long totalBytes) {
@@ -55,8 +57,7 @@ public class StorageSummaryPreference extends Preference {
         }
 
         final TextView summary = (TextView) view.findViewById(android.R.id.summary);
-        int textColorSecondary = Utils.getColorAttr(getContext(), android.R.attr.textColorSecondary);
-        summary.setTextColor(textColorSecondary);
+        summary.setTextColor(mSecondaryColor);
 
         super.onBindViewHolder(view);
     }
