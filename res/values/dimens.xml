@@ -116,8 +116,8 @@
     <!-- The following two margins need to match, with the caveat that
          the second should be negative. The second one ensures that the icons and text
          align despite the additional padding caused by the search bar's card background. -->
-    <dimen name="search_bar_margin">8dp</dimen>
-    <dimen name="search_bar_negative_margin">-8dp</dimen>
+    <dimen name="search_bar_margin">14dp</dimen>
+    <dimen name="search_bar_negative_margin">-14dp</dimen>
 
     <dimen name="search_bar_height">48dp</dimen>
     <dimen name="search_bar_text_size">16dp</dimen>
@@ -306,5 +306,6 @@
     <!-- Suggestion/condition header padding -->
     <dimen name="suggestion_condition_header_padding_collapsed">10dp</dimen>
     <dimen name="suggestion_condition_header_padding_expanded">5dp</dimen>
-
+	
+    <dimen name="cardview_default_radius">8dp</dimen>	
 </resources>
