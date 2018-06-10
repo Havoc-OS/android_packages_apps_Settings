@@ -1836,6 +1836,20 @@
                 android:value="com.android.settings.deviceinfo.ImeiInformation" />
         </activity>
 
+         <!-- Gesture Anywhere -->
+        <activity android:name="com.havoc.settings.fragments.gestures.GestureAnywhereBuilderActivity"
+                  android:parentActivityName="com.havoc.settings.fragments.gestures.GestureAnywhereSettings"
+                  android:exported="true">
+        </activity>
+        <activity
+            android:name="com.havoc.settings.fragments.gestures.GestureAnywhereCreateGestureActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter> 
+        </activity>
+
         <activity android:name=".Settings$StorageDashboardActivity"
                 android:label="@string/storage_settings"
                 android:icon="@drawable/ic_settings_storage"
