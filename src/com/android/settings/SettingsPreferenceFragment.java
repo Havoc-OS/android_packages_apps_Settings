@@ -44,6 +44,7 @@ import android.view.MenuInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import com.havoc.settings.preferences.LegacyCustomDialogPreference; 
 
 import com.android.settings.applications.LayoutPreference;
 import com.android.settings.core.InstrumentedPreferenceFragment;
@@ -600,6 +601,9 @@ public abstract class SettingsPreferenceFragment extends InstrumentedPreferenceF
         } else if (preference instanceof CustomEditTextPreference) {
             f = CustomEditTextPreference.CustomPreferenceDialogFragment
                     .newInstance(preference.getKey());
+        } else if (preference instanceof LegacyCustomDialogPreference) { 
+            f = LegacyCustomDialogPreference.CustomPreferenceDialogFragment 
+                    .newInstance(preference.getKey()); 
         } else {
             super.onDisplayPreferenceDialog(preference);
             return;
