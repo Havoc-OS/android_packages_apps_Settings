@@ -2807,6 +2807,9 @@
                 android:value="true" />
         </activity>
 
+       <!-- Recents hidden  -->
+       <activity android:name="com.havoc.settings.fragments.recents.hafr.HAFRAppListActivity" />
+
         <!-- Confirmation dialog for enabling notification access from CompanionDeviceManager -->
         <activity android:name=".notification.NotificationAccessConfirmationActivity"
                   android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.Alert" />
