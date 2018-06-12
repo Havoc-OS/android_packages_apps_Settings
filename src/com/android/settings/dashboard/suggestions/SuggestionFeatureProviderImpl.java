@@ -45,6 +45,7 @@ import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.support.NewDeviceIntroSuggestionActivity;
 import com.android.settingslib.drawer.Tile;
 import com.android.settingslib.suggestions.SuggestionParser;
+import android.provider.Settings;  
 
 import java.util.ArrayList;
 import java.util.List;
@@ -63,7 +64,9 @@ public class SuggestionFeatureProviderImpl implements SuggestionFeatureProvider 
     public boolean isSuggestionEnabled(Context context) {
         final ActivityManager am =
                 (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
-        return !am.isLowRamDevice();
+        return !am.isLowRamDevice() 
+                && (Settings.System.getInt(context.getContentResolver(), 
+                Settings.System.ENABLE_SUGGESTIONS, 1) == 1); 
     }
 
     @Override
