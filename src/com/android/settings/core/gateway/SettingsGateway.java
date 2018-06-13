@@ -132,6 +132,7 @@ import com.android.settings.wifi.WifiAPITest;
 import com.android.settings.wifi.WifiInfo;
 import com.android.settings.wifi.WifiSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
+import com.havoc.settings.service.EventServiceSettings;
 
 import com.havoc.settings.HavocSettings;
 import com.havoc.settings.fragments.Navigation;
@@ -265,6 +266,7 @@ public class SettingsGateway {
             Fling.class.getName(),
             Pulse.class.getName(),
             Smartbar.class.getName(),
+            EventServiceSettings.class.getName(),
             RunningServices.class.getName(),
     };
 
@@ -310,5 +312,6 @@ public class SettingsGateway {
             Settings.PulseSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.EventServiceSettingsActivity.class.getName()
     };
 }
