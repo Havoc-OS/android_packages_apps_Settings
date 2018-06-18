@@ -18,4 +18,7 @@
 
     <color name="settings_icon_oneplus">@android:color/white</color>
 
+    <!-- Searchbar overlays -->
+    <color name="search_bar_background_color">#fafafa</color>
+
 </resources>
