@@ -25,4 +25,8 @@
     <string name="havoc_version_default">Unknown</string>
     <string name="havoc_version_summary">Version %1$s (%2$s)</string>
 
+    <!-- Hardware info -->
+    <string name="platform_revision">Platform</string>
+    <string name="total_ram">Total RAM</string>
+
 </resources>
