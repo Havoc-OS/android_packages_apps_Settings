@@ -199,4 +199,5 @@ public class Settings extends SettingsActivity {
     public static class PulseSettingsActivity extends SettingsActivity { /* empty */ }
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class EventServiceSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class PieControlSettingsActivity extends SettingsActivity { /* empty */ }
 }
