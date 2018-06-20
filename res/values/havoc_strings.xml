@@ -174,4 +174,10 @@
     <string name="display_cutout_force_fullscreen_title">Full screen apps</string>
     <string name="display_cutout_force_fullscreen_summary">Force apps to ignore notch space</string>
 
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">Platform</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">Total RAM</string>
+
 </resources>
