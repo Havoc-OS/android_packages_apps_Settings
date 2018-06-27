@@ -31,6 +31,8 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
+import com.android.settings.havoc.doze.AmbientPlayPreferenceController;
+import com.android.settings.havoc.doze.AmbientPlayKeyguardPreferenceController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -61,6 +63,8 @@ public class AmbientDisplaySettings extends DashboardFragment {
                 MY_USER_ID, KEY_AMBIENT_DISPLAY_DOUBLE_TAP));
         controllers.add(new PickupGesturePreferenceController(context, lifecycle, config,
                 MY_USER_ID, KEY_AMBIENT_DISPLAY_PICK_UP));
+        controllers.add(new AmbientPlayPreferenceController(context));
+        controllers.add(new AmbientPlayKeyguardPreferenceController(context));
         return controllers;
     }
 

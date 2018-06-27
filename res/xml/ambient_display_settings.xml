@@ -16,36 +16,23 @@
   -->
 
 <PreferenceScreen
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        android:title="@string/ambient_display_screen_title">
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="Ambient Play and Notification">
 
-    <PreferenceCategory
-            android:title="@string/ambient_display_category_triggers">
+    <!-- Illustration for Ambient Play --> 
+    <Preference android:key="ambient_play_illustration" 
+        android:enabled="false" 
+        android:layout="@layout/ambient_play_illustration" /> 
 
-        <SwitchPreference
-            android:key="ambient_display_always_on"
-            android:title="@string/doze_always_on_title"
-            android:summary="@string/doze_always_on_summary" />
+    <SwitchPreference
+        android:key="ambient_display_ambient_play"
+        android:title="@string/ambient_recognition_title"
+        android:summary="@string/ambient_recognition_summary" />
 
-        <Preference
-            android:key="ambient_display_double_tap"
-            android:title="@string/ambient_display_title"
-            android:fragment="com.android.settings.gestures.DoubleTapScreenSettings" />
-
-        <Preference
-            android:key="ambient_display_pick_up"
-            android:title="@string/ambient_display_pickup_title"
-            android:fragment="com.android.settings.gestures.PickupGestureSettings" />
-
-    </PreferenceCategory>
-
-    <PreferenceCategory>
-
-        <SwitchPreference
-            android:key="ambient_display_notification"
-            android:title="@string/doze_title"
-            android:summary="@string/doze_summary" />
-
-    </PreferenceCategory>
+    <SwitchPreference
+       android:key="ambient_display_ambient_play_keyguard"
+       android:title="@string/ambient_recognition_lockscreen_title"
+       android:summary="@string/ambient_recognition_lockscreen_summary"
+       android:dependency="ambient_display_ambient_play" />
 
 </PreferenceScreen>
