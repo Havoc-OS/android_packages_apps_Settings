@@ -27,8 +27,8 @@
     <!-- Ambient Play -->
     <string name="ambient_recognition_title">Ambient Play</string>
     <string name="ambient_recognition_summary">Be notified of music being played around you. Will increase battery and data usage.</string>
-    <string name="ambient_recognition_lockscreen_title">Show ambient indication</string>
-    <string name="ambient_recognition_lockscreen_summary">On the lockscreen</string>
+    <string name="ambient_recognition_lockscreen_title">Show Music note</string>
+    <string name="ambient_recognition_lockscreen_summary">Shows music note on Statusbar and Lockscreen when service is running</string>
     <string name="newnotificaion">Notification</string>
 
  <string name="ambient_play_settings_title">Ambient Play</string> 
