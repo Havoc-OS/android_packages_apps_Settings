@@ -18,7 +18,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- Havoc Settings -->
   <string name="havoc_settings_title">Impostazioni di Havoc</string>
-  <string name="havoc_settings_summary">Scatena un pò di confusione...</string>
+  <string name="havoc_settings_summary">Wreak some Havoc...</string>
   <!-- About phone screen, Havoc-OS version -->
   <string name="havoc_version_title">Versione Havoc-OS</string>
   <string name="havoc_version_default">Sconosciuto</string>
@@ -31,9 +31,9 @@
   <!-- OTA -->
   <string name="havocupdate_settings_title">Aggiornamenti</string>
   <string name="havocupdate_settings_summary">Controlla gli aggiornamenti di Havoc-OS</string>
-  <string name="twilight_mode_location_dialog">Posizione disabilitata</string>
-  <string name="twilight_mode_location_disabled">Accesso alla posizione disabilitata</string>
-  <string name="twilight_mode_location_enable">Abilita</string>
+  <string name="twilight_mode_location_dialog">Posizione disattivata</string>
+  <string name="twilight_mode_location_disabled">Accesso alla posizione disattivato</string>
+  <string name="twilight_mode_location_enable">Attiva</string>
   <!-- Quick unlock -->
   <string name="unlock_quick_unlock_control_title">Sblocco rapido</string>
   <string name="unlock_quick_unlock_control_summary">Sblocca automaticamente quando vengono inseriti il PIN o la password corretti</string>
@@ -50,7 +50,7 @@
   <string name="reset">Ripristina</string>
   <string name="default_string">Predefinito</string>
   <string name="add">Aggiungi</string>
-  <string name="enabled">Abilitato</string>
+  <string name="enabled">Attivato</string>
   <string name="choose_app">Scegli un\'applicazione</string>
   <string name="help">Aiuto</string>
   <string name="reset_message">Ripristina tutte le voci predefinite?</string>
@@ -68,7 +68,7 @@
   <string name="shortcut_action_max">Il numero massimo di voci è stato raggiunto</string>
   <string name="shortcut_action_warning">Attenzione</string>
   <string name="shortcut_action_warning_message">Non è possibile eliminare l\'ultima voce</string>
-  <string name="shortcut_action_disable_message">Disabilitato\nAggiungi una voce per abilitare questa funzionalità</string>
+  <string name="shortcut_action_disable_message">Disattivato\nAggiungi una voce per attivare questa funzionalità</string>
   <string name="shortcut_image_not_valid">L\'app selezionata non ha fornito un\'icona valida o non supporta il ritaglio immagine. Usane un\'altra.</string>
   <string name="shortcut_duplicate_entry">La seguente azione non può essere aggiunta due volte</string>
   <string name="shortcut_action_help_shortcut">scorciatoia</string>
@@ -271,7 +271,7 @@
   <string name="zedge">Zedge</string>
   <string name="alert_on_charged_level_title">Avviso livello di carica ottimale</string>
   <string name="alert_on_charged_level_summary">Notifica e riproduci un suono/vibrazione sul livello di carica ottimale, se lo schermo è spento.</string>
-  <string name="alert_on_charged_level_dis">Disabilitato</string>
+  <string name="alert_on_charged_level_dis">Disattivato</string>
   <string name="alert_on_charged_level_80">"80%"</string>
   <string name="alert_on_charged_level_90">"90%"</string>
   <string name="alert_on_charged_level_99">"99%"</string>
