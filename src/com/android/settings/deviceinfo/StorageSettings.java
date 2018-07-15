@@ -90,6 +90,16 @@ public class StorageSettings extends SettingsPreferenceFragment implements Index
         };
     }
 
+    static final int COLOR_PUBLIC = Color.parseColor("#ff9e9e9e");
+
+    static final int[] COLOR_PRIVATE = new int[] {
+            Color.parseColor("#ff26a69a"),
+            Color.parseColor("#ffab47bc"),
+            Color.parseColor("#fff2a600"),
+            Color.parseColor("#ffec407a"),
+            Color.parseColor("#ffc0ca33"),
+    };
+
     private StorageManager mStorageManager;
 
     private PreferenceCategory mInternalCategory;
