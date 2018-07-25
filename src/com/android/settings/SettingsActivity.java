@@ -714,11 +714,6 @@ public class SettingsActivity extends SettingsDrawerActivity
      */
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
-        
-            
-            }
-}
-            
         if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
                     + fragmentName);
@@ -850,12 +845,7 @@ public class SettingsActivity extends SettingsDrawerActivity
                 WifiDisplaySettings.isAvailable(this), isAdmin)
                 || somethingChanged;
 
-        // Root management
-        setTileEnabled(new ComponentName(packageName,
-                        Settings.RootManagementActivity.class.getName()),
-                isRootAvailable(), isAdmin);
-            
-      if (UserHandle.MU_ENABLED && !isAdmin) {
+        if (UserHandle.MU_ENABLED && !isAdmin) {
 
             // When on restricted users, disable all extra categories (but only the settings ones).
             final List<DashboardCategory> categories = mDashboardFeatureProvider.getAllCategories();
@@ -887,35 +877,6 @@ public class SettingsActivity extends SettingsDrawerActivity
         }
     }
 
-    
-    // Maximum available root managers
-    private int ROOT_MGR_MAX = 2; // mRootManagers
-    private Object[][] mRootManagers = {
-        {
-            "eu.chainfire.supersu", //pkg name
-            "eu.chainfire.supersu.MainActivity", // class name
-            185, // minimum version
-        },
-        {
-            "me.phh.superuser", //pkg name
-            "com.koushikdutta.superuser.MainActivity", // class name
-            0, // minimum version
-        },
-        {
-            "com.topjohnwu.magisk", //pkg name
-            "com.topjohnwu.magisk.SplashActivity", // class name
-            0,
-        },
-    };
-
-    private boolean isRootAvailable() {
-        mRootSupport = false;
-        mRootPackage = "";
-        mRootClass = "";
-        for (int i = 0; i <= ROOT_MGR_MAX; i++) {
-            try {
-               
-                
     /**
      * @return whether or not the enabled state actually changed.
      */
