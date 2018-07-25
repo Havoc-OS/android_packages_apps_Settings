@@ -292,4 +292,9 @@
     <!-- Search --> 
     <string name="menu_search">Search apps</string> 
     <string name="menu_search_hint">Search apps\u2026</string> 
+
+ <!-- Root Management -->
+    <string name="rootmanagement_title">Root management</string>
+<string name="rootmanagement_dashboard_summary">Manage root access</string>
+
 </resources>
