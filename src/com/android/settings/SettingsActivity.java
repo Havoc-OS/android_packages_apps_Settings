@@ -168,9 +168,7 @@ public class SettingsActivity extends SettingsDrawerActivity
     private String mRootPackage;
     private String mRootClass;
 
-    private static final String[] LIKE_SHORTCUT_INTENT_ACTION_ARRAY = {
-            "android.settings.APPLICATION_DETAILS_SETTINGS"
-};
+ };
     
     private SharedPreferences mDevelopmentPreferences;
     private SharedPreferences.OnSharedPreferenceChangeListener mDevelopmentPreferencesListener;
