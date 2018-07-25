@@ -64,6 +64,8 @@ import com.android.settings.wfd.WifiDisplaySettings;
 import com.android.settings.widget.SwitchBar;
 import com.android.settingslib.drawer.DashboardCategory;
 import com.android.settingslib.drawer.SettingsDrawerActivity;
+import com.android.settings.custom.ScreenStabilization;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
@@ -113,7 +115,7 @@ public class SettingsActivity extends SettingsDrawerActivity
 
     // show Back and Next buttons? takes boolean parameter
     // Back will then return RESULT_CANCELED and Next RESULT_OK
-    protected static final String EXTRA_PREFS_SHOW_BUTTON_BAR = "extra_prefs_show_button_bar";
+    public static final String EXTRA_PREFS_SHOW_BUTTON_BAR = "extra_prefs_show_button_bar";
 
     // add a Skip button?
     private static final String EXTRA_PREFS_SHOW_SKIP = "extra_prefs_show_skip";
@@ -157,19 +159,16 @@ public class SettingsActivity extends SettingsDrawerActivity
     private CharSequence mInitialTitle;
     private int mInitialTitleResId;
 
-    private static final String[] LIKE_SHORTCUT_INTENT_ACTION_ARRAY = {
-            "android.settings.APPLICATION_DETAILS_SETTINGS"
-    
- }; 
-                    
     private static final String ROOT_MANAGER_FRAGMENT = "com.android.settings.RootManagement";
 
     private boolean mRootSupport;
     private String mRootPackage;
     private String mRootClass;
 
- };
-    
+    private static final String[] LIKE_SHORTCUT_INTENT_ACTION_ARRAY = {
+            "android.settings.APPLICATION_DETAILS_SETTINGS"
+    };
+
     private SharedPreferences mDevelopmentPreferences;
     private SharedPreferences.OnSharedPreferenceChangeListener mDevelopmentPreferencesListener;
 
@@ -731,9 +730,8 @@ public class SettingsActivity extends SettingsDrawerActivity
                 finish();
                 return null;
             }
-          }    
-            
-         if (validate && !isValidFragment(fragmentName)) {
+        }
+        if (validate && !isValidFragment(fragmentName)) {
             throw new IllegalArgumentException("Invalid fragment for this activity: "
                     + fragmentName);
         }
@@ -847,7 +845,8 @@ public class SettingsActivity extends SettingsDrawerActivity
                 || somethingChanged;
 
         final boolean showDev = mDevelopmentPreferences.getBoolean(
-                DevelopmentSettings.PREF_SHOW, android.os.Build.TYPE.equals("eng"))
+                DevelopmentSettings.PREF_SHOW, android.os.Build.TYPE.equals("eng")
+                || android.os.Build.TYPE.equals("userdebug") || android.os.Build.TYPE.equals("user"))
                 && !um.hasUserRestriction(UserManager.DISALLOW_DEBUGGING_FEATURES);
         somethingChanged = setTileEnabled(new ComponentName(packageName,
                         Settings.DevelopmentSettingsActivity.class.getName()),
@@ -867,12 +866,9 @@ public class SettingsActivity extends SettingsDrawerActivity
         // Root management
         setTileEnabled(new ComponentName(packageName,
                         Settings.RootManagementActivity.class.getName()),
-                 isRootAvailable(), isAdmin);
-            
-            
-            
-            
-            if (UserHandle.MU_ENABLED && !isAdmin) {
+                isRootAvailable(), isAdmin);
+
+        if (UserHandle.MU_ENABLED && !isAdmin) {
 
             // When on restricted users, disable all extra categories (but only the settings ones).
             final List<DashboardCategory> categories = mDashboardFeatureProvider.getAllCategories();
@@ -904,7 +900,7 @@ public class SettingsActivity extends SettingsDrawerActivity
         }
     }
 
-     // Maximum available root managers
+    // Maximum available root managers
     private int ROOT_MGR_MAX = 2; // mRootManagers
     private Object[][] mRootManagers = {
         {
@@ -979,8 +975,7 @@ public class SettingsActivity extends SettingsDrawerActivity
     }
 
     public void startSuggestion(Intent intent) {
-        if (intent == null || ActivityManager.isUserAMonkey()
-                || getPackageManager().queryIntentActivities(intent, 0).isEmpty()) {
+        if (intent == null || ActivityManager.isUserAMonkey()) {
             return;
         }
         mCurrentSuggestion = intent.getComponent();
