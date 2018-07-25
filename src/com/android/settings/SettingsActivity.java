@@ -715,13 +715,7 @@ public class SettingsActivity extends SettingsDrawerActivity
     private Fragment switchToFragment(String fragmentName, Bundle args, boolean validate,
             boolean addToBackStack, int titleResId, CharSequence title, boolean withTransition) {
         
-            if (ROOT_MANAGER_FRAGMENT.equals(fragmentName)) {
-            if (isRootAvailable()) {
-                Intent rootManagementIntent = new Intent();
-                rootManagementIntent.setClassName(mRootPackage, mRootClass);
-                startActivity(rootManagementIntent);
-                finish();
-                return null;
+            
             }
 }
             
@@ -920,15 +914,7 @@ public class SettingsActivity extends SettingsDrawerActivity
         mRootClass = "";
         for (int i = 0; i <= ROOT_MGR_MAX; i++) {
             try {
-                mRootSupport = getPackageManager().getPackageInfo((String) mRootManagers[i][0], 0).versionCode >= (int) mRootManagers[i][2];
-                mRootPackage = (String) mRootManagers[i][0];
-                mRootClass = (String) mRootManagers[i][1];
-                if (mRootSupport) return true;
-            } catch (PackageManager.NameNotFoundException e) {
-            }
-        }
-        return false;
-}
+               
                 
     /**
      * @return whether or not the enabled state actually changed.
