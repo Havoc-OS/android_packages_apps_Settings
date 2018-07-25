@@ -31,4 +31,5 @@
         <color name="icon_color_supersu">#00AF9E</color>
         <color name="icon_color_google">#EF4760</color>	
         <color name="icon_color_dotui">#936DE8</color>	
-<color name="icon_color_memory">#F24949</color>
+        <color name="icon_color_memory">#F24949</color>
+</resources>
