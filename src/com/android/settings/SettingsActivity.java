@@ -160,7 +160,9 @@ public class SettingsActivity extends SettingsDrawerActivity
     private static final String[] LIKE_SHORTCUT_INTENT_ACTION_ARRAY = {
             "android.settings.APPLICATION_DETAILS_SETTINGS"
     
-  private static final String ROOT_MANAGER_FRAGMENT = "com.android.settings.RootManagement";
+ }; 
+                    
+    private static final String ROOT_MANAGER_FRAGMENT = "com.android.settings.RootManagement";
 
     private boolean mRootSupport;
     private String mRootPackage;
