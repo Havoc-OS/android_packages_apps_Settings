@@ -17,6 +17,10 @@
     <string name="havoc_settings_title">Havoc Settings</string>
     <string name="havoc_settings_summary">Wreak some Havoc...</string>
 
+    <!-- Havoc-OS version -->
+    <string name="havoc_version">ROM version</string>
+    <string name="havoc_version_default">Unknown</string>
+
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
     <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
