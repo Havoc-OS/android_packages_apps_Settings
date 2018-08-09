@@ -45,7 +45,7 @@ public class NotificationVolumePreferenceController extends
 
     @Override
     public boolean isAvailable() {
-        return !mHelper.isSingleVolume();
+        return !Utils.isVoiceCapable(mContext) && !mHelper.isSingleVolume();
     }
 
     @Override
