@@ -87,7 +87,6 @@ import com.android.settings.users.UserSettings;
 import com.android.settings.wallpaper.WallpaperTypeSettings;
 import com.android.settings.wifi.ConfigureWifiSettings;
 import com.android.settings.wifi.SavedAccessPointsWifiSettings;
-import com.havoc.settings.service.EventServiceSettings;
 import com.android.settings.wifi.WifiSettings;
 import java.util.Collection;
 import java.util.HashMap;
@@ -212,7 +211,6 @@ public final class SearchIndexableResources {
         addIndex(ChannelImportanceSettings.class, NO_DATA_RES_ID,
                 R.drawable.ic_settings_notifications);
         addIndex(DreamSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_display);
-        addIndex(EventServiceSettings.class, NO_DATA_RES_ID, R.drawable.ic_settings_event_service);
         addIndex(SupportDashboardActivity.class, NO_DATA_RES_ID, R.drawable.ic_help);
         addIndex(
                 AutomaticStorageManagerSettings.class,

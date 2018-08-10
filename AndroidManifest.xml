@@ -422,17 +422,6 @@
                 android:value="com.android.settings.gestures.AssistGestureSettings" />
         </activity>
 
-        <service
-            android:exported="false"
-            android:enabled="true"
-            android:name="com.havoc.settings.service.EventService" />
-        <receiver android:name="com.havoc.settings.service.BootCompletedReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </receiver>
-
         <!-- Keep compatibility with old shortcuts. -->
         <activity-alias android:name=".bluetooth.BluetoothSettings"
                 android:label="@string/bluetooth_settings_title"
@@ -3479,21 +3468,5 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".Settings$EventServiceSettingsActivity"
-                  android:label="@string/event_service_settings_title"
-                  android:icon="@drawable/ic_settings_event_service"
-                  android:taskAffinity="com.android.settings"
-                  android:parentActivityName="Settings$HavocActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                       android:value="com.havoc.settings.service.EventServiceSettings" />
-            <meta-data android:name="com.android.settings.summary"
-                       android:resource="@string/summary_empty"/>
-        </activity>
-        <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
