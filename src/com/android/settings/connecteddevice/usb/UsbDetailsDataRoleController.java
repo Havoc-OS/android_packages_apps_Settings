@@ -109,7 +109,8 @@ public class UsbDetailsDataRoleController extends UsbDetailsController
 
     @Override
     public boolean isAvailable() {
-        return !Utils.isMonkeyRunning() && mContext.getResources().getBoolean(R.bool.config_isUsbDataRoleHostSupported);
+        return !Utils.isMonkeyRunning()
+                && !mUsbBackend.isSingleDataRoleSupported();
     }
 
     @Override
