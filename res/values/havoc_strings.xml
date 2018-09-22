@@ -252,4 +252,7 @@
     <string name="sub_deactivate_failed">Deactivation failed.</string>
     <string name="available_sims_title">Available SIM cards</string>
 
+    <!-- Density category -->
+    <string name="density_category">Density options</string>
+
 </resources>
