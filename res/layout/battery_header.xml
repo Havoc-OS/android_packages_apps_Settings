@@ -61,6 +61,7 @@
         android:id="@+id/battery_header_icon"
         android:layout_width="@dimen/battery_meter_width"
         android:layout_height="@dimen/battery_meter_height"
+        android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp"/>
 
 </LinearLayout>
