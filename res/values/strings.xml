@@ -9463,6 +9463,8 @@
     <string name="theme_accent_picker_title">Accent color</string>
     <string name="theme_accent_picker_summary">Select system theme accent color</string>
     <string name="theme_accent_picker_default">Default</string>
+    <string name="accent_picker_material_colors">Material palette</string>
+    <string name="accent_picker_custom_colors">User requested</string>
 
     <!-- Title of developer options to set the smallest width of the screen [CHAR LIMIT=60]-->
     <string name="developer_smallest_width">Smallest width</string>
