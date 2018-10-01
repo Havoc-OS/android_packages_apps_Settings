@@ -141,6 +141,7 @@ import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.havoc.settings.HavocSettings;
 import com.havoc.settings.fragments.HeadsUpSettings;
 import com.havoc.settings.fragments.Buttons;
+import com.havoc.settings.fragments.Interface;
 
 public class SettingsGateway {
 
@@ -269,7 +270,8 @@ public class SettingsGateway {
             HavocSettings.class.getName(),
             HeadsUpSettings.class.getName(),
             Buttons.class.getName(),
-            RunningServices.class.getName()
+            RunningServices.class.getName(),
+            Interface.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

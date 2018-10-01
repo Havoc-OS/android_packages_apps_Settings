@@ -91,7 +91,7 @@ public class DarkUIPreferenceController extends AbstractPreferenceController imp
               public void run() {
                   Intent intent = new Intent(Intent.ACTION_MAIN);
                   intent.setClassName("com.android.settings",
-                        "com.android.settings.Settings$DisplaySettingsActivity");
+                        "com.android.settings.Settings$InterfaceSettingsActivity");
                   intent.addFlags(Intent.FLAG_ACTIVITY_REORDER_TO_FRONT);
                   intent.putExtra(SettingsDrawerActivity.EXTRA_SHOW_MENU, true);
                   mContext.startActivity(intent);
