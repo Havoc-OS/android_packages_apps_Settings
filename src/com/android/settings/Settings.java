@@ -182,7 +182,6 @@ public class Settings extends SettingsActivity {
     public static class InterfaceSettingsActivity extends SettingsActivity { /* empty */ }
     public static class AmbientDisplayActivity extends SettingsActivity { /* empty */ }
     public static class AmbientPlayActivity extends SettingsActivity { /* empty */ }
-    public static class NavigationActivity extends SettingsActivity { /* empty */ }
     public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
     public static class ScreenActivity extends SettingsActivity { /* empty */ }
     public static class ExpandedDesktopActivity extends SettingsActivity { /* empty */ }
@@ -193,4 +192,8 @@ public class Settings extends SettingsActivity {
     // Ambient play
     public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
 
+    public static class NavigationSettingsActivity extends SettingsActivity {}
+    public static class SmartbarSettingsActivity extends SettingsActivity {}
+    public static class FlingSettingsActivity extends SettingsActivity {}
+    public static class PulseSettingsActivity extends SettingsActivity {}
 }

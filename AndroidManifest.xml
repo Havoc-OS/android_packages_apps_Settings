@@ -3530,18 +3530,6 @@
                 android:value="com.android.settings.AmbientPlaySettings" />
         </activity>
 
-        <!-- Navigation activity. -->
-        <activity android:name="Settings$NavigationActivity"
-                android:label="@string/navigation_title"
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.havoc.settings.fragments.Navigation" />
-        </activity>
-
         <!-- Smart pixels activity. -->
         <activity android:name="Settings$SmartPixelsActivity"
                 android:label="@string/smart_pixels_title"
