@@ -35,7 +35,7 @@ public class HavocVersionDialogController {
     private static final String TAG = "HavocDialogCtrl";
     private static final int DELAY_TIMER_MILLIS = 500;
     private static final int ACTIVITY_TRIGGER_COUNT = 3;
-    private static final String HAVOC_PROPERTY = "ro.havoc.version";
+    private static final String HAVOC_PROPERTY = "ro.havoc.build.version";
     private static final int HAVOC_VERSION_VALUE_ID = R.id.havoc_version_value;
     private static final int HAVOC_VERSION_LABEL_ID = R.id.havoc_version_label;
 
