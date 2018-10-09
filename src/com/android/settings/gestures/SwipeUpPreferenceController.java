@@ -84,7 +84,7 @@ public class SwipeUpPreferenceController extends BasePreferenceController
 
     static boolean isPieRecentsEnabled(Context mContext) {
        return Settings.System.getInt(mContext.getContentResolver(),
-                      Settings.System.RECENTS_COMPONENT, 0) == 0;
+                      Settings.System.RECENTS_LAYOUT_STYLE, 0) == 0;
     }
 
     @Override
