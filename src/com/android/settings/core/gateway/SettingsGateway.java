@@ -16,12 +16,14 @@
 
 package com.android.settings.core.gateway;
 
+import com.android.settings.AmbientPlaySettings;
 import com.android.settings.DateTimeSettings;
 import com.android.settings.DeviceAdminSettings;
 import com.android.settings.DisplaySettings;
 import com.android.settings.IccLockSettings;
 import com.android.settings.MasterClear;
 import com.android.settings.PrivacySettings;
+import com.android.settings.preference.DisplayRotation;
 import com.android.settings.Settings;
 import com.android.settings.TestingSettings;
 import com.android.settings.TetherSettings;
@@ -139,9 +141,16 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 
 import com.havoc.settings.HavocSettings;
-import com.havoc.settings.fragments.HeadsUpSettings;
 import com.havoc.settings.fragments.Buttons;
+import com.havoc.settings.fragments.Display;
+import com.havoc.settings.fragments.ExpandedDesktopPreferenceFragment;
+import com.havoc.settings.fragments.HeadsUpSettings;
 import com.havoc.settings.fragments.Interface;
+import com.havoc.settings.fragments.Navigation;
+import com.havoc.settings.fragments.ScreenStateToggles;
+import com.havoc.settings.fragments.SmartPixels;
+import com.havoc.settings.fragments.Weather;
+import com.havoc.settings.fragments.ui.DozeFragment;
 
 public class SettingsGateway {
 
@@ -271,7 +280,16 @@ public class SettingsGateway {
             HeadsUpSettings.class.getName(),
             Buttons.class.getName(),
             RunningServices.class.getName(),
-            Interface.class.getName()
+            Interface.class.getName(),
+            DozeFragment.class.getName(),
+            AmbientPlaySettings.class.getName(),
+            Navigation.class.getName(),
+            SmartPixels.class.getName(),
+            Weather.class.getName(),
+            Display.class.getName(),
+            ExpandedDesktopPreferenceFragment.class.getName(),
+            ScreenStateToggles.class.getName(),
+            DisplayRotation.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

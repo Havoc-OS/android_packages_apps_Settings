@@ -3453,6 +3453,114 @@
                 android:value="com.havoc.settings.fragments.Interface" />
         </activity>
 
+        <!-- Ambient display activity. -->
+        <activity android:name="Settings$AmbientDisplayActivity"
+                android:label="@string/doze_display_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.havoc.settings.fragments.ui.DozeFragment" />
+        </activity>
+
+        <!-- Ambient play activity. -->
+        <activity android:name="Settings$AmbientPlayActivity"
+                android:label="@string/ambient_play_cat"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.AmbientPlaySettings" />
+        </activity>
+
+        <!-- Navigation activity. -->
+        <activity android:name="Settings$NavigationActivity"
+                android:label="@string/navigation_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.havoc.settings.fragments.Navigation" />
+        </activity>
+
+        <!-- Smart pixels activity. -->
+        <activity android:name="Settings$SmartPixelsActivity"
+                android:label="@string/smart_pixels_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.havoc.settings.fragments.SmartPixels" />
+        </activity>
+
+        <!-- Weather activity. -->
+        <activity android:name="Settings$WeatherActivity"
+                android:label="@string/weather_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.havoc.settings.fragments.Weather" />
+        </activity>
+
+        <!-- Screen activity. -->
+        <activity android:name="Settings$ScreenActivity"
+                android:label="@string/display_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.havoc.settings.fragments.Display" />
+        </activity>
+
+        <!-- Expanded desktop activity. -->
+        <activity android:name="Settings$ExpandedDesktopActivity"
+                android:label="@string/expanded_desktop_pref_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.havoc.settings.fragments.ExpandedDesktopPreferenceFragment" />
+        </activity>
+
+        <!-- Suspend actions activity. -->
+        <activity android:name="Settings$SuspendActionsActivity"
+                android:label="@string/screen_state_toggles_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.havoc.settings.fragments.ScreenStateToggles" />
+        </activity>
+
+        <!-- Rotation activity. -->
+        <activity android:name="Settings$RotationActivity"
+                android:label="@string/display_rotation_title"
+                android:excludeFromRecents="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.android.settings.preference.DisplayRotation" />
+        </activity>
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
