@@ -22,6 +22,7 @@ import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.havoc.AmbientPlayPreferenceController;
 import com.android.settings.havoc.AmbientPlayKeyguardPreferenceController;
+import com.android.settings.havoc.AmbientPlayIntervalPreferenceController;
 
 public class AmbientPlaySettings extends DashboardFragment {
     private static final String TAG = "AmbientPlaySettings";
@@ -31,6 +32,7 @@ public class AmbientPlaySettings extends DashboardFragment {
         super.onAttach(context);
         addPreferenceController(new AmbientPlayPreferenceController(context));
         addPreferenceController(new AmbientPlayKeyguardPreferenceController(context));
+        addPreferenceController(new AmbientPlayIntervalPreferenceController(context));
     }
 
     @Override

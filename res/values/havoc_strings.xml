@@ -264,4 +264,16 @@
     <string name="ambient_recognition_summary">Be notified of music being played around you</string>
     <string name="ambient_recognition_lockscreen_title">Show Now Playing</string>
     <string name="ambient_recognition_lockscreen_summary">On the lockscreen</string>
+    <string name="ambient_recognition_interval_summary_seconds">Interval for scanning of new songs is set to <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="ambient_recognition_interval_summary_one_minute_seconds">Interval for scanning of new songs is set to 1 minute and <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="ambient_recognition_interval_summary_one_minute">Interval for scanning of new songs is set to 1 minute</string>
+    <string name="ambient_recognition_interval_summary_two_minutes">Interval for scanning of new songs is set to 2 minutes</string>
+    <string name="ambient_recognition_interval_title">Scan interval</string>
+    <string name="ambient_recognition_interval_20sec">20 seconds</string>
+    <string name="ambient_recognition_interval_40sec">40 seconds</string>
+    <string name="ambient_recognition_interval_60sec">1 minute</string>
+    <string name="ambient_recognition_interval_80sec">1 minute 20 seconds</string>
+    <string name="ambient_recognition_interval_100sec">1 minute 40 seconds</string>
+    <string name="ambient_recognition_interval_120sec">2 minutes</string>
+
 </resources>

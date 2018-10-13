@@ -37,4 +37,11 @@
             android:summary="@string/ambient_recognition_lockscreen_summary"
             android:dependency="ambient_display_ambient_play" />
 
+        <ListPreference
+            android:key="ambient_display_ambient_play_interval"
+            android:title="@string/ambient_recognition_interval_title"
+            android:entries="@array/ambient_recognition_interval_entries"
+            android:entryValues="@array/ambient_recognition_interval_values"
+            android:dependency="ambient_display_ambient_play" />
+
 </PreferenceScreen>
