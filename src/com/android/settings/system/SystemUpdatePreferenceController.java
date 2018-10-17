@@ -85,41 +85,6 @@ public class SystemUpdatePreferenceController extends BasePreferenceController {
         return false;
     }
 
-    @Override
-    public CharSequence getSummary() {
-        CharSequence summary = mContext.getString(R.string.android_version_summary,
-                Build.VERSION.RELEASE);
-        final FutureTask<Bundle> bundleFutureTask = new FutureTask<>(
-                // Put the API call in a future to avoid StrictMode violation.
-                () -> mUpdateManager.retrieveSystemUpdateInfo());
-        final Bundle updateInfo;
-        try {
-            bundleFutureTask.run();
-            updateInfo = bundleFutureTask.get();
-        } catch (InterruptedException | ExecutionException e) {
-            Log.w(TAG, "Error getting system update info.");
-            return summary;
-        }
-        switch (updateInfo.getInt(SystemUpdateManager.KEY_STATUS)) {
-            case SystemUpdateManager.STATUS_WAITING_DOWNLOAD:
-            case SystemUpdateManager.STATUS_IN_PROGRESS:
-            case SystemUpdateManager.STATUS_WAITING_INSTALL:
-            case SystemUpdateManager.STATUS_WAITING_REBOOT:
-                summary = mContext.getText(R.string.android_version_pending_update_summary);
-                break;
-            case SystemUpdateManager.STATUS_UNKNOWN:
-                Log.d(TAG, "Update statue unknown");
-                // fall through to next branch
-            case SystemUpdateManager.STATUS_IDLE:
-                final String version = updateInfo.getString(SystemUpdateManager.KEY_TITLE);
-                if (!TextUtils.isEmpty(version)) {
-                    summary = mContext.getString(R.string.android_version_summary, version);
-                }
-                break;
-        }
-        return summary;
-    }
-
     /**
      * Trigger client initiated action (send intent) on system update
      */
