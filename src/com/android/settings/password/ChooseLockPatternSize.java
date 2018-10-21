@@ -114,6 +114,8 @@ public class ChooseLockPatternSize extends PreferenceActivity {
                 intent.putExtra(EncryptionInterstitial.EXTRA_REQUIRE_PASSWORD, originatingIntent
                         .getBooleanExtra(EncryptionInterstitial.EXTRA_REQUIRE_PASSWORD, true));
             }
+            intent.putExtra(ChooseLockSettingsHelper.EXTRA_KEY_PASSWORD,
+                    originatingIntent.getStringExtra(ChooseLockSettingsHelper.EXTRA_KEY_PASSWORD));
             intent.addFlags(Intent.FLAG_ACTIVITY_FORWARD_RESULT);
             startActivity(intent);
 
