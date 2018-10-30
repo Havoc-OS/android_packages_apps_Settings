@@ -41,6 +41,12 @@
         settings:platform_slice="true"
         settings:controller="com.android.settings.fuelgauge.batterysaver.BatterySaverButtonPreferenceController" />
 
+    <com.havoc.settings.preferences.SystemSettingSwitchPreference
+	    android:key="battery_saver_dark_mode" 
+        android:title="@string/battery_saver_night_mode_title" 
+        android:summary="@string/battery_saver_night_mode_summary" 
+        android:defaultValue="false" />
+
     <PreferenceCategory
         android:key="battery_saver_footer">
         <com.android.settingslib.widget.FooterPreference
