@@ -3575,6 +3575,10 @@
                 android:value="com.havoc.settings.fragments.PieSettings" />
         </activity>
 
+        <!-- Gesture Anywhere -->
+        <activity android:name="com.havoc.settings.fragments.gestures.GestureAnywhereBuilderActivity" />
+        <activity android:name="com.havoc.settings.fragments.gestures.GestureAnywhereCreateGestureActivity" /> 
+
         <!-- This is the longest AndroidManifest.xml ever. -->
     </application>
 </manifest>
