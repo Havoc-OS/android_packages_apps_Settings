@@ -10072,11 +10072,15 @@
     <!-- Option for prevent ringing setting -->
     <string name="prevent_ringing_option_mute">Mute</string>
     <!-- Option for prevent ringing setting -->
+    <string name="prevent_ringing_option_mute_no_media">Mute, no media</string>
+    <!-- Option for prevent ringing setting -->
     <string name="prevent_ringing_option_none">Do nothing</string>
     <!-- Summary for prevent ringing setting -->
     <string name="prevent_ringing_option_vibrate_summary">On (vibrate)</string>
     <!-- Summary for prevent ringing setting -->
     <string name="prevent_ringing_option_mute_summary">On (mute)</string>
+    <!-- Summary for prevent ringing setting -->
+    <string name="prevent_ringing_option_mute_no_media_summary">On (mute, no media)</string>
     <!-- Summary for prevent ringing setting -->
     <string name="prevent_ringing_option_none_summary">Off</string>
 
