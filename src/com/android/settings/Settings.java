@@ -191,4 +191,7 @@ public class Settings extends SettingsActivity {
     public static class RotationActivity extends SettingsActivity { /* empty */ }
     public static class PieControlSettingsActivity extends SettingsActivity { /* empty */ }
 
+    // Ambient play
+    public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
+
 }
