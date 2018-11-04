@@ -241,23 +241,4 @@
         <item>2</item>
         <item>3</item>
     </string-array>
-
-    <!-- Ambient Play scan interval -->
-    <string-array name="ambient_recognition_interval_entries">
-        <item>@string/ambient_recognition_interval_20sec</item>
-        <item>@string/ambient_recognition_interval_40sec</item>
-        <item>@string/ambient_recognition_interval_60sec</item>
-        <item>@string/ambient_recognition_interval_80sec</item>
-        <item>@string/ambient_recognition_interval_100sec</item>
-        <item>@string/ambient_recognition_interval_120sec</item>
-    </string-array>
-     <string-array name="ambient_recognition_interval_values" translatable="false">
-        <item>20000</item>
-        <item>40000</item>
-        <item>60000</item>
-        <item>80000</item>
-        <item>100000</item>
-        <item>120000</item>
-    </string-array>
-
 </resources>
