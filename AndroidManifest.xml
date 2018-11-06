@@ -3537,18 +3537,6 @@
                 android:value="com.havoc.settings.fragments.SmartPixels" />
         </activity>
 
-        <!-- Weather activity. -->
-        <activity android:name="Settings$WeatherActivity"
-                android:label="@string/weather_title"
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.havoc.settings.fragments.Weather" />
-        </activity>
-
         <!-- Screen activity. -->
         <activity android:name="Settings$ScreenActivity"
                 android:label="@string/display_title"

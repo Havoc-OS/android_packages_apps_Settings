@@ -184,7 +184,6 @@ public class Settings extends SettingsActivity {
     public static class AmbientPlayActivity extends SettingsActivity { /* empty */ }
     public static class NavigationActivity extends SettingsActivity { /* empty */ }
     public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
-    public static class WeatherActivity extends SettingsActivity { /* empty */ }
     public static class ScreenActivity extends SettingsActivity { /* empty */ }
     public static class ExpandedDesktopActivity extends SettingsActivity { /* empty */ }
     public static class SuspendActionsActivity extends SettingsActivity { /* empty */ }

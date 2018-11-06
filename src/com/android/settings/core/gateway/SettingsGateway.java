@@ -151,7 +151,6 @@ import com.havoc.settings.fragments.Interface;
 import com.havoc.settings.fragments.Navigation;
 import com.havoc.settings.fragments.ScreenStateToggles;
 import com.havoc.settings.fragments.SmartPixels;
-import com.havoc.settings.fragments.Weather;
 import com.havoc.settings.fragments.ui.DozeFragment;
 import com.havoc.settings.fragments.PieSettings;
 
@@ -289,7 +288,6 @@ public class SettingsGateway {
             AmbientPlaySettings.class.getName(),
             Navigation.class.getName(),
             SmartPixels.class.getName(),
-            Weather.class.getName(),
             Display.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             ScreenStateToggles.class.getName(),
