@@ -227,4 +227,8 @@
     <string name="gestures_haptic_feedback_title">Haptic feedback</string>
     <string name="gestures_haptic_feedback_summary">Vibrate when a gesture is detected</string>
 
+	<!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">Swipe fingerprint left or right to dismiss notifications</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">To dismiss your notifications, swipe left or right on the fingerprint sensor on the back of your phone.</string>
+
 </resources>
