@@ -29,12 +29,14 @@
         <com.havoc.settings.preferences.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:key="ambient_recognition_keyguard"
-            android:title="@string/ambient_play_lockscreen_title" />
+            android:title="@string/ambient_play_lockscreen_title"
+            android:summary="@string/ambient_play_lockscreen_summary" />
 
         <com.havoc.settings.preferences.SystemSettingSwitchPreference
             android:defaultValue="true"
             android:key="ambient_recognition_notification"
-            android:title="@string/ambient_play_notifications_title" />
+            android:title="@string/ambient_play_notifications_title"
+            android:summary="@string/ambient_play_notifications_summary" />
 
         <com.android.settings.ambient.history.AmbientPlayHistoryPreference
             android:key="ambient_recognition_history_preference" />
