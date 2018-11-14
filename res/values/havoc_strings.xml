@@ -315,4 +315,15 @@
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Direct unlock</string>
     <string name="directly_show_lock_summary">Skip the swipe to unlock screen and immediately begin key entry</string>
+
+    <!-- Battery info -->
+    <string name="battery_info_title">Battery Info</string>
+    <string name="battery_info_summary">Advanced battery information</string>
+    <string name="charge_full_design">Capacity</string>
+    <string name="charge_cycle">Charge cycles</string>
+    <string name="battery_temp">Temperature</string>
+    <string name="battery_tech">Technology</string>
+    <string name="battery_status">Status</string>
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_health">Health</string>
 </resources>
