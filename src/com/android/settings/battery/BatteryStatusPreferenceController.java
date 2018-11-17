@@ -28,7 +28,7 @@ public class BatteryStatusPreferenceController extends AbstractPreferenceControl
         PreferenceControllerMixin {
 
     private static final String KEY_BATTERY_STATUS = "battery_status";
-    private static final String BATTERY_STATUS_PATH = "sys/class/power_supply/battery/status";
+    private static final String BATTERY_STATUS_PATH = "/sys/class/power_supply/battery/status";
 
     public BatteryStatusPreferenceController(Context context) {
         super(context);

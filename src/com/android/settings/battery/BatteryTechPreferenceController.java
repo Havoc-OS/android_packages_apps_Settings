@@ -28,7 +28,7 @@ public class BatteryTechPreferenceController extends AbstractPreferenceControlle
         PreferenceControllerMixin {
 
     private static final String KEY_BATTERY_TECH = "battery_tech";
-    private static final String BATTERY_TECH_PATH = "sys/class/power_supply/battery/technology";
+    private static final String BATTERY_TECH_PATH = "/sys/class/power_supply/battery/technology";
 
     public BatteryTechPreferenceController(Context context) {
         super(context);

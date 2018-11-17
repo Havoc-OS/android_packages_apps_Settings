@@ -28,7 +28,7 @@ public class BatteryHealthPreferenceController extends AbstractPreferenceControl
         PreferenceControllerMixin {
 
     private static final String KEY_BATTERY_HEALTH = "battery_health";
-    private static final String BATTERY_HEALTH_PATH = "sys/class/power_supply/battery/health";
+    private static final String BATTERY_HEALTH_PATH = "/sys/class/power_supply/battery/health";
 
     public BatteryHealthPreferenceController(Context context) {
         super(context);

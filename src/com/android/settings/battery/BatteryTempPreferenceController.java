@@ -28,8 +28,7 @@ public class BatteryTempPreferenceController extends AbstractPreferenceControlle
         PreferenceControllerMixin {
 
     private static final String KEY_BATTERY_TEMP = "battery_temp";
-    private static final String BATTERY_TEMP_PATH = "sys/class/power_supply/battery/temp";
-    private int BATTERY_TEMP_DIVIDER = 10;
+    private static final String BATTERY_TEMP_PATH = "/sys/class/power_supply/battery/temp";
 
     public BatteryTempPreferenceController(Context context) {
         super(context);
@@ -64,7 +63,7 @@ public class BatteryTempPreferenceController extends AbstractPreferenceControlle
 
     private String getBatteryTemp() {
         String value = readOneLine(BATTERY_TEMP_PATH);
-        return String.format("%s", Integer.parseInt(value) / BATTERY_TEMP_DIVIDER) + "\u2103";
+        return String.format("%s", Integer.parseInt(value) / 10) + "\u2103";
     }
 
     @Override

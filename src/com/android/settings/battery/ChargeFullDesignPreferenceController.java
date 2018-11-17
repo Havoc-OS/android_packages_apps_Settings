@@ -28,7 +28,7 @@ public class ChargeFullDesignPreferenceController extends AbstractPreferenceCont
         PreferenceControllerMixin {
 
     private static final String KEY_CHARGE_FULL_DESIGN = "charge_full_design";
-    private static final String CHARGE_FULL_DESIGN_PATH = "sys/class/power_supply/battery/charge_full_design";
+    private static final String CHARGE_FULL_DESIGN_PATH = "/sys/class/power_supply/battery/charge_full";
 
     public ChargeFullDesignPreferenceController(Context context) {
         super(context);
@@ -63,7 +63,7 @@ public class ChargeFullDesignPreferenceController extends AbstractPreferenceCont
 
     String getChargeFullDesign() {
         String value = readOneLine(CHARGE_FULL_DESIGN_PATH);
-        return value + "mAh";
+        return String.format("%s", Integer.parseInt(value) / 1000) + " mAh";
     }
 
     @Override

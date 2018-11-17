@@ -28,7 +28,7 @@ public class ChargeCyclePreferenceController extends AbstractPreferenceControlle
         PreferenceControllerMixin {
 
     private static final String KEY_CHARGE_CYCLE = "charge_cycle";
-    private static final String CYCLE_COUNT_PATH = "sys/class/power_supply/battery/cycle_count";
+    private static final String CYCLE_COUNT_PATH = "/sys/class/power_supply/battery/cycle_count";
 
     public ChargeCyclePreferenceController(Context context) {
         super(context);
