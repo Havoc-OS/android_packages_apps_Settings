@@ -453,4 +453,7 @@
     <string name="battery_status">Status</string>
     <string name="battery_voltage">Voltage</string>
     <string name="battery_health">Health</string>
+
+    <string name="font_picker_title">Font Manager</string>
+    <string name="disable_fonts_installed_title">Font picker is unavailable to avoid conflicts with Substratum. Uninstall it if you wish to use the font picker.</string>
 </resources>
