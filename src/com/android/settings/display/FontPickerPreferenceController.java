@@ -90,6 +90,11 @@ public class FontPickerPreferenceController extends AbstractPreferenceController
             return FontInfo.getDefaultFontInfo();
         }
     }
+	
+	public void stopProgress() {
+        mFontPreference.stopProgress();
+    }
+    
     private boolean isPackageInstalled(String package_name, Context context) {
         try {
             PackageManager pm = context.getPackageManager();
