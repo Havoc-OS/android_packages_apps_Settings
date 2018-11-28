@@ -187,7 +187,6 @@ public class Settings extends SettingsActivity {
     public static class ExpandedDesktopActivity extends SettingsActivity { /* empty */ }
     public static class SuspendActionsActivity extends SettingsActivity { /* empty */ }
     public static class RotationActivity extends SettingsActivity { /* empty */ }
-    public static class PieControlSettingsActivity extends SettingsActivity { /* empty */ }
 
     // Ambient play
     public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
