@@ -14,107 +14,66 @@
      limitations under the License.
 -->
 
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content">
-
-    <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-        <LinearLayout android:id="@+id/type"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/sim_content_padding"
+        android:paddingEnd="@dimen/sim_content_padding"
+        android:orientation="vertical">
 
             <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/sim_dialog_margin_top"
-                    android:paddingStart="@dimen/sim_content_padding"
-                    android:text="@string/sim_editor_name" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/device_info_dialog_label"
+                android:paddingTop="@dimen/sim_dialog_margin_top"
+                android:text="@string/sim_editor_name" />
 
             <EditText android:id="@+id/sim_name"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:singleLine="true"
-                    android:paddingStart="@dimen/sim_content_padding"
-                    android:paddingBottom="@dimen/sim_dialog_margin_bottom"
-                    android:hint="@string/sim_name_hint"
-                    android:inputType="textNoSuggestions"
-                    android:maxLength="@integer/sim_name_length"
-                    android:textColor="@color/sim_color_picker_list_text_color"
-                    style="?android:attr/textAppearanceMedium" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
-
-            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/sim_dialog_margin_top"
-                android:paddingStart="@dimen/sim_content_padding"
+                android:singleLine="true"
+                android:hint="@string/sim_name_hint"
+                android:inputType="textNoSuggestions"
+                android:maxLength="@integer/sim_name_length"
+                style="@style/device_info_dialog_value_plain" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                style="@style/device_info_dialog_label"
+                android:paddingTop="@dimen/sim_dialog_margin_top"
                 android:text="@string/color_title" />
 
             <Spinner
                 android:id="@+id/spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical" />
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="@dimen/sim_content_padding" />
-
-        </LinearLayout>
-
-        <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-            <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/sim_dialog_margin_top"
-                    android:paddingStart="@dimen/sim_content_padding"
-                    android:text="@string/sim_editor_carrier" />
+                style="@style/device_info_dialog_label"
+                android:paddingTop="@dimen/sim_dialog_margin_top"
+                android:text="@string/sim_editor_carrier" />
 
             <TextView android:id="@+id/carrier"
-                    android:textColor="@color/sim_color_picker_carrier_text_color"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="@dimen/sim_content_padding"
-                    android:paddingBottom="@dimen/sim_dialog_margin_bottom"
-                    android:singleLine="true"
-                    style="?android:attr/textAppearanceMedium" />
-
-        </LinearLayout>
-
-        <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:singleLine="true"
+                style="@style/device_info_dialog_value" />
 
             <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="@dimen/sim_dialog_margin_top"
-                    android:paddingStart="@dimen/sim_content_padding"
-                    android:text="@string/sim_editor_number" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/device_info_dialog_label"
+                android:text="@string/sim_editor_number" />
 
             <TextView android:id="@+id/number"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:paddingBottom="@dimen/sim_dialog_margin_bottom"
-                    android:paddingStart="@dimen/sim_content_padding"
-                    android:singleLine="true"
-                    android:textColor="@color/sim_color_picker_number_text_color"
-                    style="?android:attr/textAppearanceMedium" />
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                style="@style/device_info_dialog_value" />
 
-        </LinearLayout>
-
-    </LinearLayout>
-
-</ScrollView>
+</LinearLayout>
