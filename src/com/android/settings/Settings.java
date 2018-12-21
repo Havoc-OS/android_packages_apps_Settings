@@ -181,15 +181,11 @@ public class Settings extends SettingsActivity {
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class InterfaceSettingsActivity extends SettingsActivity { /* empty */ }
     public static class AmbientDisplayActivity extends SettingsActivity { /* empty */ }
-    public static class AmbientPlayActivity extends SettingsActivity { /* empty */ }
     public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
     public static class ScreenActivity extends SettingsActivity { /* empty */ }
     public static class ExpandedDesktopActivity extends SettingsActivity { /* empty */ }
     public static class SuspendActionsActivity extends SettingsActivity { /* empty */ }
     public static class RotationActivity extends SettingsActivity { /* empty */ }
-
-    // Ambient play
-    public static class AmbientPlayHistoryActivity extends SettingsActivity { /* empty */ }
 
     public static class NavigationSettingsActivity extends SettingsActivity {}
     public static class SmartbarSettingsActivity extends SettingsActivity {}

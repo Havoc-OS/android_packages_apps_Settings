@@ -100,9 +100,6 @@
 
     <protected-broadcast android:name="com.android.systemui.doze.pulse" />
 
-    <!-- Ambient Indication -->
-    <uses-permission android:name="com.ambient.play.history.MANAGE_HISTORY" />
-
     <application android:label="@string/settings_label"
             android:icon="@drawable/ic_launcher_settings"
             android:taskAffinity=""
@@ -3368,18 +3365,6 @@
                 android:value="com.android.settings.applications.manageapplications.ManageApplications" />
         </activity>
 
-        <!-- Ambient play history activity. -->
-        <activity android:name="Settings$AmbientPlayHistoryActivity"
-                android:label="@string/ambient_play_history"
-                android:launchMode="singleInstance">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.ambient.history.AmbientPlayHistory" />
-        </activity>
-
         <provider android:name=".slices.SettingsSliceProvider"
                   android:authorities="com.android.settings.slices;android.settings.slices"
                   android:exported="true"
@@ -3516,18 +3501,6 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.havoc.settings.fragments.ui.DozeFragment" />
-        </activity>
-
-        <!-- Ambient play activity. -->
-        <activity android:name="Settings$AmbientPlayActivity"
-                android:label="@string/ambient_play_title"
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.android.settings.AmbientPlaySettings" />
         </activity>
 
         <!-- Smart pixels activity. -->
