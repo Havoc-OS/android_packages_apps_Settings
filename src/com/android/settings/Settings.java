@@ -181,7 +181,6 @@ public class Settings extends SettingsActivity {
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
     public static class InterfaceSettingsActivity extends SettingsActivity { /* empty */ }
     public static class AmbientDisplayActivity extends SettingsActivity { /* empty */ }
-    public static class SmartPixelsActivity extends SettingsActivity { /* empty */ }
     public static class ScreenActivity extends SettingsActivity { /* empty */ }
     public static class ExpandedDesktopActivity extends SettingsActivity { /* empty */ }
     public static class SuspendActionsActivity extends SettingsActivity { /* empty */ }

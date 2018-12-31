@@ -151,7 +151,6 @@ import com.havoc.settings.fragments.ExpandedDesktopPreferenceFragment;
 import com.havoc.settings.fragments.HeadsUpSettings;
 import com.havoc.settings.fragments.Interface;
 import com.havoc.settings.fragments.ScreenStateToggles;
-import com.havoc.settings.fragments.SmartPixels;
 import com.havoc.settings.fragments.ui.DozeFragment;
 
 public class SettingsGateway {
@@ -285,7 +284,6 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             Interface.class.getName(),
             DozeFragment.class.getName(),
-            SmartPixels.class.getName(),
             Display.class.getName(),
             ExpandedDesktopPreferenceFragment.class.getName(),
             ScreenStateToggles.class.getName(),

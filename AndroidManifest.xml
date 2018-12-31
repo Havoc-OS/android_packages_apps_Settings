@@ -3503,18 +3503,6 @@
                 android:value="com.havoc.settings.fragments.ui.DozeFragment" />
         </activity>
 
-        <!-- Smart pixels activity. -->
-        <activity android:name="Settings$SmartPixelsActivity"
-                android:label="@string/smart_pixels_title"
-                android:excludeFromRecents="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.havoc.settings.fragments.SmartPixels" />
-        </activity>
-
         <!-- Screen activity. -->
         <activity android:name="Settings$ScreenActivity"
                 android:label="@string/display_title"

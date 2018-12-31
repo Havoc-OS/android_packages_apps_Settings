@@ -70,6 +70,12 @@
         android:fragment="com.android.settings.preference.DisplayRotation"
         android:title="@string/display_rotation_title" />
 
+	<Preference
+        android:key="expanded_desktop"
+        android:title="@string/expanded_desktop_pref_title"
+        android:summary="@string/expanded_desktop_pref_summary"
+        android:fragment="com.havoc.settings.fragments.ExpandedDesktopPreferenceFragment" />
+
     <Preference
         android:key="color_mode"
         android:title="@string/color_mode_title"

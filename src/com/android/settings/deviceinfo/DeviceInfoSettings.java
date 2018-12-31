@@ -130,7 +130,6 @@ public class DeviceInfoSettings extends DashboardFragment implements Indexable {
         controllers.add(new IpAddressPreferenceController(context, lifecycle));
         controllers.add(new WifiMacAddressPreferenceController(context, lifecycle));
         controllers.add(new BluetoothAddressPreferenceController(context, lifecycle));
-        controllers.add(new FccEquipmentIdPreferenceController(context));
         controllers.add(
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
         return controllers;
