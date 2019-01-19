@@ -424,4 +424,7 @@
     <string name="clipboard_toast_info_show_important">Show only important alerts</string>
     <string name="clipboard_toast_info_show_all">Show all access alerts</string>
 
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
+
 </resources>
