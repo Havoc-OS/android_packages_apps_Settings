@@ -41,6 +41,7 @@ import com.android.settings.deviceinfo.DeviceModelPreferenceController;
 import com.android.settings.deviceinfo.DeviceNamePreferenceController;
 import com.android.settings.deviceinfo.IpAddressPreferenceController;
 import com.android.settings.deviceinfo.SELinuxStatusPreferenceController;
+import com.android.settings.deviceinfo.UpTimePreferenceController;
 import com.android.settings.deviceinfo.WifiMacAddressPreferenceController;
 import com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController;
 import com.android.settings.deviceinfo.havoc.HavocInfoPreferenceController;
@@ -119,6 +120,7 @@ public class MyDeviceInfoFragment extends DashboardFragment
         controllers.add(new HavocInfoPreferenceController(context, fragment));
         controllers.add(
                 new BuildNumberPreferenceController(context, activity, fragment, lifecycle));
+        controllers.add(new UpTimePreferenceController(context));
         return controllers;
     }
 
