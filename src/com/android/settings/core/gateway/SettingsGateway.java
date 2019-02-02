@@ -152,6 +152,7 @@ import com.havoc.settings.fragments.HeadsUpSettings;
 import com.havoc.settings.fragments.Interface;
 import com.havoc.settings.fragments.ScreenStateToggles;
 import com.havoc.settings.fragments.ui.DozeFragment;
+import com.havoc.settings.fragments.PieSettings;
 
 public class SettingsGateway {
 
@@ -288,6 +289,7 @@ public class SettingsGateway {
             ExpandedDesktopPreferenceFragment.class.getName(),
             ScreenStateToggles.class.getName(),
             DisplayRotation.class.getName(),
+            PieSettings.class.getName(),
             NavigationSettingsActivity.class.getName(),
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
