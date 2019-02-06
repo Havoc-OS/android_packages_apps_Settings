@@ -99,8 +99,6 @@
     <uses-permission android:name="android.permission.MANAGE_SCOPED_ACCESS_DIRECTORY_PERMISSIONS" />
     <uses-permission android:name="android.permission.RESTART_UI"/>
 
-    <protected-broadcast android:name="com.android.systemui.doze.pulse" />
-
     <!-- Thermal controller -->
     <uses-permission android:name="com.android.thermalcontroller.MANAGE_SETTINGS" />
 
@@ -3468,17 +3466,6 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.havoc.settings.fragments.Buttons" />
         </activity>
-
-        <receiver android:name="com.havoc.settings.fragments.ui.DozeReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.BOOT_COMPLETED" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </receiver>
-
-	    <service android:name="com.havoc.settings.fragments.ui.DozeService"
-                android:permission="HavocDozeService">
-        </service>
 
         <!-- Interface settings activity. -->
         <activity android:name="Settings$InterfaceSettingsActivity"
