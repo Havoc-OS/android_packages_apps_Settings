@@ -19,7 +19,7 @@ import android.support.v14.preference.SwitchPreference;
 import android.support.v7.preference.Preference;
 
 import com.android.settingslib.core.AbstractPreferenceController;
-import com.havoc.settings.preferences.SystemSettingSwitchPreference;
+import com.havoc.support.preferences.SystemSettingSwitchPreference;
 import com.android.settings.core.PreferenceControllerMixin;
 
 public class ProximityOnWakePreferenceController extends AbstractPreferenceController implements

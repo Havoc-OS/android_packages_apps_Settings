@@ -70,7 +70,7 @@
             android:summary="@string/oem_unlock_enable_summary"
             settings:useAdditionalSummary="true" />
 
-        <com.havoc.settings.preferences.SystemSettingSwitchPreference
+        <com.havoc.support.preferences.SystemSettingSwitchPreference
             android:key="edge_service_for_gestures"
             android:title="@string/edge_gesture_service_title"
             android:summary="@string/edge_gesture_service_summary"
@@ -125,7 +125,7 @@
             android:title="@string/adb_enable"
             android:summary="@string/adb_enable_summary" />
 
-        <com.havoc.settings.preferences.SecureSettingSwitchPreference
+        <com.havoc.support.preferences.SecureSettingSwitchPreference
             android:key="adb_notify"
             android:title="@string/adb_notify"
             android:summary="@string/adb_notify_summary"

@@ -28,11 +28,12 @@
         android:title="@string/notification_battery_charge_level_ringtone"
         android:dependency="battery_level_charge_alarm_enabled" />
 
-    <com.havoc.settings.preferences.SystemSettingSeekBarPreference
+    <com.havoc.support.preferences.CustomSeekBarPreference
         android:key="battery_level_charge_seek_bar"
         android:title="@string/notification_battery_charge_level_seek_bar"
         android:max="100"
         android:min="0"
+        android:defaultValue="100"
         android:dependency="battery_level_charge_alarm_enabled"/>
 
 </PreferenceScreen>

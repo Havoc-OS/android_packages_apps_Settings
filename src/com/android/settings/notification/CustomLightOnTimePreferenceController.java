@@ -28,7 +28,7 @@ import com.android.settingslib.core.lifecycle.Lifecycle;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnResume;
 
-import com.havoc.settings.preferences.SystemSettingSeekBarPreference;
+import com.havoc.support.preferences.CustomSeekBarPreference;
 
 public class CustomLightOnTimePreferenceController extends NotificationPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {
@@ -61,7 +61,7 @@ public class CustomLightOnTimePreferenceController extends NotificationPreferenc
     public void updateState(Preference preference) {
         if (mChannel != null) {
             //light on time pref
-            SystemSettingSeekBarPreference mLightOnTime = (SystemSettingSeekBarPreference) preference;
+            CustomSeekBarPreference mLightOnTime = (CustomSeekBarPreference) preference;
             int lightOn = mChannel.getLightOnTime();
             int defaultLightOn = mContext.getResources().getInteger(
                     com.android.internal.R.integer.config_defaultNotificationLedOn);

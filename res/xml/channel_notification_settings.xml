@@ -95,7 +95,7 @@
             settings:useAdditionalSummary="true"/>
 
         <!-- Custom led color -->
-        <net.margaritov.preference.colorpicker.ColorPickerPreference
+        <com.havoc.support.colorpicker.ColorPickerPreference
             android:key="custom_light"
             android:dependency="lights"
             android:order="17"
@@ -108,22 +108,20 @@
             android:order="18"
             android:title="@string/show_light_on_zen_title"/>
 
-        <com.havoc.settings.preferences.SystemSettingSeekBarPreference
+        <com.havoc.support.preferences.CustomSeekBarPreference
             android:key="custom_light_on_time"
             android:dependency="lights"
             android:title="@string/custom_light_on_time_title"
-            settings:defaultText="@string/value_equals_default"
             android:order="19"
             settings:min="0"
             android:max="10000"
             settings:interval="100"
             settings:units="" />
 
-        <com.havoc.settings.preferences.SystemSettingSeekBarPreference
+        <com.havoc.support.preferences.CustomSeekBarPreference
             android:key="custom_light_off_time"
             android:dependency="lights"
             android:title="@string/custom_light_off_time_title"
-            settings:defaultText="@string/value_equals_default"
             android:order="20"
             settings:min="0"
             android:max="10000"

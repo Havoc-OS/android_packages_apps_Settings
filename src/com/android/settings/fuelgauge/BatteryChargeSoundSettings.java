@@ -33,7 +33,7 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.havoc.settings.preferences.SystemSettingSeekBarPreference;
+import com.havoc.support.preferences.CustomSeekBarPreference;
 
 public class BatteryChargeSoundSettings extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener {
@@ -44,7 +44,7 @@ public class BatteryChargeSoundSettings extends SettingsPreferenceFragment imple
     private static final String KEY_BATTERY_LEVEL_CHARGE_SEEK_BAR = "battery_level_charge_seek_bar";
     private static final String KEY_SOUND_SILENT = "silent";
 
-    private SystemSettingSeekBarPreference mBatteryLevelChargeSeekbar;
+    private CustomSeekBarPreference mBatteryLevelChargeSeekbar;
     private Preference mBatteryLevelChargeRingtone;
     private SwitchPreference mBatteryLevelChargeAlarmEnabled;
 
@@ -58,7 +58,7 @@ public class BatteryChargeSoundSettings extends SettingsPreferenceFragment imple
                 Settings.System.BATTERY_LEVEL_CHARGE_ALARM_ENABLED, 0, UserHandle.USER_CURRENT) == 1);
         mBatteryLevelChargeAlarmEnabled.setOnPreferenceChangeListener(this);
 
-        mBatteryLevelChargeSeekbar = (SystemSettingSeekBarPreference) findPreference(KEY_BATTERY_LEVEL_CHARGE_SEEK_BAR);
+        mBatteryLevelChargeSeekbar = (CustomSeekBarPreference) findPreference(KEY_BATTERY_LEVEL_CHARGE_SEEK_BAR);
         int batterylevelchargeseekbar = Settings.System.getIntForUser(getContentResolver(),
                 Settings.System.SEEK_BAR_BATTERY_CHARGE_LEVEL_SOUND, 100, UserHandle.USER_CURRENT);
         mBatteryLevelChargeSeekbar.setValue(batterylevelchargeseekbar);

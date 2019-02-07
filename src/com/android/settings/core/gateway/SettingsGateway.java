@@ -147,12 +147,12 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.havoc.settings.HavocSettings;
 import com.havoc.settings.fragments.Buttons;
 import com.havoc.settings.fragments.Display;
+import com.havoc.settings.fragments.DozeFragment;
 import com.havoc.settings.fragments.ExpandedDesktopPreferenceFragment;
 import com.havoc.settings.fragments.HeadsUpSettings;
 import com.havoc.settings.fragments.Interface;
-import com.havoc.settings.fragments.ScreenStateToggles;
-import com.havoc.settings.fragments.ui.DozeFragment;
 import com.havoc.settings.fragments.PieSettings;
+import com.havoc.settings.fragments.ScreenStateToggles;
 
 public class SettingsGateway {
 
