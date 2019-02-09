@@ -35,6 +35,12 @@
 
     <!-- available in pin -->
     <SwitchPreference
+        android:key="lockscreen_pin_ripple"
+        android:title="@string/lockscreen_pin_ripple_title"
+        android:summary="@string/lockscreen_pin_ripple_summary" />
+
+    <!-- available in pin -->
+    <SwitchPreference
         android:key="lockscreen_scramble_pin_layout"
         android:title="@string/unlock_scramble_pin_layout_title"
         android:summary="@string/unlock_scramble_pin_layout_summary" />
