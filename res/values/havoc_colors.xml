@@ -21,4 +21,7 @@
     <!-- Searchbar overlays -->
     <color name="search_bar_background_color">#fafafa</color>
 
+    <!-- Suggestion cards -->
+    <color name="suggestion_tile_background">#fafafa</color>
+
 </resources>
