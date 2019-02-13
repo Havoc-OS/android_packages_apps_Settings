@@ -136,9 +136,9 @@ public class AccentPicker extends InstrumentedDialogFragment implements OnClickL
         Button blackAccent = mView.findViewById(R.id.blackAccent);
         // Change the accent picker button depending on whether or not the dark theme is applied
         blackAccent.setBackgroundColor(getResources().getColor(
-                (ThemeAccentUtils.isUsingDarkTheme(mOverlayManager, mCurrentUserId) || ThemeAccentUtils.isUsingBlackTheme(mOverlayManager, mCurrentUserId)) ? R.color.accent_picker_white_accent : R.color.accent_picker_dark_accent));
+                (ThemeAccentUtils.isUsingDarkTheme(mOverlayManager, mCurrentUserId) || ThemeAccentUtils.isUsingShadyTheme(mOverlayManager, mCurrentUserId) || ThemeAccentUtils.isUsingGlassyTheme(mOverlayManager, mCurrentUserId)) ? R.color.accent_picker_white_accent : R.color.accent_picker_dark_accent));
         blackAccent.setBackgroundTintList(getResources().getColorStateList(
-                (ThemeAccentUtils.isUsingDarkTheme(mOverlayManager, mCurrentUserId) || ThemeAccentUtils.isUsingBlackTheme(mOverlayManager, mCurrentUserId)) ? R.color.accent_picker_white_accent : R.color.accent_picker_dark_accent));
+                (ThemeAccentUtils.isUsingDarkTheme(mOverlayManager, mCurrentUserId) || ThemeAccentUtils.isUsingShadyTheme(mOverlayManager, mCurrentUserId) || ThemeAccentUtils.isUsingGlassyTheme(mOverlayManager, mCurrentUserId)) ? R.color.accent_picker_white_accent : R.color.accent_picker_dark_accent));
         setAccent("20", blackAccent);
 
         Button userAccentOne = mView.findViewById(R.id.userAccentOne);
