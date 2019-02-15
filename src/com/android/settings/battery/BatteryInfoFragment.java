@@ -40,6 +40,8 @@ public class BatteryInfoFragment extends DashboardFragment {
 
     private static final String LOG_TAG = "BatteryInfoFragment";
 
+    Context mContext;
+
     @Override
     public int getMetricsCategory() {
         return MetricsEvent.HAVOC_SETTINGS;
@@ -53,6 +55,11 @@ public class BatteryInfoFragment extends DashboardFragment {
     @Override
     protected int getPreferenceScreenResId() {
         return R.xml.battery_info;
+    }
+
+    public boolean isAvailable() {
+        return mContext.getResources().getBoolean(
+               R.bool.config_battery_info_available);
     }
 
     @Override

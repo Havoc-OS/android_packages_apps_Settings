@@ -20,4 +20,7 @@
     <!-- Whether notify user that switch data service -->
     <bool name="confirm_to_switch_data_service">false</bool>
 
+    <!-- Whether to show advanced battery info -->
+    <bool name="config_battery_info_available">false</bool>
+
 </resources>
