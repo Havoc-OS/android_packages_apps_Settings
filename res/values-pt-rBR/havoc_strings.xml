@@ -16,9 +16,6 @@
     <!-- Havoc Settings -->
     <string name="havoc_settings_title">Configuracões Havoc</string>
     <string name="havoc_settings_summary">Causar alguns estragos...</string>
-    <!-- Havoc-OS version -->
-    <string name="havoc_version">Versão da ROM</string>
-    <string name="havoc_version_default">Desconhecido</string>
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Embaralhar layout</string>
     <string name="unlock_scramble_pin_layout_summary">Embaralhar PIN ao desbloquear o dispositivo</string>
@@ -371,6 +368,10 @@ Negado <xliff:g id="count">%2$s</xliff:g></string>
     <string name="proximity_wake_title">Evitar despertar acidental</string>
     <string name="proximity_wake_summary">Verificar o sensor de proximidade antes de ligar a tela</string>
     <string name="system_update_settings_summary">Verificar atualizações na Havoc-OS</string>
+    <string name="full_gesture_mode_title">Ativar modo de gesto completo</string>
+    <string name="full_gesture_mode_summary">Este modo também irá desativar o botão voltar. Para usar a ação de voltar deslize a barra para a esquerda, O ato de deslizar para a direita ainda acionará a ação do último aplicativo, e moverá os aplicativos caso deslize e segure. Para ir para o Home, você poderá tocar em qualquer espaço vazio da barra de navegação, não apenas no botão de início.</string>
+    <string name="full_gesture_mode_dt2s_title">Ativar toque duplo para dormir</string>
+    <string name="full_gesture_mode_dt2s_summary">Toque em um espaço vazio da barra de navegação, mas não no botão home, para desativar a tela.</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Dados de celular</string>
     <string name="data_usage_app_restrict_data_summary">Permitir o uso de dados móveis</string>
@@ -410,4 +411,36 @@ Negado <xliff:g id="count">%2$s</xliff:g></string>
     <string name="notification_battery_charge_level_seek_bar">Percentual da bateria</string>
     <string name="notification_battery_charge_level_ringtone">Som</string>
     <string name="notification_battery_charge_level_silent">Silêncio</string>
+     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Unir volumes de toque &amp; e notificações</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Localize o sensor de impressão digital na <xliff:g id="sensor_location">%1$s</xliff:g> do seu telefone.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">traseira</string>
+    <string name="security_settings_fingerprint_sensor_location_front">frente</string>
+    <string name="security_settings_fingerprint_sensor_location_left">lateral esquerda</string>
+    <string name="security_settings_fingerprint_sensor_location_right">lateral direita</string>
+    <!-- Havoc-OS info -->
+    <string name="havoc_title">Havoc</string>
+    <string name="havoc_info">Versão Havoc</string>
+    <string name="havoc_maintainer">Mantenedor</string>
+    <string name="havoc_date">Data de construção</string>
+    <string name="havoc_type">Tipo de construção</string>
+    <string name="havoc_device">Aparelho</string>
+    <string name="havoc_version">Versão da ROM</string>
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Bloquear eventos de toque de gesto</string>
+    <string name="edge_gesture_service_summary">Não envie eventos de toque para navegação e gestos da barra de status para aplicativos</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Perfil de otimização</string>
+    <string name="thermal_control_per_app_default">Nome</string>
+    <string name="thermal_control_per_app_benchmark">Performance</string>
+    <string name="thermal_control_per_app_games">Jogos</string>
+    <string name="thermal_control_per_app_browser">Navegador</string>
+    <string name="thermal_control_per_app_video_playback">Reprodução de vídeo</string>
+    <string name="thermal_control_per_app_dialer">Discador</string>
+    <string name="thermal_control_per_app_camera">Câmera</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Ativar botão HOME</string>
+    <string name="home_wake_button_summary">Ativar botão HOME para ativar a tela</string>
 </resources>
