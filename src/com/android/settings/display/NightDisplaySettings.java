@@ -62,7 +62,7 @@ public class NightDisplaySettings extends DashboardFragment
 
         mNightBrightValue = (DropDownPreference) findPreference(KEY_NIGHT_BRIGHTNESS_VALUE);
         int nightBrightValue = Settings.Secure.getInt(getContentResolver(),
-                Settings.Secure.NIGHT_BRIGHTNESS_VALUE, 2);
+                Settings.Secure.NIGHT_BRIGHTNESS_VALUE, 0);
         mNightBrightValue.setValue(Integer.toString(nightBrightValue));
         mNightBrightValue.setSummary(mNightBrightValue.getEntry());
         mNightBrightValue.setOnPreferenceChangeListener(this);
