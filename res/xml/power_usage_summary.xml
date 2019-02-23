@@ -50,12 +50,6 @@
         android:summary="@string/notification_sound_battery_charge_summary"
         android:fragment="com.android.settings.fuelgauge.BatteryChargeSoundSettings" />
 
-    <Preference
-        android:key="battery_info"
-        android:title="@string/battery_info_title"
-        android:summary="@string/battery_info_summary"
-        android:fragment="com.android.settings.battery.BatteryInfoFragment" />
-
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:title="@string/battery_last_full_charge"
