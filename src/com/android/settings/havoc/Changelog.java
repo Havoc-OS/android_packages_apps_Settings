@@ -58,6 +58,7 @@ public class Changelog extends SettingsPreferenceFragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                 Bundle savedInstanceState) {
+        getActivity().getActionBar().setTitle(R.string.changelog_title);
         InputStreamReader inputReader = null;
         String text = null;
         StringBuilder data = new StringBuilder();
