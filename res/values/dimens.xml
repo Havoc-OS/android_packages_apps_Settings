@@ -114,7 +114,7 @@
     <dimen name="dashboard_tile_foreground_image_inset">6dp</dimen>
 
     <!-- Dashboard tile image margin start / end -->
-    <dimen name="dashboard_tile_image_margin">18dp</dimen>
+    <dimen name="dashboard_tile_image_margin">16dp</dimen>
 
     <!-- SwitchBar sub settings margin start / end -->
     <dimen name="switchbar_subsettings_margin_start">72dp</dimen>
@@ -329,5 +329,8 @@
     <dimen name="reset_checkbox_summary_padding_top">4dp</dimen>
     <dimen name="reset_checkbox_title_text_size">18sp</dimen>
     <dimen name="reset_checkbox_summary_text_size">14sp</dimen>
+ <!-- Column View-->
+    <dimen name="dashboard_category_height">48dp</dimen>
+    <dimen name="dashboard_text_margin_end">10dp</dimen>
 
 </resources>
