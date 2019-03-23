@@ -3442,8 +3442,15 @@
             <meta-data android:name="com.android.settings.summary"
                 android:resource="@string/havoc_settings_summary"/>
         </activity>
+
         <!-- Hide Apps from Recents (HAFR) -->
-        <activity android:name="com.havoc.settings.hideappfromrecents.HAFRAppListActivity" />
+        <activity android:name="com.havoc.settings.hideappfromrecents.HAFRAppListActivity"
+                android:label="@string/hide_apps_from_recents_title" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <!-- Heads up settings activity. -->
         <activity android:name="Settings$HeadsUpSettingsActivity"
