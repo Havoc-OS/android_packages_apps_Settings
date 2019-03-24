@@ -556,4 +556,8 @@
     <!-- Battery estimates -->
     <string name="battery_estimates_title">Battery Estimates in QS</string>
     <string name="battery_estimates_summary">Show the estimated battery life in QS panel</string>
+
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Battery saving mode</string>
+    <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
 </resources>
