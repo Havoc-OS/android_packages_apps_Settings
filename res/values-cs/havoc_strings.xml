@@ -16,15 +16,12 @@
     <!-- Havoc Settings -->
     <string name="havoc_settings_title">Nastavení Havoc</string>
     <string name="havoc_settings_summary">Wreak some Havoc...</string>
-    <!-- Havoc-OS version -->
-    <string name="havoc_version">Verze ROM</string>
-    <string name="havoc_version_default">Neznámá</string>
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Přeházet rozložení</string>
     <string name="unlock_scramble_pin_layout_summary">Přeházet rozložení pro zadání PINu při odemykání zařízení</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">Rychlé odemknutí</string>
-    <string name="unlock_quick_unlock_control_summary">Automatické odemknutí, pokud je zadán správný PIN/heslo</string>
+    <string name="unlock_quick_unlock_control_summary">Automatické odemknutí pokud je zadán správný PIN/heslo</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Privacy Guard -->
@@ -37,13 +34,13 @@
     <string name="privacy_guard_default_title">Ve výchozím nastavení povoleno</string>
     <string name="privacy_guard_manager_summary">Spravovat aplikace, které mohou mít přístup k osobním údajům</string>
     <string name="privacy_guard_no_user_apps">Nejsou nainstalovány žádné aplikace</string>
-    <string name="privacy_guard_help_title">Nápověda</string>
+    <string name="privacy_guard_help_title">Pomoc</string>
     <string name="privacy_guard_reset_title">Resetovat</string>
-    <string name="privacy_guard_reset_text">Resetovat oprávnění?</string>
-    <string name="privacy_guard_help_text">Na této obrazovce můžete vybrat, které aplikace mají být sledovány Ochranou soukromí. Zvolené aplikace nebudou mít umožněno přistupovat k soukromím údajům, jako jsou kontakty, zprávy nebo seznamy hovorů. Dlouhým stiskem na dané aplikaci se zobrazí její systémové informace.\n\nVe výchozím stavu se systémové aplikace nezobrazují. Pokud chcete zobrazit i systémové aplikace, vyberte danou volbu z nabídky.</string>
-    <string name="privacy_guard_manager_show_system_apps">Zobrazit systémové aplikace</string>
+    <string name="privacy_guard_reset_text">Obnovit oprávnění?</string>
+    <string name="privacy_guard_help_text">Na této obrazovce můžete vybrat, která aplikace má být sledována Ochranou soukromí. Zvolené aplikace nebudou mít umožněno přistupovat k soukromím údajům, jako jsou kontakty, zprávy nebo seznamy hovorů. Dlouhým stiskem na dané aplikaci se zobrazí její systémové informace.\n\nVe výchozím stavu se systémové aplikace nezobrazují. Pokud chcete zobrazit i systémové aplikace, vyberte danou volbu z nabídky.</string>
+    <string name="privacy_guard_manager_show_system_apps">Zobr. systémové aplikace</string>
     <string name="privacy_guard_advanced_settings_title">Pokročilé</string>
-    <string name="privacy_guard_notification_title">Zobrazit oznámení</string>
+    <string name="privacy_guard_notification_title">Zobrazit upozornění</string>
     <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Povoleno</string>
     <string name="app_ops_permissions_ignored">Ignorováno</string>
@@ -51,21 +48,21 @@
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (použito <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">Povoleno <xliff:g id="count" example="2 times">%s</xliff:g></string>
-    <string name="app_ops_ignored_count">Zakázáno <xliff:g id="count" example="2 times">%s</xliff:g></string>
-    <string name="app_ops_both_count">Povoleno <xliff:g id="count">%1$s</xliff:g>, zakázáno <xliff:g id="count">%2$s</xliff:g></string>
-    <string name="app_ops_no_blockable_permissions">Nejsou k dispozici žádná oprávnění pro blokování</string>
+    <string name="app_ops_ignored_count">Zamítnuto <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Povoleno <xliff:g id="count">%1$s</xliff:g>, zamítnuto <xliff:g id="count">%2$s</xliff:g></string>
+    <string name="app_ops_no_blockable_permissions">K blokování nejsou k dispozici žádná oprávnění</string>
     <!-- App ops menu options -->
-    <string name="app_ops_show_user_apps">Zobrazit uživatelské aplikace</string>
-    <string name="app_ops_show_system_apps">Zobrazit systémové aplikace</string>
-    <string name="app_ops_reset_counters">Vynulovat počty povolení/zákazů</string>
-    <string name="app_ops_reset_confirm_title">Potvrdit vynulování počtů</string>
+    <string name="app_ops_show_user_apps">Zobr. uživatelské aplikace</string>
+    <string name="app_ops_show_system_apps">Zobr. systémové aplikace</string>
+    <string name="app_ops_reset_counters">Vynulovat čítače povolení/zákazů</string>
+    <string name="app_ops_reset_confirm_title">Potvrdit vynulování čítačů</string>
     <string name="app_ops_reset_confirm_mesg">Jste si jist, že chcete vynulovat čítače?</string>
     <!-- Memory -->
     <string name="memory_startup_apps_title">Aplikace spuštěné při startu</string>
     <!-- Names of categories of app ops tabs - extension of AOSP -->
     <string name="app_ops_categories_location">Poloha</string>
     <string name="app_ops_categories_personal">Osobní</string>
-    <string name="app_ops_categories_messaging">Zasílání zpráv</string>
+    <string name="app_ops_categories_messaging">Zprávy</string>
     <string name="app_ops_categories_media">Média</string>
     <string name="app_ops_categories_device">Zařízení</string>
     <string name="app_ops_categories_run_in_background">Spustit na pozadí</string>
@@ -78,12 +75,12 @@
     <string name="app_ops_summaries_activate_vpn">aktivovat VPN</string>
     <string name="app_ops_summaries_add_voicemail">přidat hlasovou zprávu</string>
     <string name="app_ops_summaries_app_start_foreground">spustit okamžitou aplikaci v popředí</string>
-    <string name="app_ops_summaries_assist_screenshot">pomoc při snímku obrazovky</string>
+    <string name="app_ops_summaries_assist_screenshot">pomocný snímek obrazovky</string>
     <string name="app_ops_summaries_assist_structure">asistenční struktura</string>
-    <string name="app_ops_summaries_audio_accessibility_volume">přístup k hlasitosti zvuku</string>
+    <string name="app_ops_summaries_audio_accessibility_volume">hlasitost zvuku přístupnosti</string>
     <string name="app_ops_summaries_auto_start">spustit při startu</string>
-    <string name="app_ops_summaries_bind_accessibility_service">navázat na službu dostupnosti</string>
-    <string name="app_ops_summaries_bluetooth_scan">skenování Bluetooth</string>
+    <string name="app_ops_summaries_bind_accessibility_service">navázat na službu přístupnosti</string>
+    <string name="app_ops_summaries_bluetooth_scan">prohledat Bluetooth</string>
     <string name="app_ops_summaries_change_wallpaper">změnit tapetu</string>
     <string name="app_ops_summaries_coarse_location">přibližná poloha</string>
     <string name="app_ops_summaries_delete_call_log">smazat historii hovorů</string>
@@ -97,7 +94,7 @@
     <string name="app_ops_summaries_gps">GPS</string>
     <string name="app_ops_summaries_install_packages">instalovat balíčky</string>
     <string name="app_ops_summaries_keep_device_awake">udržovat zařízení probuzené</string>
-    <string name="app_ops_summaries_make_phone_call">uskutečnit telefonní hovory</string>
+    <string name="app_ops_summaries_make_phone_call">uskutečňovat telefonní hovory</string>
     <string name="app_ops_summaries_manage_ipsec_tunnels">spravovat tunely ipsec</string>
     <string name="app_ops_summaries_mock_location">falšovat polohu</string>
     <string name="app_ops_summaries_modify_calendar">měnit kalendář</string>
@@ -130,16 +127,16 @@
     <string name="app_ops_summaries_request_delete_packages">požádat o smazání balíčků</string>
     <string name="app_ops_summaries_run_any_in_background">spustit cokoliv na pozadí</string>
     <string name="app_ops_summaries_run_in_background">spustit na pozadí</string>
-    <string name="app_ops_summaries_scan_wifi">prohledávat Wi\u2011Fi sítě</string>
+    <string name="app_ops_summaries_scan_wifi">prohledávat sítě Wi-Fi</string>
     <string name="app_ops_summaries_send_mms">zasílat MMS zprávy</string>
     <string name="app_ops_summaries_send_sms">poslat SMS</string>
     <string name="app_ops_summaries_start_at_bootup">spustit při startu</string>
-    <string name="app_ops_summaries_start_foreground">spustit na popředí</string>
+    <string name="app_ops_summaries_start_foreground">spustit v popředí</string>
     <string name="app_ops_summaries_toast_window">zobrazit náhledy</string>
     <string name="app_ops_summaries_toggle_bluetooth">přepínat Bluetooth</string>
     <string name="app_ops_summaries_toggle_mobile_data">přepínat mobilní data</string>
-    <string name="app_ops_summaries_toggle_nfc">přepnout NFC</string>
-    <string name="app_ops_summaries_toggle_wifi">přepnout Wi-Fi</string>
+    <string name="app_ops_summaries_toggle_nfc">přepínat NFC</string>
+    <string name="app_ops_summaries_toggle_wifi">přepínat Wi-Fi</string>
     <string name="app_ops_summaries_turn_on_screen">zapnout obrazovku</string>
     <string name="app_ops_summaries_use_alarm_volume">ovládat hlasitost budíku</string>
     <string name="app_ops_summaries_use_audio_focus">ovládat zvukové zdroje</string>
@@ -147,16 +144,16 @@
     <string name="app_ops_summaries_use_body_sensors">použít tělesné senzory</string>
     <string name="app_ops_summaries_use_fingerprint">použít otisk prstu</string>
     <string name="app_ops_summaries_use_master_volume">ovládat hlavní hlasitost</string>
-    <string name="app_ops_summaries_use_media_buttons">použít mediální tlačítka</string>
+    <string name="app_ops_summaries_use_media_buttons">používat mediální tlačítka</string>
     <string name="app_ops_summaries_use_media_volume">ovládat hlasitost médií</string>
     <string name="app_ops_summaries_use_notification_volume">ovládat hlasitost upozornění</string>
     <string name="app_ops_summaries_use_ring_volume">ovládat hlasitost vyzvánění</string>
-    <string name="app_ops_summaries_use_vibrate">použít hmatovou odezvu</string>
+    <string name="app_ops_summaries_use_vibrate">používat hmatovou odezvu</string>
     <string name="app_ops_summaries_use_voice_volume">ovládat hlasitost hovoru</string>
     <string name="app_ops_summaries_wifi_change">změnit stav připojení WiFi</string>
     <string name="app_ops_summaries_write_external_storage">zapsat na externí úložiště</string>
-    <string name="app_ops_summaries_write_mms">vytvořit MMS zprávu</string>
-    <string name="app_ops_summaries_write_sms">vytvořit SMS</string>
+    <string name="app_ops_summaries_write_mms">vytvořit zprávu MMS</string>
+    <string name="app_ops_summaries_write_sms">psát SMS</string>
     <!-- User display names for app ops codes - extension of AOSP -->
     <string name="app_ops_labels_accept_handover">Předání hovoru z jiné aplikace</string>
     <string name="app_ops_labels_access_camera">Přístup k fotoaparátu</string>
@@ -164,12 +161,12 @@
     <string name="app_ops_labels_activate_vpn">Aktivovat VPN</string>
     <string name="app_ops_labels_add_voicemail">Přidat hlasovou zprávu</string>
     <string name="app_ops_labels_app_start_foreground">Spustit okamžitou aplikaci v popředí</string>
-    <string name="app_ops_labels_assist_screenshot">Pomoc při snímku obrazovky</string>
+    <string name="app_ops_labels_assist_screenshot">Pomocný snímek obrazovky</string>
     <string name="app_ops_labels_assist_structure">Asistenční struktura</string>
-    <string name="app_ops_labels_audio_accessibility_volume">Přístup k hlasitosti zvuku</string>
+    <string name="app_ops_labels_audio_accessibility_volume">Hlasitost zvuku přístupnosti</string>
     <string name="app_ops_labels_auto_start">Spustit při startu</string>
-    <string name="app_ops_labels_bind_accessibility_service">Navázat na službu dostupnosti</string>
-    <string name="app_ops_labels_bluetooth_scan">Skenování Bluetooth</string>
+    <string name="app_ops_labels_bind_accessibility_service">Navázat na službu přístupnosti</string>
+    <string name="app_ops_labels_bluetooth_scan">Prohledat Bluetooth</string>
     <string name="app_ops_labels_change_wallpaper">Změnit tapetu</string>
     <string name="app_ops_labels_coarse_location">Přibližná poloha</string>
     <string name="app_ops_labels_delete_call_log">Smazat historii hovorů</string>
@@ -183,7 +180,7 @@
     <string name="app_ops_labels_gps">GPS</string>
     <string name="app_ops_labels_install_packages">Instalovat balíčky</string>
     <string name="app_ops_labels_keep_device_awake">Udržovat zařízení probuzené</string>
-    <string name="app_ops_labels_make_phone_call">Uskutečnit telefonní hovory</string>
+    <string name="app_ops_labels_make_phone_call">Uskutečňovat telefonní hovory</string>
     <string name="app_ops_labels_manage_ipsec_tunnels">Spravovat tunely ipsec</string>
     <string name="app_ops_labels_mock_location">Falšovat polohu</string>
     <string name="app_ops_labels_modify_calendar">Měnit kalendář</string>
@@ -201,7 +198,7 @@
     <string name="app_ops_labels_post_notification">Posílat upozornění</string>
     <string name="app_ops_labels_project_media">Promítat média</string>
     <string name="app_ops_labels_read_calendar">Číst kalendář</string>
-    <string name="app_ops_labels_read_call_log">Číst seznam hovorů</string>
+    <string name="app_ops_labels_read_call_log">Číst historii hovorů</string>
     <string name="app_ops_labels_read_cell_broadcasts">Číst vysílání buněk</string>
     <string name="app_ops_labels_read_clipboard">Číst schránku</string>
     <string name="app_ops_labels_read_contacts">Číst kontakty</string>
@@ -216,16 +213,16 @@
     <string name="app_ops_labels_request_delete_packages">Požádat o smazání balíčků</string>
     <string name="app_ops_labels_run_any_in_background">Spustit cokoliv na pozadí</string>
     <string name="app_ops_labels_run_in_background">Spustit na pozadí</string>
-    <string name="app_ops_labels_scan_wifi">Prohledávat Wi-Fi sítě</string>
+    <string name="app_ops_labels_scan_wifi">Prohledávat sítě Wi-Fi</string>
     <string name="app_ops_labels_send_mms">Zasílat MMS zprávy</string>
     <string name="app_ops_labels_send_sms">Poslat SMS</string>
     <string name="app_ops_labels_start_at_bootup">Spustit při startu</string>
-    <string name="app_ops_labels_start_foreground">Spustit na popředí</string>
+    <string name="app_ops_labels_start_foreground">Spustit v popředí</string>
     <string name="app_ops_labels_toast_window">Zobrazit náhledy</string>
     <string name="app_ops_labels_toggle_bluetooth">Přepínat Bluetooth</string>
     <string name="app_ops_labels_toggle_mobile_data">Přepínat mobilní data</string>
-    <string name="app_ops_labels_toggle_nfc">Přepnout NFC</string>
-    <string name="app_ops_labels_toggle_wifi">Přepnout Wi-Fi</string>
+    <string name="app_ops_labels_toggle_nfc">Přepínat NFC</string>
+    <string name="app_ops_labels_toggle_wifi">Přepínat Wi-Fi</string>
     <string name="app_ops_labels_turn_on_screen">Zapnout obrazovku</string>
     <string name="app_ops_labels_use_alarm_volume">Ovládat hlasitost budíku</string>
     <string name="app_ops_labels_use_audio_focus">Ovládat zvukové zdroje</string>
@@ -233,26 +230,26 @@
     <string name="app_ops_labels_use_body_sensors">Použít tělesné senzory</string>
     <string name="app_ops_labels_use_fingerprint">Použít otisk prstu</string>
     <string name="app_ops_labels_use_master_volume">Ovládat hlavní hlasitost</string>
-    <string name="app_ops_labels_use_media_buttons">Použít mediální tlačítka</string>
+    <string name="app_ops_labels_use_media_buttons">Používat mediální tlačítka</string>
     <string name="app_ops_labels_use_media_volume">Ovládat hlasitost médií</string>
     <string name="app_ops_labels_use_notification_volume">Ovládat hlasitost upozornění</string>
     <string name="app_ops_labels_use_ring_volume">Ovládat hlasitost vyzvánění</string>
-    <string name="app_ops_labels_use_vibrate">Použít hmatovou odezvu</string>
+    <string name="app_ops_labels_use_vibrate">Používat hmatovou odezvu</string>
     <string name="app_ops_labels_use_voice_volume">Ovládat hlasitost hovoru</string>
     <string name="app_ops_labels_wifi_change">Změnit stav připojení WiFi</string>
     <string name="app_ops_labels_write_external_storage">Zapsat na externí úložiště</string>
-    <string name="app_ops_labels_write_mms">Vytvořit MMS zprávu</string>
-    <string name="app_ops_labels_write_sms">Vytvořit SMS</string>
+    <string name="app_ops_labels_write_mms">Vytvořit zprávu MMS</string>
+    <string name="app_ops_labels_write_sms">Psát SMS</string>
     <!-- Advanced night mode brightness -->
     <string name="night_brightness_category">Jas</string>
     <string name="night_brightness_value_title">Nižší jas při nočním světle</string>
-    <string name="night_bright_disabled">Zakázáno</string>
+    <string name="night_bright_disabled">Vypnuto</string>
     <string name="night_bright_minimum">Minimální jas</string>
     <string name="night_bright_low">Nízký jas</string>
     <string name="night_bright_medium">Střední jas</string>
     <!-- Display : Rotation -->
-    <string name="display_rotation_title">Otáčení</string>
-    <string name="display_rotation_disabled">Zakázáno</string>
+    <string name="display_rotation_title">Rotace</string>
+    <string name="display_rotation_disabled">Vypnuto</string>
     <string name="display_rotation_unit">stupně</string>
     <string name="display_rotation_category_title">Režim otáčení</string>
     <string name="display_rotation_0_title">0°</string>
@@ -270,15 +267,15 @@
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
     <!-- Android debugging -->
-    <string name="adb_enable">Ladění USB</string>
-    <string name="adb_enable_summary">Povolit rozhraní Android Debug Bridge (adb)</string>
+    <string name="adb_enable">Ladění systému Android</string>
+    <string name="adb_enable_summary">Povolit rozhraní Android Debug Bridge (ADB)</string>
     <!-- Android debugging notification -->
     <string name="adb_notify">Oznámení o ladění</string>
-    <string name="adb_notify_summary">Zobrazit oznámení, když je aktivní ladění přes síť nebo USB</string>
+    <string name="adb_notify_summary">Zobrazit oznámení když je aktivní ladění přes síť nebo USB</string>
     <!-- Lockscreen rotation -->
     <string name="lockscreen_rotation_title">Rotace zamčené obrazovky</string>
     <!-- Increasing ring tone volume -->
-    <string name="increasing_ring_volume_option_title">Zvyšující se hlasitost vyzvánění</string>
+    <string name="increasing_ring_volume_option_title">Narůstající hlasitost vyzvánění</string>
     <string name="increasing_ring_min_volume_title">Počáteční hlasitost</string>
     <string name="increasing_ring_ramp_up_time_title">Doba zesilování</string>
     <!-- Battery stats reset -->
@@ -304,15 +301,7 @@
     <string name="less_notification_sounds_2m">Každé 2 minuty</string>
     <string name="less_notification_sounds_5m">Každých 5 minut</string>
     <!-- Hostname setting -->
-    <string name="device_hostname">Název hostitelského zařízení</string>
-    <!-- SystemUI theme -->
-    <string name="systemui_theme_style_title">Motiv SystemUI</string>
-    <string name="systemui_theme_style_auto">Automaticky (podle tapety)</string>
-    <string name="systemui_theme_style_light">Světlý</string>
-    <string name="systemui_theme_style_dark">Tmavý</string>
-    <string name="system_theme_style_black">Černý</string>
-    <string name="applying_theme_toast">Aplikuji motiv, čekejte prosím...</string>
-    <string name="theme_applied_toast">Motiv použit!</string>
+    <string name="device_hostname">Jméno hostitelského zařízení</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Zvolit velikost vzoru</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -326,66 +315,47 @@
     <string name="background_processes_settings_title">Procesy na pozadí</string>
     <!-- MSIM Manual provisioning -->
     <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> je <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
-    <string name="sim_enabled">povoleno</string>
-    <string name="sim_disabled">zakázáno</string>
+    <string name="sim_enabled">povolena</string>
+    <string name="sim_disabled">zakázána</string>
     <string name="sim_missing">chybějící nebo vadná</string>
     <string name="sim_enabler_need_disable_sim">SIM karta bude deaktivována. Přejete si pokračovat?</string>
     <string name="sim_enabler_will_disable_sim_title">Upozornění</string>
-    <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude zakázána a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
-    <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován mód letadlo.</string>
-    <string name="sim_enabler_in_call">Nelze provést tuto akci při hovoru.</string>
-    <string name="sim_enabler_both_inactive">Nelze zakázat všechny SIM karty</string>
+    <string name="sim_enabler_need_switch_data_service">Tato SIM karta bude odpojena a SIM <xliff:g id="slotid">%1$s</xliff:g> bude použita pro datové služby. Jste si jisti, že chcete pokračovat?</string>
+    <string name="sim_enabler_airplane_on">Nelze provést akci, když je aktivován režim letadlo.</string>
+    <string name="sim_enabler_in_call">Tuto akci nelze provést během hovoru.</string>
+    <string name="sim_enabler_both_inactive">Nelze deaktivovat všechny karty SIM</string>
     <string name="sim_enabler_enabling">Aktivování\u2026</string>
     <string name="sim_enabler_disabling">Deaktivování\u2026</string>
     <string name="sub_activate_success">SIM karta aktivována.</string>
     <string name="sub_activate_failed">Aktivace selhala.</string>
     <string name="sub_deactivate_success">SIM karta deaktivována.</string>
-    <string name="sub_deactivate_failed">Deaktivace se nezdařila.</string>
+    <string name="sub_deactivate_failed">Deaktivace selhala.</string>
     <string name="available_sims_title">Dostupné SIM karty</string>
     <!-- Density category -->
     <string name="density_category">Možnosti hustoty zobrazení</string>
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Zvuky tlačítka hlasitosti</string>
-    <!-- Ambient Play -->
-    <string name="ambient_play_summary">Zobrazit skladby v okolí</string>
-    <string name="ambient_play_lockscreen_title">Zobrazovat na zamčené obrazovce</string>
-    <string name="ambient_play_lockscreen_summary">Zobrazit animaci na zamykací obrazovce, když je zjištěna skladba</string>
-    <string name="ambient_play_notifications_title">Zobrazit oznámení</string>
-    <string name="ambient_play_notifications_summary">Zobrazit oznámení na zamykací obrazovce, když je zjištěna skladba</string>
-    <string name="ambient_play_switch_bar_on">Zap.</string>
-    <string name="ambient_play_switch_bar_off">Vyp.</string>
-    <string name="ambient_play_help_text">Když v okolí bude hrát hudba, zobrazí se vám název skladby a interpret. Životnost baterie a využití dat mohou být ovlivněny, pokud je tato funkce povolena.</string>
-    <string name="ambient_play_history">Historie přehrávání</string>
-    <string name="ambient_play_loading_data">Načítání dat…</string>
-    <string name="ambient_play_history_today">Dnes</string>
-    <string name="ambient_play_history_yesterday">Včera</string>
-    <string name="ambient_play_history_dialog_play">Přehrát nyní</string>
-    <string name="ambient_play_history_dialog_search">Hledat na webu</string>
-    <string name="ambient_play_history_dialog_remove">Odstranit</string>
-    <string name="ambient_play_history_empty">Historie hudby je prázdná</string>
-    <string name="ambient_play_history_menu_remove_all">Odstranit vše</string>
-    <string name="ambient_play_history_menu_add_to_home">Přidat na domovskou obrazovku</string>
-    <string name="ambient_play_history_dialog_remove_all_confirmation">Jste si jisti?</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Zabránit nechtěnému probuzení</string>
     <string name="proximity_wake_summary">Kontrolovat senzor přiblížení pro zabránění nechtěného probuzení</string>
     <string name="system_update_settings_summary">Zkontrolovat aktualizace Havoc-OS</string>
+    <string name="full_gesture_mode_title">Povolit režim navigace výhradně pomocí gest</string>
+    <string name="full_gesture_mode_summary">Tento režim vypne také tlačítko Zpět a tuto akci tlačítka Zpět spustíte pomocí přejetí vlevo přes navigační panel. Pravé přejetí přepíná poslední aplikace a levé přejetí aplikace přesouvá. Chcete-li se vrátit na plochu, klepněte na libovolný prázdný prostor navigačního panelu, nikoli pouze na tlačítko Domů. Když se zobrazí klávesnice, dlouhým stisknutím navigačního panelu přesuňte textový kurzor.</string>
+    <string name="full_gesture_mode_dt2s_title">Povolit uspání dvojím poklepáním</string>
+    <string name="full_gesture_mode_dt2s_summary">Poklepáním na prázdný prostor navigačního panelu, mimo tlačítka Domů, vypnete obrazovku.</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Mobilní data</string>
     <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
     <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
     <!-- Selinux -->
-    <string name="selinux_status">Stav zabezpečení SELinux</string>
-    <string name="selinux_status_disabled">Zakázáno</string>
-    <string name="selinux_status_permissive">Mírné</string>
-    <string name="selinux_status_enforcing">Vynucené</string>
+    <string name="selinux_status">Stav SELinux</string>
+    <string name="selinux_status_disabled">Vypnuto</string>
+    <string name="selinux_status_permissive">Mírný</string>
+    <string name="selinux_status_enforcing">Vynucený</string>
     <!-- Fingerprint swipe sideways -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Přejeďte pře snímač otisků prstů pro odmítnutí oznámení</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Přejeďte přes snímač otisků prstů pro odmítnutí oznámení</string>
     <string name="fp_swipe_to_dismiss_notifications_summary">Chcete-li zrušit oznámení, přejeďte prstem vlevo nebo vpravo pře snímač otisků prstů.</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">Tmavý režim spořiče baterie</string>
-    <string name="battery_saver_night_mode_summary">SystemUI se přepne na tmavý motiv při zapnutí spořiče baterie.</string>
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">Odemknout přímo</string>
     <string name="directly_show_lock_summary">Přeskočit odemčení obrazovky přejetím a okamžitě spustit zadávání</string>
@@ -399,14 +369,74 @@
     <string name="battery_status">Stav</string>
     <string name="battery_voltage">Napětí</string>
     <string name="battery_health">Zdraví</string>
-    <string name="font_picker_title">Manager fontů</string>
+    <string name="font_picker_title">Správce písem</string>
     <string name="disable_fonts_installed_title">Výběr písma není k dispozici, aby se předešlo konfliktům se Substratum. Pokud chcete použít výběr písma, odinstalujte Substratum.</string>
     <string name="font_picker_progress">Aplikuji nové písmo\u2026</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Povolit varování úrovně nabití baterie</string>
+    <string name="notification_sound_battery_charge_title">Varování úrovně nabití baterie</string>
+    <string name="notification_sound_battery_charge_summary">Přehrát zvuk, když baterie dosáhne úrovně nabití</string>
     <string name="notification_battery_charge_level_title">Varování úrovně nabití baterie</string>
-    <string name="notification_battery_charge_level_summary">Přehrát zvuk, když baterie při nabíjení dosáhne stanovené úrovně</string>
+    <string name="notification_battery_charge_level_summary">Povolit přehrávání zvuku, když baterie dosáhne stanovené úrovně při nabíjení</string>
     <string name="notification_battery_charge_level_seek_bar">Úroveň baterie</string>
     <string name="notification_battery_charge_level_ringtone">Vyzváněcí tón</string>
     <string name="notification_battery_charge_level_silent">Tichý</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Spojit hlasitost vyzvánění &amp; oznámení</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Vyhledejte snímač otisku prstů <xliff:g id="sensor_location">%1$s</xliff:g> na telefonu.</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">vzadu</string>
+    <string name="security_settings_fingerprint_sensor_location_front">vpředu</string>
+    <string name="security_settings_fingerprint_sensor_location_left">ne levé straně</string>
+    <string name="security_settings_fingerprint_sensor_location_right">na pravé straně</string>
+    <!-- Havoc-OS info -->
+    <string name="havoc_title">Havoc</string>
+    <string name="havoc_info">Verze Havoc</string>
+    <string name="havoc_maintainer">Správce</string>
+    <string name="havoc_date">Datum sestavení</string>
+    <string name="havoc_type">Typ sestavení</string>
+    <string name="havoc_device">Zařízení</string>
+    <string name="havoc_version">Verzi</string>
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">Blokovat události dotyků gest</string>
+    <string name="edge_gesture_service_summary">Neodesílat aplikacím dotyková gesta pro navigaci a gesta stavové lišty</string>
+    <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">Jantarová</string>
+    <string name="color_Carbon_700">Černá</string>
+    <string name="color_Blue_700">Modrá</string>
+    <string name="color_Light_Blue_700">Světle modrá</string>
+    <string name="color_Brown_700">Hnědá</string>
+    <string name="color_Cyan_700">Tyrkysová</string>
+    <string name="color_Green_700">Zelená</string>
+    <string name="color_Light_Green_700">Světle zelená</string>
+    <string name="color_Grey_700">Šedá</string>
+    <string name="color_Blue_Grey_700">Modro šedá</string>
+    <string name="color_Indigo_700">Tmavě modrá</string>
+    <string name="color_Lime_700">Limetková</string>
+    <string name="color_Orange_700">Oranžová</string>
+    <string name="color_Deep_Orange_700">Tmavě oranžová</string>
+    <string name="color_Pink_700">Růžová</string>
+    <string name="color_Purple_700">Fialová</string>
+    <string name="color_Deep_Purple_700">Tmavě fialová</string>
+    <string name="color_Vermilion_700">Červená</string>
+    <string name="color_Teal_700">Šedozelená</string>
+    <string name="color_Yellow_700">Žlutá</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">Profil optimalizace</string>
+    <string name="thermal_control_per_app_default">Nic</string>
+    <string name="thermal_control_per_app_benchmark">Výkon</string>
+    <string name="thermal_control_per_app_games">Hry</string>
+    <string name="thermal_control_per_app_browser">Prohlížeč</string>
+    <string name="thermal_control_per_app_video_playback">Přehrávání videa</string>
+    <string name="thermal_control_per_app_dialer">Číselník</string>
+    <string name="thermal_control_per_app_camera">Fotoaparát</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Probudit tlačítkem Domů</string>
+    <string name="home_wake_button_summary">Povolit tlačítko Domů pro probuzení obrazovky</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">Zapnout svítilnu</string>
+    <string name="double_tap_power_flashlight_title">Zapnout svítilnu tlačítkem napájení při vypnuté obrazovce</string>
+    <string name="torch_power_button_gesture_none">Vypnuto</string>
+    <string name="torch_power_button_gesture_dt">Dvojím klepnutím tlačítka napájení přepínat svítilnu</string>
+    <string name="torch_power_button_gesture_lp">Dlouhým stisknutím tlačítka napájení přepínat svítilnu</string>
 </resources>

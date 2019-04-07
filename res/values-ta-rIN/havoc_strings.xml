@@ -396,7 +396,7 @@
     <string name="havoc_date">Build date</string>
     <string name="havoc_type">Build type</string>
     <string name="havoc_device">Device</string>
-    <string name="havoc_version">Version</string>
+    <string name="havoc_version">பதிப்பு</string>
     <!-- EdgeGesture service -->
     <string name="edge_gesture_service_title">Block gesture touch events</string>
     <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
@@ -423,13 +423,13 @@
     <string name="color_Yellow_700">Yellow</string>
     <!-- Thermal control per app -->
     <string name="thermal_control_per_app">Optimization profile</string>
-    <string name="thermal_control_per_app_default">Egyik sem</string>
+    <string name="thermal_control_per_app_default">யாரும்/எதுவும் இல்லை</string>
     <string name="thermal_control_per_app_benchmark">Performance</string>
     <string name="thermal_control_per_app_games">Games</string>
     <string name="thermal_control_per_app_browser">Browser</string>
     <string name="thermal_control_per_app_video_playback">Video playback</string>
     <string name="thermal_control_per_app_dialer">Dialer</string>
-    <string name="thermal_control_per_app_camera">Kamera</string>
+    <string name="thermal_control_per_app_camera">புகைப்படக் கருவி</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Home button wake-up</string>
     <string name="home_wake_button_summary">Enable home button to waking up screen</string>

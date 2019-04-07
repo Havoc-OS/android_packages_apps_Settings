@@ -16,12 +16,9 @@
     <!-- Havoc Settings -->
     <string name="havoc_settings_title">Havoc 设置</string>
     <string name="havoc_settings_summary">造成一些破坏...</string>
-    <!-- Havoc-OS version -->
-    <string name="havoc_version">ROM 版本</string>
-    <string name="havoc_version_default">未知</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">打乱布局</string>
-    <string name="unlock_scramble_pin_layout_summary">解锁设备时使用乱序 PIN 布局</string>
+    <string name="unlock_scramble_pin_layout_title">乱序布局</string>
+    <string name="unlock_scramble_pin_layout_summary">当解锁设备时使用乱序 PIN 布局</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">快速解锁</string>
     <string name="unlock_quick_unlock_control_summary">当输入正确的 PIN 码或密码后自动解锁</string>
@@ -29,74 +26,74 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Privacy Guard -->
     <string name="loading">加载中\u2026</string>
-    <string name="privacy_guard_manager_title">隐私防护</string>
+    <string name="privacy_guard_manager_title">隐私保护</string>
     <string name="privacy_guard_switch_label">启用隐私防护</string>
-    <string name="privacy_guard_dlg_title">是否启用隐私防护？</string>
-    <string name="privacy_guard_dlg_text">启用隐私防护后，应用将无法访问联系人、短信或通话记录等个人数据。</string>
-    <string name="privacy_guard_dlg_system_app_text">当对内置应用启用隐私防护后，该应用将不能访问个人隐私数据。这可能导致其他应用不能正常工作。</string>
+    <string name="privacy_guard_dlg_title">是否启用隐私保护？</string>
+    <string name="privacy_guard_dlg_text">启用隐私防护后，应用将无法访问个人隐私数据，例如：联系人、短信或通话记录。</string>
+    <string name="privacy_guard_dlg_system_app_text">当对内置的应用启用隐私防护后，应用将不能访问个人隐私数据。这可能导致其他应用的不正常工作。</string>
     <string name="privacy_guard_default_title">默认启用隐私防护</string>
     <string name="privacy_guard_manager_summary">管理哪些应用可以访问您的个人资料</string>
     <string name="privacy_guard_no_user_apps">尚未安装任何应用</string>
     <string name="privacy_guard_help_title">帮助</string>
     <string name="privacy_guard_reset_title">重置</string>
-    <string name="privacy_guard_reset_text">确定重置权限？</string>
+    <string name="privacy_guard_reset_text">是否重置权限？</string>
     <string name="privacy_guard_help_text">在这个页面上，您可以简单地通过点击来选择在哪些应用上启用隐私防护。选中的应用将无法访问个人数据，例如：联系人、短信或通话记录。长按一个应用的条目打开应用详细页面。\n\n默认不显示内置应用，在菜单中选择相应选项可以显示它们。</string>
     <string name="privacy_guard_manager_show_system_apps">显示内置应用</string>
-    <string name="privacy_guard_advanced_settings_title">高级设置</string>
+    <string name="privacy_guard_advanced_settings_title">高级</string>
     <string name="privacy_guard_notification_title">显示通知</string>
     <!-- App ops permissions -->
-    <string name="app_ops_permissions_allowed">已允许</string>
-    <string name="app_ops_permissions_ignored">已忽略</string>
+    <string name="app_ops_permissions_allowed">允许</string>
+    <string name="app_ops_permissions_ignored">拒绝</string>
     <string name="app_ops_permissions_always_ask">总是询问</string>
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (想要 <xliff:g id="count">%2$s</xliff:g>)</string>
     <string name="app_ops_allowed_count">允许 <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_ignored_count">拒绝 <xliff:g id="count" example="2 times">%s</xliff:g></string>
     <string name="app_ops_both_count">允许 <xliff:g id="count">%1$s</xliff:g>，拒绝 <xliff:g id="count">%2$s</xliff:g></string>
-    <string name="app_ops_no_blockable_permissions">没有权限拒绝</string>
+    <string name="app_ops_no_blockable_permissions">没有权限可用于拒绝</string>
     <!-- App ops menu options -->
     <string name="app_ops_show_user_apps">显示用户应用</string>
     <string name="app_ops_show_system_apps">显示内置应用</string>
     <string name="app_ops_reset_counters">重置允许 / 拒绝计数器</string>
     <string name="app_ops_reset_confirm_title">确认重置计数器</string>
-    <string name="app_ops_reset_confirm_mesg">您确定要重置计数器？</string>
+    <string name="app_ops_reset_confirm_mesg">您确定要重置计数器吗？</string>
     <!-- Memory -->
     <string name="memory_startup_apps_title">开机时启动的应用</string>
     <!-- Names of categories of app ops tabs - extension of AOSP -->
-    <string name="app_ops_categories_location">所在位置</string>
-    <string name="app_ops_categories_personal">个人</string>
+    <string name="app_ops_categories_location">地理位置</string>
+    <string name="app_ops_categories_personal">个人资料</string>
     <string name="app_ops_categories_messaging">消息</string>
     <string name="app_ops_categories_media">媒体</string>
     <string name="app_ops_categories_device">设备</string>
     <string name="app_ops_categories_run_in_background">后台运行</string>
-    <string name="app_ops_categories_bootup">启动</string>
+    <string name="app_ops_categories_bootup">自启动</string>
     <string name="app_ops_categories_other">其它</string>
     <!-- User display names for app ops codes - extension of AOSP -->
     <string name="app_ops_summaries_accept_handover">接管来自其他应用的通话</string>
-    <string name="app_ops_summaries_access_camera">读取摄像头</string>
-    <string name="app_ops_summaries_access_notifications">读取通知</string>
+    <string name="app_ops_summaries_access_camera">访问相机</string>
+    <string name="app_ops_summaries_access_notifications">访问通知</string>
     <string name="app_ops_summaries_activate_vpn">启用 VPN</string>
     <string name="app_ops_summaries_add_voicemail">添加语音邮件</string>
-    <string name="app_ops_summaries_app_start_foreground">即时在前台启动应用</string>
+    <string name="app_ops_summaries_app_start_foreground">在前台启动即时应用</string>
     <string name="app_ops_summaries_assist_screenshot">辅助截屏</string>
-    <string name="app_ops_summaries_assist_structure">辅助结构</string>
-    <string name="app_ops_summaries_audio_accessibility_volume">音频辅助功能音量</string>
+    <string name="app_ops_summaries_assist_structure">辅助功能</string>
+    <string name="app_ops_summaries_audio_accessibility_volume">更改音频音量</string>
     <string name="app_ops_summaries_auto_start">开机自启动</string>
-    <string name="app_ops_summaries_bind_accessibility_service">绑定至辅助服务</string>
+    <string name="app_ops_summaries_bind_accessibility_service">激活无障碍服务</string>
     <string name="app_ops_summaries_bluetooth_scan">蓝牙扫描</string>
     <string name="app_ops_summaries_change_wallpaper">更改壁纸</string>
-    <string name="app_ops_summaries_coarse_location">允许使用基站的粗略位置</string>
+    <string name="app_ops_summaries_coarse_location">允许使用基于基站的粗略位置</string>
     <string name="app_ops_summaries_delete_call_log">删除您的通话记录</string>
     <string name="app_ops_summaries_delete_contacts">删除您的联系人</string>
-    <string name="app_ops_summaries_delete_mms">删除您的彩信</string>
-    <string name="app_ops_summaries_delete_sms">删除您的短信</string>
+    <string name="app_ops_summaries_delete_mms">删除您的彩信消息</string>
+    <string name="app_ops_summaries_delete_sms">删除您的短信消息</string>
     <string name="app_ops_summaries_draw_on_top">在最前端显示</string>
     <string name="app_ops_summaries_fine_location">精确位置</string>
     <string name="app_ops_summaries_get_accounts">获取账户</string>
-    <string name="app_ops_summaries_get_usage_stats">获取应用程序使用情况统计</string>
+    <string name="app_ops_summaries_get_usage_stats">获取应用使用情况统计信息</string>
     <string name="app_ops_summaries_gps">GPS</string>
     <string name="app_ops_summaries_install_packages">安装软件包</string>
-    <string name="app_ops_summaries_keep_device_awake">让您的设备保持唤醒</string>
+    <string name="app_ops_summaries_keep_device_awake">保持设备唤醒</string>
     <string name="app_ops_summaries_make_phone_call">拨打电话</string>
     <string name="app_ops_summaries_manage_ipsec_tunnels">管理 IPsec 通道</string>
     <string name="app_ops_summaries_mock_location">模拟位置</string>
@@ -106,13 +103,13 @@
     <string name="app_ops_summaries_modify_contacts">修改联系人</string>
     <string name="app_ops_summaries_modify_settings">修改设置</string>
     <string name="app_ops_summaries_monitor_high_power_location">允许应用使用高精确度模式监控位置数据</string>
-    <string name="app_ops_summaries_monitor_location">监控位置</string>
-    <string name="app_ops_summaries_mute_unmute_microphone">静音 / 取消麦克风静音</string>
+    <string name="app_ops_summaries_monitor_location">允许应用监控位置数据</string>
+    <string name="app_ops_summaries_mute_unmute_microphone">静音 / 取消静音麦克风</string>
     <string name="app_ops_summaries_neighboring_cells">近距离通信</string>
     <string name="app_ops_summaries_phone_calls">接听电话</string>
     <string name="app_ops_summaries_picture_in_picture">使用画中画</string>
     <string name="app_ops_summaries_play_audio">播放音频</string>
-    <string name="app_ops_summaries_post_notification">显示通知</string>
+    <string name="app_ops_summaries_post_notification">推送通知</string>
     <string name="app_ops_summaries_project_media">投影媒体</string>
     <string name="app_ops_summaries_read_calendar">读取日历</string>
     <string name="app_ops_summaries_read_call_log">读取通话记录</string>
@@ -128,25 +125,25 @@
     <string name="app_ops_summaries_receive_sms">接收短信</string>
     <string name="app_ops_summaries_record_audio">录制音频</string>
     <string name="app_ops_summaries_request_delete_packages">请求删除软件包</string>
-    <string name="app_ops_summaries_run_any_in_background">后台运行</string>
-    <string name="app_ops_summaries_run_in_background">在后台运行</string>
+    <string name="app_ops_summaries_run_any_in_background">后台持续运行</string>
+    <string name="app_ops_summaries_run_in_background">后台运行</string>
     <string name="app_ops_summaries_scan_wifi">扫描 Wi-Fi 网络</string>
     <string name="app_ops_summaries_send_mms">发送彩信</string>
     <string name="app_ops_summaries_send_sms">发送短信</string>
     <string name="app_ops_summaries_start_at_bootup">开机自启动</string>
     <string name="app_ops_summaries_start_foreground">前台启动</string>
     <string name="app_ops_summaries_toast_window">显示提示信息</string>
-    <string name="app_ops_summaries_toggle_bluetooth">切换蓝牙</string>
-    <string name="app_ops_summaries_toggle_mobile_data">切换移动数据</string>
-    <string name="app_ops_summaries_toggle_nfc">切换 NFC</string>
-    <string name="app_ops_summaries_toggle_wifi">切换 Wi-Fi</string>
+    <string name="app_ops_summaries_toggle_bluetooth">开启 / 关闭蓝牙</string>
+    <string name="app_ops_summaries_toggle_mobile_data">开启 / 关闭移动数据</string>
+    <string name="app_ops_summaries_toggle_nfc">开启 / 关闭NFC</string>
+    <string name="app_ops_summaries_toggle_wifi">开启 / 关闭Wi-Fi</string>
     <string name="app_ops_summaries_turn_on_screen">点亮屏幕</string>
-    <string name="app_ops_summaries_use_alarm_volume">控制闹铃音量</string>
+    <string name="app_ops_summaries_use_alarm_volume">控制闹钟音量</string>
     <string name="app_ops_summaries_use_audio_focus">控制音频焦点</string>
-    <string name="app_ops_summaries_use_bluetooth_volume">控制蓝牙音量</string>
+    <string name="app_ops_summaries_use_bluetooth_volume">控制蓝牙设备音量</string>
     <string name="app_ops_summaries_use_body_sensors">使用人体传感器</string>
     <string name="app_ops_summaries_use_fingerprint">使用指纹</string>
-    <string name="app_ops_summaries_use_master_volume">控制主音量</string>
+    <string name="app_ops_summaries_use_master_volume">控制主要音量</string>
     <string name="app_ops_summaries_use_media_buttons">使用媒体按钮</string>
     <string name="app_ops_summaries_use_media_volume">控制媒体音量</string>
     <string name="app_ops_summaries_use_notification_volume">控制通知音量</string>
@@ -155,7 +152,7 @@
     <string name="app_ops_summaries_use_voice_volume">控制语音通话音量</string>
     <string name="app_ops_summaries_wifi_change">更改 Wi-Fi 状态</string>
     <string name="app_ops_summaries_write_external_storage">写入外部存储</string>
-    <string name="app_ops_summaries_write_mms">编写彩信</string>
+    <string name="app_ops_summaries_write_mms">编写彩信消息</string>
     <string name="app_ops_summaries_write_sms">编写短信</string>
     <!-- User display names for app ops codes - extension of AOSP -->
     <string name="app_ops_labels_accept_handover">接管来自其他应用的通话</string>
@@ -165,24 +162,24 @@
     <string name="app_ops_labels_add_voicemail">添加语音邮件</string>
     <string name="app_ops_labels_app_start_foreground">即时在前台启动应用</string>
     <string name="app_ops_labels_assist_screenshot">辅助截屏</string>
-    <string name="app_ops_labels_assist_structure">辅助结构</string>
+    <string name="app_ops_labels_assist_structure">协助工具</string>
     <string name="app_ops_labels_audio_accessibility_volume">音频辅助功能音量</string>
     <string name="app_ops_labels_auto_start">开机自启动</string>
-    <string name="app_ops_labels_bind_accessibility_service">绑定至辅助服务</string>
+    <string name="app_ops_labels_bind_accessibility_service">激活无障碍服务</string>
     <string name="app_ops_labels_bluetooth_scan">蓝牙扫描</string>
     <string name="app_ops_labels_change_wallpaper">更改壁纸</string>
     <string name="app_ops_labels_coarse_location">允许使用基站的粗略位置</string>
     <string name="app_ops_labels_delete_call_log">删除您的通话记录</string>
     <string name="app_ops_labels_delete_contacts">删除您的联系人</string>
-    <string name="app_ops_labels_delete_mms">删除您的彩信</string>
-    <string name="app_ops_labels_delete_sms">删除您的短信</string>
-    <string name="app_ops_labels_draw_on_top">在最前端显示</string>
+    <string name="app_ops_labels_delete_mms">删除您的彩信消息</string>
+    <string name="app_ops_labels_delete_sms">删除您的短信消息</string>
+    <string name="app_ops_labels_draw_on_top">前端显示</string>
     <string name="app_ops_labels_fine_location">精确位置</string>
     <string name="app_ops_labels_get_accounts">获取账户</string>
     <string name="app_ops_labels_get_usage_stats">获取使用情况统计信息</string>
     <string name="app_ops_labels_gps">GPS</string>
     <string name="app_ops_labels_install_packages">安装软件包</string>
-    <string name="app_ops_labels_keep_device_awake">让您的设备保持唤醒</string>
+    <string name="app_ops_labels_keep_device_awake">保持设备唤醒</string>
     <string name="app_ops_labels_make_phone_call">拨打电话</string>
     <string name="app_ops_labels_manage_ipsec_tunnels">管理 IPsec 通道</string>
     <string name="app_ops_labels_mock_location">模拟位置</string>
@@ -193,12 +190,12 @@
     <string name="app_ops_labels_modify_settings">修改设置</string>
     <string name="app_ops_labels_monitor_high_power_location">允许应用使用高精确度模式监控位置数据</string>
     <string name="app_ops_labels_monitor_location">允许应用监控位置数据</string>
-    <string name="app_ops_labels_mute_unmute_microphone">静音/取消麦克风静音</string>
+    <string name="app_ops_labels_mute_unmute_microphone">静音 / 取消静音麦克风</string>
     <string name="app_ops_labels_neighboring_cells">近距离通信</string>
     <string name="app_ops_labels_phone_calls">接听电话</string>
     <string name="app_ops_labels_picture_in_picture">使用画中画</string>
     <string name="app_ops_labels_play_audio">播放音频</string>
-    <string name="app_ops_labels_post_notification">显示通知</string>
+    <string name="app_ops_labels_post_notification">推送通知</string>
     <string name="app_ops_labels_project_media">投影媒体</string>
     <string name="app_ops_labels_read_calendar">读取日历</string>
     <string name="app_ops_labels_read_call_log">读取通话记录</string>
@@ -214,25 +211,25 @@
     <string name="app_ops_labels_receive_sms">接收短信</string>
     <string name="app_ops_labels_record_audio">录制音频</string>
     <string name="app_ops_labels_request_delete_packages">请求删除软件包</string>
-    <string name="app_ops_labels_run_any_in_background">后台运行</string>
-    <string name="app_ops_labels_run_in_background">在后台运行</string>
+    <string name="app_ops_labels_run_any_in_background">后台持续运行</string>
+    <string name="app_ops_labels_run_in_background">后台运行</string>
     <string name="app_ops_labels_scan_wifi">扫描 Wi-Fi 网络</string>
     <string name="app_ops_labels_send_mms">发送彩信</string>
     <string name="app_ops_labels_send_sms">发送短信</string>
     <string name="app_ops_labels_start_at_bootup">开机自启动</string>
     <string name="app_ops_labels_start_foreground">前台启动</string>
     <string name="app_ops_labels_toast_window">显示提示信息</string>
-    <string name="app_ops_labels_toggle_bluetooth">切换蓝牙</string>
-    <string name="app_ops_labels_toggle_mobile_data">切换移动数据</string>
-    <string name="app_ops_labels_toggle_nfc">切换 NFC</string>
-    <string name="app_ops_labels_toggle_wifi">切换 Wi-Fi</string>
+    <string name="app_ops_labels_toggle_bluetooth">开启或关闭蓝牙</string>
+    <string name="app_ops_labels_toggle_mobile_data">开启或关闭移动数据</string>
+    <string name="app_ops_labels_toggle_nfc">开启或关闭NFC</string>
+    <string name="app_ops_labels_toggle_wifi">开启或关闭 Wi-Fi</string>
     <string name="app_ops_labels_turn_on_screen">点亮屏幕</string>
-    <string name="app_ops_labels_use_alarm_volume">控制闹铃音量</string>
+    <string name="app_ops_labels_use_alarm_volume">控制闹钟音量</string>
     <string name="app_ops_labels_use_audio_focus">控制音频焦点</string>
-    <string name="app_ops_labels_use_bluetooth_volume">控制蓝牙音量</string>
+    <string name="app_ops_labels_use_bluetooth_volume">控制蓝牙设备音量</string>
     <string name="app_ops_labels_use_body_sensors">使用人体传感器</string>
     <string name="app_ops_labels_use_fingerprint">使用指纹</string>
-    <string name="app_ops_labels_use_master_volume">控制主音量</string>
+    <string name="app_ops_labels_use_master_volume">控制主要音量</string>
     <string name="app_ops_labels_use_media_buttons">使用媒体按钮</string>
     <string name="app_ops_labels_use_media_volume">控制媒体音量</string>
     <string name="app_ops_labels_use_notification_volume">控制通知音量</string>
@@ -254,21 +251,21 @@
     <string name="display_rotation_title">旋转</string>
     <string name="display_rotation_disabled">已停用</string>
     <string name="display_rotation_unit">度</string>
-    <string name="display_rotation_category_title">屏幕旋转模式</string>
+    <string name="display_rotation_category_title">旋转模式</string>
     <string name="display_rotation_0_title">0 度</string>
     <string name="display_rotation_90_title">90 度</string>
     <string name="display_rotation_180_title">180 度</string>
     <string name="display_rotation_270_title">270 度</string>
     <!-- Custom light color -->
     <string name="custom_light_title">指示灯颜色</string>
-    <string name="custom_light_on_time_title">屏幕开启下LED闪烁间隔时间（毫秒）</string>
-    <string name="custom_light_off_time_title">屏幕关闭下LED闪烁间隔时间（毫秒）</string>
+    <string name="custom_light_on_time_title">屏幕开启时指示灯闪烁间隔时间 (毫秒)</string>
+    <string name="custom_light_off_time_title">屏幕关闭时指示灯闪烁间隔时间 (毫秒)\"</string>
     <string name="value_equals_default">默认</string>
-    <string name="show_light_on_zen_title">在勿扰期间闪烁</string>
+    <string name="show_light_on_zen_title">在请勿打扰期间闪烁</string>
     <!-- Charging vibration -->
     <string name="charging_vibro_title">充电时振动</string>
     <!-- Screenshot sound -->
-    <string name="screenshot_sound_title">截图提示音</string>
+    <string name="screenshot_sound_title">屏幕截图提示音</string>
     <!-- Android debugging -->
     <string name="adb_enable">Android 调试</string>
     <string name="adb_enable_summary">启用 Android Debug Bridge (ADB) 界面</string>
@@ -280,19 +277,19 @@
     <!-- Increasing ring tone volume -->
     <string name="increasing_ring_volume_option_title">铃声音量渐强</string>
     <string name="increasing_ring_min_volume_title">初始音量</string>
-    <string name="increasing_ring_ramp_up_time_title">铃声渐强时长</string>
+    <string name="increasing_ring_ramp_up_time_title">渐强时间</string>
     <!-- Battery stats reset -->
-    <string name="battery_stats_reset">重置统计数据</string>
-    <string name="battery_stats_message">电池的历史统计数据将会被重置</string>
+    <string name="battery_stats_reset">重置统计信息</string>
+    <string name="battery_stats_message">电池的历史记录统计信息将被重置</string>
     <string name="ok_string">确定</string>
     <!-- Android debugging over network -->
     <string name="adb_over_network">网络 ADB 调试</string>
-    <string name="adb_over_network_summary">启用通过 TCP/IP 网络接口 (Wi\u2011Fi，USB 网络) 进行调试的功能。此设置在重新启动后失效</string>
+    <string name="adb_over_network_summary">启用通过 TCP/IP 网络接口 (WiFi，USB 网络) 进行调试的功能。此设置在重新启动时重置</string>
     <string name="adb_over_network_warning">警告：当网络 ADB 调试启用时，您的设备将在所有已连接的网络上接收指令！\n\n请确保在您信任的网络中启用此功能。\n\n您确定启用此功能吗？</string>
-    <string name="adb_over_network_disallowed_error">错误：网络ADB调试只能在连接到Wi\u2011Fi或USB网络时启用！</string>
+    <string name="adb_over_network_disallowed_error">错误：网络 ADB 调试只能在连接到 Wi\u2011Fi 或 USB 网络时启用！</string>
     <!-- Less Notification sounds -->
-    <string name="less_notification_sounds_title">限制通知提示音频率</string>
-    <string name="less_notification_sounds_summary">在设置的时间段内只播放每个应用的通知声音一次</string>
+    <string name="less_notification_sounds_title">降低通知声音频率</string>
+    <string name="less_notification_sounds_summary">在设定的时间段内只播放每个应用的通知声音一次</string>
     <string name="less_notification_sounds_default">默认行为</string>
     <string name="less_notification_sounds_3s">每 3 秒</string>
     <string name="less_notification_sounds_5s">每 5 秒</string>
@@ -305,14 +302,6 @@
     <string name="less_notification_sounds_5m">每 5 分钟</string>
     <!-- Hostname setting -->
     <string name="device_hostname">设备主机名</string>
-    <!-- SystemUI theme -->
-    <string name="systemui_theme_style_title">系统界面主题</string>
-    <string name="systemui_theme_style_auto">自动（基于壁纸）</string>
-    <string name="systemui_theme_style_light">亮色主题</string>
-    <string name="systemui_theme_style_dark">暗色主题</string>
-    <string name="system_theme_style_black">黑色主题</string>
-    <string name="applying_theme_toast">正在应用主题，请稍后…</string>
-    <string name="theme_applied_toast">主题已应用！</string>
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">选择图案大小</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
@@ -320,22 +309,22 @@
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
     <string name="lockpattern_settings_enable_dots_title">显示图案节点</string>
     <!-- Lock screen vibrate settings -->
-    <string name="lockscreen_vibrate_enabled_title">震动</string>
-    <string name="lockscreen_vibrate_enabled_head">解锁时震动</string>
+    <string name="lockscreen_vibrate_enabled_title">振动</string>
+    <string name="lockscreen_vibrate_enabled_head">解锁时振动</string>
     <!-- Running services -->
     <string name="background_processes_settings_title">后台进程</string>
     <!-- MSIM Manual provisioning -->
-    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g> 为 <xliff:g id="status" example="disabled">%2$s</xliff:g></string>
+    <string name="sim_enabler_summary"><xliff:g id="displayName">%1$s</xliff:g>是<xliff:g id="status" example="disabled">%2$s</xliff:g></string>
     <string name="sim_enabled">已启用</string>
     <string name="sim_disabled">已停用</string>
     <string name="sim_missing">缺失或故障</string>
-    <string name="sim_enabler_need_disable_sim">SIM 卡将被停用。确定继续吗？</string>
+    <string name="sim_enabler_need_disable_sim">SIM 卡将被停用。您想要继续吗？</string>
     <string name="sim_enabler_will_disable_sim_title">注意</string>
-    <string name="sim_enabler_need_switch_data_service">此 SIM 卡将被停用，并且 SIM 卡 <xliff:g id="slotid">%1$s</xliff:g> 将被用于数据服务。您确定要继续吗？</string>
-    <string name="sim_enabler_airplane_on">在飞机模式处于启用状态时无法执行该操作。</string>
-    <string name="sim_enabler_in_call">通话期间无法执行该操作。</string>
+    <string name="sim_enabler_need_switch_data_service">此 SIM卡将被停用，SIM 卡 <xliff:g id="slotid">%1$s</xliff:g> 将被用于数据服务。您确定要继续吗？</string>
+    <string name="sim_enabler_airplane_on">在飞行模式开启时无法执行操作。</string>
+    <string name="sim_enabler_in_call">在通话状态下无法完成该操作。</string>
     <string name="sim_enabler_both_inactive">无法停用所有 SIM 卡</string>
-    <string name="sim_enabler_enabling">正在启用\U2026</string>
+    <string name="sim_enabler_enabling">正在启用\u2026</string>
     <string name="sim_enabler_disabling">正在停用\u2026</string>
     <string name="sub_activate_success">SIM 卡已启用。</string>
     <string name="sub_activate_failed">启用失败。</string>
@@ -346,46 +335,27 @@
     <string name="density_category">分辨率选项</string>
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">音量键按键音</string>
-    <!-- Ambient Play -->
-    <string name="ambient_play_summary">显示附近歌曲</string>
-    <string name="ambient_play_lockscreen_title">在锁屏界面上显示</string>
-    <string name="ambient_play_lockscreen_summary">检测到歌曲时，在锁定屏幕上显示动画</string>
-    <string name="ambient_play_notifications_title">显示通知</string>
-    <string name="ambient_play_notifications_summary">检测到歌曲时在状态栏中显示通知</string>
-    <string name="ambient_play_switch_bar_on">开启</string>
-    <string name="ambient_play_switch_bar_off">关闭</string>
-    <string name="ambient_play_help_text">当音乐在附近播放时，你可以看到歌曲的名字和艺术家。如果启用此功能，电池寿命和数据使用可能会受到影响。</string>
-    <string name="ambient_play_history">闻曲知音播放历史</string>
-    <string name="ambient_play_loading_data">正在加载数据...</string>
-    <string name="ambient_play_history_today">今日</string>
-    <string name="ambient_play_history_yesterday">昨日</string>
-    <string name="ambient_play_history_dialog_play">正在播放</string>
-    <string name="ambient_play_history_dialog_search">网络搜索</string>
-    <string name="ambient_play_history_dialog_remove">移除</string>
-    <string name="ambient_play_history_empty">音乐播放记录为空</string>
-    <string name="ambient_play_history_menu_remove_all">清除所有</string>
-    <string name="ambient_play_history_menu_add_to_home">添加到主屏幕</string>
-    <string name="ambient_play_history_dialog_remove_all_confirmation">您确认吗？</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">防止意外唤醒</string>
     <string name="proximity_wake_summary">唤醒屏幕前检查距离传感器</string>
     <string name="system_update_settings_summary">检查 Havoc-OS 更新</string>
+    <string name="full_gesture_mode_title">启用全面屏手势模式</string>
+    <string name="full_gesture_mode_summary">此模式将禁用后退按钮，您可以通过在导航栏上向左滑动触发后退按钮操作。右滑仍会触发切换上一个应用和应用概览。如要使用主页, 你需要点击导航栏上的空白处，而不仅是点击主页按钮。显示键盘时，长按导航栏以移动文本光标。</string>
+    <string name="full_gesture_mode_dt2s_title">启用双击息屏</string>
+    <string name="full_gesture_mode_dt2s_summary">点击导航栏中的空白处而不是主页按钮来关闭屏幕。</string>
     <!-- Per-app data restrictions -->
-    <string name="data_usage_app_restrict_data">移动数据流量</string>
-    <string name="data_usage_app_restrict_data_summary">启用移动网络流量使用统计</string>
+    <string name="data_usage_app_restrict_data">移动数据</string>
+    <string name="data_usage_app_restrict_data_summary">启用移动数据流量使用统计</string>
     <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
-    <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 流量使用统计</string>
+    <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 数据使用统计</string>
     <!-- Selinux -->
     <string name="selinux_status">SELinux 状态</string>
-    <string name="selinux_status_disabled">已停用</string>
+    <string name="selinux_status_disabled">关闭</string>
     <string name="selinux_status_permissive">许可</string>
-    <string name="selinux_status_enforcing">执行</string>
+    <string name="selinux_status_enforcing">执行中</string>
     <!-- Fingerprint swipe sideways -->
-    <string name="fp_swipe_to_dismiss_notifications_title">从指纹按键两侧滑动以清除通知</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，请在手机背面的指纹传感器上向左或向右滑动</string>
-    <!-- Battery saver night mode toggle -->
-    <string name="battery_saver_night_mode_title">省电模式下的夜间模式</string>
-    <string name="battery_saver_night_mode_summary">启用省电模式后，系统主题将切换到深色模式。</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">从指纹按键向两侧滑动以清除通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，请在指纹传感器上向左或向右滑动</string>
     <!-- Whether the keyguard will directly show the lock entry -->
     <string name="directly_show_lock">直接解锁</string>
     <string name="directly_show_lock_summary">跳过滑动解锁屏幕直接以输入密码开始</string>
@@ -398,15 +368,75 @@
     <string name="battery_tech">技术</string>
     <string name="battery_status">状态</string>
     <string name="battery_voltage">电压</string>
-    <string name="battery_health">健康</string>
+    <string name="battery_health">健康度</string>
     <string name="font_picker_title">字体管理</string>
     <string name="disable_fonts_installed_title">字体选择器不可用，以避免和 Substratum 发生冲突。如果您希望使用字体选择器，请卸载 Substratum。</string>
     <string name="font_picker_progress">正在应用新字体\u2026</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">启用电池电量级别警告</string>
+    <string name="notification_sound_battery_charge_title">电池充电警告</string>
+    <string name="notification_sound_battery_charge_summary">电池达到指定充电水平时播放声音</string>
     <string name="notification_battery_charge_level_title">电池充电警告</string>
-    <string name="notification_battery_charge_level_summary">充电时电池达到预定水平时播放声音</string>
+    <string name="notification_battery_charge_level_summary">充电时电量达到指定水平时播放声音</string>
     <string name="notification_battery_charge_level_seek_bar">电量等级</string>
-    <string name="notification_battery_charge_level_ringtone">充满电提示音</string>
+    <string name="notification_battery_charge_level_ringtone">铃声</string>
     <string name="notification_battery_charge_level_silent">静音</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">关联铃声和通知的音量</string>
+    <!-- Format string for fingerprint location message -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">在您的手机 <xliff:g id="sensor_location">%1$s</xliff:g> 找到指纹感应器。</string>
+    <!-- Fingerprint sensor locations -->
+    <string name="security_settings_fingerprint_sensor_location_back">背面</string>
+    <string name="security_settings_fingerprint_sensor_location_front">正面</string>
+    <string name="security_settings_fingerprint_sensor_location_left">左侧</string>
+    <string name="security_settings_fingerprint_sensor_location_right">右侧</string>
+    <!-- Havoc-OS info -->
+    <string name="havoc_title">Havoc</string>
+    <string name="havoc_info">Havoc 版本</string>
+    <string name="havoc_maintainer">维护者</string>
+    <string name="havoc_date">编译日期</string>
+    <string name="havoc_type">构建类型</string>
+    <string name="havoc_device">设备</string>
+    <string name="havoc_version">版本</string>
+    <!-- EdgeGesture service -->
+    <string name="edge_gesture_service_title">阻止手势触摸事件</string>
+    <string name="edge_gesture_service_summary">不向应用发送用于导航和状态栏手势的触摸行为</string>
+    <!-- Titles for sim color for multi-sim -->
+    <string name="color_Amber_700">琥珀色</string>
+    <string name="color_Carbon_700">碳黑色</string>
+    <string name="color_Blue_700">蓝色</string>
+    <string name="color_Light_Blue_700">浅蓝色</string>
+    <string name="color_Brown_700">棕色</string>
+    <string name="color_Cyan_700">青色</string>
+    <string name="color_Green_700">绿色</string>
+    <string name="color_Light_Green_700">淡绿色</string>
+    <string name="color_Grey_700">灰色</string>
+    <string name="color_Blue_Grey_700">蓝灰色</string>
+    <string name="color_Indigo_700">靛青色</string>
+    <string name="color_Lime_700">黄绿色</string>
+    <string name="color_Orange_700">橙色</string>
+    <string name="color_Deep_Orange_700">暗橙色</string>
+    <string name="color_Pink_700">粉红色</string>
+    <string name="color_Purple_700">紫色</string>
+    <string name="color_Deep_Purple_700">深紫色</string>
+    <string name="color_Vermilion_700">红色</string>
+    <string name="color_Teal_700">深青色</string>
+    <string name="color_Yellow_700">黄色</string>
+    <!-- Thermal control per app -->
+    <string name="thermal_control_per_app">优化配置文件</string>
+    <string name="thermal_control_per_app_default">无</string>
+    <string name="thermal_control_per_app_benchmark">性能</string>
+    <string name="thermal_control_per_app_games">游戏</string>
+    <string name="thermal_control_per_app_browser">浏览器</string>
+    <string name="thermal_control_per_app_video_playback">视频回放</string>
+    <string name="thermal_control_per_app_dialer">电话</string>
+    <string name="thermal_control_per_app_camera">相机</string>
+    <!-- Home button wake -->
+    <string name="home_wake_button_title">Home 键唤醒</string>
+    <string name="home_wake_button_summary">启用 Home 键唤醒</string>
+    <!-- Torch Power button gestures -->
+    <string name="double_tap_power_flashlight_screen_title">打开手电筒</string>
+    <string name="double_tap_power_flashlight_title">息屏状态下按电源键开启手电筒</string>
+    <string name="torch_power_button_gesture_none">关闭</string>
+    <string name="torch_power_button_gesture_dt">双击电源键以开关手电筒</string>
+    <string name="torch_power_button_gesture_lp">长按电源键以开关手电筒</string>
 </resources>

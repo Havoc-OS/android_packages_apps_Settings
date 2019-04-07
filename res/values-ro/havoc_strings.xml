@@ -14,67 +14,67 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Havoc Settings -->
-    <string name="havoc_settings_title">Havoc Settings</string>
+    <string name="havoc_settings_title">Setări Havoc</string>
     <string name="havoc_settings_summary">Wreak some Havoc...</string>
     <!-- Scramble PIN Layout on Lockscreen -->
-    <string name="unlock_scramble_pin_layout_title">Scramble layout</string>
-    <string name="unlock_scramble_pin_layout_summary">Scramble PIN layout when unlocking device</string>
+    <string name="unlock_scramble_pin_layout_title">Amestecă așezarea în pagină</string>
+    <string name="unlock_scramble_pin_layout_summary">Amesteca aranjarea PIN-ului cand deblochezi dispozitivul</string>
     <!-- Quick unlock -->
-    <string name="unlock_quick_unlock_control_title">Quick unlock</string>
-    <string name="unlock_quick_unlock_control_summary">Unlock automatically when the correct PIN/password is entered</string>
+    <string name="unlock_quick_unlock_control_title">Deblocare rapidă</string>
+    <string name="unlock_quick_unlock_control_summary">Deblochează automat când se introduce correct PIN/parola corectă</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Privacy Guard -->
     <string name="loading">Loading\u2026</string>
-    <string name="privacy_guard_manager_title">Privacy Guard</string>
-    <string name="privacy_guard_switch_label">Enable Privacy Guard</string>
-    <string name="privacy_guard_dlg_title">Enable Privacy Guard?</string>
-    <string name="privacy_guard_dlg_text">When Privacy Guard is enabled, the app will not be able to access personal data such as contacts, messages or call logs.</string>
-    <string name="privacy_guard_dlg_system_app_text">When enabling Privacy Guard for a built-in app, the app will not be able to access or provide personal data. This may cause other apps to misbehave.</string>
-    <string name="privacy_guard_default_title">Enabled by default</string>
-    <string name="privacy_guard_manager_summary">Manage which apps have access to your personal data</string>
-    <string name="privacy_guard_no_user_apps">No apps are installed</string>
-    <string name="privacy_guard_help_title">Help</string>
-    <string name="privacy_guard_reset_title">Reset</string>
-    <string name="privacy_guard_reset_text">Reset permissions?</string>
-    <string name="privacy_guard_help_text">In this screen you can choose which apps Privacy Guard should be active for by simply tapping on them. Selected apps will not be able to access your personal data such as contacts, messages or call logs. Long pressing an app\'s entry opens its app details screen.\n\nBuilt-in apps are not shown by default but can be revealed by selecting the respective menu option.</string>
-    <string name="privacy_guard_manager_show_system_apps">Show built-in apps</string>
-    <string name="privacy_guard_advanced_settings_title">Advanced</string>
-    <string name="privacy_guard_notification_title">Show notification</string>
+    <string name="privacy_guard_manager_title">Protecție personală</string>
+    <string name="privacy_guard_switch_label">Activați Protectia Personala</string>
+    <string name="privacy_guard_dlg_title">Activați Protectia Personala?</string>
+    <string name="privacy_guard_dlg_text">Când Protecția Personală este activă, aplicația nu va putea accesa datele personale ca de exemplu contacte, mesaje, locație și log de apeluri.</string>
+    <string name="privacy_guard_dlg_system_app_text">Când Protecția Personala este activat pentru o aplicație preinstalată, aplicația nu va putea accesa sau furniza date personale. Acest lucru poate cauza funcționarea eronată a altor aplicații.</string>
+    <string name="privacy_guard_default_title">Activat în mod implicit</string>
+    <string name="privacy_guard_manager_summary">Gestionează care aplicație are acces la datele dvs. personale</string>
+    <string name="privacy_guard_no_user_apps">Nu există aplicații instalate</string>
+    <string name="privacy_guard_help_title">Ajutor</string>
+    <string name="privacy_guard_reset_title">Resetează</string>
+    <string name="privacy_guard_reset_text">Resetați permisiunile?</string>
+    <string name="privacy_guard_help_text">În acest ecran poți alege pentru ce aplicații este activă Protecția Personala prin simpla lor apăsare. Aplicațiile selectate nu îți vor putea accesa datele personale, cum ar fi contactele, mesajele sau jurnalul de apeluri. Apăsarea lungă pe o aplicație deschide ecranul cu detaliile aplicației.\n\nAplicațiile prestabilite nu sunt arătate implicit dar pot fi arătate prin selectarea opțiunii respective din meniu.</string>
+    <string name="privacy_guard_manager_show_system_apps">Arată aplicațiile preinstalate</string>
+    <string name="privacy_guard_advanced_settings_title">Avansat</string>
+    <string name="privacy_guard_notification_title">Afișează notificările</string>
     <!-- App ops permissions -->
-    <string name="app_ops_permissions_allowed">Allowed</string>
-    <string name="app_ops_permissions_ignored">Ignored</string>
-    <string name="app_ops_permissions_always_ask">Always ask</string>
+    <string name="app_ops_permissions_allowed">Permis</string>
+    <string name="app_ops_permissions_ignored">Ignorat</string>
+    <string name="app_ops_permissions_always_ask">Întreabă întotdeauna</string>
     <!-- App ops detail -->
     <string name="app_ops_entry_summary"><xliff:g id="op">%1$s</xliff:g> (used <xliff:g id="count">%2$s</xliff:g>)</string>
-    <string name="app_ops_allowed_count">Allowed <xliff:g id="count" example="2 times">%s</xliff:g></string>
-    <string name="app_ops_ignored_count">Denied <xliff:g id="count" example="2 times">%s</xliff:g></string>
-    <string name="app_ops_both_count">Allowed <xliff:g id="count">%1$s</xliff:g>, denied <xliff:g id="count">%2$s</xliff:g></string>
-    <string name="app_ops_no_blockable_permissions">No permissions available to block</string>
+    <string name="app_ops_allowed_count">Permis <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_ignored_count">Respins <xliff:g id="count" example="2 times">%s</xliff:g></string>
+    <string name="app_ops_both_count">Permis <xliff:g id="count">%1$s</xliff:g>, respins <xliff:g id="count">%2$s</xliff:g></string>
+    <string name="app_ops_no_blockable_permissions">Nicio permisiune disponibilă pentru a fi blocată</string>
     <!-- App ops menu options -->
-    <string name="app_ops_show_user_apps">Show user apps</string>
-    <string name="app_ops_show_system_apps">Show built-in apps</string>
-    <string name="app_ops_reset_counters">Reset allow/deny counters</string>
-    <string name="app_ops_reset_confirm_title">Confirm counters reset</string>
-    <string name="app_ops_reset_confirm_mesg">Are you sure you wish to reset counters?</string>
+    <string name="app_ops_show_user_apps">Arată aplicațiile utilizatorului</string>
+    <string name="app_ops_show_system_apps">Arată aplicațiile preinstalate</string>
+    <string name="app_ops_reset_counters">Permite/refuză resetare contoare</string>
+    <string name="app_ops_reset_confirm_title">Confirmare resetare contoare</string>
+    <string name="app_ops_reset_confirm_mesg">Sunteți sigur că doriți să resetați contoarele?</string>
     <!-- Memory -->
-    <string name="memory_startup_apps_title">Apps started on boot</string>
+    <string name="memory_startup_apps_title">Aplicații pornite la pornire</string>
     <!-- Names of categories of app ops tabs - extension of AOSP -->
-    <string name="app_ops_categories_location">Location</string>
+    <string name="app_ops_categories_location">Locație</string>
     <string name="app_ops_categories_personal">Personal</string>
-    <string name="app_ops_categories_messaging">Messaging</string>
+    <string name="app_ops_categories_messaging">Mesagerie</string>
     <string name="app_ops_categories_media">Media</string>
-    <string name="app_ops_categories_device">Device</string>
-    <string name="app_ops_categories_run_in_background">Run in background</string>
-    <string name="app_ops_categories_bootup">Bootup</string>
-    <string name="app_ops_categories_other">Other</string>
+    <string name="app_ops_categories_device">Dispozitiv</string>
+    <string name="app_ops_categories_run_in_background">Rulați în fundal</string>
+    <string name="app_ops_categories_bootup">Pornire</string>
+    <string name="app_ops_categories_other">Altele</string>
     <!-- User display names for app ops codes - extension of AOSP -->
-    <string name="app_ops_summaries_accept_handover">handover of a call from another app</string>
-    <string name="app_ops_summaries_access_camera">access the camera</string>
-    <string name="app_ops_summaries_access_notifications">access notifications</string>
-    <string name="app_ops_summaries_activate_vpn">activate VPN</string>
-    <string name="app_ops_summaries_add_voicemail">add voicemail</string>
-    <string name="app_ops_summaries_app_start_foreground">start instant app in foreground</string>
+    <string name="app_ops_summaries_accept_handover">predarea unui apel de la o altă aplicație</string>
+    <string name="app_ops_summaries_access_camera">acceseaza camera</string>
+    <string name="app_ops_summaries_access_notifications">accesare notificări</string>
+    <string name="app_ops_summaries_activate_vpn">activează VPN</string>
+    <string name="app_ops_summaries_add_voicemail">adaugă mesagerie vocală</string>
+    <string name="app_ops_summaries_app_start_foreground">pornește aplicația instantanee în prim-plan</string>
     <string name="app_ops_summaries_assist_screenshot">assist screenshot</string>
     <string name="app_ops_summaries_assist_structure">assist structure</string>
     <string name="app_ops_summaries_audio_accessibility_volume">audio accessibility volume</string>
@@ -121,24 +121,24 @@
     <string name="app_ops_summaries_read_phone_numbers">read phone numbers</string>
     <string name="app_ops_summaries_read_phone_state">read phone state</string>
     <string name="app_ops_summaries_read_sms">read SMS</string>
-    <string name="app_ops_summaries_receive_emergency_broadcast">receive an emergency broadcast message</string>
-    <string name="app_ops_summaries_receive_sms">receive SMS</string>
-    <string name="app_ops_summaries_record_audio">record audio</string>
-    <string name="app_ops_summaries_request_delete_packages">request delete packages</string>
-    <string name="app_ops_summaries_run_any_in_background">run any in background</string>
-    <string name="app_ops_summaries_run_in_background">run in background</string>
+    <string name="app_ops_summaries_receive_emergency_broadcast">primește un mesaj difuzat de urgenţă</string>
+    <string name="app_ops_summaries_receive_sms">primește SMS</string>
+    <string name="app_ops_summaries_record_audio">înregistrare audio</string>
+    <string name="app_ops_summaries_request_delete_packages">solicită ștergerea pachetelor</string>
+    <string name="app_ops_summaries_run_any_in_background">rulează orice în fundal</string>
+    <string name="app_ops_summaries_run_in_background">rulează în fundal</string>
     <string name="app_ops_summaries_scan_wifi">scan Wi-Fi networks</string>
     <string name="app_ops_summaries_send_mms">send an MMS message</string>
-    <string name="app_ops_summaries_send_sms">send SMS</string>
+    <string name="app_ops_summaries_send_sms">trimite SMS</string>
     <string name="app_ops_summaries_start_at_bootup">start at power up</string>
     <string name="app_ops_summaries_start_foreground">start foreground</string>
     <string name="app_ops_summaries_toast_window">display toasts</string>
-    <string name="app_ops_summaries_toggle_bluetooth">toggle Bluetooth</string>
-    <string name="app_ops_summaries_toggle_mobile_data">toggle cellular data</string>
-    <string name="app_ops_summaries_toggle_nfc">toggle NFC</string>
-    <string name="app_ops_summaries_toggle_wifi">toggle Wi-Fi</string>
-    <string name="app_ops_summaries_turn_on_screen">turn the screen on</string>
-    <string name="app_ops_summaries_use_alarm_volume">control alarm volume</string>
+    <string name="app_ops_summaries_toggle_bluetooth">comută Bluetooth</string>
+    <string name="app_ops_summaries_toggle_mobile_data">comută date mobile</string>
+    <string name="app_ops_summaries_toggle_nfc">comută NFC</string>
+    <string name="app_ops_summaries_toggle_wifi">comută Wi-Fi</string>
+    <string name="app_ops_summaries_turn_on_screen">pornește ecranul</string>
+    <string name="app_ops_summaries_use_alarm_volume">controlează volumul alarmei</string>
     <string name="app_ops_summaries_use_audio_focus">control the audio focus</string>
     <string name="app_ops_summaries_use_bluetooth_volume">control the Bluetooth volume</string>
     <string name="app_ops_summaries_use_body_sensors">use body sensors</string>
@@ -212,7 +212,7 @@
     <string name="app_ops_labels_record_audio">Record audio</string>
     <string name="app_ops_labels_request_delete_packages">Request delete packages</string>
     <string name="app_ops_labels_run_any_in_background">Run any in background</string>
-    <string name="app_ops_labels_run_in_background">Run in background</string>
+    <string name="app_ops_labels_run_in_background">Rulați în fundal</string>
     <string name="app_ops_labels_scan_wifi">Scan Wi-Fi networks</string>
     <string name="app_ops_labels_send_mms">Send an MMS message</string>
     <string name="app_ops_labels_send_sms">Send SMS</string>
@@ -395,8 +395,8 @@
     <string name="havoc_maintainer">Maintainer</string>
     <string name="havoc_date">Build date</string>
     <string name="havoc_type">Build type</string>
-    <string name="havoc_device">Device</string>
-    <string name="havoc_version">Version</string>
+    <string name="havoc_device">Dispozitiv</string>
+    <string name="havoc_version">Versiunea noului pachet</string>
     <!-- EdgeGesture service -->
     <string name="edge_gesture_service_title">Block gesture touch events</string>
     <string name="edge_gesture_service_summary">Don\'t send touch events for navigation and status bar gestures to apps</string>
@@ -423,13 +423,13 @@
     <string name="color_Yellow_700">Yellow</string>
     <!-- Thermal control per app -->
     <string name="thermal_control_per_app">Optimization profile</string>
-    <string name="thermal_control_per_app_default">Egyik sem</string>
+    <string name="thermal_control_per_app_default">Nimic</string>
     <string name="thermal_control_per_app_benchmark">Performance</string>
     <string name="thermal_control_per_app_games">Games</string>
     <string name="thermal_control_per_app_browser">Browser</string>
     <string name="thermal_control_per_app_video_playback">Video playback</string>
     <string name="thermal_control_per_app_dialer">Dialer</string>
-    <string name="thermal_control_per_app_camera">Kamera</string>
+    <string name="thermal_control_per_app_camera">Camera</string>
     <!-- Home button wake -->
     <string name="home_wake_button_title">Home button wake-up</string>
     <string name="home_wake_button_summary">Enable home button to waking up screen</string>
