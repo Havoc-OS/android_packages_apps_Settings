@@ -305,9 +305,9 @@
     <!-- Sizes for pattern lockscreen -->
     <string name="lock_settings_picker_pattern_size_message">Выберите размер сетки</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
-    <string name="lockpattern_settings_enable_error_path_title">Ошибка отображения сетки</string>
+    <string name="lockpattern_settings_enable_error_path_title">Ошибки ввода</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
-    <string name="lockpattern_settings_enable_dots_title">Показать точки сетки</string>
+    <string name="lockpattern_settings_enable_dots_title">Показать точки</string>
     <!-- Lock screen vibrate settings -->
     <string name="lockscreen_vibrate_enabled_title">Вибрация</string>
     <string name="lockscreen_vibrate_enabled_head">Вибрация при разблокировке</string>
@@ -332,17 +332,17 @@
     <string name="sub_deactivate_failed">Дективация не удалась.</string>
     <string name="available_sims_title">Доступные SIM-карты</string>
     <!-- Density category -->
-    <string name="density_category">Параметры плотности</string>
+    <string name="density_category">Параметры экрана</string>
     <!-- Volume settings - Volume adjustment sound -->
-    <string name="volume_adjust_sounds_title">Звуки клавиш громкости</string>
+    <string name="volume_adjust_sounds_title">Звуки при регулировке громкости</string>
     <!-- Proximity wake -->
     <string name="proximity_wake_title">Предотвратить случайное пробуждение</string>
-    <string name="proximity_wake_summary">Проверьте датчик приближения перед запуском экрана</string>
+    <string name="proximity_wake_summary">Проверка датчик приближения перед включением экрана</string>
     <string name="system_update_settings_summary">Проверить обновления Havoc-OS</string>
-    <string name="full_gesture_mode_title">Включить режим полного жеста</string>
-    <string name="full_gesture_mode_summary">Этот режим отключает кнопку назад и вы можете вызвать действие кнопки назад левой свайп на панели навигации. Передвиньте пальцем вправо, чтобы прокрутить последнее приложение и просмотренные приложения. Чтобы перейти домой, вы можете нажать на любую пустую панель навигации, не только на главную кнопку. Когда отображается клавиатура, долгое нажатие на панель навигации для перемещения курсора текста.</string>
-    <string name="full_gesture_mode_dt2s_title">Включить двойное нажатие для сна</string>
-    <string name="full_gesture_mode_dt2s_summary">Нажмите на пустое место в панели навигации, но не на кнопку \"Домой\", чтобы отключить экран.</string>
+    <string name="full_gesture_mode_title">Режим полноценных жестов</string>
+    <string name="full_gesture_mode_summary">Этот режим отключает кнопку назад и вы можете вызвать действие кнопки назад используя свайп на панели навигации. Передвиньте пальцем вправо, чтобы прокрутить последнее приложение и просмотренные приложения. Чтобы перейти домой, вы можете нажать на любую пустую панель навигации, не только на главную кнопку. Когда отображается клавиатура, долгое нажатие на панель навигации для перемещения курсора текста.</string>
+    <string name="full_gesture_mode_dt2s_title">Двойное нажатие для сна</string>
+    <string name="full_gesture_mode_dt2s_summary">Дважды нажмите на пустое место в панели навигации, но не на кнопку \"Домой\", чтобы отключить экран.</string>
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_data">Мобильные данные</string>
     <string name="data_usage_app_restrict_data_summary">Включить использование мобильных данных</string>
@@ -351,14 +351,14 @@
     <!-- Selinux -->
     <string name="selinux_status">Статус SELinux</string>
     <string name="selinux_status_disabled">Отключен</string>
-    <string name="selinux_status_permissive">Разрешенный</string>
-    <string name="selinux_status_enforcing">Усиление</string>
+    <string name="selinux_status_permissive">Permissive</string>
+    <string name="selinux_status_enforcing">Enforcing</string>
     <!-- Fingerprint swipe sideways -->
-    <string name="fp_swipe_to_dismiss_notifications_title">Проведите по отпечатку пальца для отклонения уведомлений</string>
-    <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы отключить уведомления, проведите влево или вправо на датчике отпечатка пальца.</string>
+    <string name="fp_swipe_to_dismiss_notifications_title">Проведите по отпечатку пальца для очистки уведомления</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">Чтобы убрать уведомления, проведите влево или вправо по датчику отпечатка пальца.</string>
     <!-- Whether the keyguard will directly show the lock entry -->
-    <string name="directly_show_lock">Прямая разблокировка</string>
-    <string name="directly_show_lock_summary">Пропустите свайп, чтобы разблокировать экран и сразу начать ввод ключа</string>
+    <string name="directly_show_lock">Быстрая разблокировка</string>
+    <string name="directly_show_lock_summary">Переход к вводу ключа при включении экрана</string>
     <!-- Battery info -->
     <string name="battery_info_title">Информация о батарее</string>
     <string name="battery_info_summary">Расширенная информация о батарее</string>
@@ -368,25 +368,25 @@
     <string name="battery_tech">Технология</string>
     <string name="battery_status">Статус</string>
     <string name="battery_voltage">Напряжение</string>
-    <string name="battery_health">Здравоохранение</string>
+    <string name="battery_health">Здоровье</string>
     <string name="font_picker_title">Менеджер шрифтов</string>
     <string name="disable_fonts_installed_title">Выбор шрифта недоступен для предотвращения конфликтов с Substratum. Удалите его, если вы хотите использовать выбор шрифта.</string>
     <string name="font_picker_progress">Применение нового шрифта\u2026</string>
     <!-- Battery charge warning -->
-    <string name="notification_sound_battery_charge_title">Предупреждение о заряде батареи</string>
-    <string name="notification_sound_battery_charge_summary">Воспроизвести звук, когда заряд батареи достигает уровня заряда</string>
-    <string name="notification_battery_charge_level_title">Предупреждение о заряде батареи</string>
-    <string name="notification_battery_charge_level_summary">Включить воспроизведение звука, когда батарея достигает указанного уровня заряда при зарядке</string>
-    <string name="notification_battery_charge_level_seek_bar">Уровень батареи</string>
-    <string name="notification_battery_charge_level_ringtone">Рингтон</string>
+    <string name="notification_sound_battery_charge_title">Оповещение об уровне заряда</string>
+    <string name="notification_sound_battery_charge_summary">Воспроизвести звук, когда заряд батареи достигает определённого уровня</string>
+    <string name="notification_battery_charge_level_title">Оповещение</string>
+    <string name="notification_battery_charge_level_summary">Включить звуковое уведомление, когда заряд батареи достигает указанного уровня</string>
+    <string name="notification_battery_charge_level_seek_bar">Уровень заряда</string>
+    <string name="notification_battery_charge_level_ringtone">Звук</string>
     <string name="notification_battery_charge_level_silent">Тихий</string>
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость уведомлений и рингтона</string>
     <!-- Format string for fingerprint location message -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Найдите датчик отпечатка пальца на <xliff:g id="sensor_location">%задней</xliff:g> вашего телефона.</string>
     <!-- Fingerprint sensor locations -->
-    <string name="security_settings_fingerprint_sensor_location_back">назад</string>
-    <string name="security_settings_fingerprint_sensor_location_front">передний</string>
+    <string name="security_settings_fingerprint_sensor_location_back">сзади</string>
+    <string name="security_settings_fingerprint_sensor_location_front">спереди</string>
     <string name="security_settings_fingerprint_sensor_location_left">слева</string>
     <string name="security_settings_fingerprint_sensor_location_right">справа</string>
     <!-- Havoc-OS info -->
@@ -434,9 +434,9 @@
     <string name="home_wake_button_title">Включение кнопки \"Домой\"</string>
     <string name="home_wake_button_summary">Включить кнопку \"Домой\", при включении экрана</string>
     <!-- Torch Power button gestures -->
-    <string name="double_tap_power_flashlight_screen_title">Активировать фонарик</string>
+    <string name="double_tap_power_flashlight_screen_title">Фонарик</string>
     <string name="double_tap_power_flashlight_title">Включение фонарика двойным нажатием кнопки питания</string>
     <string name="torch_power_button_gesture_none">Отключено</string>
-    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания для переключения фонарика</string>
-    <string name="torch_power_button_gesture_lp">Долгое нажатие на питание для переключения фонарика</string>
+    <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания</string>
+    <string name="torch_power_button_gesture_lp">Долгое нажатие на кнопку питания</string>
 </resources>
