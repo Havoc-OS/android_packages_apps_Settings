@@ -440,8 +440,6 @@
     <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания</string>
     <string name="torch_power_button_gesture_lp">Долгое нажатие на кнопку питания</string>
 	
-	
-	
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
 </resources>
