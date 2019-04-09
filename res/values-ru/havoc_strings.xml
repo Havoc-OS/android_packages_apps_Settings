@@ -15,7 +15,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Havoc Settings -->
     <string name="havoc_settings_title">Настройки Havoc</string>
-    <string name="havoc_settings_summary">Напишите отзывы о Havoc...</string>
+    <string name="havoc_settings_summary">Сотворите немного Хаоса...</string>
     <!-- Scramble PIN Layout on Lockscreen -->
     <string name="unlock_scramble_pin_layout_title">Перемешать цифры пин-кода</string>
     <string name="unlock_scramble_pin_layout_summary">Скриптировать PIN-код при разблокировке устройства</string>
@@ -439,4 +439,6 @@
     <string name="torch_power_button_gesture_none">Отключено</string>
     <string name="torch_power_button_gesture_dt">Двойное нажатие на кнопку питания</string>
     <string name="torch_power_button_gesture_lp">Долгое нажатие на кнопку питания</string>
+    <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
+    <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
 </resources>
