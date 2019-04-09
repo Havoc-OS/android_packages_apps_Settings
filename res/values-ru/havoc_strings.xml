@@ -383,7 +383,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Связать громкость уведомлений и рингтона</string>
     <!-- Format string for fingerprint location message -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Найдите датчик отпечатка пальца на <xliff:g id="sensor_location">%задней</xliff:g> вашего телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_cm">Найдите датчик отпечатка пальца на <xliff:g id="sensor_location">%1$s </xliff:g> вашего телефона.</string>
     <!-- Fingerprint sensor locations -->
     <string name="security_settings_fingerprint_sensor_location_back">сзади</string>
     <string name="security_settings_fingerprint_sensor_location_front">спереди</string>
