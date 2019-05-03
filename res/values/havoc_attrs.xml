@@ -23,5 +23,13 @@
         <attr name="digits" format="integer" />
     </declare-styleable>
 
+    <!-- For LiveDisplay -->
+    <declare-styleable name="IntervalSeekBarLiveDisplay">
+        <attr name="minValue" format="float" />
+        <attr name="maxValue" format="float" />
+        <attr name="defaultValue" />
+        <attr name="digits" format="integer" />
+    </declare-styleable>
+
 </resources>
 
