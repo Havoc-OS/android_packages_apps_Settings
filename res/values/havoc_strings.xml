@@ -371,10 +371,6 @@
     <!-- Volume settings - Volume adjustment sound -->
     <string name="volume_adjust_sounds_title">Volume key sounds</string>
 
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Prevent accidental wake-up</string>
-    <string name="proximity_wake_summary">Check the proximity sensor prior to waking up screen</string>
-
 	<string name="system_update_settings_summary">Check for Havoc-OS updates</string>
 
     <string name="full_gesture_mode_title">Enable full gesture mode</string>
