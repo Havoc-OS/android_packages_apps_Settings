@@ -431,8 +431,8 @@
     <string name="thermal_control_per_app_dialer">Звонилка</string>
     <string name="thermal_control_per_app_camera">Камера</string>
     <!-- Home button wake -->
-    <string name="home_wake_button_title">Включение кнопки \"Домой\"</string>
-    <string name="home_wake_button_summary">Включить кнопку \"Домой\", при включении экрана</string>
+    <string name="home_wake_button_title">Пробуждение кнопкой \"Домой\"</string>
+    <string name="home_wake_button_summary">Разрешить пробуждение при нажатии кнопки \"Домой\"</string>
     <!-- Torch Power button gestures -->
     <string name="double_tap_power_flashlight_screen_title">Фонарик</string>
     <string name="double_tap_power_flashlight_title">Включение фонарика двойным нажатием кнопки питания</string>
@@ -441,4 +441,64 @@
     <string name="torch_power_button_gesture_lp">Долгое нажатие на кнопку питания</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
+
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">Оптимизируйте экран в зависимости от времени суток и окружающих условий, чтобы улучшить читаемость и уменьшить утомляемость глаз.</string>
+    <string name="live_display_mode">Режим дисплея</string>
+    <string name="live_display_color_temperature_title">Цветовая температура</string>
+    <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d</xliff:g>K  Ночь: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">День</string>
+    <string name="live_display_night">Ночь</string>
+    <string name="live_display_outdoor_mode_title">Автоматический режим на улице</string>
+    <string name="live_display_outdoor_mode_summary">Увеличение яркости и насыщенности автоматически при ярком солнечном свете</string>
+    <string name="live_display_low_power_title">Уменьшить потребление энергии</string>
+    <string name="live_display_low_power_summary">Настроить дисплей для минимального энергопотребления без деградации</string>
+    <string name="live_display_enhance_color_title">Улучшить цвета</string>
+    <string name="live_display_enhance_color_summary">Улучшите цветовой тон телесных отенков, пейзажей и других изображений</string>
+    <string name="live_display_color_profile_title">Цветовые профили</string>
+    <string name="live_display_color_profile_standard_title">Стандартный</string>
+    <string name="live_display_color_profile_standard_summary">Точные и яркие цвета</string>
+    <string name="live_display_color_profile_natural_title">Натуральный</string>
+    <string name="live_display_color_profile_natural_summary">Реалистичные цвета и телесные тона</string>
+    <string name="live_display_color_profile_dynamic_title">Динамичный</string>
+    <string name="live_display_color_profile_dynamic_summary">Насыщенные и яркие цвета</string>
+    <string name="live_display_color_profile_cinema_title">Кино</string>
+    <string name="live_display_color_profile_cinema_summary">Идеальная цветопередача для видео</string>
+    <string name="live_display_color_profile_astronomy_title">Астрономия</string>
+    <string name="live_display_color_profile_astronomy_summary">Темные красные оттенки для сохранения ночного зрения</string>
+    <string name="live_display_color_profile_photography_title">Фотография</string>
+    <string name="live_display_color_profile_photography_summary">Идеальная цветопередача для фотографий</string>
+    <string name="live_display_color_profile_basic_title">Базовый</string>
+    <string name="live_display_color_profile_basic_summary">Дисплй без калибровки</string>
+    <string name="live_display_color_profile_adaptive_title">Адаптивный</string>
+    <string name="live_display_color_profile_adaptive_summary">Цвета адаптируются к условиям окружающей среды</string>
+    <string name="live_display_color_profile_reading_title">Для чтения</string>
+    <string name="live_display_color_profile_reading_summary">Тёплые цвета для меньшего напряжения глаз</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">Цвета адаптированы для sRGB</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">CЦвета адаптированы для DCI-P3</string>
+    <string name="live_display_reading_mode_title">Режим чтения</string>
+    <string name="live_display_reading_mode_summary">Режим градаций серого для длительного чтения</string>
+    <string name="color_calibration_title">Калибровка цвета</string>
+    <string name="color_calibration_summary">Калибровка цвета экрана</string>
+    <string name="color_red_title">Красный</string>
+    <string name="color_green_title">Зелёный</string>
+    <string name="color_blue_title">Синий</string>
+
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">Настройка изображения</string>
+    <string name="picture_adjustment_summary">Отрегулируйте оттенок, насыщенность, яркость и контраст</string>
+    <string name="adj_hue_title">Оттенок</string>
+    <string name="adj_saturation_title">Насыщенность</string>
+    <string name="adj_intensity_title">Яркость</string>
+    <string name="adj_contrast_title">Контраст</string>
+
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Умная зарядка</string>
+    <string name="smart_charging_summary">Установить максимальный уровень зарядки</string>
+    <string name="smart_charging_switch_title">Включить умную зарядку</string>
+    <string name="smart_charging_level_title">Уровень ограничения</string>
+    <string name="smart_charging_footer">Умная зарядка позволяет вам установить максимальный уровень зарядки, чтобы продлить срок службы вашей батареи</string>
 </resources>
