@@ -92,6 +92,15 @@
         android:background="#FFCC00" />
 
     <Button
+        android:id="@+id/userAccentEight"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_columnWeight="1"
+        android:gravity="center"
+        android:layout_gravity="fill_horizontal"
+        android:background="#B39DDB" />
+
+    <Button
         android:id="@+id/maniaamberAccent"
         android:layout_width="70dp"
         android:layout_height="70dp"
