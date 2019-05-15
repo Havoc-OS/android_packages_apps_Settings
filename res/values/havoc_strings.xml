@@ -552,4 +552,8 @@
     <string name="smart_charging_switch_title">Use Smart charging</string>
     <string name="smart_charging_level_title">Trigger level</string>
     <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+
+    <!-- Battery estimates -->
+    <string name="battery_estimates_title">Battery Estimates in QS</string>
+    <string name="battery_estimates_summary">Show the estimated battery life in QS panel</string>
 </resources>

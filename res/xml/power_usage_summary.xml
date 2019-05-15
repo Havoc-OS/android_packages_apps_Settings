@@ -56,6 +56,12 @@
         android:title="@string/smart_charging_title"
         android:summary="@string/smart_charging_summary" />
 
+    <com.havoc.support.preferences.SystemSettingSwitchPreference
+        android:key="show_battery_estimate"
+        android:title="@string/battery_estimates_title"
+        android:summary="@string/battery_estimates_summary"
+        android:defaultValue="true" />
+
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"
         android:title="@string/battery_last_full_charge"
