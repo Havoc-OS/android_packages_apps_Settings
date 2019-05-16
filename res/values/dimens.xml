@@ -126,8 +126,8 @@
     <dimen name="search_bar_margin">16dp</dimen>
     <dimen name="search_bar_negative_margin">-16dp</dimen>
 
-    <dimen name="search_bar_height">48dp</dimen>
-    <dimen name="search_bar_corner_radius">24dp</dimen>
+    <dimen name="search_bar_height">50dp</dimen>
+    <dimen name="search_bar_corner_radius">@*android:dimen/dialog_corner_radius</dimen>
     <dimen name="search_bar_text_size">16dp</dimen>
 
     <!-- Dimensions for Wifi Assistant Card -->
