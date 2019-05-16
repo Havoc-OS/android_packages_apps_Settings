@@ -60,7 +60,7 @@
         android:key="show_battery_estimate"
         android:title="@string/battery_estimates_title"
         android:summary="@string/battery_estimates_summary"
-        android:defaultValue="true" />
+        android:defaultValue="false" />
 
     <com.android.settings.fuelgauge.PowerGaugePreference
         android:key="last_full_charge"

@@ -51,7 +51,7 @@ public class BatteryEstimatesPreferenceController extends AbstractPreferenceCont
     @Override
     public void updateState(Preference preference) {
         int batteryEstimateValue = Settings.System.getIntForUser(mContext.getContentResolver(),
-                SHOW_BATTERY_ESTIMATE, 1, UserHandle.USER_CURRENT);
+                SHOW_BATTERY_ESTIMATE, 0, UserHandle.USER_CURRENT);
         ((SwitchPreference) preference).setChecked(batteryEstimateValue != 0);
     }
 
