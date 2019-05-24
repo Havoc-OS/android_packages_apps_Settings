@@ -441,7 +441,6 @@
     <string name="torch_power_button_gesture_lp">Долгое нажатие на кнопку питания</string>
     <!-- About phone, uptime. Deep sleep ratio since last reboot. -->
     <string name="status_deep_sleep">(Глубокий сон: %1$d%2$s)</string>
-
     <!-- LiveDisplay -->
     <string name="live_display_summary">Оптимизируйте экран в зависимости от времени суток и окружающих условий, чтобы улучшить читаемость и уменьшить утомляемость глаз.</string>
     <string name="live_display_mode">Режим дисплея</string>
@@ -486,7 +485,6 @@
     <string name="color_red_title">Красный</string>
     <string name="color_green_title">Зелёный</string>
     <string name="color_blue_title">Синий</string>
-
     <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">Настройка изображения</string>
     <string name="picture_adjustment_summary">Отрегулируйте оттенок, насыщенность, яркость и контраст</string>
@@ -494,11 +492,13 @@
     <string name="adj_saturation_title">Насыщенность</string>
     <string name="adj_intensity_title">Яркость</string>
     <string name="adj_contrast_title">Контраст</string>
-
     <!-- Smart charging -->
     <string name="smart_charging_title">Умная зарядка</string>
     <string name="smart_charging_summary">Установить максимальный уровень зарядки</string>
     <string name="smart_charging_switch_title">Включить умную зарядку</string>
     <string name="smart_charging_level_title">Уровень ограничения</string>
     <string name="smart_charging_footer">Умная зарядка позволяет вам установить максимальный уровень зарядки, чтобы продлить срок службы вашей батареи</string>
+    <!-- Battery estimates -->
+    <string name="battery_estimates_title">Оставшееся время работы в QS</string>
+    <string name="battery_estimates_summary">Показывать оставшееся время работы в панели QS</string>
 </resources>
