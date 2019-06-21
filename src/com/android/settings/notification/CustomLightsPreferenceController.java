@@ -54,7 +54,7 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
         if (mChannel == null) {
             return false;
         }
-        if (!mContext.getResources().getBoolean(com.android.internal.R.bool.config_multiColorNotificationLed)) {
+        if (!mContext.getResources().getBoolean(com.android.internal.R.bool.config_intrusiveNotificationLed)) {
             return false;
         }
 
