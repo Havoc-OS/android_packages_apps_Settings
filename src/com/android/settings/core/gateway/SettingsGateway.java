@@ -26,6 +26,7 @@ import com.android.settings.preference.DisplayRotation;
 import com.android.settings.Settings;
 import com.android.settings.Settings.FlingSettingsActivity;
 import com.android.settings.Settings.NavigationSettingsActivity;
+import com.android.settings.Settings.GamingModeActivity;
 import com.android.settings.Settings.PulseSettingsActivity;
 import com.android.settings.Settings.SmartbarSettingsActivity;
 import com.android.settings.TestingSettings;
@@ -150,6 +151,7 @@ import com.havoc.settings.fragments.Buttons;
 import com.havoc.settings.fragments.Display;
 import com.havoc.settings.fragments.DozeFragment;
 import com.havoc.settings.fragments.ExpandedDesktopPreferenceFragment;
+import com.havoc.settings.fragments.GamingMode;
 import com.havoc.settings.fragments.HeadsUpSettings;
 import com.havoc.settings.fragments.Interface;
 import com.havoc.settings.fragments.PieSettings;
@@ -295,7 +297,8 @@ public class SettingsGateway {
             SmartbarSettingsActivity.class.getName(),
             FlingSettingsActivity.class.getName(),
             PulseSettingsActivity.class.getName(),
-            LiveDisplaySettings.class.getName()
+            LiveDisplaySettings.class.getName(),
+            GamingMode.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -339,6 +342,7 @@ public class SettingsGateway {
             Settings.NavigationSettingsActivity.class.getName(),
             Settings.SmartbarSettingsActivity.class.getName(),
             Settings.FlingSettingsActivity.class.getName(), 
-            Settings.PulseSettingsActivity.class.getName()
+            Settings.PulseSettingsActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName()
     };
 }
