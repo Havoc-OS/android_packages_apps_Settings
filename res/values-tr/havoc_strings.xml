@@ -405,6 +405,7 @@
     <string name="battery_status">Durum</string>
     <string name="battery_voltage">Voltaj</string>
     <string name="battery_health">Sağlık</string>
+	
     <string name="font_picker_title">Yazı tipi yöneticisi</string>
     <string name="disable_fonts_installed_title">Substratum ile çakışmaları önlemek için yazı tipi seçici kullanılamıyor. Yazı tipi seçicisini kullanmak isterseniz bunları kaldırın.</string>
     <string name="font_picker_progress">Yeni yazı tipi uygulanıyor\u2026</string>
@@ -437,7 +438,7 @@
     <string name="havoc_date">Yapı tarihi</string>
     <string name="havoc_type">Yapı türü</string>
     <string name="havoc_device">Cihaz</string>
-    <string name="havoc_version">sürüme</string>
+    <string name="havoc_version">Sürüm</string>
 	
     <!-- EdgeGesture service -->
     <string name="edge_gesture_service_title">Dokunmatik hareketlerini engelle</string>
@@ -490,13 +491,8 @@
     <string name="status_deep_sleep">(Derin uyku: %1$d%2$s)</string>
 	
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Okunabilirliği artırmak ve göz yorgunluğunu azaltmak için ekranınızı günün zamanına ve ortam koşullarına göre optimize edin</string>
-    <string name="live_display_mode">Ekran modu</string>
-    <string name="live_display_color_temperature_title">Renk sıcaklığı</string>
-    <string name="live_display_color_temperature_summary">Gündüz: <xliff:g id="day_temperature">%1$d</xliff:g>K  Gece: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
-    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
-    <string name="live_display_day">Gündüz</string>
-    <string name="live_display_night">Gece</string>
+    <string name="color_settings_title">Color settings</string>
+    <string name="color_settings_summary">Adjust and improve screen colors</string>
     <string name="live_display_outdoor_mode_title">Otomatik dış mekan modu</string>
     <string name="live_display_outdoor_mode_summary">Parlak güneş ışığı altında parlaklığı ve doygunluğu otomatik olarak arttırır</string>
     <string name="live_display_low_power_title">Güç tüketimini azalt</string>
@@ -532,7 +528,7 @@
     <string name="color_calibration_summary">Ekran renklerini kalibre edin</string>
     <string name="color_red_title">Kırmızı</string>
     <string name="color_green_title">Yeşil</string>
-    <string name="color_blue_title">Beyaz</string>
+    <string name="color_blue_title">Mavi</string>
 
     <!-- LiveDisplay : Picture Adjustment -->
     <string name="picture_adjustment_title">Resim ayarlama</string>
@@ -546,6 +542,29 @@
     <string name="smart_charging_title">Akıllı şarj</string>
     <string name="smart_charging_summary">Maksimum şarj seviyesini ayarlayın</string>
     <string name="smart_charging_switch_title">Akıllı şarj kullan</string>
-    <string name="smart_charging_level_title">Pil seviyesi</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
     <string name="smart_charging_footer">Akıllı şarj, pilinizin ömrünü uzatmak için maksimum şarj seviyesini ayarlamanıza olanak verir</string>
+	
+    <!-- Smart charging -->
+    <string name="smart_charging_title">Smart Charging</string>
+    <string name="smart_charging_summary">Set maximum charging level</string>
+    <string name="smart_charging_switch_title">Use Smart charging</string>
+    <string name="smart_charging_level_title">Stop trigger level</string>
+    <string name="smart_charging_resume_level_title">Start trigger level</string>
+    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
+    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
+	
+    <!-- Battery estimates -->
+    <string name="battery_estimates_title">Hızlı ayarlarda pil tahminleri</string>
+    <string name="battery_estimates_summary">Tahmini pil ömrünü hızlı ayarlar panelinde göster</string>
+
+    <!-- Battery saving mode for Location - GPS will be disabled -->
+    <string name="location_mode_battery_saving_title">Battery saving mode</string>
+    <string name="location_mode_battery_saving_summary">Use only Wi\u2011Fi, Bluetooth, or mobile networks to determine location (less accurate)</string>
+
+    <!-- Battery temp -->
+    <string name="battery_temp_title">Battery temperature</string>
 </resources>
