@@ -16,6 +16,8 @@
 
 package com.android.settings.notification;
 
+import static android.view.WindowManager.LayoutParams.PRIVATE_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS;
+
 import android.app.NotificationChannel;
 import android.app.NotificationChannelGroup;
 import android.content.Context;
@@ -28,6 +30,8 @@ import android.support.v7.preference.PreferenceGroup;
 import android.support.v7.preference.PreferenceScreen;
 import android.text.TextUtils;
 import android.util.Log;
+import android.view.Window;
+import android.view.WindowManager;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
 import com.android.internal.widget.LockPatternUtils;
@@ -81,6 +85,9 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     public void onResume() {
         super.onResume();
 
+        getActivity().getWindow().addPrivateFlags(PRIVATE_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS);
+        android.util.EventLog.writeEvent(0x534e4554, "119115683", -1, "");
+
         if (mUid < 0 || TextUtils.isEmpty(mPkg) || mPkgInfo == null) {
             Log.w(TAG, "Missing package or uid or packageinfo");
             finish();
@@ -115,6 +122,16 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     }
 
     @Override
+    public void onPause() {
+        super.onPause();
+        mNm.forcePulseLedLight(-1, -1, -1);
+        final Window window = getActivity().getWindow();
+        final WindowManager.LayoutParams attrs = window.getAttributes();
+        attrs.privateFlags &= ~PRIVATE_FLAG_HIDE_NON_SYSTEM_OVERLAY_WINDOWS;
+        window.setAttributes(attrs);
+    }
+
+    @Override
     protected String getLogTag() {
         return TAG;
     }
@@ -133,12 +150,6 @@ public class AppNotificationSettings extends NotificationSettingsBase {
     @Override
     public void onStop() {
         super.onStop();
-        mNm.forcePulseLedLight(-1, -1, -1);
-    }
-
-    @Override
-    public void onPause() {
-        super.onPause();
         mNm.forcePulseLedLight(-1, -1, -1);
     }
 
