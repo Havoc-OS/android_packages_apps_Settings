@@ -21,7 +21,7 @@
     <string name="unlock_scramble_pin_layout_summary">デバイスのロックを解除するときのスクランブルPINレイアウト</string>
     <!-- Quick unlock -->
     <string name="unlock_quick_unlock_control_title">クイックロック解除</string>
-    <string name="unlock_quick_unlock_control_summary">正しいPIN /パスワードが入力されたら自動的にロックを解除します</string>
+    <string name="unlock_quick_unlock_control_summary">正しいPIN/パスワードが入力されたら自動的にロックを解除します</string>
     <!-- Manage applications, package string displayed in app snippet -->
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- Privacy Guard -->
