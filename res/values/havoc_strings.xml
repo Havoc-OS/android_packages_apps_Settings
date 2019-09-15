@@ -366,4 +366,7 @@
     <!-- Radio Info -->
     <string name="radio_info_title">Radio info</string>
 
+    <!-- Themes customisation -->
+    <string name="theme_customization_systemui_title">Theme color</string>
+
 </resources>
