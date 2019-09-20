@@ -55,7 +55,7 @@
     <string name="radio_info_ims_feature_status_unavailable" msgid="4606182208970114368">"Không khả dụng"</string>
     <string name="radio_info_ims_reg_status" msgid="7534612158445529715">"Đăng ký IMS: <xliff:g id="STATUS">%1$s</xliff:g>\nThoại trên nền LTE: <xliff:g id="AVAILABILITY_0">%2$s</xliff:g>\nThoại qua Wi-Fi: <xliff:g id="AVAILABILITY_1">%3$s</xliff:g>\nGọi điện video: <xliff:g id="AVAILABILITY_2">%4$s</xliff:g>\nGiao diện UT: <xliff:g id="AVAILABILITY_3">%5$s</xliff:g>"</string>
     <string name="radioInfo_service_in" msgid="1697703164394784618">"Đang sử dụng"</string>
-    <string name="radioInfo_service_out" msgid="7999094221728929681">"Không có dịch vụ"</string>
+    <string name="radioInfo_service_out" msgid="7999094221728929681">"Chế độ máy bay"</string>
     <string name="radioInfo_service_emergency" msgid="6274434235469661525">"Chỉ cuộc gọi khẩn cấp"</string>
     <string name="radioInfo_service_off" msgid="7536423790014501173">"Đài đã tắt"</string>
     <string name="radioInfo_roaming_in" msgid="9045363884600341051">"Chuyển vùng"</string>
