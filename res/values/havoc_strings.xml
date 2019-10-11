@@ -144,4 +144,7 @@
     <string name="app_notification_sound_timeout_value_15_minutes">10 minutes</string>
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
 
+    <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">Auto-rotate lockscreen</string>
+
 </resources>
