@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- Havoc logo -->
+    <PreferenceScreen
+        android:layout="@layout/havoc_logo"
+        android:key="havoc_logo"
+        android:selectable="false" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
