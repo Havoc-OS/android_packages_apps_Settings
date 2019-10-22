@@ -16,6 +16,9 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Havoc OS -->
+    <string name="havoc_title" translatable="false">Havoc-OS</string>
+
     <!-- Config Center -->
     <string name="config_center_title">Configuration Center</string>
     <string name="config_center_dashboard_summary">Some goodies you just can\'t live without</string>
