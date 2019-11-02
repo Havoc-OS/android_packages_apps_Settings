@@ -265,4 +265,8 @@
     <string name="home_handle_low_label">Short</string>
     <string name="home_handle_high_label">Long</string>
 
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">Rooted debugging</string>
+    <string name="adb_enable_summary_root">Allow running Android debugging as root</string>
+
 </resources>
