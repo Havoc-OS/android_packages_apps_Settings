@@ -18,12 +18,15 @@ package com.android.settings.biometrics.fingerprint;
 
 import android.app.settings.SettingsEnums;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.hardware.fingerprint.FingerprintManager;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
 import androidx.annotation.Nullable;
+
+import com.android.internal.custom.app.LineageContextConstants;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
@@ -44,6 +47,7 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase {
 
     private FingerprintEnrollSidecar mSidecar;
     private boolean mNextClicked;
+    private boolean mHasFod;
 
     private static final int SENSOR_LOCATION_BACK = 0;
     private static final int SENSOR_LOCATION_FRONT = 1;
@@ -79,6 +83,12 @@ public class FingerprintEnrollFindSensor extends BiometricEnrollBase {
         int sensorLocation = getResources().getInteger(R.integer.config_fingerprintSensorLocation);
         if (sensorLocation < SENSOR_LOCATION_BACK || sensorLocation > SENSOR_LOCATION_RIGHT) {
             sensorLocation = SENSOR_LOCATION_BACK;
+        }
+        PackageManager packageManager = getPackageManager();
+        mHasFod = packageManager.hasSystemFeature(LineageContextConstants.Features.FOD);
+        if (mHasFod){
+            sensorLocation = SENSOR_LOCATION_FRONT;
+            animationView.setVisibility(View.GONE);
         }
         final String customLocation = getResources().getStringArray(
                 R.array.security_settings_fingerprint_sensor_locations)[sensorLocation];
