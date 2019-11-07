@@ -64,4 +64,8 @@
     <string name="package_version">Package version</string>
     <string name="package_version_text" translatable="false"><xliff:g id="version_num">%1$s</xliff:g></string>
 
+    <!-- Three-fingers-swipe to screenshot -->
+    <string name="swipe_to_screenshot_gesture_title">Swipe to screenshot</string>
+    <string name="swipe_to_screenshot_gesture_summary">Swipe three fingers to take screenshot</string>
+
 </resources>
