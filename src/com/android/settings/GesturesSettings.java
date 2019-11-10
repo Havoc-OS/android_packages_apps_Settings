@@ -29,6 +29,8 @@ import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settings.widget.SwitchBar;
 
+import com.havoc.support.preferences.SystemSettingSwitchPreference;
+
 import java.util.Arrays;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -38,6 +40,8 @@ public class GesturesSettings extends SettingsPreferenceFragment implements
         OnPreferenceChangeListener, Indexable {
 
     private static final String TAG = "GesturesSettings";
+
+    private static final String KEY_HAPTIC_FEEDBACK = "gestures_haptic_feedback";
 
     private static final String KEY_DOUBLE_TAP = "double_tap";
     private static final String KEY_DRAW_V = "draw_v";
@@ -57,6 +61,8 @@ public class GesturesSettings extends SettingsPreferenceFragment implements
     private static final HashMap<String, Integer> mGesturesKeyCodes = new HashMap<>();
     private static final HashMap<String, Integer> mGesturesDefaults = new HashMap();
     private static final HashMap<String, String> mGesturesSettings = new HashMap();
+
+    private SystemSettingSwitchPreference mGestureFeedback;
 
     static {
         mGesturesKeyCodes.put(KEY_DOUBLE_TAP, com.android.internal.R.integer.config_doubleTapKeyCode);
@@ -128,6 +134,8 @@ public class GesturesSettings extends SettingsPreferenceFragment implements
                 removePreference(gestureKey);
             }
         }
+    
+        mGestureFeedback = (SystemSettingSwitchPreference) findPreference(KEY_HAPTIC_FEEDBACK);
     }
 
     @Override
@@ -238,10 +246,18 @@ public class GesturesSettings extends SettingsPreferenceFragment implements
 
         @Override
         public void onSwitchChanged(Switch switchView, boolean isChecked) {
+            boolean gesturesDisabled = Settings.System.getInt(
+                    mContext.getContentResolver(),
+                    Settings.System.GESTURES_ENABLED, 0) != 0;
             Settings.System.putInt(
                     mContext.getContentResolver(),
                     Settings.System.GESTURES_ENABLED, isChecked ? 1 : 0);
             GesturesSettings.this.enableGestures(isChecked, false);
+            if (gesturesDisabled) {
+                mGestureFeedback.setEnabled(false);
+            } else {
+                mGestureFeedback.setEnabled(true);
+            }
         }
 
     }

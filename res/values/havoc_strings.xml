@@ -224,4 +224,7 @@
     <string name="gestures_open_camera">Open camera</string>
     <string name="gestures_open_dialer">Open dialer</string>
 
+    <string name="gestures_haptic_feedback_title">Haptic feedback</string>
+    <string name="gestures_haptic_feedback_summary">Vibrate when a gesture is detected</string>
+
 </resources>

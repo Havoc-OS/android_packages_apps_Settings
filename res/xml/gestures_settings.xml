@@ -130,4 +130,10 @@
             android:entries="@array/gestures_entries"
             android:entryValues="@array/gestures_values" />
 
+        <com.havoc.support.preferences.SystemSettingSwitchPreference
+            android:key="gestures_haptic_feedback"
+            android:title="@string/gestures_haptic_feedback_title"
+            android:summary="@string/gestures_haptic_feedback_summary"
+            android:defaultValue="true" />
+
 </PreferenceScreen>
