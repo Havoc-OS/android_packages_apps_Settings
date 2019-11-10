@@ -35,7 +35,8 @@ LOCAL_STATIC_ANDROID_LIBRARIES := \
     androidx.recyclerview_recyclerview \
     com.google.android.material_material \
     setupcompat \
-    setupdesign
+    setupdesign \
+    VendorSupport-preference
 
 LOCAL_JAVA_LIBRARIES := \
     telephony-common \
@@ -69,7 +70,6 @@ endif
 
 include frameworks/base/packages/SettingsLib/common.mk
 include frameworks/base/packages/SettingsLib/search/common.mk
-include vendor/support/common.mk
 
 include $(BUILD_PACKAGE)
 
