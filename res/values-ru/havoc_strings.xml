@@ -24,19 +24,19 @@
     <string name="config_center_dashboard_summary">Вкусняшки, без которых ты не сможешь жить</string>
 
     <!-- Fingerprint location message - default -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на передней панели телефона.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите сканер отпечатков пальцев на левой стороне телефона.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите сканер отпечатков пальцев на правой стороне телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Найдите сканер отпечатков пальцев на передней панели вашего телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">Найдите сканер отпечатков пальцев на левой стороне вашего телефона.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">Найдите сканер отпечатков пальцев на правой стороне вашего телефона.</string>
 
     <!-- Fingerprint location message - generic -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Locate the fingerprint sensor on the front of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Locate the fingerprint sensor on the left side of your device.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Locate the fingerprint sensor on the right side of your device.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">Найдите сканер отпечатков пальцев на передней панели вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">Найдите сканер отпечатков пальцев на левой стороне вашего устройства.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">Найдите сканер отпечатков пальцев на правой стороне вашего устройства.</string>
 
     <!-- Fingerprint location message - tablet -->
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Locate the fingerprint sensor on the front of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Locate the fingerprint sensor on the left side of your tablet.</string>
-    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Locate the fingerprint sensor on the right side of your tablet.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">Найдите сканер отпечатков пальцев на передней панели вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">Найдите сканер отпечатков пальцев на левой стороне вашего планшета.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">Найдите сканер отпечатков пальцев на правой стороне вашего планшета.</string>
 
     <!-- Battery stats reset -->
     <string name="battery_stats_reset">Сбросить статистику</string>
@@ -49,7 +49,7 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
+    <string name="live_display_summary">Оптимизируйте экран в зависимости от времени суток и окружающих условий, чтобы улучшить читаемость и уменьшить утомляемость глаз.</string>
     <string name="live_display_mode">Display mode</string>
     <string name="live_display_color_temperature_title">Цветовая температура</string>
     <string name="live_display_color_temperature_summary">День: <xliff:g id="day_temperature">%1$d</xliff:g>K  Ночь: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
@@ -195,34 +195,34 @@
     <string name="prevent_ringing_option_mute_no_media_summary">Включить (Беззвучный режим, исключая медиа)</string>
 
     <!-- Gestures Settings -->
-    <string name="offscreen_gesture_title">Screen off gestures</string>
+    <string name="offscreen_gesture_title">Жесты выключения экрана</string>
     <string name="offscreen_gesture_summary">Draw patterns or tap on screen to perform actions</string>
-    <string name="keywords_gestures">screen touchscreen draw swipe finger</string>
+    <string name="keywords_gestures">экран тачскрин рисовать свайп палец</string>
 
-    <string name="gestures_double_tap">Double-tap</string>
-    <string name="gestures_draw_v">Draw V</string>
-    <string name="gestures_draw_inverse_v">Draw Inverse V</string>
-    <string name="gestures_draw_o">Draw O</string>
-    <string name="gestures_draw_m">Draw M</string>
-    <string name="gestures_draw_w">Draw W</string>
-    <string name="gestures_draw_s">Draw S</string>
-    <string name="gestures_draw_arrow_left">Draw &lt;</string>
-    <string name="gestures_draw_arrow_right">Draw &gt;</string>
+    <string name="gestures_double_tap">Двойное касание</string>
+    <string name="gestures_draw_v">Рисовать V</string>
+    <string name="gestures_draw_inverse_v">Рисовать обратный V</string>
+    <string name="gestures_draw_o">Рисовать O</string>
+    <string name="gestures_draw_m">Рисовать M</string>
+    <string name="gestures_draw_w">Рисовать W</string>
+    <string name="gestures_draw_s">Рисовать S</string>
+    <string name="gestures_draw_arrow_left">Рисовать &lt;</string>
+    <string name="gestures_draw_arrow_right">Рисовать &gt;</string>
     <string name="gestures_one_finger_swipe_up">One-finger swipe up</string>
     <string name="gestures_one_finger_swipe_right">One-finger swipe right</string>
     <string name="gestures_one_finger_swipe_down">One-finger swipe down</string>
     <string name="gestures_one_finger_swipe_left">One-finger swipe left</string>
     <string name="gestures_two_finger_swipe">Two-finger swipe</string>
 
-    <string name="gestures_disabled">Disabled</string>
-    <string name="gestures_wake_device">Wake device</string>
-    <string name="gestures_toggle_flashlight">Toggle flashlight</string>
-    <string name="gestures_toggle_airplane_mode">Toggle airplane mode</string>
-    <string name="gestures_play_pause_music">Play/Pause track</string>
-    <string name="gestures_next_music">Play next track</string>
-    <string name="gestures_previous_music">Play previous track</string>
-    <string name="gestures_open_camera">Open camera</string>
-    <string name="gestures_open_dialer">Open dialer</string>
+    <string name="gestures_disabled">Выключено</string>
+    <string name="gestures_wake_device">Пробудить устройство</string>
+    <string name="gestures_toggle_flashlight">Включить фонарик</string>
+    <string name="gestures_toggle_airplane_mode">Включить режим полёта</string>
+    <string name="gestures_play_pause_music">Воспроизвести/остановить трек</string>
+    <string name="gestures_next_music">Воспроизвести следующий трек</string>
+    <string name="gestures_previous_music">Воспроизвести предыдущий трек</string>
+    <string name="gestures_open_camera">Открыть камеру</string>
+    <string name="gestures_open_dialer">Открыть телефон</string>
 
     <string name="gestures_haptic_feedback_title">Тактильный отклик</string>
     <string name="gestures_haptic_feedback_summary">Vibrate when a gesture is detected</string>
