@@ -184,4 +184,5 @@ public class Settings extends SettingsActivity {
     public static class ConfigCenterActivity extends SettingsActivity { /* empty */ }
 
     public static class GesturesSettingsActivity extends SettingsActivity { /* empty */ }
+    public static class GamingModeActivity extends SettingsActivity {}
 }
