@@ -150,6 +150,7 @@ import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.havoc.config.center.ConfigCenter;
+import com.havoc.config.center.fragments.GamingMode;
 
 public class SettingsGateway {
 
@@ -288,7 +289,8 @@ public class SettingsGateway {
             GlobalActionsPanelSettings.class.getName(),
             DarkModeSettingsFragment.class.getName(),
             LiveDisplaySettings.class.getName(),
-            ConfigCenter.class.getName()
+            ConfigCenter.class.getName(),
+            GamingMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -328,5 +330,6 @@ public class SettingsGateway {
             Settings.ModuleLicensesActivity.class.getName(),
             UserBackupSettingsActivity.class.getName(),
             Settings.ConfigCenterActivity.class.getName(),
+            Settings.GamingModeActivity.class.getName(),
     };
 }
