@@ -252,4 +252,18 @@
     <string name="custom_light_on_time_title">Light pulse duration</string>
     <string name="custom_light_off_time_title">Light pulse interval</string>
 
+    <!-- Battery light -->
+    <string name="default_string">Default</string>
+    <string name="battery_light_cat">Charging</string>
+    <string name="battery_light_settings">Charging LED</string>
+    <string name="battery_light_settings_summary">Customize the battery indication LED</string>
+    <string name="battery_light_allow_on_dnd_title">Battery light in DND</string>
+    <string name="battery_light_allow_on_dnd_summary">Blink LED for battery in Do Not Disturb mode</string>
+    <string name="battery_light_low_blinking_title">Low battery indication</string>
+    <string name="battery_light_low_blinking_summary">Blink LED when battery level is low</string>
+    <string name="battery_light_low_color">Low battery</string>
+    <string name="battery_light_medium_color">Medium battery</string>
+    <string name="battery_light_full_color">Almost full battery</string>
+    <string name="battery_light_reallyfull_color">Full battery</string>
+
 </resources>
