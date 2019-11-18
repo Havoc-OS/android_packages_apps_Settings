@@ -198,4 +198,7 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
+
 </resources>
