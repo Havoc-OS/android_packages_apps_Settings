@@ -101,9 +101,6 @@
     <string name="adj_intensity_title">Intensity</string>
     <string name="adj_contrast_title">Contrast</string>
 
-    <!-- Strings for suggestion card's close button [CHAR LIMIT=20] -->
-    <string name="suggestion_button_close">Close</string>
-
     <!-- Smart charging -->
     <string name="smart_charging_title">Smart Charging</string>
     <string name="smart_charging_summary">Set maximum charging level</string>
