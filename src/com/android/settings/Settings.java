@@ -183,7 +183,6 @@ public class Settings extends SettingsActivity {
     // Config Center
     public static class ConfigCenterActivity extends SettingsActivity { /* empty */ }
 
-    public static class GesturesSettingsActivity extends SettingsActivity { /* empty */ }
     public static class GamingModeActivity extends SettingsActivity {}
     public static class DevRunningServicesActivity extends SettingsActivity { /* empty */ }
 }

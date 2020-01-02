@@ -148,7 +148,6 @@ import com.android.settings.wifi.calling.WifiCallingSettings;
 import com.android.settings.wifi.p2p.WifiP2pSettings;
 import com.android.settings.wifi.savedaccesspoints.SavedAccessPointsWifiSettings;
 import com.android.settings.wifi.tether.WifiTetherSettings;
-import com.android.settings.GesturesSettings;
 
 import com.havoc.config.center.ConfigCenter;
 import com.havoc.config.center.fragments.GamingMode;
@@ -290,7 +289,6 @@ public class SettingsGateway {
             GlobalActionsPanelSettings.class.getName(),
             LiveDisplaySettings.class.getName(),
             ConfigCenter.class.getName(),
-            GesturesSettings.class.getName(),
             GamingMode.class.getName(),
             RunningServices.class.getName(),
     };
