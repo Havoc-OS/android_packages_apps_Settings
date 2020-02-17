@@ -20,4 +20,4 @@
     android:layout_width="wrap_content"
     android:layout_height="@dimen/pager_tabs_selected_indicator_height"
     android:background="?android:attr/colorAccent"
-    android:theme="@*android:style/ThemeOverlay.DeviceDefault.Accent" />
+    android:theme="@*android:style/ThemeOverlay.DeviceDefault.Accent.DayNight" />
