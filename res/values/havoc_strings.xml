@@ -266,4 +266,7 @@
     <!-- Back gesture vibration -->
     <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture.</string>
 
+    <string name="auto_brightness_min_title">Minimal brightness level</string>
+    <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
+
 </resources>
