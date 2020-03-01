@@ -22,6 +22,7 @@ import android.os.PowerManager;
 import android.os.SystemProperties;
 import android.os.UserHandle;
 import android.provider.Settings;
+import android.provider.Settings.SettingNotFoundException;
 import android.text.TextUtils;
 
 import androidx.preference.Preference;
@@ -69,12 +70,28 @@ public class AmbientDisplayAlwaysOnPreferenceController extends TogglePreference
 
     @Override
     public boolean isChecked() {
+        if (Settings.System.getIntForUser(mContext.getContentResolver(),
+            Settings.System.SCREEN_OFF_FOD, 0, UserHandle.USER_CURRENT) != 0) {
+            return !getConfig().alwaysOnEnabled(MY_USER);
+        }
         return getConfig().alwaysOnEnabled(MY_USER);
     }
 
     @Override
     public boolean setChecked(boolean isChecked) {
+
         int enabled = isChecked ? ON : OFF;
+        try {
+            if (Settings.System.getIntForUser(mContext.getContentResolver(),
+                Settings.System.SCREEN_OFF_FOD, 0) != 0 && enabled == 1) {
+
+                Settings.System.putInt(mContext.getContentResolver(),
+                Settings.System.SCREEN_OFF_FOD, 0);
+            }
+        } catch (SettingNotFoundException e) {
+            //do nothing
+        }
+
         Settings.Secure.putInt(
                 mContext.getContentResolver(), Settings.Secure.DOZE_ALWAYS_ON, enabled);
         return true;
