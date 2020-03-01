@@ -160,6 +160,13 @@
         android:ringtoneType="alarm"
         android:order="-80"/>
 
+    <Preference
+        android:key="vol_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary"
+        android:fragment="com.havoc.config.center.fragments.VolumeSteps"
+        android:order="-60" />
+
     <!-- Other sounds -->
     <PreferenceCategory
           android:key="other_sounds_and_vibrations_category"
