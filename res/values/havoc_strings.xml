@@ -21,7 +21,7 @@
 
     <!-- Config Center -->
     <string name="config_center_title">Configuration Center</string>
-    <string name="config_center_dashboard_summary">Some goodies you just can\'t live without</string>
+    <string name="config_center_dashboard_summary">Explore additional settings for your device</string>
 
     <!-- Fingerprint location message - default -->
     <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">Locate the fingerprint sensor on the front of your phone.</string>
