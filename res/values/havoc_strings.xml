@@ -198,9 +198,6 @@
     <!-- Volume link notification -->
     <string name="volume_link_notification_title">Link ring &amp; notification volumes</string>
 
-    <!-- Back gesture animation -->
-    <string name="back_gesture_arrow_message">Show an animated arrow for back gesture.</string>
-
     <!-- Running services -->
     <string name="background_processes_settings_title">Background processes</string>
 
@@ -224,9 +221,6 @@
 
     <!-- Hostname setting -->
     <string name="device_hostname">Device hostname</string>
-
-    <!-- NavigationBar Gestural Mode Tweaks -->
-    <string name="gesture_pill_message">Hide the navigation bar pill for seamless fullscreen gestures.</string>
 
     <!-- Notification Vibration -->
     <string name="vibrate_on_notifications_title">Vibrate for notifications</string>
@@ -262,9 +256,6 @@
 
     <!-- Battery temp -->
     <string name="battery_temp_title">Battery temperature</string>
-
-    <!-- Back gesture vibration -->
-    <string name="back_gesture_haptic_message">Enable haptic feedback for back gesture.</string>
 
     <string name="auto_brightness_min_title">Minimal brightness level</string>
     <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>

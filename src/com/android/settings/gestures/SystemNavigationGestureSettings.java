@@ -113,6 +113,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
             NAV_BAR_MODE_GESTURAL_OVERLAY_WIDE_BACK_NO_PILL,
             NAV_BAR_MODE_GESTURAL_OVERLAY_EXTRA_WIDE_BACK_NO_PILL
     };
+
     @VisibleForTesting
     static int BACK_GESTURE_INSET_DEFAULT_OVERLAY = 1;
 
@@ -182,7 +183,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
         if (info.getKey() == KEY_SYSTEM_NAV_GESTURAL) {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_SETTING);
             p.setExtraWidgetOnClickListener((v) -> GestureNavigationBackSensitivityDialog
-                    .show(this, getBackSensitivity(getContext(), mOverlayManager)));
+                    .show(this, getBackSensitivity(getContext(), mOverlayManager),
+                    getBackHeight(getContext())));
         } else {
             p.setExtraWidgetVisibility(EXTRA_WIDGET_VISIBILITY_GONE);
         }
@@ -200,8 +202,8 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
 
         if (SystemNavigationPreferenceController.isOverlayPackageAvailable(c,
                 NAV_BAR_MODE_GESTURAL_OVERLAY) ||
-            SystemNavigationPreferenceController.isOverlayPackageAvailable(c,
-                NAV_BAR_MODE_GESTURAL_OVERLAY_NO_PILL)) {
+                SystemNavigationPreferenceController.isOverlayPackageAvailable(c,
+                        NAV_BAR_MODE_GESTURAL_OVERLAY_NO_PILL)) {
             candidates.add(new CandidateInfoExtra(
                     c.getText(R.string.edge_to_edge_navigation_title),
                     c.getText(R.string.edge_to_edge_navigation_summary),
@@ -295,7 +297,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
                 Settings.System.GESTURE_PILL_TOGGLE, 0);
     }
 
-    static void setBackGestureOverlaysToUse(Context context) {
+    public static void setBackGestureOverlaysToUse(Context context) {
         if (getPillToggleState(context) == 1)
             BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS_NO_PILL;
         else
@@ -303,7 +305,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     }
 
     @VisibleForTesting
-    static String getCurrentSystemNavigationMode(Context context) {
+    public static String getCurrentSystemNavigationMode(Context context) {
         if (SystemNavigationPreferenceController.isEdgeToEdgeEnabled(context)) {
             return KEY_SYSTEM_NAV_GESTURAL;
         } else if (SystemNavigationPreferenceController.isSwipeUpEnabled(context)) {
@@ -314,7 +316,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     }
 
     @VisibleForTesting
-    static void setCurrentSystemNavigationMode(Context context, IOverlayManager overlayManager,
+    public static void setCurrentSystemNavigationMode(Context context, IOverlayManager overlayManager,
             String key) {
         switch (key) {
             case KEY_SYSTEM_NAV_GESTURAL:
