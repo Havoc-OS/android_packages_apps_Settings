@@ -67,12 +67,12 @@ import com.android.settingslib.search.SearchIndexable;
 import com.android.settingslib.utils.PowerUtil;
 import com.android.settingslib.utils.StringUtil;
 import com.android.settingslib.widget.LayoutPreference;
-import androidx.preference.*;
+
+import com.havoc.support.preferences.SystemSettingMasterSwitchPreference;
 
 import java.util.Collections;
 import java.util.List;
 
-import com.havoc.support.preferences.SystemSettingMasterSwitchPreference;
 /**
  * Displays a list of apps and subsystems that consume power, ordered by how much power was
  * consumed since the last time it was unplugged.
@@ -97,7 +97,6 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_BATTERY_TEMP = "battery_temp";
 
     private SystemSettingMasterSwitchPreference mSmartCharging;
-
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -259,14 +258,18 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mFooterPreferenceMixin.createFooterPreference().setTitle(R.string.battery_footer_summary);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
 
+        restartBatteryInfoLoader();
+        mBatteryTipPreferenceController.restoreInstanceState(icicle);
+        updateBatteryTipFlag(icicle);
+
+        updateMasterPrefs();
+    }
+
+    private void updateMasterPrefs() {
         mSmartCharging = (SystemSettingMasterSwitchPreference) findPreference(SMART_CHARGING);
         mSmartCharging.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
                 Settings.System.SMART_CHARGING, 0) == 1));
         mSmartCharging.setOnPreferenceChangeListener(this);
-
-        restartBatteryInfoLoader();
-        mBatteryTipPreferenceController.restoreInstanceState(icicle);
-        updateBatteryTipFlag(icicle);
     }
 
     @Override
@@ -309,12 +312,14 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 Global.getUriFor(Global.BATTERY_ESTIMATES_LAST_UPDATE_TIME),
                 false,
                 mSettingsObserver);
+        updateMasterPrefs();
     }
 
     @Override
     public void onPause() {
         getContentResolver().unregisterContentObserver(mSettingsObserver);
         super.onPause();
+        updateMasterPrefs();
     }
 
     @Override
