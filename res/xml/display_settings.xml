@@ -31,14 +31,12 @@
         <intent android:action="com.android.intent.action.SHOW_BRIGHTNESS_DIALOG" />
     </com.android.settingslib.RestrictedPreference>
 
-    <com.android.settings.display.darkmode.DarkModePreference
-        android:key="dark_ui_mode"
-        android:title="@string/dark_ui_mode"
-        android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
-        android:widgetLayout="@null"
-        settings:widgetLayout="@null"
-        settings:controller="com.android.settings.display.DarkUIPreferenceController"
-        settings:searchable="false"/>
+    <Preference
+        android:key="auto_brightness_entry"
+        android:title="@string/auto_brightness_title"
+        android:summary="@string/auto_brightness_summary"
+        android:fragment="com.android.settings.display.AutoBrightnessSettings"
+        settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
 
     <com.android.settings.display.NightDisplayPreference
         android:key="night_display"
@@ -48,18 +46,20 @@
         settings:widgetLayout="@null"
         settings:searchable="false" />
 
-    <Preference
-        android:key="auto_brightness_entry"
-        android:title="@string/auto_brightness_title"
-        android:summary="@string/auto_brightness_summary"
-        android:fragment="com.android.settings.display.AutoBrightnessSettings"
-        settings:controller="com.android.settings.display.AutoBrightnessPreferenceController"/>
+    <com.android.settings.display.darkmode.DarkModePreference
+        android:key="dark_ui_mode"
+        android:title="@string/dark_ui_mode"
+        android:fragment="com.android.settings.display.darkmode.DarkModeSettingsFragment"
+        android:widgetLayout="@null"
+        settings:widgetLayout="@null"
+        settings:controller="com.android.settings.display.DarkUIPreferenceController"
+        settings:searchable="false"/>
 
     <com.android.settingslib.RestrictedPreference
         android:key="wallpaper"
         android:title="@string/wallpaper_settings_title"
+        android:summary="@string/style_suggestion_summary"
         settings:keywords="@string/keywords_display_wallpaper"
-        settings:useAdminDisabledSummary="true"
         settings:controller="com.android.settings.display.WallpaperPreferenceController">
     </com.android.settingslib.RestrictedPreference>
 
@@ -89,7 +89,8 @@
     <Preference
         android:key="display_rotation"
         android:fragment="com.android.settings.preference.DisplayRotation"
-        android:title="@string/display_rotation_title" />
+        android:title="@string/display_rotation_title"
+        android:summary="@string/display_rotation_subtitle" />
 
     <Preference
         android:key="color_mode"

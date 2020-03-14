@@ -49,7 +49,7 @@
     <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
 
     <!-- LiveDisplay -->
-    <string name="live_display_summary">Optimize your screen based on time of day and ambient conditions to improve readability and reduce eyestrain</string>
+    <string name="live_display_summary">Optimize your screen based on the time of day and ambient conditions</string>
     <string name="live_display_mode">Display mode</string>
     <string name="live_display_color_temperature_title">Color temperature</string>
     <string name="live_display_color_temperature_summary">Day: <xliff:g id="day_temperature">%1$d</xliff:g>K  Night: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
@@ -162,6 +162,7 @@
 
     <!-- Display : Rotation -->
     <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_subtitle">Autorotation, 0, 90, 180, 270 degrees</string>
     <string name="display_rotation_disabled">Disabled</string>
     <string name="display_rotation_unit">degrees</string>
     <string name="display_rotation_category_title">Rotation modes</string>
