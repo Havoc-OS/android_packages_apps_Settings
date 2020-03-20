@@ -16,10 +16,13 @@
 package com.android.settings.notification;
 
 import android.content.Context;
+import android.os.VibrationEffect;
+import android.os.Vibrator;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Switch;
 
+import androidx.core.content.res.TypedArrayUtils;
 import androidx.preference.PreferenceViewHolder;
 
 import com.android.settings.R;
@@ -35,21 +38,27 @@ public class NotificationAppPreference extends MasterSwitchPreference {
     private boolean mChecked;
     private boolean mEnableSwitch = true;
 
-    public NotificationAppPreference(Context context) {
-        super(context);
-    }
-
-    public NotificationAppPreference(Context context, AttributeSet attrs) {
-        super(context, attrs);
-    }
+    private final Vibrator mVibrator;
 
     public NotificationAppPreference(Context context, AttributeSet attrs,
             int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
+
+        mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
     }
 
     public NotificationAppPreference(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
+        this(context, attrs, defStyleAttr, 0);
+    }
+
+    public NotificationAppPreference(Context context, AttributeSet attrs) {
+        this(context, attrs, TypedArrayUtils.getAttr(context,
+                androidx.preference.R.attr.switchPreferenceStyle,
+                android.R.attr.switchPreferenceStyle));
+    }
+
+    public NotificationAppPreference(Context context) {
+        this(context, null);
     }
 
     @Override
@@ -75,6 +84,7 @@ public class NotificationAppPreference extends MasterSwitchPreference {
                     } else {
                         persistBoolean(mChecked);
                     }
+                    mVibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK));
                 }
             });
         }
