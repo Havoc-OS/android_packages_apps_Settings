@@ -25,10 +25,11 @@ import android.provider.Settings;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class KeepActivitiesPreferenceController extends DeveloperOptionsPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {

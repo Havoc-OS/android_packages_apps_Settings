@@ -22,10 +22,11 @@ import android.os.UserManager;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class AutomaticSystemServerHeapDumpPreferenceController extends
         DeveloperOptionsPreferenceController implements Preference.OnPreferenceChangeListener,

@@ -37,27 +37,27 @@
             android:fragment="com.android.settings.notification.ZenModeMessagesSettings" />
 
         <!-- Alarms -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_alarms"
             android:title="@string/zen_mode_alarms"/>
 
         <!-- Media -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_media"
             android:title="@string/zen_mode_media"/>
 
         <!-- System -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_system"
             android:title="@string/zen_mode_system"/>
 
         <!-- Reminders -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_reminders"
             android:title="@string/zen_mode_reminders"/>
 
         <!-- Events -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_events"
             android:title="@string/zen_mode_events"/>
 

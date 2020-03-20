@@ -25,7 +25,7 @@
         android:key="global_actions_panel_video"
         app:animation="@raw/gesture_global_actions_panel" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="gesture_global_actions_panel_switch"
         android:title="@string/global_actions_panel_title"
         android:summary="@string/global_actions_panel_summary"

@@ -98,7 +98,7 @@
                     android:dialogTitle="@string/select_webview_provider_dialog_title"
                     android:fragment="com.android.settings.webview.WebViewAppPicker" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="color_temperature"
             android:title="@string/color_temperature"
             android:summary="@string/color_temperature_desc" />
@@ -121,12 +121,12 @@
             settings:searchable="false" />
 
     <!-- Configure trust agent behavior -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="security_setting_trust_agents_extend_unlock"
         android:title="@string/trust_agents_extend_unlock_title"
         android:summary="@string/trust_agents_extend_unlock_summary" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="security_setting_trust_lost_locks_screen"
         android:title="@string/trust_lost_locks_screen_title"
         android:summary="@string/trust_lost_locks_screen_summary" />
@@ -137,19 +137,19 @@
         android:title="@string/debug_debugging_category"
         android:order="200">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="enable_adb"
             android:title="@string/enable_adb"
             android:summary="@string/enable_adb_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="enable_adb_root"
             android:title="@string/adb_enable_root"
             android:summary="@string/adb_enable_summary_root"
             android:dependency="enable_adb"
             android:persistent="false" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="enable_adb_network"
             android:title="@string/adb_over_network"
             android:summary="@string/adb_over_network_summary" />
@@ -168,17 +168,17 @@
             android:inputType="textNoSuggestions"
             android:persistent="false" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="enable_terminal"
             android:title="@string/enable_terminal_title"
             android:summary="@string/enable_terminal_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="bugreport_in_power"
             android:title="@string/bugreport_in_power"
             android:summary="@string/bugreport_in_power_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="automatic_system_server_heap_dumps"
             android:title="@string/automatic_system_heap_dump_title"
             android:summary="@string/automatic_system_heap_dump_summary" />
@@ -186,19 +186,19 @@
         <Preference android:key="mock_location_app"
                     android:title="@string/mock_location_app" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="enable_gnss_raw_meas_full_tracking"
             android:title="@string/enable_gnss_raw_meas_full_tracking"
             android:summary="@string/enable_gnss_raw_meas_full_tracking_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="debug_view_attributes"
             android:title="@string/debug_view_attributes" />
 
         <Preference android:key="debug_app"
                     android:title="@string/debug_app" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="wait_for_debugger"
             android:title="@string/wait_for_debugger"
             android:summary="@string/wait_for_debugger_summary" />
@@ -208,7 +208,7 @@
             android:title="@string/verify_apps_over_usb_title"
             android:summary="@string/verify_apps_over_usb_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="art_verifier_for_debuggable"
             android:title="@string/art_verifier_for_debuggable_title"
             android:summary="@string/art_verifier_for_debuggable_summary" />
@@ -227,7 +227,7 @@
             android:entries="@array/select_logpersist_titles"
             android:entryValues="@array/select_logpersist_values" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="camera_laser_sensor_switch"
             android:title="@string/camera_laser_sensor_switch" />
 
@@ -237,7 +237,7 @@
             android:fragment="com.android.settings.development.featureflags.FeatureFlagsDashboard"
             settings:searchable="false" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="enable_gpu_debug_layers"
             android:title="@string/enable_gpu_debug_layers"
             android:summary="@string/enable_gpu_debug_layers_summary" />
@@ -260,27 +260,27 @@
         android:title="@string/debug_networking_category"
         android:order="400">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="wifi_display_certification"
             android:title="@string/wifi_display_certification"
             android:summary="@string/wifi_display_certification_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="wifi_verbose_logging"
             android:title="@string/wifi_verbose_logging"
             android:summary="@string/wifi_verbose_logging_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="wifi_scan_throttling"
             android:title="@string/wifi_scan_throttling"
             android:summary="@string/wifi_scan_throttling_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="mobile_data_always_on"
             android:title="@string/mobile_data_always_on"
             android:summary="@string/mobile_data_always_on_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="tethering_hardware_offload"
             android:title="@string/tethering_hardware_offload"
             android:summary="@string/tethering_hardware_offload_summary" />
@@ -291,17 +291,17 @@
             android:icon="@drawable/ic_usb"
             android:title="@string/usb_default_label"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="bluetooth_show_devices_without_names"
             android:title="@string/bluetooth_show_devices_without_names"
             android:summary="@string/bluetooth_show_devices_without_names_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="bluetooth_disable_absolute_volume"
             android:title="@string/bluetooth_disable_absolute_volume"
             android:summary="@string/bluetooth_disable_absolute_volume_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="bluetooth_disable_a2dp_hw_offload"
             android:title="@string/bluetooth_disable_a2dp_hw_offload" />
 
@@ -361,12 +361,12 @@
         android:title="@string/debug_input_category"
         android:order="500">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="show_touches"
             android:title="@string/show_touches"
             android:summary="@string/show_touches_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="pointer_location"
             android:title="@string/pointer_location"
             android:summary="@string/pointer_location_summary" />
@@ -378,17 +378,17 @@
         android:title="@string/debug_drawing_category"
         android:order="600">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="show_screen_updates"
             android:title="@string/show_screen_updates"
             android:summary="@string/show_screen_updates_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="debug_layout"
             android:title="@string/debug_layout"
             android:summary="@string/debug_layout_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="force_rtl_layout_all_locales"
             android:title="@string/force_rtl_layout_all_locales"
             android:summary="@string/force_rtl_layout_all_locales_summary" />
@@ -424,12 +424,12 @@
         android:title="@string/debug_hw_drawing_category"
         android:order="700">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="show_hw_screen_updates"
             android:title="@string/show_hw_screen_updates"
             android:summary="@string/show_hw_screen_updates_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="show_hw_layers_updates"
             android:title="@string/show_hw_layers_updates"
             android:summary="@string/show_hw_layers_updates_summary" />
@@ -446,17 +446,17 @@
             android:entries="@array/show_non_rect_clip_entries"
             android:entryValues="@array/show_non_rect_clip_values" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="hwui_force_dark"
             android:title="@string/hwui_force_dark_title"
             android:summary="@string/hwui_force_dark_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="force_msaa"
             android:title="@string/force_msaa"
             android:summary="@string/force_msaa_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="disable_overlays"
             android:title="@string/disable_overlays"
             android:summary="@string/disable_overlays_summary" />
@@ -475,7 +475,7 @@
         android:title="@string/media_category"
         android:order="800">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="usb_audio"
             android:title="@string/usb_audio_disable_routing"
             android:summary="@string/usb_audio_disable_routing_summary" />
@@ -487,7 +487,7 @@
         android:title="@string/debug_monitoring_category"
         android:order="900">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="strict_mode"
             android:title="@string/strict_mode"
             android:summary="@string/strict_mode_summary" />
@@ -505,7 +505,7 @@
         android:title="@string/debug_applications_category"
         android:order="1000">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="immediately_destroy_activities"
             android:title="@string/immediately_destroy_activities"
             android:summary="@string/immediately_destroy_activities_summary" />
@@ -521,22 +521,22 @@
             android:fragment="com.android.settings.applications.appops.BackgroundCheckSummary"
             android:title="@string/background_check_pref" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="show_first_crash_dialog"
             android:title="@string/show_first_crash_dialog"
             android:summary="@string/show_first_crash_dialog_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="show_all_anrs"
             android:title="@string/show_all_anrs"
             android:summary="@string/show_all_anrs_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="show_notification_channel_warnings"
             android:title="@string/show_notification_channel_warnings"
             android:summary="@string/show_notification_channel_warnings_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="asst_capability_prioritizer"
             android:title="@string/asst_capability_prioritizer_title"
             settings:controller="com.android.settings.notification.AssistantCapabilityPreferenceController" />
@@ -546,22 +546,22 @@
             android:title="@string/inactive_apps_title"
             android:fragment="com.android.settings.fuelgauge.InactiveApps" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="force_allow_on_external"
             android:title="@string/force_allow_on_external"
             android:summary="@string/force_allow_on_external_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="force_resizable_activities"
             android:title="@string/force_resizable_activities"
             android:summary="@string/force_resizable_activities_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="enable_freeform_support"
             android:title="@string/enable_freeform_support"
             android:summary="@string/enable_freeform_support_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="force_desktop_mode_on_external_displays"
             android:title="@string/force_desktop_mode"
             android:summary="@string/force_desktop_mode_summary" />
@@ -570,12 +570,12 @@
             android:key="reset_shortcut_manager_throttling"
             android:title="@string/reset_shortcut_manager_throttling" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="sms_access_restriction_enabled"
             android:title="@string/sms_access_restriction_enabled"
             android:summary="@string/sms_access_restriction_enabled_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="notification_bubbles"
             android:title="@string/notification_bubbles_title"
             android:summary="@string/notification_bubbles_developer_setting_summary"/>

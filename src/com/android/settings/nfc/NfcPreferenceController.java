@@ -25,13 +25,14 @@ import android.provider.Settings;
 import android.util.Log;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.TogglePreferenceController;
 import com.android.settings.slices.SliceBackgroundWorker;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnPause;
 import com.android.settingslib.core.lifecycle.events.OnResume;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.io.IOException;
 

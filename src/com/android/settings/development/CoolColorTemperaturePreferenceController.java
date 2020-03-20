@@ -22,12 +22,13 @@ import android.widget.Toast;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 import com.android.settingslib.development.SystemPropPoker;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class CoolColorTemperaturePreferenceController extends DeveloperOptionsPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {

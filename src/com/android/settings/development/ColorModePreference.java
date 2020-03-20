@@ -24,9 +24,10 @@ import android.os.Looper;
 import android.util.AttributeSet;
 import android.view.Display;
 
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;

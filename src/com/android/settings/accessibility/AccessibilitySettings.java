@@ -51,7 +51,6 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.accessibility.AccessibilityShortcutController;
 import com.android.internal.content.PackageMonitor;
@@ -70,6 +69,8 @@ import com.android.settingslib.accessibility.AccessibilityUtils;
 import com.android.settingslib.search.SearchIndexable;
 
 import com.google.common.primitives.Ints;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.ArrayList;
 import java.util.Collection;

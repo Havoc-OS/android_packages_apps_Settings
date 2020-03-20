@@ -28,13 +28,14 @@ import androidx.annotation.VisibleForTesting;
 import androidx.fragment.app.FragmentManager;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.network.MobileDataContentObserver;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * Preference controller for "Mobile data"

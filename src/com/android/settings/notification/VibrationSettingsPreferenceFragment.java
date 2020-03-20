@@ -30,13 +30,14 @@ import android.os.Vibrator;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.widget.RadioButtonPreference;
 import com.android.settingslib.core.AbstractPreferenceController;
 
 import com.android.settings.R;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.ArrayList;
 import java.util.Arrays;

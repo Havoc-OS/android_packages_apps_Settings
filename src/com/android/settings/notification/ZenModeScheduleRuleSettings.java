@@ -36,11 +36,12 @@ import androidx.fragment.app.FragmentManager;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceClickListener;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
 import com.android.settingslib.core.AbstractPreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

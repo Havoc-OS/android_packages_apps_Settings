@@ -30,17 +30,17 @@
     <PreferenceCategory
         android:key="security_settings_face_unlock_category"
         android:title="@string/security_settings_face_settings_use_face_category">
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="security_settings_face_keyguard"
             android:title="@string/security_settings_face_settings_use_face_unlock_phone"
             app:keywords="@string/keywords_face_unlock"
             app:controller="com.android.settings.biometrics.face.FaceSettingsKeyguardPreferenceController"/>
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="security_settings_face_app"
             android:title="@string/security_settings_face_settings_use_face_for_apps"
             app:keywords="@string/keywords_face_unlock"
             app:controller="com.android.settings.biometrics.face.FaceSettingsAppPreferenceController"/>
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="security_lockscreen_bypass"
             android:title="@string/lockscreen_bypass_title"
             android:summary="@string/lockscreen_bypass_summary"
@@ -51,14 +51,14 @@
     <PreferenceCategory
         android:key="security_settings_face_manage_category"
         android:title="@string/security_settings_face_settings_require_category">
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="security_settings_face_require_attention"
             android:title="@string/security_settings_face_settings_require_attention"
             android:summary="@string/security_settings_face_settings_require_attention_details"
             app:keywords="@string/keywords_face_unlock"
             app:controller="com.android.settings.biometrics.face.FaceSettingsAttentionPreferenceController"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="security_settings_face_require_confirmation"
             android:title="@string/security_settings_face_settings_require_confirmation"
             android:summary="@string/security_settings_face_settings_require_confirmation_details"

@@ -22,9 +22,10 @@ import android.provider.Settings;
 import android.util.Log;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settingslib.core.lifecycle.Lifecycle;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class ZenModeMediaPreferenceController extends AbstractZenModePreferenceController
         implements Preference.OnPreferenceChangeListener {

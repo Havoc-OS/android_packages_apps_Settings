@@ -99,7 +99,7 @@
         settings:controller="com.android.settings.display.ColorModePreferenceController"
         settings:keywords="@string/keywords_color_mode" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="display_white_balance"
         android:title="@string/display_white_balance_title"
         android:summary="@string/display_white_balance_summary"
@@ -128,7 +128,7 @@
         android:entries="@array/refresh_rate_entries"
         android:entryValues="@array/refresh_rate_values" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="show_operator_name"
         android:title="@string/show_operator_name_title"
         android:summary="@string/show_operator_name_summary" />
@@ -145,16 +145,16 @@
         android:fragment="com.android.settings.security.LockscreenDashboardFragment"
         settings:controller="com.android.settings.security.screenlock.LockScreenPreferenceController" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="camera_gesture"
         android:title="@string/camera_gesture_title"
         android:summary="@string/camera_gesture_desc" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="lift_to_wake"
         android:title="@string/lift_to_wake_title" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="tap_to_wake"
         android:title="@string/tap_to_wake"
         android:summary="@string/tap_to_wake_summary" />

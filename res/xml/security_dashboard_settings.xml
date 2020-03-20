@@ -76,7 +76,7 @@
             android:summary="@string/unlock_set_unlock_mode_pattern"
             settings:keywords="@string/keywords_lockscreen" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="visiblepattern_profile"
             android:summary="@string/summary_placeholder"
             android:title="@string/lockpattern_settings_enable_visible_pattern_title_profile"

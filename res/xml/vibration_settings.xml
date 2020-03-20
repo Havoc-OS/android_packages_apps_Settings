@@ -22,13 +22,13 @@
     settings:keywords="@string/keywords_vibration_preferences">
 
     <!-- In-call feedback -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="incall_feeedback_vibrate"
         android:title="@string/incall_feeedback_vibrate_title"
         android:defaultValue="false"/>
 
     <!-- Also vibrate for calls -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="vibrate_when_ringing"
         android:title="@string/vibrate_when_ringing_title"
         settings:controller="com.android.settings.notification.VibrateWhenRingPreferenceController"/>

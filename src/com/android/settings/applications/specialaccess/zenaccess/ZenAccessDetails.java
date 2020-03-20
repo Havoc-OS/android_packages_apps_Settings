@@ -22,10 +22,11 @@ import android.content.Context;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AlertDialog;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.applications.AppInfoWithHeader;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.Set;
 

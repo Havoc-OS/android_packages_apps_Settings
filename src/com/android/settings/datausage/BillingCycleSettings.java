@@ -38,7 +38,6 @@ import androidx.annotation.VisibleForTesting;
 import androidx.appcompat.app.AlertDialog;
 import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
@@ -47,6 +46,8 @@ import com.android.settings.search.Indexable;
 import com.android.settingslib.NetworkPolicyEditor;
 import com.android.settingslib.net.DataUsageController;
 import com.android.settingslib.search.SearchIndexable;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;

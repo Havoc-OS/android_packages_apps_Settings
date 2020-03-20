@@ -32,7 +32,6 @@ import android.telephony.TelephonyManager;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.core.SubSettingLauncher;
@@ -40,6 +39,8 @@ import com.android.settings.network.telephony.MobileNetworkUtils;
 import com.android.settings.network.telephony.NetworkSelectSettings;
 import com.android.settings.network.telephony.TelephonyTogglePreferenceController;
 import com.android.settingslib.utils.ThreadUtils;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;

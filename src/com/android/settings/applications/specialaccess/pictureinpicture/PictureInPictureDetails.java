@@ -28,12 +28,13 @@ import androidx.annotation.VisibleForTesting;
 import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.applications.AppInfoWithHeader;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class PictureInPictureDetails extends AppInfoWithHeader
         implements OnPreferenceChangeListener {

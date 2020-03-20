@@ -53,7 +53,7 @@
             settings:allowDividerAbove="true"
             settings:allowDividerBelow="false"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="mobile_data_enable"
             android:title="@string/mobile_data_settings_title"
             android:summary="@string/mobile_data_settings_summary"
@@ -79,19 +79,19 @@
             android:title="@string/billing_cycle"
             settings:controller="com.android.settings.datausage.BillingCyclePreferenceController"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="mms_message"
             android:title="@string/mms_message_title"
             android:summary="@string/mms_message_summary"
             settings:controller="com.android.settings.network.telephony.MmsMessagePreferenceController"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="data_during_calls"
             android:title="@string/data_during_calls_title"
             android:summary="@string/data_during_calls_summary"
             settings:controller="com.android.settings.network.telephony.DataDuringCallsPreferenceController"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="enhanced_4g_lte"
             android:title="@string/enhanced_4g_lte_mode_title"
             android:persistent="false"
@@ -138,7 +138,7 @@
                 </intent>
             </PreferenceScreen>
 
-            <SwitchPreference
+            <com.havoc.support.preferences.SwitchPreference
                 android:key="video_calling_key"
                 android:title="@string/video_calling_settings_title"
                 android:persistent="true"
@@ -169,7 +169,7 @@
             android:title="@string/network_operator_category"
             settings:controller="com.android.settings.widget.PreferenceCategoryController">
 
-            <SwitchPreference
+            <com.havoc.support.preferences.SwitchPreference
                 android:key="auto_select_key"
                 android:title="@string/select_automatically"
                 settings:controller="com.android.settings.network.telephony.gsm.AutoSelectPreferenceController"/>

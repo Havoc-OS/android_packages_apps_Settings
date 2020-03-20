@@ -19,10 +19,11 @@ import android.content.Context;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.overlay.FeatureFactory;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * Controller to change and update the auto restriction toggle

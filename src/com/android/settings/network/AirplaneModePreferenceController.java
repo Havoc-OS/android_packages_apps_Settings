@@ -25,7 +25,6 @@ import android.os.SystemProperties;
 import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.telephony.TelephonyIntents;
 import com.android.internal.telephony.TelephonyProperties;
@@ -37,6 +36,8 @@ import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnPause;
 import com.android.settingslib.core.lifecycle.events.OnResume;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class AirplaneModePreferenceController extends TogglePreferenceController
         implements LifecycleObserver, OnResume, OnPause,

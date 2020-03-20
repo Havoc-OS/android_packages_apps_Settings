@@ -30,7 +30,7 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_lock_screen_notif"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="security_dispaly_lockscreen_bypass"
             android:title="@string/lockscreen_bypass_title"
             android:summary="@string/lockscreen_bypass_summary"
@@ -85,7 +85,7 @@
             android:fragment="com.android.settings.gestures.PickupGestureSettings"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="ambient_display_notification"
             android:title="@string/doze_title"
             android:summary="@string/doze_summary"

@@ -22,7 +22,6 @@ import android.provider.Settings;
 import android.text.TextUtils;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 import androidx.preference.TwoStatePreference;
 
 import com.android.internal.widget.LockPatternUtils;
@@ -31,6 +30,8 @@ import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settings.security.trustagent.TrustAgentManager;
 import com.android.settingslib.core.AbstractPreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class ScramblePinPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener {

@@ -18,9 +18,9 @@ package com.android.settings.widget;
 
 import android.content.Context;
 
-import androidx.preference.SwitchPreference;
-
 import com.android.settings.R;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class AppSwitchPreference extends SwitchPreference {
 

@@ -59,7 +59,6 @@ import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
 import androidx.preference.PreferenceViewHolder;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.app.MediaRouteDialogPresenter;
 import com.android.settings.R;
@@ -68,6 +67,8 @@ import com.android.settings.dashboard.SummaryLoader;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.search.Indexable;
 import com.android.settingslib.search.SearchIndexable;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;

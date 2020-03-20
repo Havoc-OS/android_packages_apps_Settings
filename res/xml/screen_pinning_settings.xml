@@ -19,7 +19,7 @@
     android:key="screen_pinning_settings_screen"
     android:title="@string/screen_pinning_title">
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="use_screen_lock"
         android:title="@string/screen_pinning_unlock_none" />
 

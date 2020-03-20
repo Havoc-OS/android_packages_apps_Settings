@@ -25,7 +25,6 @@ import android.os.Bundle;
 import android.provider.Settings;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 import android.text.TextUtils;
 
 import com.android.internal.R;
@@ -39,6 +38,8 @@ import com.android.settingslib.core.lifecycle.events.OnResume;
 import com.android.settingslib.core.lifecycle.events.OnSaveInstanceState;
 
 import com.android.settings.Utils;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class SwipeToNotificationPreferenceController extends BasePreferenceController
         implements PreferenceControllerMixin, Preference.OnPreferenceChangeListener,

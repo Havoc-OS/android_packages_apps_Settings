@@ -18,7 +18,7 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto"
         android:title="@string/sim_lock_settings">
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="sim_toggle"
             android:title="@string/sim_pin_toggle"
             android:summaryOn="@string/sim_lock_on"

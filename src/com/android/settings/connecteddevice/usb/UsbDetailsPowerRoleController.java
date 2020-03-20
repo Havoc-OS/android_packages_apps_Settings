@@ -26,10 +26,11 @@ import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceClickListener;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * This class controls the switch for changing USB power direction.

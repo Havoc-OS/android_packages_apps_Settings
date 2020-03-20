@@ -31,12 +31,13 @@ import android.telephony.TelephonyManager;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.ims.ImsManager;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * Preference controller for "Video Calling"

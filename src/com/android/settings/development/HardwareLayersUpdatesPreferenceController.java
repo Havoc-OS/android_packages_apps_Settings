@@ -21,11 +21,12 @@ import android.os.SystemProperties;
 import android.view.ThreadedRenderer;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
 import com.android.settingslib.development.SystemPropPoker;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class HardwareLayersUpdatesPreferenceController extends DeveloperOptionsPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {

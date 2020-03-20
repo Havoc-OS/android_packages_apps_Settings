@@ -21,7 +21,7 @@
             android:title="@string/accessibility_shortcut_service_title"
             android:fragment="com.android.settings.accessibility.ShortcutServicePickerFragment"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="accessibility_shortcut_on_lock_screen"
             android:title="@string/accessibility_shortcut_service_on_lock_screen_title"/>
 </PreferenceScreen>

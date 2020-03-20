@@ -26,10 +26,11 @@ import android.view.View;
 import android.widget.TextView;
 
 import androidx.preference.PreferenceViewHolder;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settingslib.widget.AnimatedImageView;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class SyncStateSwitchPreference extends SwitchPreference {
 

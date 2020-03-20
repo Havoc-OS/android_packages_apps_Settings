@@ -21,11 +21,12 @@ import android.content.Context;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.R;
 import com.android.settings.core.BasePreferenceController;
 import com.android.settings.core.PreferenceControllerMixin;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * A controller to manage the switch for showing battery percentage in the status bar.

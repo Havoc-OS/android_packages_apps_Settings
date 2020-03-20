@@ -26,7 +26,6 @@ import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceFragmentCompat;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settingslib.bluetooth.A2dpProfile;
 import com.android.settingslib.bluetooth.CachedBluetoothDevice;
@@ -37,6 +36,8 @@ import com.android.settingslib.bluetooth.MapProfile;
 import com.android.settingslib.bluetooth.PanProfile;
 import com.android.settingslib.bluetooth.PbapServerProfile;
 import com.android.settingslib.core.lifecycle.Lifecycle;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.List;
 

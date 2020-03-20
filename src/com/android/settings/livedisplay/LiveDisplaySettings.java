@@ -23,7 +23,6 @@ import android.hardware.display.ColorDisplayManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
-import androidx.preference.SwitchPreference;
 import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
@@ -53,6 +52,8 @@ import com.android.settings.custom.utils.SettingsHelper;
 import com.android.settings.custom.utils.ResourceUtils;
 
 import com.android.settings.custom.preference.CustomDialogPreference;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_CABC;
 import static com.android.internal.custom.hardware.LiveDisplayManager.FEATURE_COLOR_ADJUSTMENT;

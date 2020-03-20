@@ -25,9 +25,10 @@ import android.provider.Settings;
 import android.util.Log;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.TogglePreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class AutoRestorePreferenceController extends TogglePreferenceController {
     private static final String TAG = "AutoRestorePrefCtrler";

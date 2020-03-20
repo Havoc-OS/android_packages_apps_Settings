@@ -47,7 +47,8 @@ import java.util.List;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceCategory;
 import androidx.preference.PreferenceGroup;
-import androidx.preference.SwitchPreference;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class ChannelListPreferenceController extends NotificationPreferenceController {
 

@@ -17,10 +17,11 @@ import android.content.Context;
 import android.provider.Settings;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class BluetoothScanningPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin {

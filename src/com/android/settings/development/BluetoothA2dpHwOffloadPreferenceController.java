@@ -20,10 +20,11 @@ import android.content.Context;
 import android.os.SystemProperties;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.development.DeveloperOptionsPreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class BluetoothA2dpHwOffloadPreferenceController extends DeveloperOptionsPreferenceController
         implements Preference.OnPreferenceChangeListener, PreferenceControllerMixin {

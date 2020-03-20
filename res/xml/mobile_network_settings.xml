@@ -25,7 +25,7 @@
         settings:controller="com.android.settings.network.telephony.DataServiceSetupPreferenceController">
     </Preference>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="mobile_data_enable"
         android:title="@string/mobile_data_settings_title"
         android:summary="@string/mobile_data_settings_summary"
@@ -45,7 +45,7 @@
         android:title="@string/mobile_data_usage_title"
         settings:controller="com.android.settings.network.telephony.DataUsagePreferenceController"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="enhanced_4g_lte"
         android:title="@string/enhanced_4g_lte_mode_title"
         android:persistent="false"
@@ -92,7 +92,7 @@
             </intent>
         </PreferenceScreen>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="video_calling_key"
             android:title="@string/video_calling_settings_title"
             android:persistent="true"
@@ -123,7 +123,7 @@
         android:title="@string/network_operator_category"
         settings:controller="com.android.settings.widget.PreferenceCategoryController">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="auto_select_key"
             android:title="@string/select_automatically"
             settings:controller="com.android.settings.network.telephony.gsm.AutoSelectPreferenceController"/>

@@ -49,12 +49,13 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.telephony.CommandException;
 import com.android.internal.telephony.Phone;
 import com.android.internal.telephony.PhoneFactory;
 import com.android.internal.telephony.TelephonyIntents;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * Implements the preference screen to enable/disable ICC lock and

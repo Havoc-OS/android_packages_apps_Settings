@@ -25,7 +25,7 @@
         app:animation="@raw/gesture_fingerprint_swipe"
         app:preview="@drawable/gesture_fingerprint_swipe" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="gesture_swipe_down_fingerprint"
         android:title="@string/fingerprint_swipe_for_notifications_title"
         android:summary="@string/fingerprint_swipe_for_notifications_summary"
@@ -33,7 +33,7 @@
         app:controller="com.android.settings.gestures.SwipeToNotificationPreferenceController"
         app:allowDividerAbove="true" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="gesture_swipe_dismiss_fingerprint"
         android:title="@string/fp_swipe_to_dismiss_notifications_title"
         android:summary="@string/fp_swipe_to_dismiss_notifications_summary"

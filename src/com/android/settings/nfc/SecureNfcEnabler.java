@@ -21,9 +21,10 @@ import android.nfc.NfcAdapter;
 import android.provider.Settings;
 
 import androidx.annotation.VisibleForTesting;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * SecureNfcEnabler is a helper to manage the Secure Nfc on/off checkbox preference

@@ -5,10 +5,11 @@ import android.icu.text.NumberFormat;
 import android.provider.Settings;
 import android.provider.Settings.Global;
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 import com.android.settings.R;
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settings.core.TogglePreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class BatterySaverStickyPreferenceController extends TogglePreferenceController implements
         PreferenceControllerMixin, Preference.OnPreferenceChangeListener {

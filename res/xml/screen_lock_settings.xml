@@ -23,26 +23,26 @@
     settings:searchable="false">
 
     <!-- available in pattern -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="visiblepattern"
         android:title="@string/lockpattern_settings_enable_visible_pattern_title" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="visible_error_pattern"
         android:title="@string/lockpattern_settings_enable_error_path_title"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="visibledots"
         android:title="@string/lockpattern_settings_enable_dots_title"/>
 
     <!-- available in pin/password -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="lockscreen_quick_unlock_control"
         android:title="@string/unlock_quick_unlock_control_title"
         android:summary="@string/unlock_quick_unlock_control_summary" />
 
     <!-- available in pin -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="lockscreen_scramble_pin_layout"
         android:title="@string/unlock_scramble_pin_layout_title"
         android:summary="@string/unlock_scramble_pin_layout_summary" />
@@ -56,7 +56,7 @@
         android:entryValues="@array/lock_after_timeout_values" />
 
     <!-- available in pin/pattern/password -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 

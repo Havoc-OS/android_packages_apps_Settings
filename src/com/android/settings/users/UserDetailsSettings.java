@@ -26,11 +26,12 @@ import android.os.UserHandle;
 import android.os.UserManager;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settingslib.RestrictedLockUtilsInternal;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.List;
 

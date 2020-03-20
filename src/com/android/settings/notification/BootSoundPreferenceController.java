@@ -22,10 +22,11 @@ import android.os.SystemProperties;
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class BootSoundPreferenceController extends AbstractPreferenceController
         implements PreferenceControllerMixin {

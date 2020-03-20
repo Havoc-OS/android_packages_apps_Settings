@@ -31,7 +31,6 @@ import androidx.preference.ListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceCategory;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.widget.SubtitleView;
 import com.android.settings.R;
@@ -39,6 +38,8 @@ import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.accessibility.ListDialogPreference.OnValueChangedListener;
 import com.android.settingslib.accessibility.AccessibilityUtils;
 import com.android.settingslib.widget.LayoutPreference;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.ArrayList;
 import java.util.List;

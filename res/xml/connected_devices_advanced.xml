@@ -28,7 +28,7 @@
         android:order="-9"
         settings:searchable="false"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="toggle_nfc"
         android:title="@string/nfc_quick_toggle_title"
         android:icon="@drawable/ic_nfc"
@@ -44,7 +44,7 @@
         android:icon="@drawable/ic_android"
         android:order="-6"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="nfc_secure_settings"
         android:title="@string/nfc_secure_settings_title"
         settings:controller="com.android.settings.nfc.SecureNfcPreferenceController"

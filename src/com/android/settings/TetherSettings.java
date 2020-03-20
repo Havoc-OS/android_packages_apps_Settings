@@ -39,7 +39,6 @@ import android.provider.SearchIndexableResource;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.datausage.DataSaverBackend;
 import com.android.settings.search.BaseSearchIndexProvider;
@@ -47,6 +46,8 @@ import com.android.settings.search.Indexable;
 import com.android.settings.wifi.tether.WifiTetherPreferenceController;
 import com.android.settingslib.TetherUtil;
 import com.android.settingslib.search.SearchIndexable;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.lang.ref.WeakReference;
 import java.util.ArrayList;

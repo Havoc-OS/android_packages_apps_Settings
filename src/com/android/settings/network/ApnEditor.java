@@ -48,7 +48,6 @@ import androidx.preference.ListPreference;
 import androidx.preference.MultiSelectListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.telephony.PhoneConstants;
 import com.android.internal.util.ArrayUtils;
@@ -56,6 +55,8 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.core.instrumentation.InstrumentedDialogFragment;
 import com.android.settingslib.utils.ThreadUtils;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.Arrays;
 import java.util.HashSet;

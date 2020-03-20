@@ -23,10 +23,11 @@ import android.hardware.face.FaceManager.SetFeatureCallback;
 import android.provider.Settings;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.Utils;
 import com.android.settings.core.TogglePreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * Preference controller that manages the ability to use face authentication with/without

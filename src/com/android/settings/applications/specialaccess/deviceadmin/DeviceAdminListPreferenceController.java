@@ -43,7 +43,6 @@ import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
@@ -52,6 +51,8 @@ import com.android.settingslib.core.lifecycle.events.OnStart;
 import com.android.settingslib.core.lifecycle.events.OnStop;
 import com.android.settingslib.widget.FooterPreference;
 import com.android.settingslib.widget.FooterPreferenceMixinCompat;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import org.xmlpull.v1.XmlPullParserException;
 

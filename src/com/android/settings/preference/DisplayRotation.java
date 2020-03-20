@@ -22,7 +22,6 @@ import android.os.Bundle;
 import android.os.Handler;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
 import android.provider.Settings;
 
 import com.android.internal.logging.nano.MetricsProto.MetricsEvent;
@@ -31,6 +30,8 @@ import com.android.internal.view.RotationPolicy;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class DisplayRotation extends SettingsPreferenceFragment implements OnPreferenceChangeListener {
     private static final String TAG = "DisplayRotation";

@@ -28,7 +28,6 @@ import androidx.appcompat.app.AlertDialog;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.Preference.OnPreferenceClickListener;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.Utils;
@@ -39,6 +38,8 @@ import com.android.settings.applications.AppStateOverlayBridge.OverlayState;
 import com.android.settings.overlay.FeatureFactory;
 import com.android.settingslib.applications.ApplicationsState.AppEntry;
 import com.android.settingslib.core.instrumentation.MetricsFeatureProvider;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class DrawOverlayDetails extends AppInfoWithHeader implements OnPreferenceChangeListener,
         OnPreferenceClickListener {

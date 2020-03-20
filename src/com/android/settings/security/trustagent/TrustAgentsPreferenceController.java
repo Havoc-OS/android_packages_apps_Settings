@@ -34,7 +34,6 @@ import android.util.IconDrawableFactory;
 
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.core.BasePreferenceController;
@@ -44,6 +43,8 @@ import com.android.settingslib.RestrictedLockUtilsInternal;
 import com.android.settingslib.RestrictedSwitchPreference;
 import com.android.settingslib.core.lifecycle.LifecycleObserver;
 import com.android.settingslib.core.lifecycle.events.OnStart;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.List;
 

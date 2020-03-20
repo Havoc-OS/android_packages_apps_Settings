@@ -23,11 +23,12 @@ import android.text.TextUtils;
 import android.text.format.DateFormat;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
 import androidx.preference.TwoStatePreference;
 
 import com.android.settings.core.PreferenceControllerMixin;
 import com.android.settingslib.core.AbstractPreferenceController;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.Calendar;
 import java.util.Date;

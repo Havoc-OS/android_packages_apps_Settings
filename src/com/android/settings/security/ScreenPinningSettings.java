@@ -31,7 +31,6 @@ import android.widget.Switch;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
@@ -41,6 +40,8 @@ import com.android.settings.password.ChooseLockGeneric;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.widget.SwitchBar;
 import com.android.settingslib.search.SearchIndexable;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.util.Arrays;
 import java.util.List;

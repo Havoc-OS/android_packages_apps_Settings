@@ -19,7 +19,7 @@ package com.android.settings.development.featureflags;
 import android.content.Context;
 import android.util.FeatureFlagUtils;
 
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 public class FeatureFlagPreference extends SwitchPreference {
 

@@ -28,9 +28,10 @@ import androidx.lifecycle.LifecycleObserver;
 import androidx.lifecycle.OnLifecycleEvent;
 import androidx.preference.Preference;
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
 
 import com.android.settings.network.SubscriptionsChangeListener;
+
+import com.havoc.support.preferences.SwitchPreference;
 
 public class DataDuringCallsPreferenceController extends TelephonyTogglePreferenceController
         implements LifecycleObserver,
