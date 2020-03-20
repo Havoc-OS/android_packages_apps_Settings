@@ -17,6 +17,7 @@
 package com.android.settings.widget;
 
 import android.content.Context;
+import android.os.VibrationEffect;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
@@ -28,6 +29,8 @@ import androidx.preference.PreferenceViewHolder;
 import com.android.settings.R;
 import com.android.settingslib.RestrictedLockUtils.EnforcedAdmin;
 import com.android.settingslib.RestrictedPreference;
+
+import com.havoc.support.util.VibrationUtils;
 
 /**
  * A custom preference that provides inline switch toggle. It has a mandatory field for title, and
@@ -80,6 +83,7 @@ public class MasterSwitchPreference extends RestrictedPreference {
                     } else {
                         persistBoolean(mChecked);
                     }
+                    VibrationUtils.doHapticFeedback(getContext(), VibrationEffect.EFFECT_CLICK);
                 }
             });
 
