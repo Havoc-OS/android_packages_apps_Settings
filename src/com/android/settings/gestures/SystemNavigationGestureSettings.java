@@ -293,33 +293,25 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     }
 
     static void setHomeHandleSize(Context context, int length) {
-        // length cant be range 0 - 2
-        // 2 means long
-        // 1 measns middle
-        // 0 means aosp size
         Settings.System.putInt(context.getContentResolver(),
                 Settings.System.NAVIGATION_HANDLE_WIDTH, length);
     }
 
     static int getHomeHandleSize(Context context) {
         return Settings.System.getInt(context.getContentResolver(),
-                Settings.System.NAVIGATION_HANDLE_WIDTH, 0);
+                Settings.System.NAVIGATION_HANDLE_WIDTH, 1);
     }
 
-    static int getPillToggleState(Context context) {
-        return Settings.System.getInt(context.getContentResolver(),
-                Settings.System.GESTURE_PILL_TOGGLE, 0);
-    }
-
-    public static void setBackGestureOverlaysToUse(Context context) {
-        if (getPillToggleState(context) == 1)
+    static void setBackGestureOverlaysToUse(Context context) {
+        if (getHomeHandleSize(context) == 0) {
             BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS_NO_PILL;
-        else
+        } else {
             BACK_GESTURE_OVERLAYS_TO_USE = BACK_GESTURE_INSET_OVERLAYS;
+        }
     }
 
     @VisibleForTesting
-    public static String getCurrentSystemNavigationMode(Context context) {
+    static String getCurrentSystemNavigationMode(Context context) {
         if (SystemNavigationPreferenceController.isEdgeToEdgeEnabled(context)) {
             return KEY_SYSTEM_NAV_GESTURAL;
         } else if (SystemNavigationPreferenceController.isSwipeUpEnabled(context)) {
@@ -330,7 +322,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     }
 
     @VisibleForTesting
-    public static void setCurrentSystemNavigationMode(Context context, IOverlayManager overlayManager,
+    static void setCurrentSystemNavigationMode(Context context, IOverlayManager overlayManager,
             String key) {
         switch (key) {
             case KEY_SYSTEM_NAV_GESTURAL:

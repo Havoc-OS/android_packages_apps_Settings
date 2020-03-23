@@ -262,8 +262,8 @@
     <string name="auto_brightness_description_new">Your screen brightness will automatically adjust to your environment and activities.\n\nYou can adjust a minimal brightness level that will be used.</string>
 
     <!-- Home handle sizing -->
-    <string name="home_handle_sizer_title">Length of the gesture navigation bar</string>
-    <string name="home_handle_low_label">Short</string>
+    <string name="home_handle_sizer_title">Length used for the gestural navigation bar handle.</string>
+    <string name="home_handle_low_label">Hidden</string>
     <string name="home_handle_high_label">Long</string>
 
     <!-- Android debugging as root -->
