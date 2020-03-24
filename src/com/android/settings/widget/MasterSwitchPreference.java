@@ -19,6 +19,7 @@ package com.android.settings.widget;
 import android.content.Context;
 import android.os.VibrationEffect;
 import android.os.Vibrator;
+import android.provider.Settings;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -41,12 +42,14 @@ public class MasterSwitchPreference extends TwoTargetPreference {
     private boolean mChecked;
     private boolean mEnableSwitch = true;
 
+    private final Context mContext;
     private final Vibrator mVibrator;
 
     public MasterSwitchPreference(Context context, AttributeSet attrs,
             int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
 
+        mContext = context;
         mVibrator = (Vibrator) context.getSystemService(Context.VIBRATOR_SERVICE);
     }
 
@@ -86,7 +89,7 @@ public class MasterSwitchPreference extends TwoTargetPreference {
                     } else {
                         persistBoolean(mChecked);
                     }
-                    mVibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK));
+                    doHapticFeedback();
                 }
             });
         }
@@ -127,5 +130,14 @@ public class MasterSwitchPreference extends TwoTargetPreference {
 
     public Switch getSwitch() {
         return mSwitch;
+    }
+
+    private void doHapticFeedback() {
+        final boolean hapticEnabled = Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.HAPTIC_FEEDBACK_ENABLED, 1) != 0;
+
+        if (hapticEnabled) {
+            mVibrator.vibrate(VibrationEffect.get(VibrationEffect.EFFECT_CLICK));
+        }
     }
 }
