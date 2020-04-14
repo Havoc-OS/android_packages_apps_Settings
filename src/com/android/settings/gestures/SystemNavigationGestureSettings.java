@@ -271,13 +271,7 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     static void setHomeHandleSize(Context context, int length) {
         Settings.System.putInt(context.getContentResolver(),
                 Settings.System.NAVIGATION_HANDLE_WIDTH, length);
-        // if gesture nav is already set, force overlay reloading
-        if (getCurrentSystemNavigationMode(context) == KEY_SYSTEM_NAV_GESTURAL) {
-            final IOverlayManager overlayManager = IOverlayManager.Stub.asInterface(
-                    ServiceManager.getService(Context.OVERLAY_SERVICE));
-            int sensitivity = getBackSensitivity(context, overlayManager);
-            setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity], true);
-        }
+        updateNavigationBarOverlays(context);
     }
 
     static int getHomeHandleSize(Context context) {
@@ -360,6 +354,16 @@ public class SystemNavigationGestureSettings extends RadioButtonPickerFragment {
     private boolean isNavBarMagnificationEnabled() {
         return Settings.Secure.getInt(getContext().getContentResolver(),
                 Settings.Secure.ACCESSIBILITY_DISPLAY_MAGNIFICATION_NAVBAR_ENABLED, 0) == 1;
+    }
+
+    public static void updateNavigationBarOverlays(Context context) {
+        // if gesture nav is already set, force overlay reloading
+        if (getCurrentSystemNavigationMode(context) == KEY_SYSTEM_NAV_GESTURAL) {
+            final IOverlayManager overlayManager = IOverlayManager.Stub.asInterface(
+                    ServiceManager.getService(context.OVERLAY_SERVICE));
+            int sensitivity = getBackSensitivity(context, overlayManager);
+            setNavBarInteractionMode(overlayManager, BACK_GESTURE_INSET_OVERLAYS[sensitivity], true);
+        }
     }
 
     public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
