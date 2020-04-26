@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 Havoc-OS
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Havoc OS -->
+    <!-- Config Center -->
+    <!-- Fingerprint location message - default -->
+    <!-- Fingerprint location message - generic -->
+    <!-- Fingerprint location message - tablet -->
+    <!-- Battery stats reset -->
+    <!-- App details: open play store link if app is user installed -->
+    <!-- Manage applications, package string displayed in app snippet -->
+    <!-- LiveDisplay -->
+    <!-- LiveDisplay : Picture Adjustment -->
+    <!-- Smart charging -->
+    <!-- Charging vibration -->
+    <!-- Screenshot sound -->
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <!-- Navigation settings -->
+    <!-- Quick unlock -->
+    <!-- Scramble pin -->
+    <!-- Notification sound timeout -->
+    <!-- Lockscreen rotation -->
+    <!-- About phone screen, Havoc version -->
+    <!-- About phone screen, build date -->
+    <!-- Display : Rotation -->
+    <!-- Notch: Full screen apps -->
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <!-- Media gestures -->
+    <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <!-- Refresh rate -->
+    <!-- Volume link notification -->
+    <!-- Running services -->
+    <!-- Lock screen pattern size -->
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <!-- Android debugging over WiFi -->
+    <!-- Warning for Adb over Network -->
+    <!-- Hostname setting -->
+    <!-- Notification Vibration -->
+    <!-- Gestures: Touchscreen gestures -->
+    <!-- In-call feedback -->
+    <!-- Custom Vibration fragment -->
+    <!-- Battery temp -->
+    <!-- Home handle sizing -->
+    <!-- Android debugging as root -->
+    <!-- Notification log -->
+    <!-- Per-app data restrictions -->
+</resources>

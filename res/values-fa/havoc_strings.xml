@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2019 Havoc-OS
+
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+
+        http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Havoc OS -->
+    <!-- Config Center -->
+    <string name="config_center_title">مرکز شخصی سازی</string>
+    <string name="config_center_dashboard_summary">تنظیمات اضافه دستگاه شما</string>
+    <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">سنسور اثر انگشت را در جلوی تلفن خود پیدا کنید.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">سنسور اثر انگشت را در کناره سمت چپ تلفن خود پیدا کنید.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">سنسور اثر انگشت را در کناره سمت راست تلفن خود پیدا کنید.</string>
+    <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">سنسور اثر انگشت را در جلوی دستگاه خود پیدا کنید.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">سنسور اثر انگشت را در کناره سمت چپ دستگاه خود پیدا کنید.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">سنسور اثر انگشت را در کناره سمت راست دستگاه خود پیدا کنید.</string>
+    <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">سنسور اثر انگشت را در جلوی تبلت خود پیدا کنید.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">سنسور اثر انگشت را در کناره سمت چپ تبلت خود پیدا کنید.</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">سنسور اثر انگشت را در کناره سمت راست تبلت خود پیدا کنید.</string>
+    <!-- Battery stats reset -->
+    <string name="battery_stats_reset">تنظیم مجدد آمار</string>
+    <string name="battery_stats_message">تاریخچه آمار باتری پاک می‌شود</string>
+    <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">فروشگاه گوگل</string>
+    <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
+    <!-- LiveDisplay -->
+    <string name="live_display_summary">صفحه نمایش خود را بر پایه زمان و شرایط محیطی بهینه کنید</string>
+    <string name="live_display_mode">نوع نمایش</string>
+    <string name="live_display_color_temperature_title">دمای رنگ</string>
+    <string name="live_display_color_temperature_summary">روز: <xliff:g id="day_temperature">%1$d</xliff:g>K  شب: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">روز</string>
+    <string name="live_display_night">شب</string>
+    <string name="live_display_outdoor_mode_title">حالت فضای باز خودکار</string>
+    <string name="live_display_outdoor_mode_summary">افزایش خودکار روشنایی و شفافیت در هنگام قرارگیری زیر نور خورشید</string>
+    <string name="live_display_low_power_title">کاهش مصرف نیرو</string>
+    <string name="live_display_low_power_summary">تنظیم صفحه نمایش برای کمترین مصرف نیرو بدون کاهش کارایی</string>
+    <string name="live_display_enhance_color_title">بهبود رنگ‌ها</string>
+    <string name="live_display_enhance_color_summary">بهبود طراوت رنگ پوست بدن، مناظر و تصاویر دیگر</string>
+    <string name="live_display_color_profile_title">نمایه رنگ</string>
+    <string name="live_display_color_profile_standard_title">استاندارد</string>
+    <string name="live_display_color_profile_standard_summary">رنگ‌های دقیق و سفید روشن</string>
+    <string name="live_display_color_profile_natural_title">طبیعی</string>
+    <string name="live_display_color_profile_natural_summary">رنگ‌های واقعی و پوست روشن</string>
+    <string name="live_display_color_profile_dynamic_title">پویا</string>
+    <string name="live_display_color_profile_dynamic_summary">رنگ‌های بهبود یافته و سفید روشن</string>
+    <string name="live_display_color_profile_cinema_title">سینما</string>
+    <string name="live_display_color_profile_cinema_summary">بازآفرینی رنگ برای ویدیو</string>
+    <string name="live_display_color_profile_astronomy_title">ستاره ای</string>
+    <string name="live_display_color_profile_astronomy_summary">قرمز پر‌ رنگ برای مشاهده در شب</string>
+    <string name="live_display_color_profile_photography_title">عکاسی</string>
+    <string name="live_display_color_profile_photography_summary">بازآفرینی رنگ برای عکس‌ها</string>
+    <string name="live_display_color_profile_basic_title">پایه</string>
+    <string name="live_display_color_profile_basic_summary">استفاده از صفحه به صورت کالیبره نشده</string>
+    <string name="live_display_color_profile_adaptive_title">تطبیقی</string>
+    <string name="live_display_color_profile_adaptive_summary">رنگ ها با شرایط محیطی منطبق می‌شوند</string>
+    <string name="live_display_color_profile_reading_title">مطالعه</string>
+    <string name="live_display_color_profile_reading_summary">رنگ‌های گرم‌تر برای کاهش خستگی چشم</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">رنگ‌ها با فضای رنگ sRGB منطبق می‌شوند</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3</string>
+    <string name="live_display_color_profile_dci_p3_summary">رنگ ها با فضای رنگ DCI-P3 منطبق می‌شوند</string>
+    <string name="live_display_reading_mode_title">حالت مطالعه</string>
+    <string name="live_display_reading_mode_summary">حالت سیاه و سفید برای مطالعه طولانی</string>
+    <string name="color_calibration_title">کالیبره رنگ ها ‌</string>
+    <string name="color_calibration_summary">کالیبره کردن رنگ های صفحه نمایش</string>
+    <string name="color_red_title">قرمز</string>
+    <string name="color_green_title">سبز</string>
+    <string name="color_blue_title">آبی</string>
+    <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">تنظیم تصویر</string>
+    <string name="picture_adjustment_summary">تنظیم فام، اشباع، شدت، و کنتراست</string>
+    <string name="adj_hue_title">فام</string>
+    <string name="adj_saturation_title">اشباع</string>
+    <string name="adj_intensity_title">شدت</string>
+    <string name="adj_contrast_title">کنتراست</string>
+    <!-- Smart charging -->
+    <string name="smart_charging_title">شارژ هوشمند</string>
+    <string name="smart_charging_summary">تنظیم حداکثر مقدار شارژ</string>
+    <string name="smart_charging_switch_title">استفاده از شارژ هوشمند</string>
+    <string name="smart_charging_level_title">مقدار توقف شارژ</string>
+    <string name="smart_charging_resume_level_title">مقدار شروع شارژ</string>
+    <string name="smart_charging_reset_stats_title">تنظیم مجدد آمار کارکرد باتری</string>
+    <string name="smart_charging_reset_stats_summary">تنظیم مجدد آمار کارکرد باتری بعد از رسیدن به مقدار شارژ تعیین شده</string>
+    <string name="smart_charging_footer">شارژ هوشمند این امکان را به شما میدهد تا برای مقدار شارژ باتری خود حد تعیین کنید. این قابلیت عمر باتری شما را افزایش می‌دهد</string>
+    <!-- Charging vibration -->
+    <string name="charging_vibro_title">لرزش هنگام شارژ</string>
+    <!-- Screenshot sound -->
+    <string name="screenshot_sound_title">صدای عکس صفحه</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone1_title">آهنگ زنگ - سیم ۱</string>
+    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="ringtone2_title">آهنگ زنگ - سیم ۲</string>
+    <!-- Navigation settings -->
+    <string name="back_height_low_label">کامل</string>
+    <string name="back_height_high_label">پایین</string>
+    <string name="back_options_dialog_title">تنظیمات</string>
+    <string name="back_height_message">مقدار ارتفاع صفحه نمایش که به عنوان منطقه قابل لمس برای حرکت بازگشت استفاده می شود.</string>
+    <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">بازگشایی سریع قفل</string>
+    <string name="unlock_quick_unlock_control_summary">در صورت وارد کردن پسورد یا پین‌کد صحیح، قفل به صورت خودکار باز شود</string>
+    <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">چینش درهم</string>
+    <string name="unlock_scramble_pin_layout_summary">چینش درهم اعداد هنگام باز کردن قفل دستگاه</string>
+    <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">کمترین زمان بین هر صدای اعلان</string>
+    <string name="app_notification_sound_timeout_summary_template">اجازه ویبره و صدا بیشتر از یک بار در هر <xliff:g id="duration">%1$s</xliff:g> ثانیه را نده</string>
+    <string name="app_notification_sound_timeout_value_none">عدم محدودیت</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">۱۰ ثانیه</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">۳۰ ثانیه</string>
+    <string name="app_notification_sound_timeout_value_1_minute">۱ دقیقه</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">۵ دقیقه</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">۱۰ دقیقه</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">۳۰ دقیقه</string>
+    <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">چرخش خودکار صفحه قفل</string>
+    <!-- About phone screen, Havoc version -->
+    <string name="havoc_version">نسخه سیستم‌عامل Havoc</string>
+    <string name="havoc_version_default">ناشناخته</string>
+    <string name="keywords_havoc_version">نسخه سیستم‌عامل Havoc</string>
+    <!-- About phone screen, build date -->
+    <string name="build_date">تاریخ ساخت</string>
+    <string name="build_date_default">۲۰۱۵-۰۱-۰۱-۰۰۰۰</string>
+    <string name="keywords_build_date">تاریخ ساخت، اطلاعات ساخت</string>
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">چرخش صفحه</string>
+    <string name="display_rotation_subtitle">چرخش خودکار، ۰، ۹۰، ۱۸۰، ۲۷۰ درجه</string>
+    <string name="display_rotation_disabled">غیر فعال</string>
+    <string name="display_rotation_unit">درجه</string>
+    <string name="display_rotation_category_title">حالت‌های چرخش</string>
+    <string name="display_rotation_0_title">۰ درجه</string>
+    <string name="display_rotation_90_title">۹۰ درجه</string>
+    <string name="display_rotation_180_title">۱۸۰ درجه</string>
+    <string name="display_rotation_270_title">۲۷۰ درجه</string>
+    <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">برنامه های تمام صفحه</string>
+    <string name="display_cutout_force_fullscreen_summary">مجبور کردن برنامه ها به نادیده گرفتن فضای ناچ</string>
+    <!-- Hardware info -->
+    <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">پلتفرم</string>
+    <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">کل RAM</string>
+    <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">سکوت، بدون هیچ صدای رسانه ای</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">روشن (سکوت، بدون صدای هیچ رسانه ای)</string>
+    <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">کشیدن به سمت چپ و راست روی اثر انگشت برای ردکردن اعلانات</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">برای رد کردن اعلانات تان، روی سنسور اثر انگشت به‌سمت راست یا چپ بکشید.</string>
+    <!-- Refresh rate -->
+    <string name="refresh_rate_title">میزان تازه سازی صفحه</string>
+    <string name="refresh_rate_summary_auto">خودکار / به صورت اتوماتیک مقدار تازه سازی صفحه را بین ۶۰ تا ۹۰ هرتز افزایش می‌دهد</string>
+    <string name="refresh_rate_summary_60">۶۰ هرتز / مقدار تازه سازی بر روی ۶۰ هرتز برای تمامی محتوا قفل شده است</string>
+    <string name="refresh_rate_summary_90">۹۰ هرتز / مقدار تازه سازی بر روی ۹۰ هرتز برای تمامی محتوا قفل شده است.
+مقدار مصرف باتری را افزایش می‌دهد</string>
+    <string name="auto_refresh_rate">خودکار</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">یکی کردن میزان صدای زنگ &amp; اعلانات</string>
+    <!-- Running services -->
+    <string name="background_processes_settings_title">پردازش های پس‌زمینه</string>
+    <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">یک اندازهٔ الگو برگزینید</string>
+    <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">نمایش خطای کشیده شدن الگو</string>
+    <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">نمایش نقطه های الگو</string>
+    <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">ADB از طریق شبکه</string>
+    <string name="adb_over_network_summary">فعال‌کردن اشکال‌زدایی TCP/IP از طریق رابط‌های شبکه (شبکه‌های وای‌فای، یواس‌بی). این تنظیمات در راه‌اندازی گوشی مجددا تنظیم خواهند شد</string>
+    <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">هنگامی که ADB از طریق شبکه فعال باشد، تلفن همراه شما در معرض تجاوز از طرف تمام شبکه‌های متصل قرار خواهد گرفت!\n\nتنها زمانی که به شبکه‌های مورد اعتماد متصل هستید از این قابلیت استفاده کنید.\n\nآیا واقعا می‌خواهید این قابلیت را فعال کنید؟</string>
+    <string name="adb_over_network_warning_title">ADB از طریق شبکه فعال شود؟</string>
+    <!-- Hostname setting -->
+    <string name="device_hostname">نام هاست دستگاه</string>
+    <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">لرزش برای اعلان ها</string>
+    <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">حرکات لمسی</string>
+    <string name="touchscreen_gesture_settings_summary">انجام حرکات لمسی مختلف برای عمل‌های سریع</string>
+    <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">لرزش در حین تماس</string>
+    <string name="incall_feeedback_summary">لرزش برای مشخص کردن وضع تماس</string>
+    <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">لرزش &amp; عکس‌العمل‌ها</string>
+    <string name="summary_vibration_preferences">تغییر شدت، الگو ها و غیره</string>
+    <string name="keywords_vibration_preferences">الگو لرزش، شدت لرزش، در حین تماس، عکس‌العمل‌ها، ضربه، سختی لرزش</string>
+    <string name="ringtone_vibration_pattern">الگوی لرزش در هنگام زنگ خوردن</string>
+    <string name="vibration_intensity_ringer">شدت لرزش در هنگام زنگ خوردن</string>
+    <string name="vibration_intensity_notification">شدت لرزش اعلان</string>
+    <string name="vibration_intensity_disabled">غیر فعال</string>
+    <string name="vibration_intensity_light">کم</string>
+    <string name="vibration_intensity_medium">متوسط</string>
+    <string name="vibration_intensity_strong">زیاد</string>
+    <string name="vibration_intensity_custom">سفارشی</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="unknown_night_light_time">ناشناخته - برای بروزرسانی ضربه بزنید</string>
+    <string name="night_display_location_text">\n\nگزینه از غروب آفتاب تا طلوع آفتاب برای دریافت زمان درست مکان شما نیاز به فعال بودن سرویس مکان دارد.</string>
+    <!-- Battery temp -->
+    <string name="battery_temp_title">دمای باتری</string>
+    <string name="auto_brightness_min_title">کمترین سطح روشنایی</string>
+    <string name="auto_brightness_description_new">شدت روشنایی صفحه شما به صورت خودکار با توجه به محیط و عملکرد شما تنظیم می‌شود.\n\nسما می‌توانید کمترین مقدار روشنایی که استفاده می‌شود را تنظیم کنید.</string>
+    <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">مقدار طولی که برای حرکات لمسی پیمایش استفاده می‌شود.</string>
+    <string name="home_handle_low_label">مخفی</string>
+    <string name="home_handle_high_label">طولانی</string>
+    <!-- Android debugging as root -->
+    <string name="adb_enable_root">اشکال‌زدایی ریشه ای</string>
+    <string name="adb_enable_summary_root">اجازه دادن به اشکال‌زدایی اندروید که به صورت روت اجرا شود</string>
+    <!-- Notification log -->
+    <string name="notification_log_summary">نمایش گزارش تاریخچه ی اعلان ها</string>
+    <!-- Per-app data restrictions -->
+</resources>
