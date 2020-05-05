@@ -15,7 +15,7 @@
 -->
 
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:settings="http://schemas.android.com/apk/res-auto"
+        xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
         android:key="app_notifications">
 
     <com.android.settingslib.widget.LayoutPreference
@@ -66,7 +66,7 @@
         android:dependency="lights"
         ledPreview="true"
         android:title="@string/custom_light_title"
-        settings:defaultColorValue="0xFFFFFFFF"/>
+        settings:defaultColorValue="0xFFFFFF"/>
 
     <com.havoc.support.preferences.CustomSeekBarPreference
         android:key="custom_light_on_time"
