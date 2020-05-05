@@ -48,6 +48,10 @@ public class CustomLightOnTimePreferenceController extends NotificationPreferenc
 
     @Override
     public boolean isAvailable() {
+        if (!mContext.getResources()
+                .getBoolean(com.android.internal.R.bool.config_hasNotificationLed)) {
+            return false;
+        }
         if (!super.isAvailable()) {
             return false;
         }
