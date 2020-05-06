@@ -74,6 +74,7 @@ public class Settings extends SettingsActivity {
         return modIntent;
     }
 
+    public static class AppLockSettingsActivity extends SettingsActivity { /* empty */ }
     public static class VpnSettingsActivity extends SettingsActivity { /* empty */ }
     public static class DataSaverSummaryActivity extends SettingsActivity{ /* empty */ }
     public static class DateTimeSettingsActivity extends SettingsActivity { /* empty */ }
