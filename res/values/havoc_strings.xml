@@ -289,4 +289,7 @@
     <string name="security_settings_face_require_swipe">Swipe up to unlock</string>
     <string name="security_settings_face_require_swipe_summary">Swipe up on the lockscreen to use face unlock</string>
 
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">notifications, notification log</string>
+
 </resources>
