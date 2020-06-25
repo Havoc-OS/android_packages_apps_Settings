@@ -310,4 +310,7 @@
     <string name="data_usage_daily">Daily</string>
     <string name="data_usage_monthly">Monthly</string>
 
+    <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Lockscreen timeout</string>
+
 </resources>
