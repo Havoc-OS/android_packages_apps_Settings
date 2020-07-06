@@ -356,4 +356,9 @@
     <string name="dc_dimming_on_auto_mode_auto">Will turn off automatically</string>
     <string name="keywords_display_dc_dimming">dc dimming, flicker, eye, strain</string>
 
+    <!-- Data usage -->
+    <string name="data_usage_period">Data usage period</string>
+    <string name="data_usage_daily">Daily</string>
+    <string name="data_usage_monthly">Monthly</string>
+
 </resources>
