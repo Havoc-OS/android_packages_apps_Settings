@@ -305,4 +305,9 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <string name="connected_tws_device_saved_title">Saved Earbuds</string>
 
+    <!-- Data usage -->
+    <string name="data_usage_period">Data usage period</string>
+    <string name="data_usage_daily">Daily</string>
+    <string name="data_usage_monthly">Monthly</string>
+
 </resources>
