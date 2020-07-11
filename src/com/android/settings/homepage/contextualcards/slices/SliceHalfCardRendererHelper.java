@@ -57,23 +57,25 @@ class SliceHalfCardRendererHelper {
         final HalfCardViewHolder view = (HalfCardViewHolder) holder;
         final SliceMetadata sliceMetadata = SliceMetadata.from(mContext, slice);
         final SliceAction primaryAction = sliceMetadata.getPrimaryAction();
-        view.icon.setImageDrawable(primaryAction.getIcon().loadDrawable(mContext));
-        view.title.setText(primaryAction.getTitle());
-        view.content.setOnClickListener(v -> {
-            try {
-                primaryAction.getAction().send();
-            } catch (PendingIntent.CanceledException e) {
-                Log.w(TAG, "Failed to start intent " + primaryAction.getTitle());
-            }
-            final String log = ContextualCardLogUtils.buildCardClickLog(card, 0 /* row */,
-                    EventInfo.ACTION_TYPE_CONTENT, view.getAdapterPosition());
+        if (mContext != null) {
+            view.icon.setImageDrawable(primaryAction.getIcon().loadDrawable(mContext));
+            view.title.setText(primaryAction.getTitle());
+            view.content.setOnClickListener(v -> {
+                try {
+                    primaryAction.getAction().send();
+                } catch (PendingIntent.CanceledException e) {
+                    Log.w(TAG, "Failed to start intent " + primaryAction.getTitle());
+                }
+                final String log = ContextualCardLogUtils.buildCardClickLog(card, 0 /* row */,
+                        EventInfo.ACTION_TYPE_CONTENT, view.getAdapterPosition());
 
-            final MetricsFeatureProvider metricsFeatureProvider =
-                    FeatureFactory.getFactory(mContext).getMetricsFeatureProvider();
+                final MetricsFeatureProvider metricsFeatureProvider =
+                        FeatureFactory.getFactory(mContext).getMetricsFeatureProvider();
 
-            metricsFeatureProvider.action(mContext,
-                    SettingsEnums.ACTION_CONTEXTUAL_CARD_CLICK, log);
-        });
+                metricsFeatureProvider.action(mContext,
+                        SettingsEnums.ACTION_CONTEXTUAL_CARD_CLICK, log);
+            });
+        }
     }
 
     static class HalfCardViewHolder extends RecyclerView.ViewHolder {
