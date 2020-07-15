@@ -68,7 +68,7 @@ public class CustomLightsPreferenceController extends NotificationPreferenceCont
         if (mChannel != null) {
             mCustomLight = (ColorPickerPreference) preference;
             int defaultLightColor = mContext.getResources().getColor(com.android.internal.R.color.config_defaultNotificationColor);
-            mCustomLight.setDefaultColor(defaultLightColor);
+            mCustomLight.setDefaultValue(defaultLightColor);
             mLedColor = (mChannel.getLightColor() != 0 ? mChannel.getLightColor() : defaultLightColor);
             mCustomLight.setAlphaSliderEnabled(false);
             mCustomLight.setNewPreviewColor(mLedColor);

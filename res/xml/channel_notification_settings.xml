@@ -118,10 +118,10 @@
         <com.havoc.support.colorpicker.ColorPickerPreference
             android:key="custom_light"
             android:dependency="lights"
-            ledPreview="true"
+            isledPicker="true"
             android:order="18"
             android:title="@string/custom_light_title"
-            settings:defaultColorValue="0xFFFFFF" />
+            android:defaultValue="0xFFFFFF" />
 
         <com.havoc.support.preferences.CustomSeekBarPreference
             android:key="custom_light_on_time"
