@@ -103,10 +103,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <string name="charging_vibro_title">Getaran pengisian</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Suara tangkapan layar</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Nada dering telepon - SIM 1</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Nada dering telepon - SIM 2</string>
     <!-- Navigation settings -->
     <string name="back_height_low_label">Penuh</string>
     <string name="back_height_high_label">Bawah</string>
@@ -227,4 +223,20 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Notification log -->
     <string name="notification_log_summary">Tampilkan log riwayat notifikasi</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Data seluler</string>
+    <string name="data_usage_app_restrict_data_summary">Aktifkan penggunaan data seluler</string>
+    <string name="data_usage_app_restrict_vpn">Data VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Aktifkan penggunaan data VPN</string>
+    <string name="data_usage_app_restrict_wifi">Data Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Aktifkan penggunaan data Wi\u2011Fi</string>
+    <!-- Custom light color -->
+    <!-- Hotspot extras -->
+    <!-- Swipe up for face unlock -->
+    <!-- Search keywords -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <!-- Data usage -->
+    <!-- Lockscreen timeout -->
+    <!-- Clipboard toast toggle -->
 </resources>

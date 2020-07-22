@@ -102,10 +102,6 @@
     <string name="charging_vibro_title">Vibrazione alla ricarica</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Suono screenshot</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Suoneria chiamate - SIM 1</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Suoneria chiamate - SIM 2</string>
     <!-- Navigation settings -->
     <string name="back_height_low_label">Completa</string>
     <string name="back_height_high_label">Sotto</string>
@@ -226,4 +222,38 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Visualizza il registro cronologico delle notifiche</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Permesso connettività</string>
+    <string name="data_usage_app_restrict_all_summary">Consenti l\'uso della rete</string>
+    <string name="data_usage_app_restrict_data">Dati mobili</string>
+    <string name="data_usage_app_restrict_data_summary">Abilita l\'utilizzo dei dati mobili</string>
+    <string name="data_usage_app_restrict_vpn">Dati VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Abilita l\'uso dei dati VPN</string>
+    <string name="data_usage_app_restrict_wifi">Dati Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Abilita l\'uso dei dati del Wi\u2011Fi</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Colore LED</string>
+    <string name="custom_light_on_time_title">Durata impulso LED</string>
+    <string name="custom_light_off_time_title">Intervallo impulso LED</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Consenti ai client di utilizzare le VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Consenti ai client hotspot di utilizzare le connessioni VPN di questo dispositivo per la connettività</string>
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Scorri in alto per sbloccare</string>
+    <string name="security_settings_face_require_swipe_summary">Scorri verso l\'alto sulla schermata di blocco per utilizzare lo sblocco facciale</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">notifiche, registro notifiche</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilità al tocco</string>
+    <string name="high_touch_sensitivity_summary">Aumenta la sensibilità del touchscreen per l\'utilizzo con i guanti</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Touch a puntamento</string>
+    <string name="touchscreen_hovering_summary">Consente di utilizzare il tocco come un mouse nei browser e nei desktop remoti</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Auricolari salvati</string>
+    <!-- Data usage -->
+    <string name="data_usage_period">Periodo di utilizzo dati</string>
+    <string name="data_usage_daily">Quotidiano</string>
+    <string name="data_usage_monthly">Mensile</string>
+    <!-- Lockscreen timeout -->
+    <!-- Clipboard toast toggle -->
 </resources>

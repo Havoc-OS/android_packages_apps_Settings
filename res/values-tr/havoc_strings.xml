@@ -102,10 +102,6 @@
     <string name="charging_vibro_title">Şarj titreşimi</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Ekran görüntüsü sesi</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Telefon zil sesi - SIM 1</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Telefon zil sesi - SIM 2</string>
     <!-- Navigation settings -->
     <string name="back_height_low_label">Tam</string>
     <string name="back_height_high_label">Alt</string>
@@ -226,4 +222,38 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Bildirim geçmişi günlüğünü göster</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">İzin verilen ağ</string>
+    <string name="data_usage_app_restrict_all_summary">Ağ kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_data">Hücresel veri</string>
+    <string name="data_usage_app_restrict_data_summary">Hücresel veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_vpn">VPN verisi</string>
+    <string name="data_usage_app_restrict_vpn_summary">VPN veri kullanımını etkinleştir</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi veri</string>
+    <string name="data_usage_app_restrict_wifi_summary">Wi\u2011Fi veri kullanımını etkinleştir</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Işık rengi</string>
+    <string name="custom_light_on_time_title">Işık yanma süresi</string>
+    <string name="custom_light_off_time_title">Işık yanma aralığı</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">İstemcilerin VPN kullanmasına izin ver</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Hotspot kullanıcılarının bağlantıları sırasında bu cihazın \u2019s VPN bağlantısını kullanmasına izin ver</string>
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Kilidi açmak için yukarı kaydırın</string>
+    <string name="security_settings_face_require_swipe_summary">Yüz kilidini açmak için kilit ekranında yukarı kaydırın</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">bildirimler, bildirim günlüğü</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Yüksek dokunma hassasiyeti</string>
+    <string name="high_touch_sensitivity_summary">Dokunmatik ekran hassasiyetini arttırarak eldiven ile kullanıma olanak verir</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Temassız gezinme</string>
+    <string name="touchscreen_hovering_summary">Ekrana dokunmadan parmağınızı yakınlaştırarak bir fare kullanıyormuş gibi web tarayıcılarında, uzak masaüstlerinde, vb. dolaşmanızı sağlar</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Kaydedilmiş Kulaklıklar</string>
+    <!-- Data usage -->
+    <string name="data_usage_period">Veri kullanım süresi</string>
+    <string name="data_usage_daily">Günlük</string>
+    <string name="data_usage_monthly">Aylık</string>
+    <!-- Lockscreen timeout -->
+    <!-- Clipboard toast toggle -->
 </resources>

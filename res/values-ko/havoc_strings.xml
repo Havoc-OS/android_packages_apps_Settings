@@ -28,8 +28,6 @@
     <!-- Smart charging -->
     <!-- Charging vibration -->
     <!-- Screenshot sound -->
-    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
     <!-- Navigation settings -->
     <!-- Quick unlock -->
     <!-- Scramble pin -->
@@ -62,4 +60,14 @@
     <!-- Android debugging as root -->
     <!-- Notification log -->
     <!-- Per-app data restrictions -->
+    <!-- Custom light color -->
+    <!-- Hotspot extras -->
+    <!-- Swipe up for face unlock -->
+    <!-- Search keywords -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <!-- Data usage -->
+    <!-- Lockscreen timeout -->
+    <!-- Clipboard toast toggle -->
 </resources>

@@ -102,10 +102,6 @@
     <string name="charging_vibro_title">充电振动</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">屏幕截图提示音</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">电话铃声 - SIM卡1</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">电话铃声 - SIM卡2</string>
     <!-- Navigation settings -->
     <string name="back_height_low_label">完整</string>
     <string name="back_height_high_label">底部</string>
@@ -226,4 +222,20 @@
     <!-- Notification log -->
     <string name="notification_log_summary">显示历史通知记录</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">移动数据流量</string>
+    <string name="data_usage_app_restrict_data_summary">启用移动网络的流量使用统计</string>
+    <string name="data_usage_app_restrict_vpn">VPN 数据</string>
+    <string name="data_usage_app_restrict_vpn_summary">启用 VPN 数据流量使用统计</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 数据</string>
+    <string name="data_usage_app_restrict_wifi_summary">启用 Wi\u2011Fi 的数据使用统计</string>
+    <!-- Custom light color -->
+    <!-- Hotspot extras -->
+    <!-- Swipe up for face unlock -->
+    <!-- Search keywords -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <!-- Data usage -->
+    <!-- Lockscreen timeout -->
+    <!-- Clipboard toast toggle -->
 </resources>

@@ -102,10 +102,6 @@
     <string name="charging_vibro_title">Vibration beim Laden</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Auslöseton für Screenshot</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Klingelton - SIM 1</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Klingelton - SIM 2</string>
     <!-- Navigation settings -->
     <string name="back_height_low_label">Voll</string>
     <string name="back_height_high_label">Unten</string>
@@ -226,4 +222,23 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Benachrichtigungsverlauf anzeigen</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Netzwerk erlauben</string>
+    <string name="data_usage_app_restrict_all_summary">Netzwerk-Datennutzung aktivieren</string>
+    <string name="data_usage_app_restrict_data">Mobile Daten</string>
+    <string name="data_usage_app_restrict_data_summary">Mobile Datennutzung aktivieren</string>
+    <string name="data_usage_app_restrict_vpn">VPN-Daten</string>
+    <string name="data_usage_app_restrict_vpn_summary">Nutzung von VPN-Daten aktivieren</string>
+    <string name="data_usage_app_restrict_wifi">W\u2011LAN-Daten</string>
+    <string name="data_usage_app_restrict_wifi_summary">W\u2011LAN-Datennutzung aktivieren</string>
+    <!-- Custom light color -->
+    <!-- Hotspot extras -->
+    <!-- Swipe up for face unlock -->
+    <!-- Search keywords -->
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Gespeicherte Earbuds</string>
+    <!-- Data usage -->
+    <!-- Lockscreen timeout -->
+    <!-- Clipboard toast toggle -->
 </resources>

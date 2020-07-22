@@ -102,10 +102,6 @@
     <string name="charging_vibro_title">Vibrácie pri nabíjaní</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Zvuk pri snímke obrazovky</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Tón zvonenia - SIM 1</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Tón zvonenia - SIM 2</string>
     <!-- Navigation settings -->
     <string name="back_height_low_label">Úplná</string>
     <string name="back_height_high_label">Dolný</string>
@@ -224,6 +220,26 @@
     <string name="adb_enable_root">Debugovať s root právami</string>
     <string name="adb_enable_summary_root">Povoliť spustenie debugovania s root právami</string>
     <!-- Notification log -->
-    <string name="notification_log_summary">Zobraziť protokol histórie upozornení</string>
+    <string name="notification_log_summary">Zobraziť záznam histórie upozornení</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">Mobilné dáta</string>
+    <string name="data_usage_app_restrict_data_summary">Povoliť používanie mobilných dát</string>
+    <string name="data_usage_app_restrict_vpn">Dáta VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Povoliť používanie dát VPN</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi dáta</string>
+    <string name="data_usage_app_restrict_wifi_summary">Povoliť používanie Wi\u2011Fi dát</string>
+    <!-- Custom light color -->
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Povoliť klientom používanie VPN</string>
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Pre odomknutie potiahnite nahor</string>
+    <string name="security_settings_face_require_swipe_summary">Pre odomknutie tvárou potiahnite nahor na zamknutej obrazovke</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">oznámenia, záznam oznámení</string>
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <!-- Data usage -->
+    <!-- Lockscreen timeout -->
+    <!-- Clipboard toast toggle -->
 </resources>

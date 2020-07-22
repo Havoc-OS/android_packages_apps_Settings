@@ -17,49 +17,233 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Havoc OS -->
     <!-- Config Center -->
+    <string name="config_center_title">配置中心</string>
+    <string name="config_center_dashboard_summary">為你的裝置瀏覽其他設定</string>
     <!-- Fingerprint location message - default -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="default">您的裝置是前置指紋</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="default">您的裝置是左側指紋</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="default">您的裝置是右側指紋</string>
     <!-- Fingerprint location message - generic -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="device">您的裝置是背面指紋</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="device">您的設備是左邊框指紋解鎖</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="device">您的設備是右邊框指紋解鎖</string>
     <!-- Fingerprint location message - tablet -->
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_front" product="tablet">指紋感應器位於平板背面。</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_left" product="tablet">您的屏板是左邊框指紋解鎖</string>
+    <string name="security_settings_fingerprint_enroll_find_sensor_message_right" product="tablet">指紋感應器位於平板右側。</string>
     <!-- Battery stats reset -->
+    <string name="battery_stats_reset">重設電池統計數據</string>
+    <string name="battery_stats_message">電池統計數據即將重設</string>
     <!-- App details: open play store link if app is user installed -->
+    <string name="app_play_store">Play商店</string>
     <!-- Manage applications, package string displayed in app snippet -->
+    <string name="packagename_text"><xliff:g id="package_name">%1$s</xliff:g></string>
     <!-- LiveDisplay -->
+    <string name="live_display_summary">根據一天中的時間和環境條件修正環境顯示</string>
+    <string name="live_display_mode">顯示模式</string>
+    <string name="live_display_color_temperature_title">色溫</string>
+    <string name="live_display_color_temperature_summary">白天：<xliff:g id="day_temperature">%1$d</xliff:g>K 夜晚：<xliff:g id="night_temperature">%2$d</xliff:g>K</string>
+    <string name="live_display_color_temperature_label"><xliff:g id="degrees">%1$d</xliff:g>K</string>
+    <string name="live_display_day">白天</string>
+    <string name="live_display_night">夜晚</string>
+    <string name="live_display_outdoor_mode_title">自動戶外模式</string>
+    <string name="live_display_outdoor_mode_summary">在陽光下自動提高亮度和飽和度</string>
+    <string name="live_display_low_power_title">降低耗電量</string>
+    <string name="live_display_low_power_summary">在不降低亮度的情況下調整顯示以降低耗電量</string>
+    <string name="live_display_enhance_color_title">增強色彩</string>
+    <string name="live_display_enhance_color_summary">為色調、 風景和其他圖片提高色調</string>
+    <string name="live_display_color_profile_title">色彩設定檔</string>
+    <string name="live_display_color_profile_standard_title">標準</string>
+    <string name="live_display_color_profile_standard_summary">準確的色彩和明亮的白色</string>
+    <string name="live_display_color_profile_natural_title">自然</string>
+    <string name="live_display_color_profile_natural_summary">還原真實色彩</string>
+    <string name="live_display_color_profile_dynamic_title">動態</string>
+    <string name="live_display_color_profile_dynamic_summary">鮮豔模式</string>
+    <string name="live_display_color_profile_cinema_title">劇院</string>
+    <string name="live_display_color_profile_cinema_summary">完美重現影片色彩</string>
+    <string name="live_display_color_profile_astronomy_title">天文</string>
+    <string name="live_display_color_profile_astronomy_summary">濾藍光護眼模式</string>
+    <string name="live_display_color_profile_photography_title">相簿</string>
+    <string name="live_display_color_profile_photography_summary">完美重現相片色彩</string>
+    <string name="live_display_color_profile_basic_title">基本</string>
+    <string name="live_display_color_profile_basic_summary">使用未校正的顯示</string>
+    <string name="live_display_color_profile_adaptive_title">自動調節</string>
+    <string name="live_display_color_profile_adaptive_summary">依照環境條件自動調節顏色</string>
+    <string name="live_display_color_profile_reading_title">讀取中</string>
+    <string name="live_display_color_profile_reading_summary">閱讀模式-使用暖色調以減少疲勞</string>
+    <string name="live_display_color_profile_srgb_title">sRGB</string>
+    <string name="live_display_color_profile_srgb_summary">顏色準確到 sRGB 色域</string>
+    <string name="live_display_color_profile_dci_p3_title">DCI-P3廣色域標準</string>
+    <string name="live_display_color_profile_dci_p3_summary">顏色準確到 DCI-P3 色域</string>
+    <string name="live_display_reading_mode_title">閱讀模式</string>
+    <string name="live_display_reading_mode_summary">用於長期閱讀的灰階模式</string>
+    <string name="color_calibration_title">色彩校正</string>
+    <string name="color_calibration_summary">校正螢幕上的顏色</string>
+    <string name="color_red_title">紅色</string>
+    <string name="color_green_title">綠色</string>
+    <string name="color_blue_title">藍色</string>
     <!-- LiveDisplay : Picture Adjustment -->
+    <string name="picture_adjustment_title">圖片編輯</string>
+    <string name="picture_adjustment_summary">調整色相、 飽和度、 強度和對比度</string>
+    <string name="adj_hue_title">色調</string>
+    <string name="adj_saturation_title">飽和度</string>
+    <string name="adj_intensity_title">明亮度</string>
+    <string name="adj_contrast_title">對比度</string>
     <!-- Smart charging -->
+    <string name="smart_charging_title">智慧充電</string>
+    <string name="smart_charging_summary">設定快速充電</string>
+    <string name="smart_charging_switch_title">使用智慧充電</string>
+    <string name="smart_charging_level_title">停止觸發值</string>
+    <string name="smart_charging_resume_level_title">開始觸發值</string>
+    <string name="smart_charging_reset_stats_title">重置電池統計數據</string>
+    <string name="smart_charging_reset_stats_summary">在達到使用者設定的充電值後，重置電池統計數據</string>
+    <string name="smart_charging_footer">智慧充電允許您設定最大充電值，延長電池壽命</string>
     <!-- Charging vibration -->
+    <string name="charging_vibro_title">充電時震動</string>
     <!-- Screenshot sound -->
-    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
+    <string name="screenshot_sound_title">螢幕截圖音效</string>
     <!-- Navigation settings -->
+    <string name="back_height_low_label">全部</string>
+    <string name="back_height_high_label">按鍵</string>
+    <string name="back_options_dialog_title">選項</string>
+    <string name="back_height_message">全螢幕手勢可觸發範圍</string>
     <!-- Quick unlock -->
+    <string name="unlock_quick_unlock_control_title">快速解鎖</string>
+    <string name="unlock_quick_unlock_control_summary">當正確輸入 PIN 碼/密碼時自動解鎖</string>
     <!-- Scramble pin -->
+    <string name="unlock_scramble_pin_layout_title">隨機排序</string>
+    <string name="unlock_scramble_pin_layout_summary">解鎖裝置時使用亂序 PIN 碼鍵盤</string>
     <!-- Notification sound timeout -->
+    <string name="app_notification_sound_timeout_title">通知音效之間的最短時間</string>
+    <string name="app_notification_sound_timeout_summary_template">允許音效或震動每一次不超過 <xliff:g id="duration">%1$s</xliff:g></string>
+    <string name="app_notification_sound_timeout_value_none">無限制</string>
+    <string name="app_notification_sound_timeout_value_10_seconds">10 秒鐘</string>
+    <string name="app_notification_sound_timeout_value_30_seconds">30 秒鐘</string>
+    <string name="app_notification_sound_timeout_value_1_minute">1 分鐘</string>
+    <string name="app_notification_sound_timeout_value_5_minutes">5 分鐘</string>
+    <string name="app_notification_sound_timeout_value_15_minutes">10 分鐘</string>
+    <string name="app_notification_sound_timeout_value_30_minutes">30 分鐘</string>
     <!-- Lockscreen rotation -->
+    <string name="lockscreen_rotation_title">自動旋轉鎖定螢幕</string>
     <!-- About phone screen, Havoc version -->
+    <string name="havoc_version">Havoc-OS 版本</string>
+    <string name="havoc_version_default">不明</string>
+    <string name="keywords_havoc_version">havoc-OS 版本</string>
     <!-- About phone screen, build date -->
+    <string name="build_date">編譯日期</string>
+    <string name="build_date_default">2015-01-01-0000</string>
+    <string name="keywords_build_date">編譯日期，編譯資訊</string>
     <!-- Display : Rotation -->
+    <string name="display_rotation_title">旋轉</string>
+    <string name="display_rotation_subtitle">自動旋轉，0，90，180，270 度</string>
+    <string name="display_rotation_disabled">關閉</string>
+    <string name="display_rotation_unit">角度</string>
+    <string name="display_rotation_category_title">旋轉模式</string>
+    <string name="display_rotation_0_title">0 度</string>
+    <string name="display_rotation_90_title">90 度</string>
+    <string name="display_rotation_180_title">180 度</string>
+    <string name="display_rotation_270_title">270 度</string>
     <!-- Notch: Full screen apps -->
+    <string name="display_cutout_force_fullscreen_title">全螢幕應用程式</string>
+    <string name="display_cutout_force_fullscreen_summary">強制應用忽略瀏海區域</string>
     <!-- Hardware info -->
     <!-- Label for device's hardware platform value [CHAR LIMIT=40] -->
+    <string name="platform_revision">平台</string>
     <!-- Label for device's hardware ram size [CHAR LIMIT=40] -->
+    <string name="total_ram">總記憶體</string>
     <!-- Media gestures -->
+    <string name="prevent_ringing_option_mute_no_media">靜音，沒有媒體</string>
+    <string name="prevent_ringing_option_mute_no_media_summary">勿擾模式已開啟</string>
     <!-- Swipe left/right on fp to dismiss notifications for back fp devices -->
+    <string name="fp_swipe_to_dismiss_notifications_title">向左或向右滑動指紋以解除通知</string>
+    <string name="fp_swipe_to_dismiss_notifications_summary">要清除通知，請在手機背面的指紋感應器上向左或向右滑動。</string>
     <!-- Refresh rate -->
+    <string name="refresh_rate_title">螢幕更新率</string>
+    <string name="refresh_rate_summary_auto">自動將部分內容的螢幕更新率從 60Hz 提升到 90Hz</string>
+    <string name="refresh_rate_summary_60">60Hz / 所有內容的螢幕更新率鎖定在 60 Hz</string>
+    <string name="refresh_rate_summary_90">90Hz / 所有內容的螢幕更新率鎖定在90Hz。將會增加耗電量</string>
+    <string name="auto_refresh_rate">自動</string>
     <!-- Volume link notification -->
+    <string name="volume_link_notification_title">同步 &amp; 鈴聲與通知音量</string>
     <!-- Running services -->
+    <string name="background_processes_settings_title">背景處理程序</string>
     <!-- Lock screen pattern size -->
+    <string name="lock_settings_picker_pattern_size_message">選擇解鎖圖案大小</string>
     <!-- Whether a visible red line will be drawn after the user has drawn the unlock pattern incorrectly -->
+    <string name="lockpattern_settings_enable_error_path_title">顯示繪製錯誤的解鎖圖形</string>
     <!-- Whether the dots will be drawn when using the lockscreen pattern -->
+    <string name="lockpattern_settings_enable_dots_title">顯示解鎖圖形</string>
     <!-- Android debugging over WiFi -->
+    <string name="adb_over_network">網路 ADB 偵錯</string>
+    <string name="adb_over_network_summary">啟用透過網路介面 (Wi-Fi、USB 網路) 進行 TCP/IP 偵錯。該設定會於重新啟動後重設</string>
     <!-- Warning for Adb over Network -->
+    <string name="adb_over_network_warning">警告：當網路 ADB 啟用時，您的裝置會對所有已連線的網路 (包括GSM行動網路) 開放接收指令！\n\n只有當您連線到信任的網路時才使用此功能。\n\n您真的要啟用此功能？</string>
+    <string name="adb_over_network_warning_title">允許網路 ADB 偵錯?</string>
     <!-- Hostname setting -->
+    <string name="device_hostname">裝置主機名稱</string>
     <!-- Notification Vibration -->
+    <string name="vibrate_on_notifications_title">收到通知時震動</string>
     <!-- Gestures: Touchscreen gestures -->
+    <string name="touchscreen_gesture_settings_title">觸控螢幕手勢</string>
+    <string name="touchscreen_gesture_settings_summary">執行各種螢幕手勢以進行快速操作</string>
     <!-- In-call feedback -->
+    <string name="incall_feeedback_vibrate_title">來電震動</string>
+    <string name="incall_feeedback_summary">震動以指示通話狀態</string>
     <!-- Custom Vibration fragment -->
+    <string name="vibration_preferences">震動 &amp; 回饋</string>
+    <string name="summary_vibration_preferences">改變強度、模式等</string>
+    <string name="keywords_vibration_preferences">震動模式，震動強度，撥號震動，觸摸振動，點、按等操作的觸感回饋</string>
+    <string name="ringtone_vibration_pattern">來電震動樣式</string>
+    <string name="vibration_intensity_ringer">鈴聲震動強度</string>
+    <string name="vibration_intensity_notification">通知震動強度</string>
+    <string name="vibration_intensity_disabled">關閉</string>
+    <string name="vibration_intensity_light">低</string>
+    <string name="vibration_intensity_medium">中</string>
+    <string name="vibration_intensity_strong">高</string>
+    <string name="vibration_intensity_custom">自訂</string>
+    <string name="pattern_dzzz_dzzz">dzzz-dzzz</string>
+    <string name="pattern_dzzz_da">dzzz-da</string>
+    <string name="pattern_mm_mm_mm">mm-mm-mm</string>
+    <string name="pattern_da_da_dzzz">da-da-dzzz</string>
+    <string name="pattern_da_dzzz_da">da-dzzz-da</string>
+    <string name="unknown_night_light_time">未知—按壓以更新</string>
+    <string name="night_display_location_text">\n\n 從日落到日出的時間表需要啟用的位置服務才能獲取您所在位置的正確時間。</string>
     <!-- Battery temp -->
+    <string name="battery_temp_title">電池溫度</string>
+    <string name="auto_brightness_min_title">最低亮度等級</string>
+    <string name="auto_brightness_description_new">營幕亮度將自動適應您的環境和活動。\ n \ n您可以調整將要使用的最低亮度。</string>
     <!-- Home handle sizing -->
+    <string name="home_handle_sizer_title">用於手勢導航欄的長度。</string>
+    <string name="home_handle_low_label">隱藏</string>
+    <string name="home_handle_high_label">長</string>
     <!-- Android debugging as root -->
+    <string name="adb_enable_root">Root 偵錯</string>
+    <string name="adb_enable_summary_root">允許以 root 身份進行 Android 偵錯</string>
     <!-- Notification log -->
+    <string name="notification_log_summary">顯示通知歷史紀錄</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_data">行動數據</string>
+    <string name="data_usage_app_restrict_data_summary">啟用行動網路流量統計</string>
+    <string name="data_usage_app_restrict_vpn">VPN 數據</string>
+    <string name="data_usage_app_restrict_vpn_summary">啟用 VPN 流量統計</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi 數據</string>
+    <string name="data_usage_app_restrict_wifi_summary">啟用 Wi\u2011Fi 資料統計數據</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">燈光色彩</string>
+    <string name="custom_light_on_time_title">燈光持續時間</string>
+    <string name="custom_light_off_time_title">燈光顯示間隔</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">允許連線裝置使用 VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">允許連線到熱點的裝置使用此裝置\u2019的 VPN 連接到上遊連接</string>
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">向上滑動即可解鎖</string>
+    <string name="security_settings_face_require_swipe_summary">向上滑動鎖定螢幕以使用臉部辨識解鎖</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">通知、通知紀錄</string>
+    <!-- High touch sensitivity -->
+    <!-- Touchscreen hovering -->
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <!-- Data usage -->
+    <!-- Lockscreen timeout -->
+    <!-- Clipboard toast toggle -->
 </resources>

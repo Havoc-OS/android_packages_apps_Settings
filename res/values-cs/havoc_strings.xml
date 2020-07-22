@@ -102,10 +102,6 @@
     <string name="charging_vibro_title">Vibrace při nabíjení</string>
     <!-- Screenshot sound -->
     <string name="screenshot_sound_title">Zvuk při snímku obrazovky</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot1 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone1_title">Vyzvánění telefonu – SIM 1</string>
-    <!-- Sound: Title for the option defining the phone ringtone for slot2 on Muilti SIM device. [CHAR LIMIT=50] -->
-    <string name="ringtone2_title">Vyzvánění telefonu – SIM 2</string>
     <!-- Navigation settings -->
     <string name="back_height_low_label">Maximální</string>
     <string name="back_height_high_label">Dolní</string>
@@ -226,4 +222,38 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Zobrazit protokol historie oznámení</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Povolit síť</string>
+    <string name="data_usage_app_restrict_all_summary">Povolit využití sítě</string>
+    <string name="data_usage_app_restrict_data">Mobilní data</string>
+    <string name="data_usage_app_restrict_data_summary">Povolit používání mobilních dat</string>
+    <string name="data_usage_app_restrict_vpn">VPN data</string>
+    <string name="data_usage_app_restrict_vpn_summary">Povolit používání VPN dat</string>
+    <string name="data_usage_app_restrict_wifi">Wi\u2011Fi data</string>
+    <string name="data_usage_app_restrict_wifi_summary">Povolit používání Wi\u2011Fi dat</string>
+    <!-- Custom light color -->
+    <string name="custom_light_title">Barva světla</string>
+    <string name="custom_light_on_time_title">Délka blikání</string>
+    <string name="custom_light_off_time_title">Interval blikání</string>
+    <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Umožnit klientům používat VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Povolit klientům hotspotu používat připojení VPN tohoto zařízení pro upstream konektivitu</string>
+    <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Přejetím prstu nahoru odemknout</string>
+    <string name="security_settings_face_require_swipe_summary">Chcete-li použít odemknutí obličeje, přejeďte prstem nahoru po zamykací obrazovce</string>
+    <!-- Search keywords -->
+    <string name="keywords_notification_log">oznámení, protokol oznámení</string>
+    <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Vysoká citlivost dotyku</string>
+    <string name="high_touch_sensitivity_summary">Zvýšení citlivosti dotykové vrstvy, což umožňuje používání v rukavicích</string>
+    <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Detekce nad obrazovkou</string>
+    <string name="touchscreen_hovering_summary">Umožňuje pohybovat se jakoby nad obsahem obrazovky podobně, jako když myší najedete na nějaký ovládací prvek</string>
+    <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Uložená sluchátka</string>
+    <!-- Data usage -->
+    <string name="data_usage_period">Období využití dat</string>
+    <string name="data_usage_daily">Denní</string>
+    <string name="data_usage_monthly">Měsíční</string>
+    <!-- Lockscreen timeout -->
+    <!-- Clipboard toast toggle -->
 </resources>
