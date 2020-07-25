@@ -332,7 +332,9 @@
     <string name="applock_show_only_on_wake">Authenticate only once</string>
     <string name="applock_show_only_on_wake_on_summary">App stays unlocked until the screen is turned off</string>
     <string name="applock_show_only_on_wake_off_summary">App stays unlocked for 15 seconds after exiting</string>
-    <string name="applock_lock_notifications">Hide notification content</string>
+    <string name="applock_notification_info">Tap on the notification icon shown on each locked apps\' preference to show/hide the notification content</string>
+    <string name="applock_show_notif">Showing notification content</string>
+    <string name="applock_hide_notif">Hiding notification content</string>
     <string name="applock_setup">Set up app lock</string>
     <string name="applock_overlay_summary">This feature is not available because this app is locked</string>
     <plurals name="applock_summary">
