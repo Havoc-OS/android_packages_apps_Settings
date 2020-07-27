@@ -104,4 +104,8 @@
     <!-- In-call feedback -->
     <string name="incall_feeedback_vibrate_title">Vibrate to indicate call status</string>
 
+    <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Cycle through modes</string>
+    <string name="prevent_ringing_option_cycle_summary">On (cycle through modes)</string>
+
 </resources>
