@@ -313,12 +313,14 @@
     <!-- Lockscreen timeout -->
     <string name="lockscreen_timeout_title">Lockscreen timeout</string>
 
-    <!-- Clipboard toast toggle -->
-    <string name="show_clipboard_toast">Show clipboard access alerts</string>
-    <string name="show_clipboard_toast_summary">Display a toast when an app tries to access the clipboard</string>
-
     <!-- Permissions hub toggle -->
     <string name="show_permissions_hub">Show permissions hub</string>
     <string name="show_permissions_hub_summary">Display privacy indicators in QS</string>
+
+    <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Clipboard access alerts</string>
+    <string name="clipboard_toast_info_disabled">Don\'t show any alerts</string>
+    <string name="clipboard_toast_info_show_important">Show only important alerts</string>
+    <string name="clipboard_toast_info_show_all">Show all access alerts</string>
 
 </resources>
