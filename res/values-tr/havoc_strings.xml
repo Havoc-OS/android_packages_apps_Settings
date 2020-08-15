@@ -255,5 +255,7 @@
     <string name="data_usage_daily">Günlük</string>
     <string name="data_usage_monthly">Aylık</string>
     <!-- Lockscreen timeout -->
-    <!-- Clipboard toast toggle -->
+    <string name="lockscreen_timeout_title">Kilit ekranı zaman aşımı</string>
+    <!-- Permissions hub toggle -->
+    <!-- Clipboard toast info -->
 </resources>

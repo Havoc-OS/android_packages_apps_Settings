@@ -69,5 +69,6 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Data usage -->
     <!-- Lockscreen timeout -->
-    <!-- Clipboard toast toggle -->
+    <!-- Permissions hub toggle -->
+    <!-- Clipboard toast info -->
 </resources>

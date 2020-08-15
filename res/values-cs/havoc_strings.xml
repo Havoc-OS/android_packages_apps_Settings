@@ -255,5 +255,7 @@
     <string name="data_usage_daily">Denní</string>
     <string name="data_usage_monthly">Měsíční</string>
     <!-- Lockscreen timeout -->
-    <!-- Clipboard toast toggle -->
+    <string name="lockscreen_timeout_title">Časový limit zámku obrazovky</string>
+    <!-- Permissions hub toggle -->
+    <!-- Clipboard toast info -->
 </resources>

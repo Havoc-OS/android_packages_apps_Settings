@@ -222,6 +222,7 @@
     <!-- Notification log -->
     <string name="notification_log_summary">顯示通知歷史紀錄</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">允許網路</string>
     <string name="data_usage_app_restrict_data">行動數據</string>
     <string name="data_usage_app_restrict_data_summary">啟用行動網路流量統計</string>
     <string name="data_usage_app_restrict_vpn">VPN 數據</string>
@@ -245,5 +246,6 @@
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
     <!-- Data usage -->
     <!-- Lockscreen timeout -->
-    <!-- Clipboard toast toggle -->
+    <!-- Permissions hub toggle -->
+    <!-- Clipboard toast info -->
 </resources>
