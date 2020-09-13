@@ -257,5 +257,11 @@
     <!-- Lockscreen timeout -->
     <string name="lockscreen_timeout_title">Časový limit zámku obrazovky</string>
     <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Zobrazit panel oprávnění</string>
+    <string name="show_permissions_hub_summary">Zobrazit indikátory ochrany soukromí v QS</string>
     <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Výstrahy o přístupu ke schránce</string>
+    <string name="clipboard_toast_info_disabled">Nezobrazovat žádné výstrahy</string>
+    <string name="clipboard_toast_info_show_important">Zobrazit pouze důležité výstrahy</string>
+    <string name="clipboard_toast_info_show_all">Zobrazit všechny výstrahy o přístupu</string>
 </resources>

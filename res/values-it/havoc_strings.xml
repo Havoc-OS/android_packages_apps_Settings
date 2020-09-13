@@ -257,5 +257,11 @@
     <!-- Lockscreen timeout -->
     <string name="lockscreen_timeout_title">Timeout schermata di sblocco</string>
     <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Mostra hub dei permessi</string>
+    <string name="show_permissions_hub_summary">Mostra gli indicatori di privacy nelle impostazioni rapide</string>
     <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Avviso di accesso agli appunti</string>
+    <string name="clipboard_toast_info_disabled">Non mostrare nessun avviso</string>
+    <string name="clipboard_toast_info_show_important">Mostra solo avvisi importanti</string>
+    <string name="clipboard_toast_info_show_all">Mostra tutti gli avvisi di accesso</string>
 </resources>

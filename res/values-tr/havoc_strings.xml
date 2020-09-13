@@ -257,5 +257,11 @@
     <!-- Lockscreen timeout -->
     <string name="lockscreen_timeout_title">Kilit ekranı zaman aşımı</string>
     <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">İzin merkezini göster</string>
+    <string name="show_permissions_hub_summary">Hızlı Ayarlar\'da gizlilik göstergelerini görüntüler</string>
     <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Panoya erişim uyarıları</string>
+    <string name="clipboard_toast_info_disabled">Herhangi bir uyarı gösterme</string>
+    <string name="clipboard_toast_info_show_important">Yalnızca önemli uyarıları göster</string>
+    <string name="clipboard_toast_info_show_all">Tüm erişim uyarılarını göster</string>
 </resources>

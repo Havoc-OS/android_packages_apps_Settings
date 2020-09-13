@@ -256,6 +256,13 @@
     <string name="data_usage_daily">Ежедневно</string>
     <string name="data_usage_monthly">Ежемесячно</string>
     <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Тайм-аут экрана блокировки</string>
     <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Показать значки разрешений</string>
+    <string name="show_permissions_hub_summary">Отображать индикаторы конфиденциальности в быстрых настройках</string>
     <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Оповещения о доступе к буферу обмена</string>
+    <string name="clipboard_toast_info_disabled">Не показывать оповещения</string>
+    <string name="clipboard_toast_info_show_important">Показывать только важные оповещения</string>
+    <string name="clipboard_toast_info_show_all">Показывать все оповещения о доступе</string>
 </resources>
