@@ -264,4 +264,6 @@
     <string name="clipboard_toast_info_disabled">Herhangi bir uyarı gösterme</string>
     <string name="clipboard_toast_info_show_important">Yalnızca önemli uyarıları göster</string>
     <string name="clipboard_toast_info_show_all">Tüm erişim uyarılarını göster</string>
+    <!-- App lock -->
+    <!-- Cycle through ringer modes gesture -->
 </resources>

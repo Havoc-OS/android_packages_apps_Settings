@@ -264,4 +264,6 @@
     <string name="clipboard_toast_info_disabled">Ne jelenjen meg figyelmeztetés</string>
     <string name="clipboard_toast_info_show_important">Csak a fontos figyelmeztetések jelennek meg</string>
     <string name="clipboard_toast_info_show_all">Az összes figyelmeztetés megjelenik</string>
+    <!-- App lock -->
+    <!-- Cycle through ringer modes gesture -->
 </resources>

@@ -264,4 +264,6 @@
     <string name="clipboard_toast_info_disabled">Non mostrare nessun avviso</string>
     <string name="clipboard_toast_info_show_important">Mostra solo avvisi importanti</string>
     <string name="clipboard_toast_info_show_all">Mostra tutti gli avvisi di accesso</string>
+    <!-- App lock -->
+    <!-- Cycle through ringer modes gesture -->
 </resources>

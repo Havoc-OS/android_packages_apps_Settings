@@ -240,4 +240,6 @@ Malam: <xliff:g id="night_temperature">%2$d</xliff:g>K</string>
     <!-- Lockscreen timeout -->
     <!-- Permissions hub toggle -->
     <!-- Clipboard toast info -->
+    <!-- App lock -->
+    <!-- Cycle through ringer modes gesture -->
 </resources>

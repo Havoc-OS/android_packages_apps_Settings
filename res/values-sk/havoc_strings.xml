@@ -243,4 +243,6 @@
     <!-- Lockscreen timeout -->
     <!-- Permissions hub toggle -->
     <!-- Clipboard toast info -->
+    <!-- App lock -->
+    <!-- Cycle through ringer modes gesture -->
 </resources>

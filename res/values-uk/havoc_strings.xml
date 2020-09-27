@@ -222,22 +222,48 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Показати історію сповіщень</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Дозволити мережу</string>
+    <string name="data_usage_app_restrict_all_summary">Увімкнути використання передачі даних</string>
+    <string name="data_usage_app_restrict_data">Мобільні дані</string>
+    <string name="data_usage_app_restrict_data_summary">Увімкнути використання мобільних даних</string>
+    <string name="data_usage_app_restrict_vpn">Дані VPN</string>
+    <string name="data_usage_app_restrict_vpn_summary">Увімкнути використання VPN даних</string>
+    <string name="data_usage_app_restrict_wifi">Дані Wi\u2011Fi</string>
+    <string name="data_usage_app_restrict_wifi_summary">Увімкнути використання даних Wi\u2011Fi</string>
     <!-- Custom light color -->
     <string name="custom_light_title">Колір світлодіоду</string>
     <string name="custom_light_on_time_title">Тривалість пульсації світлодіоду</string>
     <string name="custom_light_off_time_title">Інтервал пульсації світлодіоду</string>
     <!-- Hotspot extras -->
     <string name="tethering_allow_vpn_upstreams_title">Дозволити клієнтам використовувати VPN</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Дозволити клієнтам точки доступу використовувати VPN з\'єднання цього пристрою для підключення до потоку</string>
     <!-- Swipe up for face unlock -->
     <string name="security_settings_face_require_swipe">Проведіть вгору для розблокування</string>
     <string name="security_settings_face_require_swipe_summary">Проведіть вгору на екрані блокування, щоб використовувати розблокування обличчям</string>
     <!-- Search keywords -->
     <string name="keywords_notification_log">cповіщення, журнал сповіщень</string>
     <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Висока чутливість дотику</string>
+    <string name="high_touch_sensitivity_summary">Підвищити чутливість екрану для можливості роботи в рукавичках</string>
     <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Зависання над екраном</string>
+    <string name="touchscreen_hovering_summary">Дозволяє наводитись на елементи екрана, як миша у веб-браузері, при перегляді віддалених робочих столів, тощо</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Збережені навушники</string>
     <!-- Data usage -->
+    <string name="data_usage_period">Період використання даних</string>
+    <string name="data_usage_daily">За день</string>
+    <string name="data_usage_monthly">За місяць</string>
     <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Час очікування екрану блокування</string>
     <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Показати центр дозволів</string>
+    <string name="show_permissions_hub_summary">Показати індикатори конфіденційності у швидких налаштуваннях</string>
     <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Сповіщення про доступ до буфера обміну</string>
+    <string name="clipboard_toast_info_disabled">Не показувати сповіщень</string>
+    <string name="clipboard_toast_info_show_important">Показувати лише важливі сповіщення</string>
+    <string name="clipboard_toast_info_show_all">Показувати усі сповіщення про доступ</string>
+    <!-- App lock -->
+    <!-- Cycle through ringer modes gesture -->
 </resources>

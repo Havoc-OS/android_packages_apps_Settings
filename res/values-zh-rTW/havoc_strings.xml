@@ -264,4 +264,6 @@
     <string name="clipboard_toast_info_disabled">不顯示任何警示通知</string>
     <string name="clipboard_toast_info_show_important">只顯示重要的警示</string>
     <string name="clipboard_toast_info_show_all">顯示所有存取警示</string>
+    <!-- App lock -->
+    <!-- Cycle through ringer modes gesture -->
 </resources>

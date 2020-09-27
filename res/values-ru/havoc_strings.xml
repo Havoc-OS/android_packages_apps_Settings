@@ -265,4 +265,6 @@
     <string name="clipboard_toast_info_disabled">Не показывать оповещения</string>
     <string name="clipboard_toast_info_show_important">Показывать только важные оповещения</string>
     <string name="clipboard_toast_info_show_all">Показывать все оповещения о доступе</string>
+    <!-- App lock -->
+    <!-- Cycle through ringer modes gesture -->
 </resources>

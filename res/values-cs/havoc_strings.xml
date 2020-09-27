@@ -264,4 +264,6 @@
     <string name="clipboard_toast_info_disabled">Nezobrazovat žádné výstrahy</string>
     <string name="clipboard_toast_info_show_important">Zobrazit pouze důležité výstrahy</string>
     <string name="clipboard_toast_info_show_all">Zobrazit všechny výstrahy o přístupu</string>
+    <!-- App lock -->
+    <!-- Cycle through ringer modes gesture -->
 </resources>
