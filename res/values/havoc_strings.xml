@@ -241,4 +241,8 @@
     <string name="tint_background_title">Tint Background</string>
     <string name="tint_background_summary">Make Luminance and Chroma selection affect background colors as well</string>
 
+    <!-- Blur -->
+    <string name="enable_blurs_on_windows_custom_title">Blur Windows</string>
+    <string name="enable_blurs_on_windows_custom_summary">Enable blur for various system windows for an enhanced look and feel (Requires device reboot)</string>
+
 </resources>

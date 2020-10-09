@@ -74,6 +74,11 @@
             settings:controller="com.android.settings.display.DarkUIPreferenceController"
             settings:keywords="@string/keywords_dark_ui_mode"/>
 
+        <SwitchPreference
+            android:key="enable_blurs_on_windows"
+            android:title="@string/enable_blurs_on_windows_custom_title"
+            android:summary="@string/enable_blurs_on_windows_custom_summary" />
+
         <Preference
             android:fragment="com.android.settings.accessibility.TextReadingPreferenceFragment"
             android:key="text_reading_options"
