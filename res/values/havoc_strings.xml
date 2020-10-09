@@ -476,4 +476,8 @@
     <!-- Configure notifications: Title for advanced notification settings pane -->
     <string name="advanced_notifications_title">Advanced notification settings</string>
 
+    <!-- Blur -->
+    <string name="enable_blurs_on_windows_custom_title">Blur Windows</string>
+    <string name="enable_blurs_on_windows_custom_summary">Enable blur for various system windows for an enhanced look and feel (Requires device reboot)</string>
+
 </resources>
