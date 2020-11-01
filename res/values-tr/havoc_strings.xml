@@ -265,5 +265,37 @@
     <string name="clipboard_toast_info_show_important">Yalnızca önemli uyarıları göster</string>
     <string name="clipboard_toast_info_show_all">Tüm erişim uyarılarını göster</string>
     <!-- App lock -->
+    <string name="applock_title">Uygulama kilidi</string>
+    <string name="applock_locked">Kilitli</string>
+    <string name="applock_unlocked">Kilitli değil</string>
+    <string name="applock_locked_apps">Kilitli uygulamalar</string>
+    <string name="applock_unlocked_apps">Kilitli olmayan uygulamalar</string>
+    <string name="applock_show_only_on_wake">Yalnızca bir kez kimlik doğrulama</string>
+    <string name="applock_show_only_on_wake_on_summary">Ekran kapanana kadar uygulamanın kilidi açık kalır</string>
+    <string name="applock_show_only_on_wake_off_summary">Uygulamadan çıktıktan sonra 15 saniye boyunca uygulamanın kilidi açık kalır</string>
+    <string name="applock_notification_info">Bildirim içeriğini göstermek veya gizlemek için her kilitli uygulamanın tercihinde gösterilen bildirim simgesine dokunun</string>
+    <string name="applock_show_notif">Bildirim içeriği gösteriliyor</string>
+    <string name="applock_hide_notif">Bildirim içeriği gizleniyor</string>
+    <string name="applock_setup">Uygulama kilidini ayarlayın</string>
+    <string name="applock_overlay_summary">Uygulama kilitli olduğundan bu özellik kullanılamıyor</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 uygulama kilitli</item>
+        <item quantity="other">%d uygulama kilitli</item>
+    </plurals>
     <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Modlar arasında geçiş yap</string>
+    <string name="prevent_ringing_option_cycle_summary">Açık (modlar arasında geçiş yap)</string>
+    <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC Karartma</string>
+    <string name="dc_dimming_info">Düşük ışık koşullarında göz yorgunluğunu azaltır ancak görüntü kalitesinin düşmesine ve renk üretiminin düşmesine neden olabilir.</string>
+    <string name="dc_dimming_auto_mode_title">Zamanlama</string>
+    <string name="dc_dimming_mode_brightness">Parlaklık eşiğin altına düştüğünde aç</string>
+    <string name="dc_dimming_mode_full">Zamana ve parlaklığa bağlı</string>
+    <string name="dc_dimming_brightness_title">Parlaklık eşiği</string>
+    <string name="dc_dimming_brightness_disabled">Devre dışı</string>
+    <string name="dc_dimming_restore_auto_mode">Otomatik modu geri yükle</string>
+    <string name="dc_dimming_brightness_info">DC Karartmayı yalnızca ortalama parlaklık eşiğin altında olduğunda etkinleştirir</string>
+    <string name="dc_dimming_off_auto_mode_auto">Otomatik olarak açılacak</string>
+    <string name="dc_dimming_on_auto_mode_auto">Otomatik olarak kapanacak</string>
+    <string name="keywords_display_dc_dimming">dc karartma, titreme, göz, zorlanma</string>
 </resources>

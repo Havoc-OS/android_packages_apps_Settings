@@ -265,5 +265,24 @@
     <string name="clipboard_toast_info_show_important">Показувати лише важливі сповіщення</string>
     <string name="clipboard_toast_info_show_all">Показувати усі сповіщення про доступ</string>
     <!-- App lock -->
+    <string name="applock_title">Блокування програм</string>
+    <string name="applock_locked">Заблоковано</string>
+    <string name="applock_unlocked">Розблоковано</string>
+    <string name="applock_locked_apps">Заблоковані додатки</string>
+    <string name="applock_unlocked_apps">Розблоковані додатки</string>
+    <string name="applock_show_only_on_wake">Автентифікувати лише один раз</string>
+    <string name="applock_show_only_on_wake_on_summary">Додатки залишаються розблокованими, доки екран не вимкнено</string>
+    <string name="applock_show_only_on_wake_off_summary">Програма залишається розблокованою на 15 секунд після виходу</string>
+    <string name="applock_setup">Налаштувати блокування програм</string>
+    <string name="applock_overlay_summary">Ця функція недоступна, оскільки цей додаток заблоковано</string>
+    <plurals name="applock_summary">
+        <item quantity="one">%d додаток заблоковано</item>
+        <item quantity="few">%d додатки заблоковано</item>
+        <item quantity="many">%d додатків заблоковано</item>
+        <item quantity="other">%d додатків заблоковано</item>
+    </plurals>
     <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Перемикання режимів</string>
+    <string name="prevent_ringing_option_cycle_summary">Увімкнено</string>
+    <!-- DC Dimming -->
 </resources>

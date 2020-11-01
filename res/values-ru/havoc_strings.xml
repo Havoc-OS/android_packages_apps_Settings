@@ -267,4 +267,5 @@
     <string name="clipboard_toast_info_show_all">Показывать все оповещения о доступе</string>
     <!-- App lock -->
     <!-- Cycle through ringer modes gesture -->
+    <!-- DC Dimming -->
 </resources>

@@ -265,5 +265,21 @@
     <string name="clipboard_toast_info_show_important">只顯示重要的警示</string>
     <string name="clipboard_toast_info_show_all">顯示所有存取警示</string>
     <!-- App lock -->
+    <string name="applock_title">應用程式鎖</string>
+    <string name="applock_locked">已鎖定</string>
+    <string name="applock_unlocked">已解鎖</string>
+    <string name="applock_locked_apps">已鎖定的應用程式</string>
+    <string name="applock_unlocked_apps">未鎖定的應用程式</string>
+    <string name="applock_show_only_on_wake">只驗證一次</string>
+    <string name="applock_show_only_on_wake_on_summary">應用程式保持解鎖狀態，直到螢幕關閉</string>
+    <string name="applock_show_only_on_wake_off_summary">退出後，應用程式保持解鎖狀態15秒鐘</string>
+    <string name="applock_setup">設定應用程式鎖</string>
+    <string name="applock_overlay_summary">這項功能無法使用，因為此應用程式已被鎖定</string>
+    <plurals name="applock_summary">
+        <item quantity="other">%d 程式已被鎖定</item>
+    </plurals>
     <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">循環模式</string>
+    <string name="prevent_ringing_option_cycle_summary">開啟循環模式</string>
+    <!-- DC Dimming -->
 </resources>

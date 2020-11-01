@@ -222,6 +222,8 @@
     <!-- Notification log -->
     <string name="notification_log_summary">Mostrar o registro de histórico de notificações</string>
     <!-- Per-app data restrictions -->
+    <string name="data_usage_app_restrict_all">Permitir rede</string>
+    <string name="data_usage_app_restrict_all_summary">Ativar uso da rede</string>
     <string name="data_usage_app_restrict_data">Dados móveis</string>
     <string name="data_usage_app_restrict_data_summary">Ativar o uso de dados móveis</string>
     <string name="data_usage_app_restrict_vpn">Dados VPN</string>
@@ -229,16 +231,56 @@
     <string name="data_usage_app_restrict_wifi">Dados Wi\u2011Fi</string>
     <string name="data_usage_app_restrict_wifi_summary">Ativar o uso de dados Wi\u2011Fi</string>
     <!-- Custom light color -->
+    <string name="custom_light_title">Cor da luz</string>
+    <string name="custom_light_on_time_title">Duração do pulso de luz</string>
+    <string name="custom_light_off_time_title">Intervalo de pulsação da luz</string>
     <!-- Hotspot extras -->
+    <string name="tethering_allow_vpn_upstreams_title">Permitir que clientes usem VPNs</string>
+    <string name="tethering_allow_vpn_upstreams_summary">Permitir que os clientes de hotspot usem este dispositivo\u2019 para conexões VPN de alta velocidade</string>
     <!-- Swipe up for face unlock -->
+    <string name="security_settings_face_require_swipe">Deslize para cima para desbloquear</string>
+    <string name="security_settings_face_require_swipe_summary">Deslize para cima na tela de bloqueio para usar o desbloqueio facial</string>
     <!-- Search keywords -->
+    <string name="keywords_notification_log">notificações, histórico de notificações</string>
     <!-- High touch sensitivity -->
+    <string name="high_touch_sensitivity_title">Alta sensibilidade ao toque</string>
+    <string name="high_touch_sensitivity_summary">Aumenta a sensibilidade da tela para poder ser usada com luvas</string>
     <!-- Touchscreen hovering -->
+    <string name="touchscreen_hovering_title">Flutuar o dedo na tela</string>
+    <string name="touchscreen_hovering_summary">Permite que você flutue o dedo na tela como um mouse em navegadores web, desktops remotos, etc</string>
     <!-- Title for connected TWS device group [CHAR LIMIT=none]-->
+    <string name="connected_tws_device_saved_title">Fones de ouvido salvos</string>
     <!-- Data usage -->
+    <string name="data_usage_period">Período de uso de dados</string>
+    <string name="data_usage_daily">Diário</string>
+    <string name="data_usage_monthly">Mensal</string>
     <!-- Lockscreen timeout -->
+    <string name="lockscreen_timeout_title">Tempo limite da tela de bloqueio</string>
     <!-- Permissions hub toggle -->
+    <string name="show_permissions_hub">Mostrar Hub de permissões</string>
+    <string name="show_permissions_hub_summary">Exibir indicadores de privacidade nas configurações rápidas</string>
     <!-- Clipboard toast info -->
+    <string name="clipboard_toast_info_title">Mostrar alertas de acesso à área de transferência</string>
+    <string name="clipboard_toast_info_disabled">Não mostrar nenhum alerta</string>
+    <string name="clipboard_toast_info_show_important">Mostrar apenas alertas importantes</string>
+    <string name="clipboard_toast_info_show_all">Mostrar todos os alertas de acesso</string>
     <!-- App lock -->
+    <string name="applock_title">Bloqueio de Aplicativos</string>
+    <string name="applock_locked">Bloqueado</string>
+    <string name="applock_unlocked">Desbloqueado</string>
+    <string name="applock_locked_apps">Aplicativos bloqueados</string>
+    <string name="applock_unlocked_apps">Aplicativos desbloqueados</string>
+    <string name="applock_show_only_on_wake">Autenticar apenas uma vez</string>
+    <string name="applock_show_only_on_wake_on_summary">O aplicativo permanece desbloqueado até que a tela seja desligada</string>
+    <string name="applock_show_only_on_wake_off_summary">O aplicativo permanece desbloqueado por 15 segundos após sair</string>
+    <string name="applock_setup">Configurar bloqueio de aplicativos</string>
+    <string name="applock_overlay_summary">Este recurso não está disponível porque este aplicativo está bloqueado</string>
+    <plurals name="applock_summary">
+        <item quantity="one">1 aplicativo bloqueado</item>
+        <item quantity="other">%d aplicativos bloqueados</item>
+    </plurals>
     <!-- Cycle through ringer modes gesture -->
+    <string name="prevent_ringing_option_cycle">Ciclo entre modos</string>
+    <string name="prevent_ringing_option_cycle_summary">Ligado (ciclo entre modos)</string>
+    <!-- DC Dimming -->
 </resources>
