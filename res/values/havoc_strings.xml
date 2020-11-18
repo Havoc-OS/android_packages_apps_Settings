@@ -247,4 +247,9 @@
 
     <string name="background_processes_settings_title">Background processes</string>
 
+    <!-- Custom light color -->
+    <string name="custom_light_title">Light color</string>
+    <string name="custom_light_on_time_title">Light pulse duration</string>
+    <string name="custom_light_off_time_title">Light pulse interval</string>
+
 </resources>
