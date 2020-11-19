@@ -361,4 +361,7 @@
     <string name="data_usage_daily">Daily</string>
     <string name="data_usage_monthly">Monthly</string>
 
+    <!-- Radio Info -->
+    <string name="radio_info_title">Radio info</string>
+
 </resources>
