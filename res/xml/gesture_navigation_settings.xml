@@ -60,6 +60,12 @@
         android:fragment="com.android.settings.gestures.GestureTweaksSettings"
         settings:allowDividerAbove="false"/>
 
+    <com.abc.support.preferences.SecureSettingSwitchPreference
+        android:key="navigation_bar_hint"
+        android:title="@string/show_gestures_navbar_switch_title"
+        android:summary="@string/show_gestures_navbar_switch_summary"
+        android:defaultValue="true" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="gesture_navigation_settings_footer"
         android:title="@string/back_sensitivity_dialog_message"
