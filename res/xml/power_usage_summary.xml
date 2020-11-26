@@ -51,10 +51,10 @@
         android:summary="@string/battery_percentage_description"
         settings:controller="com.android.settings.display.BatteryPercentagePreferenceController" />
 
-
-    <Preference
+    <com.havoc.support.preferences.SystemSettingMasterSwitchPreference
         android:fragment="com.android.settings.fuelgauge.smartcharging.SmartChargingSettings"
-        android:key="smart_charging_key"
+        android:key="smart_charging"
+        android:defaultValue="false"
         android:title="@string/smart_charging_title"
         android:summary="@string/smart_charging_summary" />
 
