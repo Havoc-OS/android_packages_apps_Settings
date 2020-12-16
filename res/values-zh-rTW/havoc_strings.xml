@@ -282,4 +282,10 @@
     <string name="prevent_ringing_option_cycle">循環模式</string>
     <string name="prevent_ringing_option_cycle_summary">開啟循環模式</string>
     <!-- DC Dimming -->
+    <string name="dc_dimming_title">DC 調光</string>
+    <string name="dc_dimming_auto_mode_title">排程</string>
+    <string name="dc_dimming_brightness_disabled">關閉</string>
+    <string name="dc_dimming_restore_auto_mode">還原成自動模式</string>
+    <string name="dc_dimming_off_auto_mode_auto">將會自動開啟</string>
+    <string name="dc_dimming_on_auto_mode_auto">將會自動關閉</string>
 </resources>
