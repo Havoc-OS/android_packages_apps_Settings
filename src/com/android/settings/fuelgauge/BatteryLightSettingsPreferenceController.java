@@ -16,34 +16,56 @@
 
 package com.android.settings.fuelgauge;
 
-import android.content.ContentResolver;
 import android.content.Context;
 import android.provider.Settings;
 
-import androidx.annotation.NonNull;
+import androidx.preference.Preference;
+import androidx.preference.PreferenceScreen;
 
 import com.android.settings.R;
 import com.android.settings.core.BasePreferenceController;
-import com.android.settingslib.core.AbstractPreferenceController;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.havoc.support.preferences.SystemSettingMasterSwitchPreference;
 
-public class BatteryLightSettingsPreferenceController extends BasePreferenceController {
-    private List<AbstractPreferenceController> mGestureControllers;
+public class BatteryLightSettingsPreferenceController extends BasePreferenceController implements
+        Preference.OnPreferenceChangeListener {
 
-    private static final String KEY_SETTINGS = "battery_light_settings";
-    private Context mContext;
+    private static final String KEY_CHARGING_LED = "battery_light_enabled";
+
+    private SystemSettingMasterSwitchPreference mChargingLed;
 
     public BatteryLightSettingsPreferenceController(Context context) {
-        super(context, KEY_SETTINGS);
-        mContext = context;
+        super(context, KEY_CHARGING_LED);
     }
+
 
     @Override
     public int getAvailabilityStatus() {
         boolean hasLED = mContext.getResources().getBoolean(com.android.internal.R.bool.config_intrusiveBatteryLed) ||
                 mContext.getResources().getBoolean(com.android.internal.R.bool.config_multiColorBatteryLed);
         return hasLED ? AVAILABLE : UNSUPPORTED_ON_DEVICE;
+    }
+
+    @Override
+    public String getPreferenceKey() {
+        return KEY_CHARGING_LED;
+    }
+
+    @Override
+    public void displayPreference(PreferenceScreen screen) {
+        mChargingLed = (SystemSettingMasterSwitchPreference) screen.findPreference(KEY_CHARGING_LED);
+        mChargingLed.setChecked((Settings.System.getInt(mContext.getContentResolver(),
+                Settings.System.BATTERY_LIGHT_ENABLED, 1) == 1));
+        mChargingLed.setOnPreferenceChangeListener(this);
+
+        super.displayPreference(screen);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        boolean value = (Boolean) newValue;
+        Settings.System.putInt(mContext.getContentResolver(),
+                Settings.System.BATTERY_LIGHT_ENABLED, value ? 1 : 0);
+        return true;
     }
 }
