@@ -25,7 +25,7 @@
         app:animation="@raw/gesture_ambient_tap"
         app:preview="@drawable/gesture_ambient_tap" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="gesture_double_tap_screen"
         android:title="@string/ambient_display_title"
         android:summary="@string/ambient_display_summary"

@@ -20,7 +20,7 @@ import android.content.Context;
 import android.view.View;
 
 import androidx.preference.PreferenceViewHolder;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import com.android.settings.R;
 

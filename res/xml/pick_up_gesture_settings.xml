@@ -25,7 +25,7 @@
         app:animation="@raw/gesture_ambient_lift"
         app:preview="@drawable/gesture_ambient_lift" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="gesture_pick_up"
         android:title="@string/ambient_display_pickup_title"
         android:summary="@string/ambient_display_pickup_summary"

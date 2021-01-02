@@ -47,7 +47,7 @@ import androidx.preference.ListPreference;
 import androidx.preference.MultiSelectListPreference;
 import androidx.preference.Preference;
 import androidx.preference.Preference.OnPreferenceChangeListener;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import com.android.internal.util.ArrayUtils;
 import com.android.settings.R;

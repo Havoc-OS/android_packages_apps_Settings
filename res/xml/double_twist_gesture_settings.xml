@@ -25,7 +25,7 @@
         app:animation="@raw/gesture_twist"
         app:preview="@drawable/gesture_twist" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="gesture_double_twist"
         android:title="@string/double_twist_for_camera_mode_title"
         android:summary="@string/double_twist_for_camera_mode_summary"

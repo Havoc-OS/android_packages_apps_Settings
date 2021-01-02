@@ -19,7 +19,7 @@
                   android:key="managed_profile_settings_screen"
                   android:title="@string/managed_profile_settings_title">
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="work_mode"
         android:title="@string/work_mode_label"
         android:summary="@string/summary_placeholder"
@@ -32,7 +32,7 @@
         settings:useAdditionalSummary="true"
         settings:controller="com.android.settings.accounts.ContactSearchPreferenceController"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="cross_profile_calendar"
         android:summary="@string/cross_profile_calendar_summary"
         android:title="@string/cross_profile_calendar_title"

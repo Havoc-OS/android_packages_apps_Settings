@@ -56,11 +56,11 @@
         android:key="time_format_preference_category"
         android:title="@string/time_format_category_title"
         settings:keywords="@string/keywords_time_format">
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="auto_24hour"
             android:title="@string/date_time_24hour_auto"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="24 hour"
             android:title="@string/date_time_24hour" />
     </PreferenceCategory>

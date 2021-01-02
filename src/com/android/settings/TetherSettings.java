@@ -45,7 +45,7 @@ import android.util.FeatureFlagUtils;
 
 import androidx.annotation.VisibleForTesting;
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import com.android.settings.core.FeatureFlags;
 import com.android.settings.datausage.DataSaverBackend;

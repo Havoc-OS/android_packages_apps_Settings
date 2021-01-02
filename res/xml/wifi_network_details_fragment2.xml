@@ -82,7 +82,7 @@
         android:summary="@string/wifi_subscription_summary"
         settings:allowDividerAbove="true"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="auto_connect"
         android:title="@string/wifi_auto_connect_title"
         android:summary="@string/wifi_auto_connect_summary"

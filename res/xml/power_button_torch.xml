@@ -26,7 +26,7 @@
         app:animation="@raw/power_button_torch"
         app:preview="@drawable/power_button_torch" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="power_button_torch"
         android:title="@string/power_button_torch_title"
         android:summary="@string/power_button_torch_summary"

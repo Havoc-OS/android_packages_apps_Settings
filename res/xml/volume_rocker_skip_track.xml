@@ -26,7 +26,7 @@
         app:animation="@raw/volume_button_music_control"
         app:preview="@drawable/volume_button_music_control" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="volume_rocker_skip_track"
         android:title="@string/volume_skiptrack_title"
         android:summary="@string/volume_skiptrack_summary"

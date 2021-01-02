@@ -21,7 +21,7 @@ import android.net.wifi.SoftApConfiguration;
 import android.net.wifi.WifiManager;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import com.android.settings.core.BasePreferenceController;
 

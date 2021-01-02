@@ -21,7 +21,7 @@
     <com.android.settingslib.RestrictedPreference
             android:key="switch_user"
             android:icon="@drawable/ic_swap" />
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="enable_calling"
             android:icon="@drawable/ic_phone"
             android:title="@string/user_enable_calling_sms" />

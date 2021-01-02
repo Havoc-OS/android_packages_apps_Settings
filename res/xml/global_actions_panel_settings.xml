@@ -24,7 +24,7 @@
         android:key="global_actions_panel_video"
         app:animation="@raw/gesture_global_actions_panel" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="gesture_global_actions_panel_switch"
         android:title="@string/cards_passes_setting_toggle"
         android:summary="@string/cards_passes_setting_subtitle"

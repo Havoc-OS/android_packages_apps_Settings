@@ -42,7 +42,7 @@ import android.view.View;
 import android.view.accessibility.AccessibilityManager;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;

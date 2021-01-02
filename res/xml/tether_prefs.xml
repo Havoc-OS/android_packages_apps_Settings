@@ -26,19 +26,19 @@
         android:fragment="com.android.settings.wifi.tether.WifiTetherSettings"
         settings:summaryLineCount="2" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="usb_tether_settings"
         android:title="@string/usb_tethering_button_text"
         android:summary="@string/usb_tethering_subtext"
         settings:keywords="@string/keywords_hotspot_tethering" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="enable_bluetooth_tethering"
         android:title="@string/bluetooth_tether_checkbox_text"
         android:summary="@string/bluetooth_tethering_subtext"
         settings:keywords="@string/keywords_hotspot_tethering" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="enable_ethernet_tethering"
         android:title="@string/ethernet_tether_checkbox_text"
         android:summary="@string/ethernet_tethering_subtext"

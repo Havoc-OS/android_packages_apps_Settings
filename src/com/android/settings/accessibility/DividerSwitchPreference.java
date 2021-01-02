@@ -20,7 +20,7 @@ import android.content.Context;
 import android.view.View;
 
 import androidx.preference.PreferenceViewHolder;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * A switch preference that has a divider below and above. Used for Accessibility Settings use

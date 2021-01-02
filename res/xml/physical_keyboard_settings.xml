@@ -21,7 +21,7 @@
     <PreferenceCategory
         android:key="keyboard_assistance_category"
         android:title="@string/keyboard_assistance_category">
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="show_virtual_keyboard_switch"
             android:title="@string/show_ime"
             android:summary="@string/show_ime_summary"

@@ -29,14 +29,14 @@
         settings:preview="@drawable/auto_awesome_battery"
         settings:controller="com.android.settings.widget.VideoPreferenceController"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="smart_battery"
         android:title="@string/smart_battery_title_custom"
         android:summary="@string/smart_battery_summary"
         settings:controller="com.android.settings.fuelgauge.SmartBatteryPreferenceController"
         settings:allowDividerAbove="true"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="auto_restriction"
         android:title="@string/battery_auto_restriction_title"
         android:summary="@string/battery_auto_restriction_summary"

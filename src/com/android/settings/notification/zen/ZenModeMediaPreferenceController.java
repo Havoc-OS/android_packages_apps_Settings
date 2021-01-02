@@ -22,7 +22,7 @@ import android.provider.Settings;
 import android.util.Log;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import com.android.settingslib.core.lifecycle.Lifecycle;
 

@@ -36,7 +36,7 @@ import android.view.View;
 import android.view.accessibility.AccessibilityManager;
 
 import androidx.annotation.Nullable;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import com.android.settings.R;
 

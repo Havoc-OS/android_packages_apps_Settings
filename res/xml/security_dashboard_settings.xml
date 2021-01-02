@@ -75,7 +75,7 @@
             android:summary="@string/unlock_set_unlock_mode_pattern"
             settings:keywords="@string/keywords_lockscreen" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="visiblepattern_profile"
             android:summary="@string/summary_placeholder"
             android:title="@string/lockpattern_settings_enable_visible_pattern_title_profile"
@@ -147,7 +147,7 @@
         android:fragment="com.android.settings.security.ScreenPinningSettings"
         settings:keywords="@string/keywords_app_pinning" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:order="90"
         android:key="confirm_sim_deletion"
         android:title="@string/confirm_sim_deletion_title"

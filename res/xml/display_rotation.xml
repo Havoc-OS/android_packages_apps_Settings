@@ -18,7 +18,7 @@
         android:title="@string/display_rotation_title"
         xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="accelerometer"
         android:title="@string/accelerometer_title" />
 
@@ -32,22 +32,22 @@
         android:key="display_rotation_category"
         android:title="@string/display_rotation_category_title" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="display_rotation_0"
             android:title="@string/display_rotation_0_title"
             android:dependency="accelerometer" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="display_rotation_90"
             android:title="@string/display_rotation_90_title"
             android:dependency="accelerometer" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="display_rotation_180"
             android:title="@string/display_rotation_180_title"
             android:dependency="accelerometer" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="display_rotation_270"
             android:title="@string/display_rotation_270_title"
             android:dependency="accelerometer" />

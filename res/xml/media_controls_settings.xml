@@ -20,7 +20,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:title="@string/media_controls_title">
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="media_controls_resume_switch"
         android:title="@string/media_controls_summary"
         android:summary="@string/media_controls_resume_description"

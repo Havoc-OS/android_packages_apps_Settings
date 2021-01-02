@@ -28,7 +28,7 @@
             android:summary="@string/summary_placeholder"
             settings:keywords="@string/keywords_lock_screen_notif"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="security_dispaly_lockscreen_bypass"
             android:title="@string/lockscreen_bypass_title"
             android:summary="@string/lockscreen_bypass_summary"
@@ -45,7 +45,7 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="security_setting_lockdown_enabled"
             android:title="@string/lockdown_settings_title"
             android:summary="@string/lockdown_settings_summary"
@@ -86,7 +86,7 @@
             settings:searchable="false"
             settings:controller="com.android.settings.gestures.PickupGesturePreferenceController" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="ambient_display_notification"
             android:title="@string/doze_title"
             android:summary="@string/doze_summary"

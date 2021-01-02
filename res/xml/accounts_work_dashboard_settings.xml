@@ -26,14 +26,14 @@
         android:key="dashboard_tile_placeholder"
         android:order="30"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="auto_sync_account_data"
         android:title="@string/auto_sync_account_title"
         android:summary="@string/auto_sync_account_summary"
         android:order="100"
         settings:allowDividerAbove="true"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="auto_sync_work_account_data"
         android:title="@string/account_settings_menu_auto_sync_work"
         android:summary="@string/auto_sync_account_summary"

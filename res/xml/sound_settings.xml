@@ -167,32 +167,32 @@
           android:order="-50">
 
         <!-- Dial pad tones -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
           android:key="dial_pad_tones"
           android:title="@string/dial_pad_tones_title"/>
 
         <!-- Screen locking sounds -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
           android:key="screen_locking_sounds"
           android:title="@string/screen_locking_sounds_title"/>
 
         <!-- Charging sounds -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
           android:key="charging_sounds"
           android:title="@string/charging_sounds_title"/>
 
         <!-- Charging vibro -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
           android:key="charging_vibro"
           android:title="@string/charging_vibro_title" />
 
         <!-- Docking sounds -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
           android:key="docking_sounds"
           android:title="@string/docking_sounds_title"/>
 
         <!-- Touch sounds -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
           android:key="touch_sounds"
           android:title="@string/touch_sounds_title"/>
 
@@ -203,7 +203,7 @@
           android:summary="%s"/>
 
         <!-- Boot sounds -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
           android:key="boot_sounds"
           android:title="@string/boot_sounds_title"/>
 
@@ -214,7 +214,7 @@
           android:summary="%s"/>
 
         <!-- Screenshot sound -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
           android:key="screenshot_shutter_sound"
           android:title="@string/screenshot_shutter_sound_title" />
     </PreferenceCategory>
@@ -225,7 +225,7 @@
         android:order="100">
 
                 <!-- Use the same sounds of the work profile -->
-                <SwitchPreference
+                <com.havoc.support.preferences.SwitchPreference
                     android:key="work_use_personal_sounds"
                     android:title="@string/work_use_personal_sounds_title"
                     android:summary="@string/work_use_personal_sounds_summary"

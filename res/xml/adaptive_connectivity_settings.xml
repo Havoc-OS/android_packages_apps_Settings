@@ -28,7 +28,7 @@
         settings:allowDividerBelow="true"
         settings:searchable="false"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="adaptive_connectivity"
         android:title="@string/adaptive_connectivity_title"
         android:summary="@string/adaptive_connectivity_summary"

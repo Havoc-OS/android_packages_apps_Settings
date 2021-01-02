@@ -23,7 +23,7 @@ import android.hardware.face.FaceManager.SetFeatureCallback;
 import android.provider.Settings;
 
 import androidx.preference.PreferenceScreen;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import com.android.settings.Utils;
 

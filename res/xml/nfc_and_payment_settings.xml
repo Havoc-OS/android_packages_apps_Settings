@@ -25,13 +25,13 @@
         android:layout="@layout/nfc_detection_point"
         settings:controller="com.android.settings.nfc.NfcDetectionPointController"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="toggle_nfc"
         android:title="@string/nfc_quick_toggle_title"
         android:summary="@string/nfc_quick_toggle_summary"
         settings:controller="com.android.settings.nfc.NfcPreferenceController"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="nfc_secure_settings"
         android:title="@string/nfc_secure_settings_title"
         settings:controller="com.android.settings.nfc.SecureNfcPreferenceController"

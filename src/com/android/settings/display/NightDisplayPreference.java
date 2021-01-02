@@ -19,7 +19,7 @@ import android.hardware.display.ColorDisplayManager;
 import android.hardware.display.NightDisplayListener;
 import android.util.AttributeSet;
 
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import java.time.LocalTime;
 

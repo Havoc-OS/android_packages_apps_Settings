@@ -30,7 +30,7 @@
         settings:allowDividerBelow="true"
         settings:searchable="false" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="captioning_preference_switch"
         android:persistent="false"
         android:summary="@string/accessibility_caption_master_switch_summary"

@@ -16,7 +16,7 @@ package com.android.settings.display;
 import android.content.Context;
 import android.content.Intent;
 import android.provider.Settings;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 import androidx.preference.Preference;
 
 import com.android.settings.DisplaySettings;

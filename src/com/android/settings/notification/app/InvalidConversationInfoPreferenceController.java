@@ -20,7 +20,7 @@ import android.app.NotificationChannel;
 import android.content.Context;
 
 import androidx.preference.Preference;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 import com.android.settings.R;
 import com.android.settings.notification.NotificationBackend;

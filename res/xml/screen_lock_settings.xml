@@ -23,7 +23,7 @@
     settings:searchable="false">
 
     <!-- available in pattern -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="visiblepattern"
         android:title="@string/lockpattern_settings_enable_visible_pattern_title" />
 
@@ -36,7 +36,7 @@
         android:entryValues="@array/lock_after_timeout_values" />
 
     <!-- available in pin/pattern/password -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="power_button_instantly_locks"
         android:title="@string/lockpattern_settings_enable_power_button_instantly_locks" />
 

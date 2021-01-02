@@ -29,7 +29,7 @@
         settings:searchable="false"
         settings:controller="com.android.settings.accessibility.MagnificationModePreferenceController" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="magnification_enable"
         android:persistent="false"
         android:title="@string/accessibility_magnification_enable_mode_title"

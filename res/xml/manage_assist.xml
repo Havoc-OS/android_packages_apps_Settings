@@ -34,17 +34,17 @@
         android:fragment="com.android.settings.gestures.AssistGestureSettings"
         settings:controller="com.android.settings.gestures.AssistGestureSettingsPreferenceController" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="context"
         android:title="@string/assist_access_context_title"
         android:summary="@string/assist_access_context_summary" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="screenshot"
         android:title="@string/assist_access_screenshot_title"
         android:summary="@string/assist_access_screenshot_summary" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="flash"
         android:title="@string/assist_flash_title"
         android:summary="@string/assist_flash_summary" />

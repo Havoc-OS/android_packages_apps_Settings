@@ -79,19 +79,19 @@
             android:singleLineTitle="false"
             android:summary="@string/summary_placeholder" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="lock_screen_redact"
             android:title="@string/lock_screen_notifs_redact"
             android:summary="@string/lock_screen_notifs_redact_summary"
             settings:controller="com.android.settings.notification.RedactNotificationPreferenceController" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="lock_screen_work_redact"
             android:title="@string/lock_screen_notifs_redact_work"
             android:summary="@string/lock_screen_notifs_redact_work_summary"
             settings:controller="com.android.settings.notification.RedactNotificationPreferenceController" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="notification_lockscreen_bypass"
             android:title="@string/lockscreen_bypass_title"
             android:summary="@string/lockscreen_bypass_summary"
@@ -104,30 +104,30 @@
         android:key="configure_notifications_advanced"
         android:order="15">
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="silent_icons"
             android:title="@string/silent_notifications_status_bar"
             settings:controller="com.android.settings.notification.SilentStatusBarPreferenceController"/>
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="show_snooze_options"
             android:title="@string/snooze_options_title"
             settings:controller="com.android.settings.notification.SnoozeNotificationPreferenceController" />
 
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="asst_capabilities_actions_replies"
             android:title="@string/asst_capabilities_actions_replies_title"
             android:summary="@string/asst_capabilities_actions_replies_summary"
             settings:controller="com.android.settings.notification.AssistantCapabilityPreferenceController" />
 
         <!-- Notification badging -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="notification_badging"
             android:title="@string/notification_badging_title"
             settings:controller="com.android.settings.notification.BadgingNotificationPreferenceController"/>
 
         <!-- Pulse notification light -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="notification_pulse"
             android:title="@string/notification_pulse_title"
             settings:controller="com.android.settings.notification.PulseNotificationPreferenceController"/>

@@ -26,7 +26,7 @@
         app:animation="@raw/swipe_to_screenshot"
         app:preview="@drawable/swipe_to_screenshot" />
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="three_finger_gesture"
         android:title="@string/swipe_to_screenshot_title"
         android:summary="@string/swipe_to_screenshot_summary"

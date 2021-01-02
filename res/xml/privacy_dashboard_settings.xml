@@ -64,7 +64,7 @@
     </Preference>
 
     <!-- Show passwords -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="show_password"
         android:title="@string/show_password"
         android:summary="@string/show_password_summary"
@@ -122,7 +122,7 @@
          Hence, we show both here, but the controller itself will decide if it's available or not.
     -->
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="content_capture"
         android:title="@string/content_capture"
         android:summary="@string/content_capture_summary"

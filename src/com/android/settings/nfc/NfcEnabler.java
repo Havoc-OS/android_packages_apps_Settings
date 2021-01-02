@@ -21,7 +21,7 @@ import android.nfc.NfcAdapter;
 import android.provider.Settings;
 
 import androidx.annotation.VisibleForTesting;
-import androidx.preference.SwitchPreference;
+import com.havoc.support.preferences.SwitchPreference;
 
 /**
  * NfcEnabler is a helper to manage the Nfc on/off checkbox preference. It turns on/off Nfc

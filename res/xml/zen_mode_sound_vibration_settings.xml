@@ -24,29 +24,29 @@
         android:key="zen_mode_settings_category_sound_vibration">
 
         <!-- Alarms -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_alarms"
             android:title="@string/zen_mode_alarms"/>
 
         <!-- Media -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_media"
             android:title="@string/zen_mode_media"
             android:summary="@string/zen_mode_media_summary"/>
 
         <!-- System -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_system"
             android:title="@string/zen_mode_system"
             android:summary="@string/zen_mode_system_summary"/>
 
         <!-- Reminders -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_reminders"
             android:title="@string/zen_mode_reminders"/>
 
         <!-- Events -->
-        <SwitchPreference
+        <com.havoc.support.preferences.SwitchPreference
             android:key="zen_mode_events"
             android:title="@string/zen_mode_events"/>
 

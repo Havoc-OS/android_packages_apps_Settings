@@ -20,32 +20,32 @@
         xmlns:settings="http://schemas.android.com/apk/res-auto">
 
     <!-- Dial pad tones -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="dial_pad_tones"
             android:title="@string/dial_pad_tones_title" />
 
     <!-- Screen locking sounds -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="screen_locking_sounds"
             android:title="@string/screen_locking_sounds_title" />
 
     <!-- Charging sounds -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="charging_sounds"
             android:title="@string/charging_sounds_title" />
 
     <!-- Docking sounds -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="docking_sounds"
             android:title="@string/docking_sounds_title" />
 
     <!-- Touch sounds -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="touch_sounds"
             android:title="@string/touch_sounds_title" />
 
     <!-- Vibrate on touch -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="vibrate_on_touch"
             android:title="@string/vibrate_on_touch_title"
             android:summary="@string/vibrate_on_touch_summary" />
@@ -57,7 +57,7 @@
             android:summary="%s" />
 
     <!-- Boot sounds -->
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
             android:key="boot_sounds"
             android:title="@string/boot_sounds_title" />
 

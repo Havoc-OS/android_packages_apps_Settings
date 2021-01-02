@@ -24,7 +24,7 @@
         android:key="device_controls_video"
         app:animation="@raw/gesture_device_controls"/>
 
-    <SwitchPreference
+    <com.havoc.support.preferences.SwitchPreference
         android:key="gesture_device_controls_switch"
         android:title="@string/device_controls_setting_toggle"
         android:summary="@string/device_controls_setting_subtitle"
