@@ -450,4 +450,7 @@
     <string name="alarm_blocker_warning">Blocking alarms have the potential to cause instability, crashes or data loss.</string>
     <string name="alarm_blocker_display_text">To see and block alarms, turn on alarm blocker.</string>
 
+    <string name="wifi_tether_client_list_title">Client List</string>
+    <string name="wifi_tether_client_list_summary">Manage clients connected to hotspot</string>
+
 </resources>
