@@ -27,4 +27,7 @@
     <!-- Whether to show min refresh rate in display settings -->
     <bool name="config_show_min_refresh_rate_switch">false</bool>
 
+    <!-- Whether to show Google account avatar in settings -->
+    <bool name="config_show_google_account_avatar">false</bool>
+
 </resources>
