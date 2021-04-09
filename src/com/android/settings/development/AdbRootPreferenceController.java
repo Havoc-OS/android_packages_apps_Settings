@@ -18,7 +18,6 @@ package com.android.settings.development;
 
 import android.adb.ADBRootService;
 import android.content.Context;
-import android.os.Build;
 import android.os.UserManager;
 
 import androidx.preference.Preference;
@@ -47,11 +46,6 @@ public class AdbRootPreferenceController extends DeveloperOptionsPreferenceContr
     @Override
     public String getPreferenceKey() {
         return PREF_KEY;
-    }
-
-    @Override
-    public boolean isAvailable() {
-        return Build.IS_DEBUGGABLE;
     }
 
     @Override
