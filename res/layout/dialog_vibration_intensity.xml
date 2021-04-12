@@ -39,6 +39,6 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         style="@android:style/Widget.Material.SeekBar.Discrete"
-        android:theme="@*android:style/ThemeOverlay.DeviceDefault.Accent" />
+        android:theme="@*android:style/ThemeOverlay.DeviceDefault.Accent.DayNight" />
 
 </LinearLayout>
