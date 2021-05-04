@@ -185,14 +185,9 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
         } else {
             pref.setOnPreferenceChangeListener((p, v) -> {
                 switch((int) v) {
-                    case 0:
-                        Settings.Secure.putIntForUser(getContext().getContentResolver(),
-                                Settings.Secure.NAVIGATION_BAR_HINT, 0, USER_CURRENT);
-                        break;
                     default:
+                    case 0:
                     case 1:
-                        Settings.Secure.putIntForUser(getContext().getContentResolver(),
-                                Settings.Secure.NAVIGATION_BAR_HINT, 1, USER_CURRENT);
                         try {
                             mOverlayService.setEnabled(LONG_OVERLAY_PKG, false, USER_CURRENT);
                             mOverlayService.setEnabled(MEDIUM_OVERLAY_PKG, false, USER_CURRENT);
@@ -201,8 +196,6 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
                         }
                         break;
                     case 2:
-                        Settings.Secure.putIntForUser(getContext().getContentResolver(),
-                                Settings.Secure.NAVIGATION_BAR_HINT, 1, USER_CURRENT);
                         try {
                             mOverlayService.setEnabledExclusiveInCategory(MEDIUM_OVERLAY_PKG, USER_CURRENT);
                         } catch (RemoteException re) {
@@ -210,8 +203,6 @@ public class GestureNavigationSettingsFragment extends DashboardFragment {
                         }
                         break;
                     case 3:
-                        Settings.Secure.putIntForUser(getContext().getContentResolver(),
-                                Settings.Secure.NAVIGATION_BAR_HINT, 1, USER_CURRENT);
                         try {
                             mOverlayService.setEnabledExclusiveInCategory(LONG_OVERLAY_PKG, USER_CURRENT);
                         } catch (RemoteException re) {
