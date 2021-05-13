@@ -460,4 +460,8 @@
     <string name="legacy_wfd_video_mode_1080p_30fps">1080p (30fps)</string>
     <string name="legacy_wfd_video_mode_1080p_60fps">1080p (60fps)</string>
 
+    <!-- One shot automatic Brightness -->
+    <string name="auto_brightness_one_shot_title">One shot auto-brightness</string>
+    <string name="auto_brightness_one_shot_summary">Brightness adjustment will only occur at the moment the screen is turned on</string>
+
 </resources>
