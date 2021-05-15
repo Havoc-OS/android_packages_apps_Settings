@@ -243,7 +243,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static List<AbstractPreferenceController> buildPreferenceControllers(
             Context context, Lifecycle lifecycle) {
         final List<AbstractPreferenceController> controllers = new ArrayList<>();
-        controllers.add(new SmartChargingPreferenceController(context));
+        controllers.add(new AdaptiveChargingPreferenceController(context));
         return controllers;
     }
 

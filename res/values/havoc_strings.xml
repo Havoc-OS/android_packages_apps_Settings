@@ -55,15 +55,18 @@
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store">Google Play</string>
 
-    <!-- Smart charging -->
-    <string name="smart_charging_title">Smart Charging</string>
-    <string name="smart_charging_summary">Set maximum charging level</string>
-    <string name="smart_charging_switch_title">Use Smart charging</string>
-    <string name="smart_charging_level_title">Stop trigger level</string>
-    <string name="smart_charging_resume_level_title">Start trigger level</string>
-    <string name="smart_charging_reset_stats_title">Reset battery statistics</string>
-    <string name="smart_charging_reset_stats_summary">Reset battery statistics after reaching user defined charging level</string>
-    <string name="smart_charging_footer">Smart Charging allows you to set maximum charging level to extend the lifespan of your battery</string>
+    <!-- Adaptive charging -->
+    <string name="adaptive_charging_title">Adaptive Charging</string>
+    <string name="adaptive_charging_summary">On / Conditionally restricting charging</string>
+    <string name="adaptive_charging_mode_title">Restriction mode</string>
+    <string name="adaptive_charging_mode_level">Battery percentage</string>
+    <string name="adaptive_charging_mode_temperature">Battery temperature</string>
+    <string name="adaptive_charging_mode_both">Battery percentage or temperature</string>
+    <string name="adaptive_charging_cutoff_title">Stop charging at</string>
+    <string name="adaptive_charging_resume_title">Resume charging at</string>
+    <string name="adaptive_charging_reset_stats_title">Reset battery stats</string>
+    <string name="adaptive_charging_reset_stats_summary">Reset statistics after reaching user defined charging level</string>
+    <string name="adaptive_charging_description">Adaptive charging helps extend the lifespan of your battery by restricting charging under certain conditions.</string>
 
     <!-- Per-app data restrictions -->
     <string name="data_usage_app_restrict_all">Allow network access</string>
