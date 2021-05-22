@@ -98,7 +98,7 @@
     <string name="app_notification_sound_timeout_value_30_minutes">30 minutes</string>
 
     <!-- Min refresh rate -->
-    <string name="min_refresh_rate_title">Refresh rate</string>
+    <string name="min_refresh_rate_title">Minimum refresh rate</string>
 
     <!-- Mobile network setting screen, summary of Mobile data switch preference when the network
          is unavailable, the preference selection will be disabled. [CHAR LIMIT=NONE] -->
