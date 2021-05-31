@@ -166,6 +166,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.havoc.config.center.ConfigCenter;
 import com.havoc.config.center.fragments.GamingMode;
+import com.havoc.config.center.fragments.SleepMode;
 import com.havoc.config.center.fragments.SmartPixels;
 
 public class SettingsGateway {
@@ -323,6 +324,7 @@ public class SettingsGateway {
             ConfigCenter.class.getName(),
             SmartPixels.class.getName(),
             GamingMode.class.getName(),
+            SleepMode.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -366,5 +368,6 @@ public class SettingsGateway {
             Settings.ConfigCenterActivity.class.getName(),
             Settings.SmartPixelsActivity.class.getName(),
             Settings.GamingModeActivity.class.getName(),
+            Settings.SleepModeActivity.class.getName(),
     };
 }
