@@ -320,6 +320,12 @@
     <string name="hidden_label">Hidden</string>
     <string name="long_label">Long</string>
 
+    <!-- Back gesture haptic -->
+    <string name="back_gesture_haptic_title">Haptic feedback</string>
+    <string name="back_gesture_haptic_disable">Disabled</string>
+    <string name="back_gesture_haptic_drag">On dragging back gesture</string>
+    <string name="back_gesture_haptic_full">On dragging &amp; triggered back gesture</string>
+
     <!-- Global Actions -->
     <string name="global_actions_advanced_reboot_title">Advanced reboot</string>
     <string name="global_actions_advanced_reboot_summary">Show options to reboot into recovery and bootloader</string>

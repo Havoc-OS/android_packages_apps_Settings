@@ -62,6 +62,13 @@
         settings:textStart="@string/hidden_label"
         settings:textEnd="@string/long_label"/>
 
+    <com.havoc.support.preferences.SystemSettingListPreference
+        android:key="back_gesture_haptic"
+        android:title="@string/back_gesture_haptic_title"
+        android:entries="@array/back_gesture_haptic_entries"
+        android:entryValues="@array/back_gesture_haptic_values"
+        android:defaultValue="2" />
+
     <Preference
         android:key="gesture_nav_custom_options"
         android:title="@string/navbar_gesture_tweaks_pref_title"

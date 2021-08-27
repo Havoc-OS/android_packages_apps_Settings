@@ -106,6 +106,18 @@
        <item>2000</item>
     </string-array>
 
+    <!-- Back gesture haptic -->
+    <string-array name="back_gesture_haptic_entries">
+        <item>@string/back_gesture_haptic_disable</item>
+        <item>@string/back_gesture_haptic_drag</item>
+        <item>@string/back_gesture_haptic_full</item>
+    </string-array>
+    <string-array name="back_gesture_haptic_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
     <!-- Data usage -->
     <string-array name="data_usage_period_entries">
         <item>@string/data_usage_daily</item>
