@@ -302,7 +302,7 @@
     <string name="hush_mute">Silence notifications</string>
 
     <!-- Long back swipe options -->
-    <string name="navbar_gesture_tweaks_pref_title">Additional settings</string>
+    <string name="navbar_gesture_tweaks_pref_title">Swipe actions</string>
     <string name="navbar_gesture_tweaks_pref_summary">Set custom actions for gestures</string>
     <string name="navbar_gesture_tweaks_cat_title">Advanced</string>
     <string name="long_back_swipe_timeout_title">Long swipe action timeout</string>
