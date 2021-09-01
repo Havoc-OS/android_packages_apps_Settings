@@ -62,6 +62,12 @@
         settings:textStart="@string/hidden_label"
         settings:textEnd="@string/long_label"/>
 
+    <com.havoc.support.preferences.SystemSettingSwitchPreference
+        android:key="navigation_bar_ime_space"
+        android:title="@string/navigation_bar_ime_space_title"
+        android:summary="@string/navigation_bar_ime_space_summary"
+        android:defaultValue="true" />
+
     <com.havoc.support.preferences.SystemSettingListPreference
         android:key="back_gesture_haptic"
         android:title="@string/back_gesture_haptic_title"
