@@ -165,7 +165,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.havoc.config.center.ConfigCenter;
-import com.havoc.config.center.fragments.GamingMode;
+import com.havoc.config.center.fragments.GamingModeSettings;
 import com.havoc.config.center.fragments.SleepMode;
 import com.havoc.config.center.fragments.SmartPixels;
 
@@ -323,7 +323,7 @@ public class SettingsGateway {
             RunningServices.class.getName(),
             ConfigCenter.class.getName(),
             SmartPixels.class.getName(),
-            GamingMode.class.getName(),
+            GamingModeSettings.class.getName(),
             SleepMode.class.getName(),
     };
 

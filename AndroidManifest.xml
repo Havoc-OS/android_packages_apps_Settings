@@ -3555,12 +3555,6 @@
         </activity>
 
         <!-- Gaming mode -->
-        <receiver android:name="com.havoc.config.center.fragments.GamingModeReceiver">
-            <intent-filter>
-                <action android:name="android.intent.action.GAMING_MODE_TURN_OFF" />
-                <action android:name="android.intent.action.GAMING_MODE_TURN_ON" />
-            </intent-filter>
-        </receiver>
         <activity android:name="Settings$GamingModeActivity"
                 android:label="@string/gaming_mode_title">
             <intent-filter>
@@ -3568,7 +3562,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.havoc.config.center.fragments.GamingMode" />
+                android:value="com.havoc.config.center.fragments.GamingModeSettings" />
         </activity>
 
         <!-- Sleep Mode -->
