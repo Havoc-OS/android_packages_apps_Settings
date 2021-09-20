@@ -27,6 +27,7 @@ import android.content.DialogInterface;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings.Global;
+import android.text.TextUtils;
 import android.text.format.Formatter;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -58,6 +59,9 @@ import com.android.settingslib.widget.LayoutPreference;
 import com.android.settingslib.core.AbstractPreferenceController;
 import com.android.settingslib.core.lifecycle.Lifecycle;
 
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -76,6 +80,7 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     private static final String KEY_SCREEN_USAGE = "screen_usage";
     private static final String KEY_TIME_SINCE_LAST_FULL_CHARGE = "last_full_charge";
     private static final String KEY_BATTERY_TEMP = "battery_temp";
+    private static final String KEY_BATTERY_HEALTH = "battery_health";
 
     @VisibleForTesting
     static final int BATTERY_INFO_LOADER = 1;
@@ -93,6 +98,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @VisibleForTesting
     PowerGaugePreference mBatteryTemp;
     @VisibleForTesting
+    PowerGaugePreference mBatteryHealthPref;
+    @VisibleForTesting
     PowerUsageFeatureProvider mPowerFeatureProvider;
     @VisibleForTesting
     BatteryUtils mBatteryUtils;
@@ -108,6 +115,10 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @VisibleForTesting
     BatteryTipPreferenceController mBatteryTipPreferenceController;
     BatteryMeterView mBatteryView;
+
+    private String mBatteryHealth;
+    private String mBatteryRemainingCapacity;
+    private String mBatteryDesignCapacity;
 
     @VisibleForTesting
     final ContentObserver mSettingsObserver = new ContentObserver(new Handler()) {
@@ -230,7 +241,14 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
         mLastFullChargePref = (PowerGaugePreference) findPreference(
                 KEY_TIME_SINCE_LAST_FULL_CHARGE);
         mBatteryTemp = (PowerGaugePreference) findPreference(KEY_BATTERY_TEMP);
+        mBatteryHealthPref = (PowerGaugePreference) findPreference(KEY_BATTERY_HEALTH);
         mBatteryUtils = BatteryUtils.getInstance(getContext());
+
+        mBatteryHealth = getResources().getString(R.string.config_batteryHealthNode);
+        mBatteryRemainingCapacity = getResources().getString(R.string.config_batteryRemainingCapacityNode);
+        mBatteryDesignCapacity = getResources().getString(R.string.config_batteryDesignCapacityNode);
+
+        mBatteryHealthPref.setVisible(getBatteryHealth() != null);
 
         if (Utils.isBatteryPresent(getContext())) {
             restartBatteryInfoLoader();
@@ -370,6 +388,8 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                 com.android.internal.util.custom.Utils.mccCheck(getContext()) ?
                 com.android.internal.util.custom.Utils.batteryTemperature(getContext(), true) + "°F" :
                 com.android.internal.util.custom.Utils.batteryTemperature(getContext(), false) + "°C");
+        if (mBatteryHealthPref != null)
+            mBatteryHealthPref.setSummary(getBatteryHealth() + "%");
     }
 
     @VisibleForTesting
@@ -398,6 +418,20 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
                     StringUtil.formatRelativeTime(getContext(), lastFullChargeTime,
                             false /* withSeconds */));
         }
+    }
+
+    String getBatteryHealth() {
+        String health;
+        if (!TextUtils.isEmpty(mBatteryHealth)) {
+            health = readLine(mBatteryHealth);
+        } else if (!TextUtils.isEmpty(mBatteryRemainingCapacity) &&
+                !TextUtils.isEmpty(mBatteryDesignCapacity)) {
+            health = String.valueOf(Integer.parseInt(readLine(mBatteryRemainingCapacity)) * 100 /
+                    Integer.parseInt(readLine(mBatteryDesignCapacity)));
+        } else {
+            health = null;
+        }
+        return health;
     }
 
     @VisibleForTesting
@@ -466,6 +500,22 @@ public class PowerUsageSummary extends PowerUsageBase implements OnLongClickList
     @Override
     public void onBatteryTipHandled(BatteryTip batteryTip) {
         restartBatteryTipLoader();
+    }
+
+    private static String readLine(String filename) {
+        BufferedReader reader;
+        String line = null;
+        try {
+            reader = new BufferedReader(new FileReader(filename), 256);
+            try {
+                line = reader.readLine();
+            } finally {
+                reader.close();
+            }
+        } catch (Exception e) {
+            return null;
+        }
+        return line;
     }
 
     public static final BaseSearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =

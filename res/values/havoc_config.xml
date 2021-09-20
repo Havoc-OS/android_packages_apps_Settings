@@ -30,4 +30,9 @@
     <!-- Whether to show Google account avatar in settings -->
     <bool name="config_show_google_account_avatar">false</bool>
 
+    <!-- Battery health -->
+    <string name="config_batteryHealthNode"></string>
+    <string name="config_batteryRemainingCapacityNode"></string>
+    <string name="config_batteryDesignCapacityNode"></string>
+
 </resources>

@@ -470,4 +470,7 @@
     <!-- Used in SetupWizard Wi-Fi network selection page [CHAR LIMIT=60] -->
     <string name="wifi_setup_wizard_title">Select Wi\u2011Fi network</string>
 
+    <!-- Battery health -->
+    <string name="battery_health_title">Battery health</string>
+
 </resources>
