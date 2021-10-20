@@ -47,11 +47,6 @@
         android:title="@string/night_display_end_time_title"
         settings:searchable="false"/>
 
-    <ListPreference
-        android:key="android.theme.customization.custom_overlays"
-        android:title="@string/theme_customization_systemui_title"
-        settings:keywords="@string/keywords_dark_ui_mode"/>
-
     <com.android.settingslib.widget.LayoutPreference
         android:key="dark_ui_activated"
         android:title="@string/dark_ui_title"
