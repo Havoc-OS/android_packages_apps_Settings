@@ -502,4 +502,8 @@
     </plurals>
     <string name="keywords_applock_settings">applock, applocker, app lock, app locker</string>
 
+    <!-- Wallpaper theming -->
+    <string name="monet_engine_title">Wallpaper based theming</string>
+    <string name="monet_engine_summary">Use accent and background colors extracted from the current wallpaper</string>
+
 </resources>

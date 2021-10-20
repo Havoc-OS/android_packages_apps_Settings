@@ -17,6 +17,6 @@
 <ripple xmlns:android="http://schemas.android.com/apk/res/android"
         android:color="?android:attr/colorControlHighlight">
     <item android:id="@+id/mask">
-        <color android:color="@*android:color/monet_contextual_color_device_default"/>
+        <color android:color="@*android:color/monet_background_device_default"/>
     </item>
 </ripple>

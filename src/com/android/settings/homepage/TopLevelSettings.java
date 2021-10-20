@@ -21,10 +21,14 @@ import static com.android.settingslib.search.SearchIndexable.MOBILE;
 
 import android.app.settings.SettingsEnums;
 import android.content.Context;
+import android.content.res.MonetWannabe;
+import android.graphics.drawable.Drawable;
+import android.graphics.drawable.LayerDrawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceGroup;
 import androidx.preference.PreferenceFragmentCompat;
 
 import com.android.settings.R;
@@ -32,14 +36,18 @@ import com.android.settings.core.SubSettingLauncher;
 import com.android.settings.dashboard.DashboardFragment;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.support.SupportPreferenceController;
+import com.android.settingslib.Utils;
 import com.android.settingslib.core.instrumentation.Instrumentable;
 import com.android.settingslib.search.SearchIndexable;
+import com.android.settingslib.widget.AdaptiveIcon;
 
 @SearchIndexable(forTarget = MOBILE)
 public class TopLevelSettings extends DashboardFragment implements
         PreferenceFragmentCompat.OnPreferenceStartFragmentCallback {
 
     private static final String TAG = "TopLevelSettings";
+
+    private int mAccentColor;
 
     public TopLevelSettings() {
         final Bundle args = new Bundle();
@@ -108,4 +116,54 @@ public class TopLevelSettings extends DashboardFragment implements
                     return false;
                 }
             };
+
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        boolean monetEnabled = MonetWannabe.isMonetEnabled(getContext());
+        if (monetEnabled) updateTheme();
+    }
+
+    private void updateTheme() {
+        mAccentColor = Utils.getColorAttrDefaultColor(getContext(), android.R.attr.colorAccent);
+
+        themePreferences(getPreferenceScreen());
+    }
+
+    private void themePreferences(PreferenceGroup prefGroup) {
+        themePreference(prefGroup);
+        for (int i = 0; i < prefGroup.getPreferenceCount(); i++) {
+            Preference pref = prefGroup.getPreference(i);
+            if (pref instanceof PreferenceGroup) {
+                themePreferences(prefGroup);
+            } else {
+                themePreference(pref);
+            }
+        }
+    }
+
+    private void themePreference(Preference pref) {
+        Drawable icon = pref.getIcon();
+        if (icon != null) {
+            if (icon instanceof AdaptiveIcon) {
+                AdaptiveIcon aIcon = (AdaptiveIcon) icon;
+                // Clear colors from previous calls
+                aIcon.resetCustomColors();
+                aIcon.setCustomForegroundColor(mAccentColor);
+                aIcon.setCustomBackgroundColor(getResources().getColor(com.android.internal.R.color.monet_background_device_default));
+            } else if (icon instanceof LayerDrawable) {
+                LayerDrawable lIcon = (LayerDrawable) icon;
+                if (lIcon.getNumberOfLayers() == 2) {
+                    Drawable fg = lIcon.getDrawable(1);
+                    Drawable bg = lIcon.getDrawable(0);
+                    // Clear tints from previous calls
+                    bg.setTintList(null);
+                    fg.setTintList(null);
+                    fg.setTint(mAccentColor);
+                    bg.setTint(getResources().getColor(com.android.internal.R.color.monet_background_device_default));
+                }
+            }
+        }
+    }
 }
