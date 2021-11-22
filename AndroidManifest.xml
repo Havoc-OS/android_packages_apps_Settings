@@ -3553,7 +3553,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
-                android:value="com.havoc.config.center.fragments.GamingModeSettings" />
+                android:value="com.havoc.config.center.fragments.GamingMode" />
         </activity>
 
         <!-- Sleep Mode -->

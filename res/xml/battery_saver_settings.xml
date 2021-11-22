@@ -39,6 +39,13 @@
         android:summary="@string/battery_saver_refresh_rate_summary"
         settings:controller="com.android.settings.fuelgauge.batterysaver.BatterySaverRefreshRatePreferenceController" />
 
+    <com.havoc.support.preferences.SystemSettingSwitchPreference
+        android:key="smart_pixels_on_power_save"
+        android:title="@string/smart_pixels_title"
+        android:summary="@string/smart_pixels_summary"
+        android:defaultValue="false"
+        settings:controller="com.android.settings.fuelgauge.batterysaver.BatterySaverSmartPixelsPreferenceController" />
+
     <com.android.settings.widget.TwoStateButtonPreference
         android:key="battery_saver"
         android:title="@string/battery_saver"

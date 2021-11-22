@@ -131,6 +131,15 @@
         android:fragment="com.android.settings.gestures.PreventRingingGestureSettings"
         settings:controller="com.android.settings.gestures.PreventRingingParentPreferenceController"/>
 
+    <com.havoc.support.preferences.GlobalSettingListPreference
+        android:key="ringtone_focus_mode"
+        android:order="-106"
+        android:title="@string/ringtone_focus_mode_title"
+        android:entries="@array/ringtone_focus_mode_entries"
+        android:entryValues="@array/ringtone_focus_mode_values"
+        android:defaultValue="1"
+        settings:controller="com.android.settings.sound.RingtoneFocusPreferenceController" />
+
     <!-- Phone ringtone -->
     <com.android.settings.DefaultRingtonePreference
         android:key="phone_ringtone"
