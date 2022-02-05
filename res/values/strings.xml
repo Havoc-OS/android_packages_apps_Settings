@@ -14079,6 +14079,8 @@
     <string name="category_name_appearance">Appearance</string>
     <!-- Color category name in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_color">Color</string>
+    <!-- Refresh rate category name in Display Settings [CHAR LIMIT=none] -->
+    <string name="category_name_display_refresh_rate">Refresh rate</string>
     <!-- Name of Other display controls category in Display Settings [CHAR LIMIT=none] -->
     <string name="category_name_display_controls">Other display controls</string>
     <!-- Others category name [CHAR LIMIT=none] -->
