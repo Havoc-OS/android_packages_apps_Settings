@@ -245,4 +245,8 @@
     <string name="enable_blurs_on_windows_custom_title">Blur Windows</string>
     <string name="enable_blurs_on_windows_custom_summary">Enable blur for various system windows for an enhanced look and feel (Requires device reboot)</string>
 
+    <!-- WiFi Hotspot -->
+    <string name="wifi_hotspot_hidden_ssid_title">Hidden network</string>
+    <string name="wifi_hotspot_hidden_ssid_summary">Your mobile hotspot\'s name won\'t appear in the list of available WLAN networks.</string>
+
 </resources>
