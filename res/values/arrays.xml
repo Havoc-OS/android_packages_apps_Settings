@@ -1659,4 +1659,13 @@
     <integer-array name="network_mode_3g_deprecated_carrier_id" translatable="false">
     </integer-array>
 
+    <string-array name="allowlist_hide_background_in_battery_usage">
+        <item>com.google.android.GoogleCamera</item>
+    </string-array>
+
+    <!-- An allowlist which packages won't show entry in battery usage screen.
+        [CHAR LIMIT=NONE] -->
+    <string-array name="allowlist_hide_entry_in_battery_usage" translatable="false">
+        <item>"com.google.android.gms.persistent"</item>
+    </string-array>
 </resources>

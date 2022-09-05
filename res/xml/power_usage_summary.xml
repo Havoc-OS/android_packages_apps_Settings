@@ -30,8 +30,11 @@
     <com.android.settingslib.widget.LayoutPreference
         android:key="battery_help_message"
         android:layout="@layout/preference_battery_error"
-        android:selectable="false"
-        settings:searchable="false" />
+        settings:searchable="false">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://support.google.com/pixelphone/?p=p4xl_battery" />
+    </com.android.settingslib.widget.LayoutPreference>
 
     <com.android.settings.widget.CardPreference
         android:key="battery_tip"
@@ -43,6 +46,12 @@
         android:key="battery_usage_summary"
         android:title="@string/advanced_battery_preference_title"
         settings:keywords="@string/keywords_battery_usage" />
+
+    <com.havoc.support.preferences.SystemSettingSwitchPreference
+        android:key="battery_24_hrs_stats"
+        android:title="@string/advanced_battery_preference_summary_with_hours"
+        android:defaultValue="false"
+        settings:searchable="false" />
 
     <Preference
         android:fragment="com.android.settings.fuelgauge.batterysaver.BatterySaverSettings"
