@@ -21,6 +21,14 @@
     android:key="my_device_info_pref_screen"
     android:title="@string/about_settings">
 
+    <!-- Havoc-OS Logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:key="havoc_header"
+        android:order="-3"
+        android:layout="@layout/havoc_header_preference"
+        android:selectable="false"
+        settings:controller="com.android.settings.deviceinfo.aboutphone.HavocHeaderPreferenceController" />
+
     <com.android.settingslib.widget.LayoutPreference
         android:key="my_device_info_header"
         android:order="-1"
@@ -132,14 +140,14 @@
             android:fragment="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionSettings"
             settings:controller="com.android.settings.deviceinfo.firmwareversion.FirmwareVersionPreferenceController"/>
 
-        <!-- Lineage version -->
+        <!-- Havoc-OS version -->
         <Preference
-            android:key="lineage_os_version"
+            android:key="havoc_version"
             android:order="43"
-            android:title="@*lineageos.platform:string/lineage_version"
+            android:title="@string/havoc_version"
             android:summary="@string/summary_placeholder"
             settings:enableCopying="true"
-            settings:controller="com.android.settings.deviceinfo.firmwareversion.LineageVersionDetailPreferenceController"/>
+            settings:controller="com.android.settings.deviceinfo.firmwareversion.HavocVersionPreferenceController"/>
     </PreferenceCategory>
 
     <PreferenceCategory
