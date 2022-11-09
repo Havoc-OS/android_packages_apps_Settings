@@ -44,6 +44,12 @@
         <intent android:action="android.intent.action.REVIEW_ACCESSIBILITY_SERVICES"/>
     </Preference>
 
+    <com.havoc.support.preferences.SecureSettingSwitchPreference
+        android:key="window_ignore_secure"
+        android:title="@string/ignore_window_secure_title"
+        android:summary="@string/ignore_window_secure_summary"
+        android:defaultValue="false"/>
+
     <!-- On lock screen notifications -->
     <com.android.settings.RestrictedListPreference
         android:key="privacy_lock_screen_notifications"
