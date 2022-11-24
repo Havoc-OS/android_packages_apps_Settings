@@ -181,4 +181,7 @@
     <!-- Used in the Wi-Fi settings screen to control turning on/off Wi-Fi entirely [CHAR LIMIT=30]-->
     <string name="android_beam_primary_switch_title">Use Android Beam</string>
 
+    <!-- In-call notifications -->
+    <string name="in_call_notifications_title">In-call notifications</string>
+
 </resources>
