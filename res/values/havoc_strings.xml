@@ -26,7 +26,7 @@
     <string name="havoc_version_summary">Version %1$s (%2$s)</string>
 
     <!-- Hardware info -->
-    <string name="platform_revision">Platform</string>
+    <string name="soc_model">SoC Model</string>
     <string name="total_ram">Total RAM</string>
 
     <!-- Notification log -->
