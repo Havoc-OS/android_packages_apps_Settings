@@ -40,6 +40,7 @@ import com.android.settings.display.PulseOnNewTracksPreferenceController;
 import com.android.settings.gestures.DoubleTapScreenPreferenceController;
 import com.android.settings.gestures.PickupGesturePreferenceController;
 import com.android.settings.gestures.ScreenOffUdfpsPreferenceController;
+import com.android.settings.display.DozeOnChargePreferenceController;
 import com.android.settings.notification.LockScreenNotificationPreferenceController;
 import com.android.settings.search.BaseSearchIndexProvider;
 import com.android.settings.security.screenlock.LockScreenPreferenceController;
@@ -114,6 +115,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
         super.onAttach(context);
         use(AmbientDisplayAlwaysOnPreferenceController.class).setConfig(getConfig(context));
         use(AmbientDisplayNotificationsPreferenceController.class).setConfig(getConfig(context));
+        use(DozeOnChargePreferenceController.class).setConfig(getConfig(context));
         use(DoubleTapScreenPreferenceController.class).setConfig(getConfig(context));
         use(PickupGesturePreferenceController.class).setConfig(getConfig(context));
         use(ScreenOffUdfpsPreferenceController.class).setConfig(getConfig(context));
@@ -155,6 +157,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
         controllers.add(notificationController);
         mOwnerInfoPreferenceController = new OwnerInfoPreferenceController(context, this);
         controllers.add(mOwnerInfoPreferenceController);
+        controllers.add(new DozeOnChargePreferenceController(context, lifecycle));
 
         return controllers;
     }
@@ -183,6 +186,7 @@ public class LockscreenDashboardFragment extends DashboardFragment
                     controllers.add(new LockScreenNotificationPreferenceController(context));
                     controllers.add(new OwnerInfoPreferenceController(
                             context, null /* fragment */));
+                    controllers.add(new DozeOnChargePreferenceController(context, null /* lifecycle */));
                     return controllers;
                 }
 
