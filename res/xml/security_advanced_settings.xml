@@ -29,6 +29,12 @@
         android:order="10"
         android:key="security_category"
         android:layout="@layout/preference_category_no_label" />
+    
+    <!-- App lock -->
+    <com.android.settingslib.RestrictedPreference
+        android:key="app_lock"
+        android:order="20"
+        android:title="@string/app_lock_title" />
 
     <PreferenceCategory
         android:order="40"
