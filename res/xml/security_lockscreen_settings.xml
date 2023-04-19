@@ -56,6 +56,12 @@
             android:title="@string/owner_info_settings_title"
             android:summary="@string/owner_info_settings_summary" />
 
+        <com.havoc.support.preferences.SystemSettingSwitchPreference
+            android:key="secure_lockscreen_qs_disabled"
+            android:title="@string/disable_qs_title"
+            android:summary="@string/disable_qs_summary"
+            android:defaultValue="false" />
+
         <lineageos.preference.LineageSecureSettingSwitchPreference
             android:key="lockscreen_media_metadata"
             android:title="@string/lockscreen_media_art_title"

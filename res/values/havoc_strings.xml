@@ -162,4 +162,8 @@
     <string name="hide_from_launcher_title">Hide from launcher</string>
     <string name="hide_from_launcher_summary">Prevent this application from showing up in any launcher. Requires a launcher restart for changes to take effect.</string>
 
+    <!-- Disable QS -->
+    <string name="disable_qs_title">Hide QS in secure lockscreen</string>
+    <string name="disable_qs_summary">Hides QS if device is locked. Does not disable notification shade</string>
+
 </resources>
