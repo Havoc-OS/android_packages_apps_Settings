@@ -105,6 +105,7 @@ public class AndroidBeam extends InstrumentedFragment
         if (mBeamDisallowedByOnlyAdmin) {
             mSwitchBar.hide();
         } else {
+            mSwitchBar.setTitle(getContext().getString(R.string.android_beam_primary_switch_title));
             mSwitchBar.setChecked(!mBeamDisallowedByBase && mNfcAdapter.isNdefPushEnabled());
             mSwitchBar.addOnSwitchChangeListener(this);
             mSwitchBar.setEnabled(!mBeamDisallowedByBase);
