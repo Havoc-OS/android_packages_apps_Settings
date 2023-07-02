@@ -151,9 +151,9 @@
     <dimen name="homepage_padding_horizontal_two_pane">24dp</dimen>
     <dimen name="homepage_preference_corner_radius">28dp</dimen>
     <dimen name="homepage_preference_min_height">88sp</dimen>
-    <dimen name="homepage_preference_icon_padding_start">32dp</dimen>
+    <dimen name="homepage_preference_icon_padding_start">24dp</dimen>
     <dimen name="homepage_preference_icon_padding_start_two_pane">8dp</dimen>
-    <dimen name="homepage_preference_text_padding_start">16dp</dimen>
+    <dimen name="homepage_preference_text_padding_start">24dp</dimen>
     <dimen name="homepage_preference_text_padding_start_two_pane">24dp</dimen>
     <dimen name="homepage_app_bar_corner_radius">32dp</dimen>
     <dimen name="homepage_app_bar_padding_two_pane">6dp</dimen>
