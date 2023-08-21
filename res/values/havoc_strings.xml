@@ -191,4 +191,19 @@
     <string name="notification_sound_vib_screen_on_title">Annoying Notifications</string>
     <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
+    <!-- Edge light -->
+    <string name="edge_light_title">Edge Light</string>
+    <string name="edge_light_summary">Light up the edges of the screen when a notification is received</string>
+    <string name="edge_light_switch_title">Enable Edge Light</string>
+    <string name="edge_light_always_trigger_on_pulse_title">Always trigger on pulse</string>
+    <string name="edge_light_always_trigger_on_pulse_summary">Show edge light whenever ambient display is shown and not just for notifications</string>
+    <string name="edge_light_repeat_animation_title">Repeat animation</string>
+    <string name="edge_light_repeat_animation_summary_on">Repeat until timeout</string>
+    <string name="edge_light_repeat_animation_summary_off">Show only once</string>
+    <string name="edge_light_color_mode_title">Color mode</string>
+    <string name="default_string">Default</string>
+    <string name="theme_color">Theme color (Default)</string>
+    <string name="notification_color">Notification color</string>
+    <string name="custom_color">Custom color</string>
+
 </resources>

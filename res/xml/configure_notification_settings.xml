@@ -194,6 +194,12 @@
             android:summary="@string/notification_assistant_summary"
             settings:controller="com.android.settings.notification.NotificationAssistantPreferenceController"/>
 
+        <Preference
+            android:key="edge_light_enabled"
+            android:title="@string/edge_light_title"
+            android:summary="@string/edge_light_summary"
+            android:fragment="com.android.settings.notification.EdgeLightningSettings" />
+
         <!-- Heads up -->
         <lineageos.preference.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
