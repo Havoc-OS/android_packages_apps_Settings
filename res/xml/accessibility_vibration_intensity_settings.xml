@@ -41,6 +41,13 @@
             app:keywords="@string/keywords_ramping_ringer_vibration"
             app:controller="com.android.settings.accessibility.VibrationRampingRingerTogglePreferenceController"/>
 
+        <!-- In-call feedback -->
+        <com.havoc.support.preferences.SystemSettingSwitchPreference
+            android:key="incall_feeedback_vibrate"
+            android:title="@string/incall_feeedback_vibrate_title"
+            android:defaultValue="false"
+            app:controller="com.android.settings.sound.IncallFeedbackPreferenceController" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

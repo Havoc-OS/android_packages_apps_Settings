@@ -194,7 +194,7 @@
         android:title="@string/app_volume_title"
         android:summary="@string/app_volume_summary"
         android:defaultValue="false"
-        android:order="-5"/>
+        android:order="-55"/>
 
     <!-- Dial pad tones -->
     <SwitchPreference
@@ -243,13 +243,6 @@
         android:key="vibrate_icon"
         android:title="@string/vibrate_icon_title"
         android:order="-27"/>
-
-    <!-- In-call feedback -->
-    <com.havoc.support.preferences.SystemSettingSwitchPreference
-        android:key="incall_feeedback_vibrate"
-        android:title="@string/incall_feeedback_vibrate_title"
-        android:defaultValue="false"
-        settings:controller="com.android.settings.sound.IncallFeedbackPreferenceController" />
 
     <!-- Dock speaker plays -->
     <DropDownPreference
