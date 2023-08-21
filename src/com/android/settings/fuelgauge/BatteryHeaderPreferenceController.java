@@ -109,31 +109,32 @@ public class BatteryHeaderPreferenceController extends BasePreferenceController
     }
 
     private CharSequence generateLabel(BatteryInfo info) {
+        String temperature = info.batteryTemp + "\u2103";
         if (BatteryUtils.isBatteryDefenderOn(info)) {
             return null;
         } else if (info.remainingLabel == null
                 || info.batteryStatus == BatteryManager.BATTERY_STATUS_NOT_CHARGING) {
             // Present status only if no remaining time or status anomalous
-            return info.statusLabel;
+            return info.statusLabel + " \u2022 " + temperature;
         } else if (info.statusLabel != null && !info.discharging) {
             // Charging state
             return mContext.getString(
-                    R.string.battery_state_and_duration, info.statusLabel, info.remainingLabel);
+                    R.string.battery_state_and_duration, info.statusLabel, info.remainingLabel, temperature);
         } else if (mPowerManager.isPowerSaveMode()) {
             // Power save mode is on
             final String powerSaverOn = mContext.getString(
                     R.string.battery_tip_early_heads_up_done_title);
             return mContext.getString(
-                    R.string.battery_state_and_duration, powerSaverOn, info.remainingLabel);
+                    R.string.battery_state_and_duration, powerSaverOn, info.remainingLabel, temperature);
         } else if (mBatteryTip != null
                 && mBatteryTip.getType() == BatteryTip.TipType.LOW_BATTERY) {
             // Low battery state
             final String lowBattery = mContext.getString(R.string.low_battery_summary);
             return mContext.getString(
-                    R.string.battery_state_and_duration, lowBattery, info.remainingLabel);
+                    R.string.battery_state_and_duration, lowBattery, info.remainingLabel, temperature);
         } else {
             // Discharging state
-            return info.remainingLabel;
+            return info.remainingLabel + " \u2022 " + temperature;
         }
     }
 
