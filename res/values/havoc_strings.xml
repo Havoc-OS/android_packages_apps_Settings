@@ -305,4 +305,8 @@
     <string name="flashlight_on_call_ignore_dnd_summary">Whether to flash when Do Not Disturb mode is active</string>
     <string name="flashlight_on_call_rate_title">Blink rate</string>
 
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Priority only</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for calls, messages and alarms</string>
+
 </resources>
