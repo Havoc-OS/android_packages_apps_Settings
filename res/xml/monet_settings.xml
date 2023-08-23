@@ -52,20 +52,20 @@
         android:key="luminance_factor"
         android:title="@string/luminance_factor_title"
         android:summary="@string/luminance_factor_summary"
+        android:defaultValue="0"
         android:max="100"
         settings:min="-95"
         settings:interval="5"
-        settings:defaultValue="0"
         settings:units="%" />
 
     <com.havoc.support.preferences.CustomSeekBarPreference
         android:key="chroma_factor"
         android:title="@string/chroma_factor_title"
         android:summary="@string/chroma_factor_summary"
+        android:defaultValue="0"
         android:max="100"
         settings:min="-95"
         settings:interval="5"
-        settings:defaultValue="0"
         settings:units="%" />
 
     <com.havoc.support.preferences.SwitchPreference

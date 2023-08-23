@@ -235,12 +235,12 @@ public class MonetSettings extends SettingsPreferenceFragment implements
 
     private boolean updateAccentEnablement(String source) {
         final boolean shouldEnable = source != null && source.equals(COLOR_SOURCE_PRESET);
-        mAccentColorPref.setEnabled(shouldEnable);
-        mAccentBackgroundPref.setEnabled(shouldEnable);
+        mAccentColorPref.setVisible(shouldEnable);
+        mAccentBackgroundPref.setVisible(shouldEnable);
         if (!shouldEnable) {
-            mBgColorPref.setEnabled(false);
-            mAccentBackgroundPref.setEnabled(false);
+            mBgColorPref.setVisible(false);
             mAccentBackgroundPref.setChecked(false);
+            mAccentBackgroundPref.setVisible(false);
         }
         return shouldEnable;
     }
