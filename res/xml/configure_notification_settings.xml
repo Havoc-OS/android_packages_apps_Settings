@@ -200,6 +200,13 @@
             android:summary="@string/edge_light_summary"
             android:fragment="com.android.settings.notification.EdgeLightningSettings" />
 
+        <Preference
+            android:key="flash_alerts"
+            android:title="@string/flashlight_notifications_title" 
+            android:summary="@string/flashlight_on_call_title" 
+            android:fragment="com.android.settings.notification.FlashAlertSettings"
+            settings:controller="com.android.settings.notification.FlashAlertPreferenceController" />
+
         <!-- Heads up -->
         <lineageos.preference.GlobalSettingSwitchPreference
             android:key="heads_up_notifications_enabled"
